@@ -1,0 +1,506 @@
+---
+about: 
+  template: trestles
+  id: about-block
+  image: "img/aboutme/crescent.jpg"
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/jacksonstrand
+    - icon: envelope-fill
+      text: Email
+      href: "mailto:jstrand894@gmail.com"
+    - icon: github
+      text: GitHub
+      href: https://github.com/jstrand894/
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/jstrand894/
+
+toc: true
+---
+
+
+::: {#about-block}
+<!-- <span style="font-size: 35px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span>   -->
+# Jackson R. Strand
+I am currently a PhD candidate at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace.
+
+### <u>Education</u>
+<img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **MS Entomology** - Montana State University
+
+<img src="qmd/logos/umn.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **BS Biology** - University of Minnesota
+
+### <u>Research Interests</u>
+I am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management. 
+
+:::
+
+<!--- button for CV download--->
+```{=html}
+<div style="margin: 30px; text-align: center; display: flex; align-items: center; justify-content: center;">
+  <span style="margin-right: 15px;">You can view my CV contents below, or download my CV here:</span>
+  <a class="btn-primary" href="qmd/cv.qmd" role="button">
+    View my CV
+  </a>
+</div>
+```
+
+<!-- ## About me
+I am currently a PhD candidate at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace. -->
+
+<!-- **My Research Interests**  
+I am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management.  -->
+
+<!-- **Montana State University - MS Entomology**  
+My research focused on understanding how the ecological relationship between the wheat stem sawfly (*Cephus cinctus*) and two native biocontrol parasitoids (*Bracon cephi* and *Bracon lissogaster*) are impacted by smooth brome (*Bromis inermis*). My project includes field sites in southwest, central, and northern Montana, as well as volatile organic compound analysis of greenhouse-grown smooth brome and winter wheat. -->
+
+<!-- pictures below about me -->
+```{=html}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    .gallery-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 10px;
+      max-width: 1200px;
+      width: 100%;
+    }
+    .gallery img {
+      width: 100%;
+      object-fit: cover; /* Ensure images cover the entire space */
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05); /* Slightly increase size on hover */
+    }
+    .expanded-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+      display: none; /* Initially hidden */
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    .expanded {
+      max-width: 80%;
+      max-height: 80%;
+      cursor: pointer;
+    }
+    p.gallery-caption {
+      text-align: center;
+      font-style: italic;
+      color: #8B8989;
+    }
+  </style>
+</head>
+<body>
+
+<div class="gallery">
+  <img src="img/index/wss.JPG" alt="Image 1" onclick="expandImage(this)">
+  <img src="img/index/pinecreek.jpeg" alt="Image 1" onclick="expandImage(this)">
+  <img src="img/index/loco-bee.JPG" alt="Image 1" onclick="expandImage(this)">
+  <img src="img/index/mushroom1.jpeg" alt="Image 1" onclick="expandImage(this)">
+  <img src="img/index/brownmoth.JPG" alt="Image 1" onclick="expandImage(this)">
+  <img src="img/index/glacierfall.jpeg" alt="Image 1" onclick="expandImage(this)">
+</div>
+<div class="expanded-container" onclick="closeExpanded()">
+  <img class="expanded" id="expanded-image" onclick="navigateGallery(event)">
+</div>
+
+<script>
+  var currentImageIndex = 0;
+  var galleryImages = document.querySelectorAll('.gallery img');
+
+  function expandImage(img) {
+    currentImageIndex = Array.from(galleryImages).indexOf(img);
+    document.getElementById('expanded-image').src = img.src;
+    document.querySelector('.expanded-container').style.display = 'flex';
+  }
+
+  function closeExpanded() {
+    document.querySelector('.expanded-container').style.display = 'none';
+  }
+
+  function navigateGallery(event) {
+    // Calculate the click position relative to the expanded image
+    var clickX = event.pageX - event.target.getBoundingClientRect().left;
+    var imageWidth = event.target.offsetWidth;
+
+    // Determine if the click was on the left or right side of the image
+    if (clickX < imageWidth / 2) {
+      // Clicked on the left side: navigate to the previous image
+      currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+    } else {
+      // Clicked on the right side: navigate to the next image
+      currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+    }
+
+    // Update the expanded image source
+    document.getElementById('expanded-image').src = galleryImages[currentImageIndex].src;
+  }
+</script>
+
+</body>
+</html>
+
+```
+
+
+
+
+<!-- ![Me and Grace at Glacier National Park, 2023](img/aboutme/iceberg.JPG)   -->
+<br>  
+
+## Education  
+<div class="box">
+<div style="text-align: justify;">
+  <div style="float: left;"><strong>MS Entomology</strong>
+  <em>- Montana State University</em>
+  </div>
+  <div style="float: right;">2021-2024
+  </div>
+<br>
+
+- Committee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson
+- Graduate Certificate in Applied Statistics
+
+
+<div style="text-align: justify;">
+  <div style="float: left;"><strong>BS Biology</strong>
+  <em>- University of Minnesota</em>
+  </div>
+  <div style="float: right;">2013-2017
+  </div>
+</div>
+<br>  
+
+- Minor: Marine Biology
+
+
+
+</div>
+
+## Publications
+<div class="box">
+
+<ol reversed>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. (*in review*)
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. DOI: <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
+    </li>
+</ol>
+</div>
+
+## Honors & Awards
+
+<div class="box">
+
+<!-- Land Grant Excellence -->
+<div style="display: flex; align-items: center;">
+  <div><strong>
+    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank">Graduate Land Grant Excellence Award</a>
+  </strong></div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2024</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University 
+</div>
+
+<!-- Open Access Fund -->
+<div style="display: flex; align-items: center;">
+  <div><strong>
+    <a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank">Open Access Author Fund</a>
+  </strong></div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University Library  
+- Funded publication of *Agroecological importance of smooth brome in managing wheat
+stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
+</div>
+
+<div style="display: flex; align-items: center;">
+  <div><strong>
+      <a href="https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023" target="_blank">President's Prize - 2nd Place Speaker</a>
+  </strong></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+- Entomology 2023, National Harbor, MD  
+- Entomological Society of America 
+ 
+  
+<div style="display: flex; align-items: center;">
+  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Student Scholar Travel Award </strong> ($500)</a></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+  - College of Agriculture, Montana State University
+
+  
+<div style="display: flex; align-items: center;">
+  <div><strong>1st Place Speaker</strong></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+- 2023 LRES GSO Student Research Colloquium  
+- LRES Graduate Student Organization, Montana State University
+
+  
+<div style="display: flex; align-items: center;">
+  <div><strong>
+      <a>Montana Grains Foundation Scholarship </strong> ($2,500)</a></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022</div>
+</div>
+
+- Montana Grain Growers Association
+
+  
+<div style="display: flex; align-items: center;">
+  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Gradaute Professional Advancement Grant</strong> ($500)</a></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+
+- The Graduate School, Montana State University
+</div>
+
+
+## Seminars and Presentations <span style="font-size: 15px; font-weight: normal;">(<u>underline</u> = presenter)</span>
+
+<div class="box">
+<u>Contributed presentations at scientific meetings</u>  
+<ol reversed>
+    <li style="margin-bottom: 1em;">
+        SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in
+        Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ. (scheduled)
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Sing SE</u>, Ward SM, Peterson RKD, <span style="color: darkgreen;">Strand JR</span>, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.
+    </li>
+    <!-- Other entries here -->
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. **Second place in section**.
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. **First place overall**.
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.
+    </li>
+</ol>
+
+
+
+<u>Workshops</u>
+<ol reversed>
+    <li style="margin-bottom: 1em;">
+        Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana
+        State University, Bozeman, MT.
+    </li>
+</ol>
+</div>
+
+## Teaching
+<div class="box">
+<u>Montana State University</u>  
+**Integrated Pest Management** (TA), 3 credits (AGSC 401)  
+FAll 2023, 20 undergraduates, 10 graduate students
+</div>
+
+## Service
+<div class="box">
+<u>Peer Review Journal Activity</u>  
+<div style="display: flex; align-items: center;">
+  <div><a href="https://academic.oup.com/ee" target="_blank" style="text-decoration: none;">Journal of Environmental Entomology</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2024 - Present</div>
+</div>
+
+<br>
+<u>Society Memberships</u>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://landresources.montana.edu/gso/" target="_blank" style="text-decoration: none;">LRES Graduate Student Organization (Co-chair)</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022 - Present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://landresources.montana.edu/gso/" target="_blank" style="text-decoration: none;">LRES Graduate Student Organization (Treasurer)</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - 2022</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://entsoc.org" target="_blank" style="text-decoration: none;">Entomological Society of America</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - Present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://mgga.org" target="_blank" style="text-decoration: none;">Montana Grain Growers Association</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022 - Present</div>
+</div>
+<br>
+<u>Active Community Volunteer</u>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.southwestmontanamba.org" target="_blank" style="text-decoration: none;">Southwest Montana Mountain Bike Association</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - Present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.gallatinwatershedcouncil.org" target="_blank" style="text-decoration: none;">Gallatin Watershed Council</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - Present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://gvlt.org" target="_blank" style="text-decoration: none;">Gallatin Valley Land Trust</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - Present</div>
+</div>
+</div>
+
+
+
+## Co-Hosted Academic Events
+<div class="box">
+**Student Organized Conferences**
+
+1. 2024 LRES-PSPP Student Research Symposium  
+    Role: Primary event organizer & emcee  
+    Location: Montana State University, Bozeman, MT  
+    Date: April 18, 2024  
+    Hyperlink: [2024 Symposium](https://lres-research-symposium.weebly.com/?c=mkt_w_chnl:aff_geo:all_prtnr:sas_subprtnr:1538097_camp:brand_adtype:txtlnk_ag:weebly_lptype:hp_var:358504&sscid=61k8_2eb95&utm_source=ShareASale){target="_blank"}
+    
+2. 2023 LRES Colloquium  
+    Role: Treasurer  
+    Location: Montana State University, Bozeman, MT  
+    Date: April 13, 2023
+    
+3. 2022 LRES Colloquium  
+    Role: Treasurer  
+    Location: Montana State University, Bozeman, MT  
+    Date: April 29, 2022
+</div>
+
+
+
+## Employment History
+<div class="box">
+<!-- Pace Analytical Work -->
+<div style="text-align: justify;">
+  <div style="float: left;"><strong>
+    <a href="https://www.pacelabs.com" target="_blank" style="color: inherit; text-decoration: none;">Pace Analytical - Onsite at 3M
+    </a></strong> - <em>Regulatory IT Analyst</em>
+  </div>
+  <div style="float: right;">2017 - 2021
+  </div>
+</div>
+<br>
+(Maplewood, MN)
+
+- Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).  
+- Integrated, tested, and supported user and data interface between CDMS and SAP.  
+- Generated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.
+
+<!-- Mosquito Control -->
+<div style="text-align: justify;">
+  <div style="float: left;"><strong>
+    <a href="https://mmcd.org" target="_blank" style="color: inherit; text-decoration: none;">Metropolitan Mosquito Control District
+    </a></strong> - <em>Seasonal Mosquito Technician</em>
+  </div>
+  <div style="float: right;">2017
+  </div>
+</div>
+<br>
+(Oakdale, MN)  
+
+- Worked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.  
+- Independently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.
+
+<!-- Horse Barn -->
+<div style="text-align: justify;">
+  <div style="float: left;"><strong>
+      <a href="https://vetmed.umn.edu/equine" target="_blank"
+      style="color: inherit; text-decoration: none;">Leatherdale Equine Center
+      </a>
+    </strong> - 
+      <em>Barn Maintenance Crew
+      </em>
+  </div>
+  <div style="float: right;">2015-2017
+  </div>
+</div>
+<br>
+(St. Paul, MN)  
+
+- Maintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.  
+- Trained and managed new members of the crew.
+
+<!-- Soccer reffing -->
+<div style="text-align: justify;">
+  <div style="float: left;"><strong>Minnesota Youth Soccer Association</strong> - <em>Youth Soccer Referee</em>
+  </div>
+  <div style="float: right;">2010 - 2021
+  </div>
+</div>
+<br>
+</div>
+
+
+
+
+
+
+
+
+

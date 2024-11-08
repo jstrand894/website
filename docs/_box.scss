@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+
+// set constants
+
+// Project button class
+
+// Navbar
+$navbar-color: #DF536B !default; //go to default if this breaks 
+$navbar-padding-y: 1rem !default;
+
+// Link colors
+$box-bg-color:  whitesmoke !default;
+$box-border-color: lightgray !default;
+$hover-color: lightslategray !default;
+$link-color:  steelblue !default;
+
+/*-- scss:rules: --*/
+
+// making objects, like a box with specified colors 
+
+.box {
+    background: $box-bg-color;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid $box-border-color;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// Button
+.btn-primary {
+   // background-color: #4a4a4a; /* Dark grey */
+    background-color: grey;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid lightgrey;
+    text-decoration: none; /* Removes underline on links */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: inline-flex; /* Aligns text and icon properly */
+    align-items: center; /* Vertically center the icon and text */
+    justify-content: center; /* Horizontally center the text and icon */
+}
+
+.btn-primary:hover {
+    background-color: #a9a9a9; /* Lighter grey on hover */
+}
+
+

@@ -1,0 +1,6 @@
+/* css styles */
+/* Make the navbar text bold */
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+

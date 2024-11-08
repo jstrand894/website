@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Jackson Strand"
+  site-url: https://msu-git.jacksonstrand.com
+  search:
+    location: sidebar
+    type: textbox
+  bread-crumbs: true
+  favicon: img/aboutme/logo.png
+  navbar:
+    background: light
+    search: true
+    logo: img/aboutme/logo.png
+    title: "Jackson Strand"
+    left:
+      - text: "Publications"
+        file: qmd/projects.qmd
+      - text: "Helpful Resources"
+        file: qmd/helpful.qmd
+      - text: "Photography"
+        url: "https://jacksonstrandphoto.myportfolio.com"
+        target: _blank
+    right: 
+      - href: index.qmd
+        text: About Me
+    tools:
+      - icon: linkedin
+        href: https://linkedin.com/in/jacksonstrand
+      - icon: instagram
+        href: https://www.instagram.com/jstrand894/
+      - icon: github
+        href: https://github.com/jstrand894/quarto_website
+      - icon: envelope
+        href: "mailto:jstrand894@gmail.com"
+ 
+  page-footer:
+    right: "Built with [Quarto](https://quarto.org/)"
+    left: "&copy; Copyright 2024, Jackson Strand"
+
+format:
+  html:
+    toc: true
+    theme: 
+      light: [cosmo, _box.scss]
+    # title-block-banner: "#9e74f1"
+    code-block-bg: true
+    code-block-border-left: "#1abcd9"
+    code-copy: true
+    code-overflow: wrap
+    css: [styles.css, _box.scss]
+    grid:
+      sidebar-width: 300px
+      body-width: 1000px
+      margin-width: 200px
+
+freeze: true
+
+editor: source
+
+
