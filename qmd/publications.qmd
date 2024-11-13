@@ -1,0 +1,31 @@
+---
+layout: page
+title: Publications
+---
+
+## 2024
+<div class="box">
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 1; margin-right: 15px;"><img src="pics/bigsandy.png" alt="Big Sandy, MT" style="width: 300px; height: auto;" /> <!-- Increased image size -->
+  </div>
+  <div style="flex: 3;"><strong><span style="font-size: 1.2em;">Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids</span></strong></span>  
+   
+  **Authors:** Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver  
+  **Journal:** Economic Entomology  
+  **DOI:** <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
+  </div>
+</div>
+</div>
+
+
+<div class="box">
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 1; margin-right: 15px;"><img src="pics/fig2_eadfid.png" alt="Big Sandy, MT" style="width: 300px; height: auto;" /> <!-- Increased image size -->
+  </div>
+  <div style="flex: 3;"><strong><span style="font-size: 1.2em;">Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome</strong></span>  
+  **Authors:** Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver  
+  **Journal:** Insect Science  
+  **DOI:** in review</a>
+  </div>
+</div>
+</div>
