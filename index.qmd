@@ -7,15 +7,27 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/jacksonstrand
+      target: "_blank"
     - icon: envelope-fill
       text: Email
       href: "mailto:jstrand894@gmail.com"
+      target: "_blank"
     - icon: github
       text: GitHub
       href: https://github.com/jstrand894/
+      target: "_blank"
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/jstrand894/
+      target: "_blank"
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=_szV1hYAAAAJ&hl=en
+      target: "_blank"
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Jackson-Strand
+      target: "_blank"
 
 toc: true
 ---
@@ -223,22 +235,25 @@ My research focused on understanding how the ecological relationship between the
   <div>2024</div>
 </div>
 <div style="padding-right: 30px;">
-- Montana State University 
+- The Graduate School, Montana State University 
 </div>
 
 <!-- Open Access Fund -->
 <div style="display: flex; align-items: center;">
-  <div><strong>
-    <a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank">Open Access Author Fund</a>
-  </strong></div>
+  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank"><strong>Open Access Author Fund</strong></a>($3,296)
+  </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2023</div>
 </div>
 <div style="padding-right: 30px;">
 - Montana State University Library  
-- Funded publication of *Agroecological importance of smooth brome in managing wheat
-stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
+- Funded the publication of <a href="https://doi.org/10.1093/jee/toae246" target="_blank" 
+   style="color: black; text-decoration: none;" 
+   onmouseover="this.style.fontStyle='italic'; this.style.color='steelblue'; this.style.textDecoration='none';" 
+   onmouseout="this.style.fontStyle='italic'; this.style.color='black'; this.style.textDecoration='none';">
+    *Strand et al. 2024*
+</a>
 </div>
 
 <div style="display: flex; align-items: center;">
@@ -253,7 +268,7 @@ stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
  
   
 <div style="display: flex; align-items: center;">
-  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Student Scholar Travel Award </strong> ($500)</a></div>
+  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Student Scholar Travel Award</strong></a> ($500)</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2023</div>
 </div>
@@ -271,7 +286,7 @@ stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
   
 <div style="display: flex; align-items: center;">
   <div><strong>
-      <a>Montana Grains Foundation Scholarship </strong> ($2,500)</a></div>
+      <a href="https://www.mgga.org/grainsfoundation/" target="_blank">Montana Grains Foundation Scholarship</strong></a> ($2,500)</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2022</div>
 </div>
@@ -280,7 +295,7 @@ stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
 
   
 <div style="display: flex; align-items: center;">
-  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Gradaute Professional Advancement Grant</strong> ($500)</a></div>
+  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Gradaute Professional Advancement Grant</strong></a> ($500)</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2023</div>
 </div>
@@ -289,8 +304,8 @@ stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
 </div>
 
 
-## Seminars and Presentations <span style="font-size: 15px; font-weight: normal;">(<u>underline</u> = presenter)</span>
-
+## Seminars and Presentations 
+<span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
 <div class="box">
 <u>Contributed presentations at scientific meetings</u>  
 <ol reversed>
@@ -299,13 +314,13 @@ stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
         Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)
     </li>
     <li style="margin-bottom: 1em;">
-        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ. (scheduled)
+        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ. 
     </li>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.
     </li>
     <li style="margin-bottom: 1em;">
-        <u>Sing SE</u>, Ward SM, Peterson RKD, <span style="color: darkgreen;">Strand JR</span>, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.
+        <u>Sing SE</u>, Ward SM, Peterson RKD, **Strand JR**, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.
     </li>
     <!-- Other entries here -->
     <li style="margin-bottom: 1em;">
@@ -340,7 +355,9 @@ stem saw4ly (Hymenoptera: Cephidae) via associated braconid parasitoids*
 <div class="box">
 <u>Montana State University</u>  
 **Integrated Pest Management** (TA), 3 credits (AGSC 401)  
-FAll 2023, 20 undergraduates, 10 graduate students
+Fall 2023, 20 undergraduates, 10 graduate students  
+Online course taught by Dr. David Weaver
+
 </div>
 
 ## Service
@@ -411,7 +428,7 @@ FAll 2023, 20 undergraduates, 10 graduate students
 
 
 
-## Co-Hosted Academic Events
+## Co-Hosted Events
 <div class="box">
 **Student Organized Conferences**
 

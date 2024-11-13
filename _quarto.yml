@@ -17,7 +17,7 @@ website:
     title: "Jackson Strand"
     left:
       - text: "Publications"
-        file: qmd/projects.qmd
+        file: qmd/publications.qmd
       - text: "Helpful Resources"
         file: qmd/helpful.qmd
       - text: "Photography"
