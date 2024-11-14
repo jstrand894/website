@@ -12,7 +12,7 @@ title: Publications
    
   **Authors:** Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver  
   **Journal:** Economic Entomology  
-  **DOI:** <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
+  **DOI:** <a href="https://doi.org/10.1093/jee/toae246" target="_blank">10.1093/jee/toae246</a>
   </div>
 </div>
 </div>
