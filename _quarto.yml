@@ -18,6 +18,8 @@ website:
     left:
       - text: "Publications"
         file: qmd/publications.qmd
+      - text: "Talks & Presentations"
+        file: qmd/talks.qmd
       - text: "Helpful Resources"
         file: qmd/helpful.qmd
       - text: "Photography"
