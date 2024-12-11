@@ -292,5 +292,12 @@
     "title": "Jackson Strand",
     "section": "Employment",
     "text": "Employment\n\n\nResume\n\n\n    \n        Pace analytical - Onsite at 3M - Regulatory IT Analyst\n        \n            Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n    \n    2017 - 2021\n\n{css, echo = FALSE} .grey-box {   background-color: #f2f2f2;   padding: 10px;   border-radius: 5px;   border: 1px solid #ccc; }\n\nPace Analytical- Onsite at 3M – Regulatory IT Analyst (Maplewood, MN) 2013-2017 2017-2021 • Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS). • Integrated, tested, and supported user and data interface between CDMS and SAP. • Generated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP."
+  },
+  {
+    "objectID": "qmd/talks.html",
+    "href": "qmd/talks.html",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "Master’s Thesis Defense - August 19, 2024\nLocation: Plant Sciencies Building, Montana State University, Bozeman, MT Time: 9:00 AM\nWatch my defense here!"
   }
 ]
