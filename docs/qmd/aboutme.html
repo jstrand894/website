@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="_box.scss">
+<link rel="stylesheet" href="../_box.scss">
 </head>
 
 <body class="nav-fixed">
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <img src="../img/aboutme/logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Jackson Strand</span>
@@ -91,25 +91,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../qmd/projects.qmd"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../qmd/publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-pictures" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Pictures</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-pictures">    
-        <li class="dropdown-header">qmd/pics/running.qmd</li>
-        <li class="dropdown-header">qmd/pics/bugs.qmd</li>
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../qmd/cv.html"> 
-<span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../qmd/talks.qmd"> 
+<span class="menu-text">Talks &amp; Presentations</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../qmd/helpful.html"> 
 <span class="menu-text">Helpful Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://jacksonstrandphoto.myportfolio.com" target="_blank"> 
+<span class="menu-text">Photography</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -135,18 +130,13 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
   <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#employment" id="toc-employment" class="nav-link" data-scroll-target="#employment">Employment</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-
-
 <div class="quarto-about-trestles content">
   <div class="about-entity">
     <img src="../img/aboutme/deadhorse.jpeg" class="about-image
@@ -173,28 +163,68 @@ ul.task-list li input[type="checkbox"] {
   </a>
 </div>
   </div>
-  <div class="about-contents"><div id="me">
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<p>:::{#me}</p>
 <p>I am currently a Master’s graduate student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace.</p>
 <div style="margin: 30px; text-align: center;">
   <a class="btn btn-primary" href="../qmd/cv.html" role="button" style="padding: 15px 30px;">View my CV</a>
 </div>
-</div></div>
-</div>
-
-<section id="education" class="level2">
+<section id="education" class="level2 box">
 <h2 data-anchor-id="education">Education</h2>
-<div class="box">
-<p><strong>BA Biology</strong>, 2013-2017 - <em>University of Minnesota - Twin Cities</em><br>
-- Minor: Marine Biology</p>
+<p><strong>BA Biology</strong>, 2013-2017 - <em>University of Minnesota - Twin Cities</em></p>
 <p><strong>MSc Entomology</strong>, 2021-2024 - <em>Montana State University</em></p>
+</section>
+<section id="employment" class="level2">
+<h2 data-anchor-id="employment">Employment</h2>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        align-items: center; /* Align items vertically */
+        justify-content: space-between;
+        border: 2px solid #ccc; /* Add border */
+        border-color: #f2f2f2;
+        border-radius: 10px; /* Rounded corners */
+        background-color: #f2f2f2; /* Grey background color */
+        padding: 15px; /* Add padding for spacing */
+        height: 100px; /* Set height to align contents vertically */
+    }
+    .text {
+        flex: 1; /* Take up available space */
+    }
+    .date {
+        margin-left: 0px; /* Add some spacing between text and date */
+    }
+    p, .date {
+        margin: 0; /* Reset margin to remove default spacing */
+    }
+</style>
+<div class="container">
+    <div class="text">
+        <p><strong>Pace analytical - Onsite at 3M</strong> - Regulatory IT Analyst</p>
+        <ul>
+            <li>Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).</li>
+    </ul></div>
+    <div class="date">2017 - 2021</div>
 </div>
-<!-- ![Me and Grace at Glacier National Park, 2023](../img/aboutme/iceberg.JPG)   -->
-
+<p><code>{css, echo = FALSE} .grey-box {   background-color: #f2f2f2;   padding: 10px;   border-radius: 5px;   border: 1px solid #ccc; }</code></p>
+<div class="grey-box">
+<p>Pace Analytical- Onsite at 3M – Regulatory IT Analyst (Maplewood, MN) 2013-2017 2017-2021 • Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS). • Integrated, tested, and supported user and data interface between CDMS and SAP. • Generated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.</p>
+</div>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

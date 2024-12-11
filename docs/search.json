@@ -25,14 +25,14 @@
     "href": "qmd/aboutme.html",
     "title": "Jackson Strand",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Instagram\n  \n  \n    \n     GitHub\n  \n\n  \n  \nI am currently a Master’s graduate student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace.\n\n  View my CV"
+    "text": ":::{#me}\nI am currently a Master’s graduate student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace."
   },
   {
     "objectID": "qmd/aboutme.html#education",
     "href": "qmd/aboutme.html#education",
     "title": "Jackson Strand",
     "section": "Education",
-    "text": "Education\n\nBA Biology, 2013-2017 - University of Minnesota - Twin Cities\n- Minor: Marine Biology\nMSc Entomology, 2021-2024 - Montana State University"
+    "text": "Education\nBA Biology, 2013-2017 - University of Minnesota - Twin Cities\nMSc Entomology, 2021-2024 - Montana State University"
   },
   {
     "objectID": "qmd/index cv.html",
@@ -285,5 +285,12 @@
     "title": "Publications",
     "section": "",
     "text": "Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids\nAuthors: Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver\nJournal: Economic Entomology\nDOI: 10.1093/jee/toae246\n\n\n\n\n\n\n \n\n\nSensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome\nAuthors: Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver\nJournal: Insect Science\nDOI: in review"
+  },
+  {
+    "objectID": "qmd/aboutme.html#employment",
+    "href": "qmd/aboutme.html#employment",
+    "title": "Jackson Strand",
+    "section": "Employment",
+    "text": "Employment\n\n\nResume\n\n\n    \n        Pace analytical - Onsite at 3M - Regulatory IT Analyst\n        \n            Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n    \n    2017 - 2021\n\n{css, echo = FALSE} .grey-box {   background-color: #f2f2f2;   padding: 10px;   border-radius: 5px;   border: 1px solid #ccc; }\n\nPace Analytical- Onsite at 3M – Regulatory IT Analyst (Maplewood, MN) 2013-2017 2017-2021 • Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS). • Integrated, tested, and supported user and data interface between CDMS and SAP. • Generated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP."
   }
 ]
