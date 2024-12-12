@@ -3,15 +3,51 @@ layout: page
 title: Talks & Presentations
 ---
 
+<!-- ## Defense -->
 <div class="box">
 <div style="display: flex; margin-bottom: 0px;">
-  <div style="flex: 1; margin-right: 15px;"><a href="https://youtu.be/P30QPadkdZE" target="_blank"><img src="pics/defense_youtube.png" alt="Big Sandy, MT" style="width: 300px; height: auto;" />
-    </a> <!-- Image with link -->
+  <div style="flex: 1; margin-right: 15px;"><a href="https://youtu.be/P30QPadkdZE" target="_blank"><img src="pics/defense_youtube.png" alt="Big Sandy, MT" style="width: 300px; height: auto;" /></a> <!-- Image with link -->
+</div>
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Master's Thesis Defense - August 19, 2024</span></strong></span>    
 
-</div>
-  <div style="flex: 3;"><strong><span style="font-size: 1.2em;">Master's Thesis Defense - August 19, 2024</span></strong></span>    
-  **Title:** The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids  
-  **Location:** Plant Sciencies Building, Montana State University, Bozeman, MT  
-  **Time:** 9:00 AM  
+  *The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids*  
+
+  Montana State University, Bozeman, MT  
+  
   </div>
+</div> 
 </div>
+<br>  
+
+## Entomological Society of America - Annual Meetings
+
+
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;"><img src="pics/conferences/esa24.jpeg" alt="Entomology 2023" style="width: 300px; height: auto;" />
+    </a> <!-- Image with link -->
+</div>
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Entomology 2024 - Student Competition</span></strong></span>    
+
+  *Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids*
+
+  
+  Phoenix Convention Center, Phoenix, AZ   
+  </div>
+  </div>
+</div> 
+
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;"><img src="pics/conferences/esa_win_23.jpg" alt="Entomology 2023" style="width: 300px; height: auto;" />
+    </a> <!-- Image with link -->
+</div>
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Entomology 2023 - Student Competition</span></strong></span>    
+
+  *Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome*  
+
+  Gaylord National Resort & Convention Center, Maryland   
+  </div>
+  </div>
+</div> 
+
