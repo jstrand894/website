@@ -25,8 +25,10 @@ format:
       <strong>Location:</strong> 108 Plant Biosciences Building, Montana State University  
       <strong>Time:</strong> 8:30 AM - 9:30 AM</p> 
   
+  <div style="display: flex; justify-content: flex-end; margin-top: auto;"><a class="slides-btn" href="https://1drv.ms/p/c/af438b0dd68ebd20/ESdYofrjdrBFhGr6sogRo40B_yUkKuJewVN1OVJWuha-_g?e=yls71e" target="_blank" role="button">View my slides</a>
   </div>
 </div> 
+</div>
 </div> 
 
 <div class="box">
@@ -38,7 +40,7 @@ format:
 </div>
   <div style="flex: 3;">
   <a href="https://www.entsoc.org/entomology2023" class="event-link" target="_blank">
-  <strong><span class="event-text">Entomology 2023 - National Harbor, MD</span></strong>
+  <strong><span class="event-text">Entomology 2023</span></strong> <span class="event-text">| National Harbor, MD</span>
 </a>   
   🥈 ***<u>2nd</u>** place in student competition* 
    
@@ -63,7 +65,7 @@ format:
 </div>
   <div style="flex: 3;">
   <a href="https://www.entsoc.org/entomology2024" class="event-link" target="_blank">
-    <strong><span class="event-text">Entomology 2024 - Phoenix, AZ</span></strong>
+    <strong><span class="event-text">Entomology 2024</span></strong> <span class="event-text">| Phoenix, AZ</span>
   </a>  
   <p><strong>Title:</strong> Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids<p>
       <strong>Date:</strong> Monday, November 11, 2024  
@@ -90,6 +92,8 @@ format:
       <strong>Date:</strong> Monday, August 19, 2024    
       <strong>Time:</strong> 8:30 AM - 9:30 AM</p> 
   
+  <div style="display: flex; justify-content: flex-end; margin-top: auto;"><a class="slides-btn" href="https://1drv.ms/p/c/af438b0dd68ebd20/ESdYofrjdrBFhGr6sogRo40B_yUkKuJewVN1OVJWuha-_g?e=yls71e" target="_blank" role="button">View my slides</a>
+  </div>
   </div>
 </div> 
 </div>
@@ -107,7 +111,7 @@ format:
 </div>
   <div style="flex: 3;">
   <a href="https://www.entsoc.org/entomology2023" class="event-link" target="_blank">
-  <strong><span class="event-text">Entomology 2023 - National Harbor, MD</span></strong>
+  <strong><span class="event-text">Entomology 2023</span></strong> <span class="event-text">| National Harbor, MD</span>
 </a>   
   🥈 ***<u>2nd</u>** place in student competition* 
    
@@ -156,7 +160,7 @@ format:
 </div>
   <div style="flex: 3;">
   <a href="https://www.entsoc.org/events/annual-meeting/2022-jam" class="event-link" target="_blank">
-  <strong><span class="event-text">Entomology 2022 - Vancouver, BC, Canada</span></strong>
+  <strong><span class="event-text">Entomology 2022</span></strong> <span class="event-text">| Vancouver, BC, Canada</span>
 </a>   
    
   <p><strong>Title:</strong> Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome<p>
@@ -202,7 +206,7 @@ format:
 </div>
   <div style="flex: 3;">
   <a href="https://www.entsoc.org/events/annual-meeting/entomology-2021" class="event-link" target="_blank">
-  <strong><span class="event-text">Entomology 2021 - Denver, CO</span></strong>
+  <strong><span class="event-text">Entomology 2021</span></strong> <span class="event-text">| Denver, CO</span>
 </a>
 
   <p><strong>Title:</strong> Comparing use of wheat stem sawfly larvae infesting winter wheat and smooth brome by two braconid parasitoid species in Montana<p>
