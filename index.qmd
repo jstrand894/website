@@ -36,7 +36,7 @@ toc: true
 ::: {#about-block}
 <!-- <span style="font-size: 35px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span>   -->
 # Jackson R. Strand
-I am currently a PhD student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace.
+I am currently a PhD student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace. 
 
 ### <u>Education</u>
 <img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **MS Entomology** - Montana State University
