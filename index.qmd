@@ -175,9 +175,6 @@ My research focused on understanding how the ecological relationship between the
 
 ```
 
-
-
-
 <!-- ![Me and Grace at Glacier National Park, 2023](img/aboutme/iceberg.JPG)   -->
 <br>  
 
@@ -300,8 +297,10 @@ My research focused on understanding how the ecological relationship between the
 </div>
 
 
-## Seminars and Presentations 
+## Seminars and Presentations  
+<a class="btn-small" href="qmd/talks.qmd" role="button">Check out my "Talks and Presentations" page</a>  
 <span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
+ | **bold** = me
 <div class="box">
 <u>Contributed presentations at scientific meetings</u>  
 <ol reversed>

@@ -18,10 +18,11 @@ $link-color:  steelblue !default;
 
 // making objects, like a box with specified colors 
 
+
 .box {
     background: $box-bg-color;
     border-radius: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -30,25 +31,8 @@ $link-color:  steelblue !default;
     margin-right: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
-
-// Button
-.btn-primary {
-   // background-color: #4a4a4a; /* Dark grey */
-    background-color: grey;
-    color: white;
-    padding: 8px 30px;
-    border-radius: 5px; /* Rounded corners */
-    border: 1px solid lightgrey;
-    text-decoration: none; /* Removes underline on links */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
-    display: inline-flex; /* Aligns text and icon properly */
-    align-items: center; /* Vertically center the icon and text */
-    justify-content: center; /* Horizontally center the text and icon */
-}
-
-.btn-primary:hover {
-    background-color: #a9a9a9; /* Lighter grey on hover */
-}
-
 

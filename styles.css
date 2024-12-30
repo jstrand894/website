@@ -4,3 +4,145 @@
     font-weight: bold;
 }
 
+/* Add hover to images */
+a:hover img {
+    transform: scale(1.1);
+}
+
+/* Event title links */
+.event-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .event-link:hover {
+    text-decoration: underline;
+    color: #396890;
+  }
+
+  .event-text {
+    font-size: 1.5em;
+  }
+
+
+
+  /* zoom image talks*/
+  .image-link {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  
+  .zoom-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-link:hover .zoom-image {
+    transform: scale(0);
+  }
+
+
+  /* link container */
+  .link-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+  }
+
+/* Button primary*/
+.btn-primary {
+    background-color: #4a4a4a; /* Dark grey */
+    background-color: grey;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid lightgrey;
+    text-decoration: none; /* Removes underline on links */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: inline-flex; /* Aligns text and icon properly */
+    align-items: center; /* Vertically center the icon and text */
+    justify-content: center; /* Horizontally center the text and icon */
+}
+
+.btn-primary:hover {
+    background-color: #a9a9a9; /* Lighter grey on hover */
+}
+
+/* Button small */
+.btn-small {
+     background-color: #396890; /* Dark grey */
+     color: white;
+     padding: 5px 15px;
+     border-radius: 5px; /* Rounded corners */
+     border: none;
+     text-decoration: none; /* Removes underline on links */
+     transition: background-color 0.3s ease; /* Smooth transition on hover */
+     display: inline-flex; /* Aligns text and icon properly */
+     align-items: center; /* Vertically center the icon and text */
+     justify-content: center; /* Horizontally center the text and icon */
+     font-weight: normal;
+     font-size: 16px;
+     vertical-align: middle;
+ }
+ 
+ .btn-small:hover {
+     background-color: #777676; /* Lighter grey on hover */
+ }
+
+
+/* talk details stuff */
+.event-details {
+    flex: 3;
+  }
+  
+  .event-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  
+  .event-info p {
+    margin: 0;
+  }
+
+
+  /* view my slides button */
+  .slides-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0078d7; /* PowerPoint-like blue */
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 15px; /* Distance from the top of the .box */
+    left: 15px;
+}
+
+.slides-btn:hover {
+    background-color: #005a9e; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.slides-btn:active {
+    background-color: #003f6b; /* Even darker shade for active effect */
+    transform: scale(1); /* Reset size on click */
+}
+
+.slides-btn img {
+    width: 20px; /* Adjust size of the icon */
+    height: 20px;
+    margin-right: 10px;
+}
