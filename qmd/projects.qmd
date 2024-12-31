@@ -2,20 +2,17 @@
 format: html
 ---
 
-## Montana State University
+<!-- ## Montana State University -->
 
-## LRES Graduate Student Organization
+## LRES Graduate Student Organization 
 
-<a class="multi-btn" href="https://landresources.montana.edu/gso/" target="_blank" role="button">LRES GSO</a>
-<a class="multi-btn" href="https://lres-research-symposium.weebly.com" target="_blank" role="button">2024 LRES-PSPP Student Research Symposium</a>  
-
-The **Land Resources and Environmental Science** (LRES) **Graduate Student Organization** (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.
-
+<div class="projects-container">
+  <img src="pics/GSO%20Leadership%20(2024).JPG" class="projects-image">
+  <p class="projects-text">The <strong>Land Resources and Environmental Science</strong> (LRES) <strong>Graduate Student Organization</strong> (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.  
+  <a class="multi-btn" href="https://landresources.montana.edu/gso/" target="_blank" role="button">LRES GSO</a>
+<a class="multi-btn" href="https://lres-research-symposium.weebly.com" target="_blank" role="button">2024 LRES-PSPP Student Research Symposium</a> </p>
+</div>
 
 ## Basketball Roster Analysis Tool
 
-From 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.
-
-<a class="multi-btn" href="https://1drv.ms/x/c/af438b0dd68ebd20/ESC9jtYNi0MggK-vAwAAAAABir6-ypi99PhsXzTK0_DIjg?e=axLlSI" target="_blank" role="button">View tool</a>
-
-
+From 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still work

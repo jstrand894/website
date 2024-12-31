@@ -49,8 +49,9 @@ website:
 format:
   html:
     toc: true
+    toc-links: false
     theme: 
-      light: [cosmo, _box.scss]
+      light: [cosmo, _box.scss, _nav-bar.scss, _about-block.scss, _awards-text.scss, _projects-box.scss]
     # title-block-banner: "#9e74f1"
     code-block-bg: true
     code-block-border-left: "#1abcd9"

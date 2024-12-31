@@ -36,38 +36,23 @@ toc: true
 ::: {#about-block}
 <!-- <span style="font-size: 35px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span>   -->
 # Jackson R. Strand
-I am a PhD student in Ecology & Environmental Sciences at Montana State University, specializing in the biological control of invasive plants. My research focuses on using insect agents to manage yellow and dalmatian toadflax in Montana and South Dakota.  
+I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I specialize in the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.  
 
-I live in Bozeman with my wife Grace. 
+I live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.
 
 ### <u>Education</u>
 <img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **MS Entomology** - Montana State University
 
 <img src="qmd/logos/umn.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **BS Biology** - University of Minnesota
-
-### <u>Research Interests</u>
-I am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management. 
-
 :::
+<br>  
 
-<!--- button for CV download--->
-```{=html}
-<div style="margin: 30px; text-align: center; display: flex; align-items: center; justify-content: center;">
-  <span style="margin-right: 15px;">You can view my CV contents below, or download my CV here:</span>
-  <a class="btn-primary" href="qmd/cv.qmd" role="button">
-    View my CV
-  </a>
-</div>
-```
+## Research Interests
+I am broadly interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.
+ 
+My master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis defense](qmd/talks.qmd) for more detailed findings.
 
-<!-- ## About me
-I am currently a PhD candidate at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace. -->
-
-<!-- **My Research Interests**  
-I am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management.  -->
-
-<!-- **Montana State University - MS Entomology**  
-My research focused on understanding how the ecological relationship between the wheat stem sawfly (*Cephus cinctus*) and two native biocontrol parasitoids (*Bracon cephi* and *Bracon lissogaster*) are impacted by smooth brome (*Bromis inermis*). My project includes field sites in southwest, central, and northern Montana, as well as volatile organic compound analysis of greenhouse-grown smooth brome and winter wheat. -->
+<br>
 
 <!-- pictures below about me -->
 ```{=html}
@@ -176,7 +161,16 @@ My research focused on understanding how the ecological relationship between the
 ```
 
 <!-- ![Me and Grace at Glacier National Park, 2023](img/aboutme/iceberg.JPG)   -->
-<br>  
+<!--- button for CV download--->
+```{=html}
+<div style="margin: 30px; text-align: center; display: flex; align-items: center; justify-content: center;">
+  <span style="margin-right: 15px;">You can view my CV contents below, or download my CV here:</span>
+  <a class="btn-primary" href="qmd/cv.qmd" role="button">
+    View my CV
+  </a>
+</div>
+```
+
 
 ## Education  
 <div class="box">
@@ -222,7 +216,7 @@ My research focused on understanding how the ecological relationship between the
 <!-- Land Grant Excellence -->
 <div style="display: flex; align-items: center;">
   <div><strong>
-    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank">Graduate Land Grant Excellence Award</a>
+    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank" class="award-text">Graduate Land Grant Excellence Award</a>
   </strong></div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -252,7 +246,7 @@ My research focused on understanding how the ecological relationship between the
 
 <div style="display: flex; align-items: center;">
   <div><strong>
-      <a href="https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023" target="_blank">President's Prize - 2nd Place Speaker</a>
+      <a href="https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023" target="_blank" class="award-text">President's Prize - 2nd Place Speaker</a>
   </strong></div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2023</div>
@@ -280,7 +274,7 @@ My research focused on understanding how the ecological relationship between the
   
 <div style="display: flex; align-items: center;">
   <div><strong>
-      <a href="https://www.mgga.org/grainsfoundation/" target="_blank">Montana Grains Foundation Scholarship</strong></a> ($2,500)</div>
+      <a href="https://www.mgga.org/grainsfoundation/" target="_blank" class="award-text">Montana Grains Foundation Scholarship</strong></a> ($2,500)</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2022</div>
 </div>
@@ -427,18 +421,18 @@ Online course taught by Dr. David Weaver
 <div class="box">
 **Student Organized Conferences**
 
-1. 2024 LRES-PSPP Student Research Symposium  
+1. **2024 LRES-PSPP Student Research Symposium **  
     Role: Primary event organizer & emcee  
     Location: Montana State University, Bozeman, MT  
     Date: April 18, 2024  
     Hyperlink: [2024 Symposium](https://lres-research-symposium.weebly.com/?c=mkt_w_chnl:aff_geo:all_prtnr:sas_subprtnr:1538097_camp:brand_adtype:txtlnk_ag:weebly_lptype:hp_var:358504&sscid=61k8_2eb95&utm_source=ShareASale){target="_blank"}
     
-2. 2023 LRES Colloquium  
+2. **2023 LRES Colloquium ** 
     Role: Treasurer  
     Location: Montana State University, Bozeman, MT  
     Date: April 13, 2023
     
-3. 2022 LRES Colloquium  
+3. **2022 LRES Colloquium  **
     Role: Treasurer  
     Location: Montana State University, Bozeman, MT  
     Date: April 29, 2022

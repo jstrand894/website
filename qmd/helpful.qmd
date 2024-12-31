@@ -4,47 +4,54 @@ title: "Helpful Resources & Links"
 
 ## R Studio
 
--   Guide to using R made by [Jared Adam](https://www.linkedin.com/in/jared-adam-24b107241/){style="text-decoration: none;"}: <a href="https://jared-adam-psu.github.io/R-Tutorial-for-Tooker-Lab/" target="_blank">One code to rule them all (┛ಠ_ಠ)┛彡O</a>
--   Helpful free tutorial for learning R Studio through Codecademy: <a href="https://www.codecademy.com/learn/learn-r?utm_source=pepperjam&utm_medium=affiliate&utm_term=159404&clickId=4716939938&pj_creativeid=8-12462&pj_publisherid=159404" target="_blank">Learn R with Codecademy</a>
--   Learn how to use R Markdown to create pdf and word outputs with your code: <a href="https://rmarkdown.rstudio.com/lesson-1.html" target="_blank">R Markdown Documentation</a>  
--   Notes <a href="https://www.jeffdoser.com/files/for875/_book/" target="_blank">R Studio Graphing</a>
+1. **Guide to Using R**  
+   A comprehensive guide for R beginners by [Jared Adam](https://www.linkedin.com/in/jared-adam-24b107241/):  
+   [One code to rule them all (┛ಠ_ಠ)┛彡O](https://jared-adam-psu.github.io/R-Tutorial-for-Tooker-Lab/)  
+   This tutorial helps streamline your R learning process, offering clear steps and examples.
 
-## Quarto Website
+2. **Codecademy: Learn R**  
+   A helpful, free interactive tutorial to learn R from the basics:  
+   [Learn R with Codecademy](https://www.codecademy.com/learn/learn-r?utm_source=pepperjam&utm_medium=affiliate&utm_term=159404&clickId=4716939938&pj_creativeid=8-12462&pj_publisherid=159404)  
+   Start from the ground up and improve your R programming skills with hands-on practice.
 
--   YouTube video on how to make a R Studio Quarto Website: [How to create a web site using Quarto, RStudio, and GitHub Pages](https://youtu.be/YN75YXaLFGM?si=RyCG23IMBwFUKsO8)
+3. **R Markdown Documentation**  
+   Learn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:  
+   [R Markdown Documentation](https://rmarkdown.rstudio.com/lesson-1.html)  
+   This resource is great for integrating code with reports and presentations.
 
-```{=html}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to create a web site using Quarto, RStudio, and GitHub Pages</title>
-</head>
-<body>
-    <!-- <h2></h2> -->
-    <!-- Replace 'VIDEO_ID' with the actual ID of your YouTube video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YN75YXaLFGM" frameborder="0" allowfullscreen></iframe>
-</body>
-</html>
-```
--   Gallery showing different options for formatting a Quarto website: [Quarto Gallery](https://quarto.org/docs/gallery/)
--   Quarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: <a href="https://quarto.org/docs/websites/" target="_blank">Quarto - Creating a Website</a>
+4. **R Studio Graphing Notes**  
+   A reference for creating visualizations and graphs using R Studio:  
+   [R Studio Graphing](https://www.jeffdoser.com/files/for875/_book/)  
+   This guide provides a deeper dive into R's graphing capabilities.
+
+## R Statistics
+-   [Mixed Effects Models](https://meghan.rbind.io/blog/2022-06-28-a-beginners-guide-to-mixed-effects-models)
+
+## Quarto Website Building
+
+1. **How to Create a Quarto Website**  
+   A YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages. Learn how to integrate Quarto with GitHub Pages to host your site.
+   <a href="https://youtu.be/YN75YXaLFGM?si=RyCG23IMBwFUKsO8" target="_blank">How to Create a Web Site Using Quarto, RStudio, and GitHub Pages</a>  
+   
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/YN75YXaLFGM" frameborder="0" allowfullscreen></iframe>
+2. Gallery showing different options for formatting a Quarto website: [Quarto Gallery](https://quarto.org/docs/gallery/)
+3. Quarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: <a href="https://quarto.org/docs/websites/" target="_blank">Quarto - Creating a Website</a>
 
 ## GitHub
 
 -   A guide to using GitHub created by [Callum Arnold](https://www.linkedin.com/in/arnold-c/){style="text-decoration: none;"}: <a href="https://psu-git.callumarnold.com" target="_blank">Introduction to Git and GitHub</a>
 
-## R Statistics
-[Mixed Effects Models](https://meghan.rbind.io/blog/2022-06-28-a-beginners-guide-to-mixed-effects-models)
-
 ## Citations
-I use quarto to generate my website reports. Here are a couple of resources to do the same.  
 
-- [Zotero Citations Repository](https://www.zotero.org/styles){target="_blank"}  
-- 
+1. **Zotero Citations Repository**  
+   A collection of citation styles for use with Zotero, a free tool for managing references:  
+   [Zotero Citations Repository](https://www.zotero.org/styles)  
+   Use this to manage and generate citations for your research papers.
 
-[Watershed volunteering](https://youtu.be/65MAB0qRtAE?si=beO8jD5t5SOJzooF){target="_blank"}
+## Other 
+1. **<a href="https://youtu.be/65MAB0qRtAE?si=beO8jD5t5SOJzooF" target="_blank">Gallatin Watershed Volunteering Video</a>**  
+   Gracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at <a href="https://youtu.be/65MAB0qRtAE?t=42" target="_blank">0:43</a>!  
+    
 
-
-[Concious spending plan](https://www.iwillteachyoutoberich.com/c-conscious-spending-plan/)
+2. **<a href="https://www.iwillteachyoutoberich.com/c-conscious-spending-plan/" target="_blank">Concious Spending Plan</a>**  
+   A guide to creating a personal financial plan that prioritizes essential spending and savings. It is a useful resource for developing a budget that reflects your personal financial goals.

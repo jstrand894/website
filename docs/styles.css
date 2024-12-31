@@ -1,8 +1,5 @@
 /* css styles */
-/* Make the navbar text bold */
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
+
 
 /* Add hover to images */
 a:hover img {

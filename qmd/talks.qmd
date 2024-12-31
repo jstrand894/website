@@ -19,7 +19,7 @@ format:
   </a>  
 </div>
   <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Master's Thesis Defense</span></strong></span>  
- 
+  
   <p><strong>Title:</strong> The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids <p>
       <strong>Date:</strong> Monday, August 19, 2024  
       <strong>Location:</strong> 108 Plant Biosciences Building, Montana State University  

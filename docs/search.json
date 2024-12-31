@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Jackson R. Strand",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     Instagram\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ResearchGate\n  \n\n  \n  \n\n\n\nI am a PhD student in Ecology & Environmental Sciences at Montana State University, specializing in the biological control of invasive plants. My research focuses on using insect agents to manage yellow and dalmatian toadflax in Montana and South Dakota.\nI live in Bozeman with my wife Grace.\n\n\n MS Entomology - Montana State University\n BS Biology - University of Minnesota\n\n\n\nI am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management."
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     Instagram\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ResearchGate\n  \n\n  \n  \n\n\n\nI am a PhD student in Ecology and Environmental Sciences at Montana State University, where I specialize in the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.\nI live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.\n\n\n MS Entomology - Montana State University\n BS Biology - University of Minnesota"
   },
   {
     "objectID": "qmd/cv.html",
@@ -46,21 +46,21 @@
     "href": "qmd/helpful.html",
     "title": "Helpful Resources & Links",
     "section": "",
-    "text": "Guide to using R made by Jared Adam: One code to rule them all (┛ಠ_ಠ)┛彡O\nHelpful free tutorial for learning R Studio through Codecademy: Learn R with Codecademy\nLearn how to use R Markdown to create pdf and word outputs with your code: R Markdown Documentation\n\nNotes R Studio Graphing"
+    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
   },
   {
     "objectID": "qmd/helpful.html#r-studio",
     "href": "qmd/helpful.html#r-studio",
     "title": "Helpful Resources & Links",
     "section": "",
-    "text": "Guide to using R made by Jared Adam: One code to rule them all (┛ಠ_ಠ)┛彡O\nHelpful free tutorial for learning R Studio through Codecademy: Learn R with Codecademy\nLearn how to use R Markdown to create pdf and word outputs with your code: R Markdown Documentation\n\nNotes R Studio Graphing"
+    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
   },
   {
     "objectID": "qmd/helpful.html#quarto-website",
     "href": "qmd/helpful.html#quarto-website",
     "title": "Helpful Resources & Links",
     "section": "Quarto Website",
-    "text": "Quarto Website\n\nYouTube video on how to make a R Studio Quarto Website: How to create a web site using Quarto, RStudio, and GitHub Pages\n\n\n\n\n    \n    \n    How to create a web site using Quarto, RStudio, and GitHub Pages\n\n\n    \n    \n    \n\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
+    "text": "Quarto Website\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages:\nHow to Create a Web Site Using Quarto, RStudio, and GitHub Pages\nLearn how to integrate Quarto with GitHub Pages to host your site.\n\n\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
   },
   {
     "objectID": "qmd/helpful.html#github",
@@ -74,14 +74,14 @@
     "href": "qmd/helpful.html#r-statistics",
     "title": "Helpful Resources & Links",
     "section": "R Statistics",
-    "text": "R Statistics\nMixed Effects Models"
+    "text": "R Statistics\n\nMixed Effects Models"
   },
   {
     "objectID": "qmd/helpful.html#citations",
     "href": "qmd/helpful.html#citations",
     "title": "Helpful Resources & Links",
     "section": "Citations",
-    "text": "Citations\nI use quarto to generate my website reports. Here are a couple of resources to do the same.\n\nZotero Citations Repository\n\n\n\nWatershed volunteering\nConcious spending plan"
+    "text": "Citations\n\nZotero Citations Repository\nA collection of citation styles for use with Zotero, a free tool for managing references:\nZotero Citations Repository\nUse this to manage and generate citations for your research papers."
   },
   {
     "objectID": "index.html#about-me",
@@ -157,8 +157,8 @@
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Jackson R. Strand",
-    "section": "",
-    "text": "I am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management."
+    "section": "Research Interests",
+    "text": "Research Interests\nI am broadly interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.\nMy master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my thesis defense for more detailed findings.\n\n\n\n\n\n  \n  \n  Image Gallery\n  \n\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n  \n\n\n\n\n\n\n\n\n\n\n  You can view my CV contents below, or download my CV here:\n  \n    View my CV"
   },
   {
     "objectID": "index.html#another-section-of-information-about-me",
@@ -249,7 +249,7 @@
     "href": "index.html#co-hosted-events",
     "title": "Jackson R. Strand",
     "section": "Co-Hosted Events",
-    "text": "Co-Hosted Events\n\nStudent Organized Conferences\n\n2024 LRES-PSPP Student Research Symposium\nRole: Primary event organizer & emcee\nLocation: Montana State University, Bozeman, MT\nDate: April 18, 2024\nHyperlink: 2024 Symposium\n2023 LRES Colloquium\nRole: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 13, 2023\n2022 LRES Colloquium\nRole: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 29, 2022"
+    "text": "Co-Hosted Events\n\nStudent Organized Conferences\n\n2024 LRES-PSPP Student Research Symposium \nRole: Primary event organizer & emcee\nLocation: Montana State University, Bozeman, MT\nDate: April 18, 2024\nHyperlink: 2024 Symposium\n2023 LRES Colloquium  Role: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 13, 2023\n2022 LRES Colloquium  Role: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 29, 2022"
   },
   {
     "objectID": "index.html#section",
@@ -387,9 +387,9 @@
   {
     "objectID": "qmd/projects.html",
     "href": "qmd/projects.html",
-    "title": "Projects",
+    "title": "Jackson Strand",
     "section": "",
-    "text": "Description: This is an example project description.\nTechnologies Used: Quarto, R, Python\nRepository: GitHub Link\n\n\n\nDescription: This is another example project description.\nTechnologies Used: Quarto, JavaScript, HTML, CSS\nRepository: GitHub Link"
+    "text": "The Land Resources and Environmental Science (LRES) Graduate Student Organization (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.\nLRES GSO 2024 LRES-PSPP Student Research Symposium"
   },
   {
     "objectID": "qmd/projects.html#project-1-example-project",
@@ -409,8 +409,8 @@
     "objectID": "qmd/projects.html#lres-graduate-student-organization",
     "href": "qmd/projects.html#lres-graduate-student-organization",
     "title": "Jackson Strand",
-    "section": "LRES Graduate Student Organization",
-    "text": "LRES Graduate Student Organization\nLRES GSO 2024 LRES-PSPP Student Research Symposium\nThe Land Resources and Environmental Science (LRES) Graduate Student Organization (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses."
+    "section": "",
+    "text": "The Land Resources and Environmental Science (LRES) Graduate Student Organization (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.\nLRES GSO 2024 LRES-PSPP Student Research Symposium"
   },
   {
     "objectID": "qmd/projects.html#basketball-reference-tool",
@@ -439,5 +439,26 @@
     "title": "Jackson Strand",
     "section": "Basketball Roster Analysis Tool",
     "text": "Basketball Roster Analysis Tool\nFrom 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.\nView tool"
+  },
+  {
+    "objectID": "qmd/helpful.html#quarto-website-building",
+    "href": "qmd/helpful.html#quarto-website-building",
+    "title": "Helpful Resources & Links",
+    "section": "Quarto Website Building",
+    "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages. Learn how to integrate Quarto with GitHub Pages to host your site. How to Create a Web Site Using Quarto, RStudio, and GitHub Pages\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
+  },
+  {
+    "objectID": "qmd/helpful.html#other",
+    "href": "qmd/helpful.html#other",
+    "title": "Helpful Resources & Links",
+    "section": "Other",
+    "text": "Other\n\nGallatin Watershed Volunteering Video\nGracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at 0:43!\nConcious Spending Plan\nA guide to creating a personal financial plan that prioritizes essential spending and savings. It is a useful resource for developing a budget that reflects your personal financial goals."
+  },
+  {
+    "objectID": "index.html#research-interests-zzzzz",
+    "href": "index.html#research-interests-zzzzz",
+    "title": "Jackson R. Strand",
+    "section": "Research Interests zzzzz",
+    "text": "Research Interests zzzzz\nI am broadly interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.\nMy master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my thesis defense for more detailed findings.\n\n\n  You can view my CV contents below, or download my CV here:\n  \n    View my CV\n  \n\n\n\n\n\n\n\n\n  \n  \n  Image Gallery"
   }
 ]

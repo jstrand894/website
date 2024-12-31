@@ -1,0 +1,31 @@
+// Project Box Styles
+// This file contains the styles for the project boxes used in the website.
+
+/*-- scss:defaults --*/
+// Default variables and settings can be added here
+
+/*-- scss:mixins --*/
+// Mixins can be added here
+
+/*-- scss:functions --*/
+// Functions can be added here
+
+/*-- scss:rules --*/
+.projects-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px; // Adds space between the content and any following elements
+}
+
+.projects-image {
+    width: 250px;
+    margin-right: 20px; // Space between image and text
+}
+
+.projects-text {
+    font-size: 1rem; // Adjusts the text size as needed
+    line-height: 1.6; // Ensures good line spacing for readability
+}
+
+/*-- scss:uses --*/
+// Any @use or @import statements can be added here
