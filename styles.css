@@ -146,3 +146,37 @@ a:hover img {
     height: 20px;
     margin-right: 10px;
 }
+
+/* multi button */
+.multi-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0078d7; /* PowerPoint-like blue */
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.multi-btn:hover {
+  background-color: #005a9e; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.multi-btn:active {
+  background-color: #003f6b; /* Even darker shade for active effect */
+  transform: scale(1); /* Reset size on click */
+}
+
+.multi-btn img {
+  width: 20px; /* Adjust size of the icon */
+  height: 20px;
+  margin-right: 10px;
+}

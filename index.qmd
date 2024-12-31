@@ -202,6 +202,7 @@ My research focused on understanding how the ecological relationship between the
 
 <!-- PUBLICATIONS -->
 ## Publications
+<a class="btn-small" href="qmd/publications.qmd" role="button">Check out my "Pubilcations" page</a>  
 <div class="box">
 
 <ol reversed>
@@ -357,7 +358,8 @@ Online course taught by Dr. David Weaver
 
 ## Service
 <div class="box">
-<u>Peer Review Journal Activity</u>  
+
+<u>Peer Review Journal Activity</u>
 <div style="display: flex; align-items: center;">
   <div><a href="https://academic.oup.com/ee" target="_blank" style="text-decoration: none;">Journal of Environmental Entomology</a>
   </div>
@@ -420,8 +422,6 @@ Online course taught by Dr. David Weaver
   <div>2021 - Present</div>
 </div>
 </div>
-
-
 
 ## Co-Hosted Events
 <div class="box">
@@ -502,7 +502,7 @@ Online course taught by Dr. David Weaver
 </div>
 <div style="padding-right: 30px;">
 </div>
-
+<div style="height: 0.9em;"></div>
 </div>
 
 

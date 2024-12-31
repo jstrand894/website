@@ -54,6 +54,29 @@ format:
 </div> 
 </div>
 
+
+
+## 2025
+<!-- biocontrol 25 -->
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
+  <a href="https://naisma.org/programs/national-forum-on-biological-control-conference/" class="link-container" target="_blank">
+    <img src="pics/conferences/naisma25.png" alt="NISMA Conference" class="zoom-image" target="_blank"/>
+  </a>
+</div>
+  <div style="flex: 3;">
+  <a href="https://naisma.org/programs/national-forum-on-biological-control-conference/" class="event-link" target="_blank">
+    <strong><span class="event-text">NAISMA 2024</span></strong> <span class="event-text">| Annapolis, MD</span> 
+  </a>  
+  <p><strong>Title:</strong>Understanding Host Preference in *Mecinus janthinus* and *M. janthiniformis*: Implications of Hybridization for Effective Biological Control<p>
+      <strong>Date:</strong> April, 2025 
+      <!-- <strong>Time:</strong> 8:00 AM - 8:12 AM</p> -->
+  <!-- <div style="display: flex; justify-content: flex-end; margin-top: auto;"><a class="slides-btn" href="https://1drv.ms/p/c/af438b0dd68ebd20/EUz2MOL0_oFEgyw8SiSMvKcBjsqJ1-Flz8-U3xT4nCa3Wg?e=wmRNfc" target="_blank" role="button">View my slides</a> -->
+  </div>
+  </div>
+</div>
+
 ## 2024  
 <!-- ESA24 -->
 <div class="box">

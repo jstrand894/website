@@ -11,7 +11,8 @@ website:
   bread-crumbs: true
   favicon: img/aboutme/logo.png
   navbar:
-    background: light
+    background: dark
+    pinned: true
     search: true
     logo: img/aboutme/logo.png
     title: "Jackson Strand"
@@ -20,19 +21,22 @@ website:
         file: qmd/publications.qmd
       - text: "Talks & Presentations"
         file: qmd/talks.qmd
+      - text: "Projects"
+        file: qmd/projects.qmd
       - text: "Helpful Resources"
         file: qmd/helpful.qmd
       - text: "Photography"
         url: "https://jacksonstrandphoto.myportfolio.com"
         target: _blank
-    right: 
-      - href: index.qmd
-        text: About Me
+      
+    # right: 
+    #   - href: index.qmd
+    #     text: About Me
     tools:
       - icon: linkedin
         href: https://linkedin.com/in/jacksonstrand
-      - icon: instagram
-        href: https://www.instagram.com/jstrand894/
+      # - icon: instagram
+      #   href: https://www.instagram.com/jstrand894/
       - icon: github
         href: https://github.com/jstrand894/quarto_website
       - icon: envelope
@@ -40,7 +44,7 @@ website:
  
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2024, Jackson Strand"
+    left: "&copy; Copyright 2025, Jackson Strand"
 
 format:
   html:
