@@ -15,4 +15,8 @@ format: html
 
 ## Basketball Roster Analysis Tool
 
-From 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still work
+From 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.
+
+<a class="multi-btn" href="https://1drv.ms/x/c/af438b0dd68ebd20/ESC9jtYNi0MggK-vAwAAAAABir6-ypi99PhsXzTK0_DIjg?e=axLlSI" target="_blank" role="button">View tool</a>
+
+
