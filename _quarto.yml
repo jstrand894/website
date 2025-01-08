@@ -23,6 +23,8 @@ website:
         file: qmd/talks.qmd
       - text: "Projects"
         file: qmd/projects.qmd
+      - text: "In the Media"
+        file: qmd/media.qmd
       - text: "Helpful Resources"
         file: qmd/helpful.qmd
       - text: "Photography"

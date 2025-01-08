@@ -228,7 +228,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 
 <div style="display: flex; align-items: center;">
   <div><strong>
-    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank" class="award-text">Graduate Land Grant Excellence Award</a>
+    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank" class="award-text">Graduate Land Grant Excellence Award</a>($250)
   </strong></div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
