@@ -213,6 +213,26 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 
 <div class="box">
 
+<!-- Author Open Access Funds -->
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank"><strong>Open Access Author Fund</strong></a>($1,736)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University Library  
+- Funded the publication of <a href="https://doi.org/10.1093/jisesa/ieaf016" target="_blank" 
+   style="color: black; text-decoration: none;" 
+   onmouseover="this.style.fontStyle='italic'; this.style.color='steelblue'; this.style.textDecoration='none';" 
+   onmouseout="this.style.fontStyle='italic'; this.style.color='black'; this.style.textDecoration='none';">
+    *Strand et al. 2025*
+</a>
+</div>
+
+
+
 <!-- Land Grant Excellence -->
 <div style="display: flex; align-items: center;">
   <div><strong>
