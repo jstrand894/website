@@ -12,7 +12,7 @@ title: Publications
   <div style="flex: 3;"><strong><span style="font-size: 1.2em;">Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome</strong></span>  
   **Authors:** Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver  
   **Journal:** Insect Science  
-  **DOI:** in review</a>
+  **DOI:** <a href="https://doi.org/10.1093/jisesa/ieaf016" target="_blank">10.1093/jisesa/ieaf016</a>
   </div>
 </div>
 </div>
