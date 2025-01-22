@@ -201,7 +201,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 
 <ol reversed>
     <li style="margin-bottom: 1em;">
-        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. (*in review*)
+        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. DOI: <a href="https://doi.org/10.1093/jisesa/ieaf016">10.1093/jisesa/ieaf016</a>
     </li>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. DOI: <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
