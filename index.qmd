@@ -344,7 +344,9 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
     <li style="margin-bottom: 1em;">
         <u>Sing SE</u>, Ward SM, Peterson RKD, **Strand JR**, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.
     </li>
-    <!-- Other entries here -->
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>. 2024. How smooth brome and parasitoids can aid in the biological control of wheat stem sawfly. Montana Wheat and Barley Committee - March Madness. Montana State University, Bozeman, MT.
+    </li>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. **Second place in section**.
     </li>
