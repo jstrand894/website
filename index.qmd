@@ -329,7 +329,8 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 <span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
  | **bold** = me
 <div class="box">
-<u>Contributed presentations at scientific meetings</u>  
+Contributed presentations at scientific meetings  
+
 <ol reversed>
     <li style="margin-bottom: 1em;">
         SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in
@@ -366,7 +367,8 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 
 
 
-<u>Workshops</u>
+Workshops  
+
 <ol reversed>
     <li style="margin-bottom: 1em;">
         Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana
