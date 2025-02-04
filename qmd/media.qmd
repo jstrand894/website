@@ -1,9 +1,86 @@
 ---
 title: "In the Media"
 ---
+# 2025
 
-I was featured in an article about my mater's project:
-- <a href="https://www.montana.edu/news/24230" target="_blank">Montana State graduate students publish new explorations of wheat stem sawfly management</a>  
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
+  <a href="https://www.montana.edu/gradschool/graduatestudentsuccessstories.html#latest-story" target="_blank" class="link-container">
+    <img src="pics/Jackson_Strand_1-29-25.jpg" 
+     alt="Graduate Student Success Stories" 
+     class="zoom-image square-image"/>
+  </a>  
+</div> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Graduate Student Success Stories</span></strong></span> 
+  
+  <p> I was featured on Montana State University's Gradaute School website! <p>  
 
-My photograpy was featured in an article about Locoweed
-- <a href="https://www.montana.edu/extension/invasiveplants/extension/monthly-weed-posts/2024-december-locoweed.html" target="_blank">December Weed Post</a>  
+  You can read it <a href="https://www.montana.edu/gradschool/graduatestudentsuccessstories.html#latest-story" target="_blank">here</a> (scroll to the bottom)
+
+</div> 
+</div>
+</div>
+
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
+  <a href="https://www.facebook.com/MTwheatbarley/posts/636268242271770?ref=embed_post" target="_blank" class="link-container">
+    <img src="pics/ovipositor_mwbc.jpg" 
+     alt="Graduate Student Success Stories" 
+     class="zoom-image square-image"/>
+  </a>  
+</div> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana Wheat and Barley Committee Facebook Post</span></strong></span> 
+  
+  <p> I co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee (along with Dr. Robert Peterson and Dr. David Weaver). I also took the picture of the ovipositor for their post.   
+
+  You can read it <a href="https://www.facebook.com/MTwheatbarley/posts/636268242271770?ref=embed_post" target="_blank">here</a>
+
+</div> 
+</div>
+</div>
+
+# 2024
+
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
+  <a href="https://www.montana.edu/extension/invasiveplants/extension/monthly-weed-posts/2024-december-locoweed.html" target="_blank" class="link-container">
+    <img src="pics/Dec-bee-locoweed.jpg" 
+     alt="Bee on Locoweed" 
+     class="zoom-image square-image"/>
+  </a>  
+</div> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">How locoweeds host a fungus that makes them toxic to livestock, but don’t seem to care</span></strong></span> 
+  
+  <p> My photograpy was featured in an article about Locoweed.<p>  
+
+  You can read the full article <a href="https://www.montana.edu/extension/invasiveplants/extension/monthly-weed-posts/2024-december-locoweed.html" target="_blank">here</a>
+
+</div> 
+</div>
+</div>
+ 
+
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
+  <a href="https://www.montana.edu/news/24230" target="_blank" class="link-container">
+    <img src="pics/wheat_article.jpg" 
+     alt="Wheat Sawfly" 
+     class="zoom-image square-image"/>
+  </a>  
+</div> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana State graduate students publish new explorations of wheat stem sawfly management</span></strong></span> 
+  
+  <p> Lochlin and I were featured in an article about our master's projects at MSU.<p>  
+
+  You can read the full article <a href="https://www.montana.edu/news/24230" target="_blank">here</a>
+
+</div> 
+</div>
+</div>
+
+
+

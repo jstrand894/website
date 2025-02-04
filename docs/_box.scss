@@ -36,3 +36,18 @@ $link-color:  steelblue !default;
     flex-direction: column;
 }
 
+.box-media {
+    @extend .box;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Spread items across the container */
+    gap: 20px; /* Space between text and iframe */
+}
+
+.box-media-text {
+    flex: 1; /* Allow text to take available space */
+}
+
+.box-media-embed {
+    flex-shrink: 0; /* Prevent the embedded post from shrinking */
+}
