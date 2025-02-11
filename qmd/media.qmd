@@ -12,7 +12,7 @@ title: "In the Media"
      class="zoom-image square-image"/>
   </a>  
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Graduate Student Success Stories</span></strong></span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Graduate Student Success Stories</span></strong><br><span style="font-size: 0.85em; color: gray;">January, 2025</span>
   
   <p> I was featured on Montana State University's Gradaute School website! <p>  
 
@@ -31,7 +31,7 @@ title: "In the Media"
      class="zoom-image square-image"/>
   </a>  
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana Wheat and Barley Committee Facebook Post</span></strong></span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana Wheat and Barley Committee Facebook Post</span></strong><br><span style="font-size: 0.85em; color: gray;">January, 2025</span> 
   
   <p> I co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee (along with Dr. Robert Peterson and Dr. David Weaver). I also took the picture of the ovipositor for their post.   
 
@@ -40,8 +40,6 @@ title: "In the Media"
 </div> 
 </div>
 </div>
-
-# 2024
 
 <div class="box">
 <div style="display: flex; margin-bottom: 0px;">
@@ -52,7 +50,7 @@ title: "In the Media"
      class="zoom-image square-image"/>
   </a>  
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana State graduate students publish new explorations of wheat stem sawfly management</span></strong></span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana State graduate students publish new explorations of wheat stem sawfly management</span></strong><br><span style="font-size: 0.85em; color: gray;">January, 2025</span> 
   
   <p> Lochlin and I were featured in an article about our master's projects at MSU.<p>  
 
@@ -61,6 +59,8 @@ title: "In the Media"
 </div> 
 </div>
 </div>
+
+# 2024
 
 <div class="box">
 <div style="display: flex; margin-bottom: 0px;">
@@ -71,7 +71,7 @@ title: "In the Media"
      class="zoom-image square-image"/>
   </a>  
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">How locoweeds host a fungus that makes them toxic to livestock, but don’t seem to care</span></strong></span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">How locoweeds host a fungus that makes them toxic to livestock, but don’t seem to care</span></strong><br><span style="font-size: 0.85em; color: gray;">December, 2024</span>
   
   <p> My photograpy was featured in an article about Locoweed.<p>  
 
@@ -81,7 +81,7 @@ title: "In the Media"
 </div>
 </div>
  
- <div class="box">
+<div class="box">
 <div style="display: flex; margin-bottom: 0px;">
   <div style="flex: 1; margin-right: 15px;">
   <a href="https://www.researchgate.net/publication/385621614_Wheat_Stem_Sawfly_Best_Management_Practices?channel=doi&linkId=672ccec02326b47637cf7fe9&showFulltext=true" target="_blank" class="link-container">
@@ -90,7 +90,7 @@ title: "In the Media"
      class="zoom-image square-image"/>
   </a>  
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Wheat Stem Sawfly - Best Managment Practices</span></strong></span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Wheat Stem Sawfly - Best Managment Practices</span></strong><br><span style="font-size: 0.85em; color: gray;">September, 2024</span> 
   
   <p> My photography was used on the cover of an MSU Extension brochure discussing the best management practices for wheat stem sawfly. <p>  
 
@@ -101,6 +101,24 @@ title: "In the Media"
 </div>
 
 
+# 2023
 
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
+  <a href="https://youtu.be/yTCnDCONNmA?si=0ARRyzjTDhowzWbQ" target="_blank" class="link-container">
+    <img src="pics/wss_video_cover.png" 
+     alt="Wheat Sawfly" 
+     class="zoom-image square-image"/>
+  </a> 
+</div> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">2023 Multi-State Wheat Stem Sawfly Survey</span></strong><br><span style="font-size: 0.85em; color: gray;">June, 2023</span> 
+   
+  <p> David, Lochlin, and I made this short instructional video on how to survey a field for wheat stem sawfly damage. I acted in, filmed, and produced.<p>  
 
+  You can watch the full video <a href="https://youtu.be/yTCnDCONNmA?si=0ARRyzjTDhowzWbQ" target="_blank">here</a>
+
+</div> 
+</div>
+</div>
 
