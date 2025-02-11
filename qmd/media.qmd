@@ -46,6 +46,25 @@ title: "In the Media"
 <div class="box">
 <div style="display: flex; margin-bottom: 0px;">
   <div style="flex: 1; margin-right: 15px;">
+  <a href="https://www.montana.edu/news/24230" target="_blank" class="link-container">
+    <img src="pics/wheat_article.jpg" 
+     alt="Wheat Sawfly" 
+     class="zoom-image square-image"/>
+  </a>  
+</div> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana State graduate students publish new explorations of wheat stem sawfly management</span></strong></span> 
+  
+  <p> Lochlin and I were featured in an article about our master's projects at MSU.<p>  
+
+  You can read the full article <a href="https://www.montana.edu/news/24230" target="_blank">here</a>
+
+</div> 
+</div>
+</div>
+
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+  <div style="flex: 1; margin-right: 15px;">
   <a href="https://www.montana.edu/extension/invasiveplants/extension/monthly-weed-posts/2024-december-locoweed.html" target="_blank" class="link-container">
     <img src="pics/Dec-bee-locoweed.jpg" 
      alt="Bee on Locoweed" 
@@ -62,25 +81,26 @@ title: "In the Media"
 </div>
 </div>
  
-
-<div class="box">
+ <div class="box">
 <div style="display: flex; margin-bottom: 0px;">
   <div style="flex: 1; margin-right: 15px;">
-  <a href="https://www.montana.edu/news/24230" target="_blank" class="link-container">
-    <img src="pics/wheat_article.jpg" 
+  <a href="https://www.researchgate.net/publication/385621614_Wheat_Stem_Sawfly_Best_Management_Practices?channel=doi&linkId=672ccec02326b47637cf7fe9&showFulltext=true" target="_blank" class="link-container">
+    <img src="pics/wss_cover_extension.png" 
      alt="Wheat Sawfly" 
      class="zoom-image square-image"/>
   </a>  
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Montana State graduate students publish new explorations of wheat stem sawfly management</span></strong></span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Wheat Stem Sawfly - Best Managment Practices</span></strong></span> 
   
-  <p> Lochlin and I were featured in an article about our master's projects at MSU.<p>  
+  <p> My photography was used on the cover of an MSU Extension brochure discussing the best management practices for wheat stem sawfly. <p>  
 
-  You can read the full article <a href="https://www.montana.edu/news/24230" target="_blank">here</a>
+  You can read the full brochure <a href="https://www.researchgate.net/publication/385621614_Wheat_Stem_Sawfly_Best_Management_Practices?channel=doi&linkId=672ccec02326b47637cf7fe9&showFulltext=true" target="_blank">here</a>
 
 </div> 
 </div>
 </div>
+
+
 
 
 
