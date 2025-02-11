@@ -112,7 +112,7 @@ title: "In the Media"
      class="zoom-image square-image"/>
   </a> 
 </div> 
-  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">2023 Multi-State Wheat Stem Sawfly Survey</span></strong><br><span style="font-size: 0.85em; color: gray;">June, 2023</span> 
+  <div style="flex: 3;"><strong><span style="font-size: 1.5em;">2023 Multi-State Wheat Stem Sawfly Survey</span></strong><br><span style="font-size: 0.85em; color: gray;">June, 2023</span>  
    
   <p> David, Lochlin, and I made this short instructional video on how to survey a field for wheat stem sawfly damage. I acted in, filmed, and produced.<p>  
 
