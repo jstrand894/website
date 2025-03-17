@@ -36,7 +36,7 @@ toc: true
 ::: {#about-block}
 <!-- <span style="font-size: 35px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span>   -->
 # Jackson R. Strand
-I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I specialize in the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.  
+I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I focus on applied entomology, ecology, and the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.  
 
 I live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.
 
@@ -48,9 +48,9 @@ I live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.
 <br>  
 
 ## Research Interests
-I am broadly interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.
+I am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.
  
-My master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis defense](qmd/talks.qmd) for more detailed findings.
+My master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis](https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content) or my [thesis defense recording](qmd/talks.qmd) for more information.
 
 <br>
 
@@ -175,6 +175,14 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 ## Education  
 <div class="box">
 <div style="display: flex; align-items: center;">
+  <div><strong>PhD Ecology & Environmental Science</strong> - <span style="font-style: italic;">Montana State University</span></div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2024 - present</div>
+</div>
+- Graduate Committee: Dr. Robert Peterson (chair), Dr. Sharlene Sing, Dr. William Wetzel, Dr. David Weaver
+
+<div style="display: flex; align-items: center;">
   <div><strong>MS Entomology</strong> - <span style="font-style: italic;">Montana State University</span></div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -207,13 +215,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
         <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
     </li>
 </ol>
-</div>
-
-Non-Technical Publications  
-
-
-
-
+</div> 
 
 ## Honors & Awards
 
@@ -373,7 +375,14 @@ Contributed presentations at scientific meetings
     </li>
 </ol>
 
+Invited Guest Lectures
 
+<ol reversed>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Instructor: Will Wetzel. March 2025.
+    </li>
+
+</ol>
 
 Workshops  
 
@@ -458,7 +467,8 @@ Online course taught by Dr. David Weaver
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2021 - Present</div>
-</div>
+</div>  
+<br>
 </div>
 
 ## Co-Hosted Events
