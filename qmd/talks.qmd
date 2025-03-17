@@ -9,6 +9,8 @@ format:
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> 
 ---
 
+You can view all my given talks below. You can view a more condensed list of my given talks on my "about me" page.
+
 ## <span class="fa fa-thumbtack"></span> Pinned
 <!-- ## Defense -->
 <div class="box">
