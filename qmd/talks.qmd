@@ -3,7 +3,6 @@ layout: page
 title: Talks & Presentations
 format:
   html:
-    theme: default
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> 
@@ -64,17 +63,17 @@ You can view all my given talks below. You can view a more condensed list of my 
 <div style="display: flex; margin-bottom: 0px;">
   <div style="flex: 1; margin-right: 15px;">
   <a href="https://naisma.org/programs/national-forum-on-biological-control-conference/" class="link-container" target="_blank">
-    <img src="pics/conferences/naisma25.png" alt="NISMA Conference" class="zoom-image" target="_blank"/>
+    <img src="pics/conferences/naisma25.png" alt="NFBC 2025" class="zoom-image" target="_blank"/>
   </a>
 </div>
   <div style="flex: 3;">
   <a href="https://naisma.org/programs/national-forum-on-biological-control-conference/" class="event-link" target="_blank">
-    <strong><span class="event-text">NAISMA 2024</span></strong> <span class="event-text">| Annapolis, MD</span> 
+    <strong><span class="event-text">NFBC 2025</span></strong> <span class="event-text">| Annapolis, MD</span> 
   </a>  
-  <p><strong>Title:</strong>Understanding Host Preference in *Mecinus janthinus* and *M. janthiniformis*: Implications of Hybridization for Effective Biological Control<p>
-      <strong>Date:</strong> April, 2025 
-      <!-- <strong>Time:</strong> 8:00 AM - 8:12 AM</p> -->
-  <!-- <div style="display: flex; justify-content: flex-end; margin-top: auto;"><a class="slides-btn" href="https://1drv.ms/p/c/af438b0dd68ebd20/EUz2MOL0_oFEgyw8SiSMvKcBjsqJ1-Flz8-U3xT4nCa3Wg?e=wmRNfc" target="_blank" role="button">View my slides</a> -->
+  <p>National Forum on Biological Control</p>  
+  <p><strong>Title:</strong> Understanding Host Preference in *Mecinus janthinus* and *M. janthiniformis*: Implications of Hybridization for Effective Biological Control<p>
+      <strong>Date:</strong> April 15, 2025 
+  <div style="display: flex; justify-content: flex-end; margin-top: auto;"><a class="slides-btn" href="https://drive.google.com/file/d/17U7s5vnfRguPi5sBfNoev-YG2IjkRB2G/view?usp=share_link" target="_blank" role="button">View my slides</a>
   </div>
   </div>
 </div>
@@ -113,7 +112,7 @@ You can view all my given talks below. You can view a more condensed list of my 
   <div style="flex: 3;"><strong><span style="font-size: 1.5em;">Master's Thesis Defense</span></strong></span>  
  
   <p><strong>Title:</strong> The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids <p>
-      <strong>Location:</strong> 108 Plant Biosciences Building, Montana State University
+      <strong>Location:</strong> 108 Plant Biosciences Building, Montana State University  
       <strong>Date:</strong> Monday, August 19, 2024    
       <strong>Time:</strong> 8:30 AM - 9:30 AM</p> 
   

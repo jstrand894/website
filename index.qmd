@@ -32,7 +32,6 @@ about:
 toc: true
 ---
 
-
 ::: {#about-block}
 <!-- <span style="font-size: 35px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span>   -->
 # Jackson R. Strand
@@ -40,21 +39,14 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 
 I live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.
 
-### <u>Education</u>
-<img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **PhD** - Ecology & Environmental Science (Current)
+### Education
+<img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **PhD** - Ecology & Environmental Science 
 
-<img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **MS** - Entomology (2024) 
+<img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **MS** - Entomology
 
-<img src="qmd/logos/umn.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **BS** - Biology (2017)
+<img src="qmd/logos/umn.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **BS** - Biology
 :::
 <br>  
-
-## Research Interests
-I am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.
- 
-My master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis](https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content) or my [thesis defense recording](qmd/talks.qmd) for more information.
-
-<br>
 
 <!-- pictures below about me -->
 ```{=html}
@@ -161,17 +153,26 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 </html>
 
 ```
+<br>
+
+## Research Interests
+I am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.
+ 
+My master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like <i>Bracon cephi</i> and <i>B. lissogaster</i>. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis](https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content) or my [thesis defense recording](qmd/talks.qmd) for more information.
+
+
+
 
 <!-- ![Me and Grace at Glacier National Park, 2023](img/aboutme/iceberg.JPG)   -->
 <!--- button for CV download--->
-```{=html}
+<!-- ```{=html}
 <div style="margin: 30px; text-align: center; display: flex; align-items: center; justify-content: center;">
   <span style="margin-right: 15px;">You can view my CV contents below, or download my CV here:</span>
   <a class="btn-primary" href="qmd/cv.qmd" role="button">
     View my CV
   </a>
 </div>
-```
+``` -->
 
 
 ## Education  
@@ -182,7 +183,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2024 - present</div>
 </div>
-- Graduate Committee: Dr. Robert Peterson (chair), Dr. Sharlene Sing, Dr. William Wetzel, Dr. David Weaver
+- Graduate Committee: Dr. Robert Peterson (co-chair), Dr. Sharlene Sing (co-chair), Dr. William Wetzel, Dr. David Weaver
 
 <div style="display: flex; align-items: center;">
   <div><strong>MS Entomology</strong> - <span style="font-style: italic;">Montana State University</span></div>
@@ -191,6 +192,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
   <div>2021 - 2024</div>
 </div>
 - Graduate Committee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson
+- Graduate Certificate in Applied Statistics
 
 
 <div style="display: flex; align-items: center;">
@@ -241,9 +243,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
 </a>
 </div>
 
-
-
-<!-- Land Grant Excellence -->
+<!-- NFBC Conference 2025 -->
 <div style="display: flex; align-items: center;">
   <div><strong>
     <a href="https://naisma.org/event/national-forum-on-biological-control-conference/" target="_blank">NAISMA 2025 Student Scholarship</a>
@@ -253,7 +253,7 @@ My master’s thesis with Dr. David Weaver focused on the agroecological role of
   <div>2025</div>
 </div>
 <div style="padding-right: 30px;">
-- National Forum on Biological Control
+- National Forum on Biological Control, Annapolis, MD
 </div>
 
 <div style="display: flex; align-items: center;">
@@ -342,11 +342,9 @@ Contributed presentations at scientific meetings
 
 <ol reversed>
     <li style="margin-bottom: 1em;">
-        SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in
-        Biological Control: Behavioral and Electrophysiological Responses of <i>Mecinus janthinus</i> and <i>M. janthiniformis</i> to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)
-    </li>
+        SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Understanding Host Preference in <i>Mecinus janthinus</i> and <i>M. janthiniformis</i>: Implications of Hybridization for Effective Biological Control. National Forum on Biological Control Conference. Annapolis, MD. 
     <li style="margin-bottom: 1em;">
-        Strand JR, <u>Sterling TM</u>, Peterson RKD, Weaver DK. 2025. Agroecological Importance of Smooth Brome in Hosting Braconid Parasitoids Associated with the Insect Pest Wheat Stem Sawfly. 2025. Annual Meeting of the Western Society of Weed Science. Seattle, WA. (poster)
+        Strand JR, <u>Sterling TM</u>, Peterson RKD, Weaver DK. 2025. Agroecological Importance of Smooth Brome in Hosting Braconid Parasitoids Associated with the Insect Pest Wheat Stem Sawfly. Annual Meeting of the Western Society of Weed Science. Seattle, WA. (poster)
     </li>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ. 
@@ -417,6 +415,15 @@ Online course taught by Dr. David Weaver
   <div>2024 - Present</div>
 </div>
 
+<div style="display: flex; align-items: center;">
+  <div><a href="https://academic.oup.com/etc" target="_blank" style="text-decoration: none;">Journal of Environmental Toxicology and Chemistry</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025 - Present</div>
+</div>
+
+
 <br>
 <u>Society Memberships</u>
 <div style="display: flex; align-items: center;">
@@ -481,23 +488,39 @@ Online course taught by Dr. David Weaver
 
 ## Co-Hosted Events
 <div class="box">
-**Student Organized Conferences**
+<strong>Student Organized Conferences</strong>
 
-1. **2024 LRES-PSPP Student Research Symposium **  
-    Role: Primary event organizer & emcee  
+<ol reversed>
+  <li>
+    <strong>LEPS 2025</strong><br>
+    Role: Chair  
     Location: Montana State University, Bozeman, MT  
-    Date: April 18, 2024  
-    Hyperlink: [2024 Symposium](https://lres-research-symposium.weebly.com/?c=mkt_w_chnl:aff_geo:all_prtnr:sas_subprtnr:1538097_camp:brand_adtype:txtlnk_ag:weebly_lptype:hp_var:358504&sscid=61k8_2eb95&utm_source=ShareASale){target="_blank"}
-    
-2. **2023 LRES Colloquium**  
-    Role: Treasurer  
-    Location: Montana State University, Bozeman, MT  
+    Date: April 7, 2025  
+    Event website: <a href="https://leps2025.weebly.com" target="_blank">LEPS 2025</a>
+  </li>
+  <br>
+  <li>
+    <strong>2024 LRES-PSPP Student Research Symposium</strong><br>
+    Role: Chair & event emcee<br>
+    Location: Montana State University, Bozeman, MT<br>
+    Date: April 18, 2024<br>
+    Hyperlink: <a href="https://lres-research-symposium.weebly.com/?c=mkt_w_chnl:aff_geo:all_prtnr:sas_subprtnr:1538097_camp:brand_adtype:txtlnk_ag:weebly_lptype:hp_var:358504&sscid=61k8_2eb95&utm_source=ShareASale" target="_blank">2024 Symposium</a>
+  </li>
+  <br>
+  <li>
+    <strong>2023 LRES Colloquium</strong><br>
+    Role: Treasurer<br>
+    Location: Montana State University, Bozeman, MT<br>
     Date: April 13, 2023
-    
-3. **2022 LRES Colloquium**  
-    Role: Treasurer  
-    Location: Montana State University, Bozeman, MT  
+  </li>
+  <br>
+  <li>
+    <strong>2022 LRES Colloquium</strong><br>
+    Role: Treasurer<br>
+    Location: Montana State University, Bozeman, MT<br>
     Date: April 29, 2022
+  </li>
+</ol>
 </div>
 
 
