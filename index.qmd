@@ -190,6 +190,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
 - Graduate Committee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson
 - Graduate Certificate in Applied Statistics
+- This is a change to issue 1
 
 
 <div style="display: flex; align-items: center;">
