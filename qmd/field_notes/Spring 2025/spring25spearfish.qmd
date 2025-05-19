@@ -1,6 +1,6 @@
 ---
 title: "South Dakota Trip (Spearfish) - Spring 2025"
-date: 2025-05-19
+date: 2025-05-12
 format:
   html:
     include-in-header:

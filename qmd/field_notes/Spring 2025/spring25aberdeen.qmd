@@ -1,6 +1,6 @@
 ---
 title: "South Dakota Trip (Aberdeen) - Spring 2025"
-date: 2025-05-19
+date: 2025-05-14
 format:
   html:
     include-in-header:
