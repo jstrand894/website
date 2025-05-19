@@ -1,0 +1,14 @@
+---
+title: "Toadflax Biocontrol Field Journal"
+listing: default
+page-layout: article
+format:
+  html:
+    toc: true
+    include-in-header:
+      - text: |
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+---
+Welcome to my field journal. I use this space to document all field related activites for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.   
+
+<!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->

@@ -30,6 +30,8 @@ website:
       - text: "Photography"
         url: "https://jacksonstrandphoto.myportfolio.com"
         target: _blank
+      - text: "Field Journal"
+        file: qmd/field_notes/fieldjournal.qmd
       
     # right: 
     #   - href: index.qmd

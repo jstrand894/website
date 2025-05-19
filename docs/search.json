@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "field_notes/Spring 2025/spring25.html",
+    "href": "field_notes/Spring 2025/spring25.html",
+    "title": "My First Post",
     "section": "",
-    "text": "About this site"
+    "text": "Today I watched a Rhinusa oviposit into a scorched toadflax stem."
   },
   {
     "objectID": "index.html",
@@ -14,137 +14,11 @@
     "text": "LinkedIn\n  \n  \n    \n     Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     Instagram\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ResearchGate\n  \n\n  \n  \n\n\n\nI am a PhD student in Ecology and Environmental Sciences at Montana State University, where I focus on applied entomology, ecology, and the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.\nI live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.\n\n\n MS - Entomology\n BS - Biology"
   },
   {
-    "objectID": "qmd/cv.html",
-    "href": "qmd/cv.html",
-    "title": "Cirriculum vitae",
-    "section": "",
-    "text": "Download \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nDownload File Button"
-  },
-  {
-    "objectID": "qmd/aboutme.html",
-    "href": "qmd/aboutme.html",
-    "title": "Jackson Strand",
-    "section": "",
-    "text": ":::{#me}\nI am currently a Master’s graduate student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace."
-  },
-  {
-    "objectID": "qmd/aboutme.html#education",
-    "href": "qmd/aboutme.html#education",
-    "title": "Jackson Strand",
-    "section": "Education",
-    "text": "Education\nBA Biology, 2013-2017 - University of Minnesota - Twin Cities\nMSc Entomology, 2021-2024 - Montana State University"
-  },
-  {
-    "objectID": "qmd/index cv.html",
-    "href": "qmd/index cv.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
-  },
-  {
-    "objectID": "qmd/helpful.html",
-    "href": "qmd/helpful.html",
-    "title": "Helpful Resources & Links",
-    "section": "",
-    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
-  },
-  {
-    "objectID": "qmd/helpful.html#r-studio",
-    "href": "qmd/helpful.html#r-studio",
-    "title": "Helpful Resources & Links",
-    "section": "",
-    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
-  },
-  {
-    "objectID": "qmd/helpful.html#quarto-website",
-    "href": "qmd/helpful.html#quarto-website",
-    "title": "Helpful Resources & Links",
-    "section": "Quarto Website",
-    "text": "Quarto Website\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages:\nHow to Create a Web Site Using Quarto, RStudio, and GitHub Pages\nLearn how to integrate Quarto with GitHub Pages to host your site.\n\n\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
-  },
-  {
-    "objectID": "qmd/helpful.html#github",
-    "href": "qmd/helpful.html#github",
-    "title": "Helpful Resources & Links",
-    "section": "GitHub",
-    "text": "GitHub\n\nA guide to using GitHub created by Callum Arnold: Introduction to Git and GitHub"
-  },
-  {
-    "objectID": "qmd/helpful.html#r-statistics",
-    "href": "qmd/helpful.html#r-statistics",
-    "title": "Helpful Resources & Links",
-    "section": "R Statistics",
-    "text": "R Statistics\n\nMixed Effects Models"
-  },
-  {
-    "objectID": "qmd/helpful.html#citations",
-    "href": "qmd/helpful.html#citations",
-    "title": "Helpful Resources & Links",
-    "section": "Citations",
-    "text": "Citations\n\nZotero Citations Repository\nA collection of citation styles for use with Zotero, a free tool for managing references:\nZotero Citations Repository\nUse this to manage and generate citations for your research papers."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Jackson Strand",
-    "section": "About me",
-    "text": "About me\nI am currently a PhD candidate at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace.\nMy Research Interests\nI am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management.\nMontana State University - MS Entomology\nMy research focused on understanding how the ecological relationship between the wheat stem sawfly (Cephus cinctus) and two native biocontrol parasitoids (Bracon cephi and Bracon lissogaster) are impacted by smooth brome (Bromis inermis). My project includes field sites in southwest, central, and northern Montana, as well as volatile organic compound analysis of greenhouse-grown smooth brome and winter wheat.\n\n\n\n\n  \n  \n  Image Gallery"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
     "title": "Jackson R. Strand",
-    "section": "",
-    "text": "M.S. Entomology\nMontana State University\nB.S. Biology\nUniversity of Minnesota\n\n\nI am broadly interested in how insects impact the lives of humans and how we can better utilize them to positively impact modern issues such as crop yield, climate change, and waste management."
-  },
-  {
-    "objectID": "index.html#research-experience",
-    "href": "index.html#research-experience",
-    "title": "Jackson R. Strand",
-    "section": "Research Experience",
-    "text": "Research Experience\n\n\n\nMontana State University\n\n\n2021-Present\n\n\n\n\nUnderstanding ecological importance of smooth brome (Bromus inermis) in biological control of wheat stem sawfly (Cephus cinctus) using native braconid parasitoids.\n\nField work collecting smooth brome and winter wheat samples from southwest, central, and northern Montana.\nControlled wheat stem safwly infestation of smooth brome using insect netting and PVC cages.\nCollection of volatile organic compounds (VOCs) using greenhouse volatile collection system.\nGas chromatography - mass spectroscopy (GCMS) run on VOC samples, data processed and analyzed using RStudio.\nElectroantennogram - Flame Ionization Detector (EAD-FID) run on parasitoids to measure response to smooth brome and winter wheat VOCs.\n\nLocoweed\n\nCollected VOCs from greenhouse and field Oxytropis sericea specimens using greenhouse volatile collection system and push-pull field volatile collection system.\nGCMS run on VOC samples, data processed and analyzed using RStudio.\n\nBiocontrol of Salt Cedar (Tamarix ramosissima) using subtropical tamarisk beetle (Diorhabda sublineata) in eastern Montana.\n\nField work setting up insect cages on large salt cedar plants in central Montana.\nCollected salt cedar plants using pulaski from south central Montana."
-  },
-  {
-    "objectID": "index.html#teaching-experience",
-    "href": "index.html#teaching-experience",
-    "title": "Jackson R. Strand",
-    "section": "Teaching Experience",
-    "text": "Teaching Experience\n\n\n\nTA for graduate/undergraduate level integrated pest management course\n\n\nFall 2023\n\n\n\n\nCommunicated weekly reading schedule and discussions to students.\nPartook in online discussion on topics from class.\nWas the immediate/primary contact for students."
-  },
-  {
-    "objectID": "index.html#employment-history",
-    "href": "index.html#employment-history",
-    "title": "Jackson R. Strand",
-    "section": "Employment History",
-    "text": "Employment History\n\n\n\n\n Pace Analytical - Onsite at 3M - Regulatory IT Analyst\n\n\n\n\n\n2017 - 2021\n\n\n\n(Maplewood, MN)\n\n\n\nProvided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n\n\nIntegrated, tested, and supported user and data interface between CDMS and SAP.\n\n\nGenerated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.\n\n\n\n\n\n Metropolitan Mosquito Control District - Seasonal Mosquito Technician\n\n\n\n\n\n2017\n\n\n\n(Oakdale, MN)\n\n\n\nWorked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.\n\n\nIndependently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.\n\n\n\n\n\n Leatherdale Equin Center - Barn Maintenance Crew\n\n\n\n\n\n\n2015 - 2017\n\n\n\n\n\n(St. Paul, MN)\n\n\n\nMaintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.\n\n\nTrained and managed new members of the crew.\n\n\n\n\n\n Minnesota Youth Soccer Association - Youth Soccer Referee\n\n\n\n\n\n\n2010 - 2021"
-  },
-  {
-    "objectID": "index.html#honors-awards",
-    "href": "index.html#honors-awards",
-    "title": "Jackson R. Strand",
-    "section": "Honors & Awards",
-    "text": "Honors & Awards\n\n\n\n\nAngus and Anne McMiillan Family Agriculture Scholarship ($1,200)\n\n\n\n\n\n\n2025\n\n\n\n\nMontana State University \n\n\n\n\n\nOpen Access Author Fund($1,736)\n\n\n\n\n\n\n2025\n\n\n\n\nMontana State University Library\n\nFunded the publication of  Strand et al. 2025 \n\n\n\n\n\n NAISMA 2025 Student Scholarship \n\n\n\n\n\n\n2025\n\n\n\n\nNational Forum on Biological Control, Annapolis, MD\n\n\n\n\n Graduate Land Grant Excellence Award\n\n\n\n\n\n\n2024\n\n\n\n\nThe Graduate School, Montana State University\n\n\n\n\n\nOpen Access Author Fund($3,296)\n\n\n\n\n\n\n2023\n\n\n\n\nMontana State University Library\n\nFunded the publication of  Strand et al. 2024 \n\n\n\n\n President’s Prize - 2nd Place Speaker \n\n\n\n\n\n2023\n\n\n\nEntomology 2023, National Harbor, MD\n\nEntomological Society of America\n\n\n\nStudent Scholar Travel Award ($500)\n\n\n\n\n\n2023\n\n\n\nCollege of Agriculture, Montana State University\n\n\n\n1st Place Speaker\n\n\n\n\n\n2023\n\n\n\n2023 LRES GSO Student Research Colloquium\n\nLRES Graduate Student Organization, Montana State University\n\n\n\n Montana Grains Foundation Scholarship ($2,500)\n\n\n\n\n\n2022\n\n\n\nMontana Grain Growers Association\n\n\n\nGradaute Professional Advancement Grant ($500)\n\n\n\n\n\n2023\n\n\n\nThe Graduate School, Montana State University"
-  },
-  {
-    "objectID": "index.html#seminars-presentations",
-    "href": "index.html#seminars-presentations",
-    "title": "Jackson R. Strand",
-    "section": "Seminars & Presentations",
-    "text": "Seminars & Presentations\n\nPaper Presentations\n\nStrand, J., Weaver, D.K. 2024. How smooth brome can be beneficial for parasitoids of the wheat stem sawfly. March Madness – Montana Wheat and Barley Committee. Montana State University, Bozeman, MT.\nSing, S.E., Ward, S.M., Peterson, R.K.D., Strand, J.R., Friesenhahn, E., Hofland, M., Hubbard, C.E., Randall, C.B., Weaver. D.K. 2024. Biological Control of Hybrid Toadflax: Insights from Chemical Ecology. Montana State University, Bozeman, MT.\nStrand, J., D.K. Weaver, T. Sterling, R.K.D. Peterson. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. 2nd Place. Annual Meeting of the Entomological Society of America, National Harbor, MD.\nStrand, J., D.K. Weaver, T. Sterling, R.K.D. Peterson. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 1st Place. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\nStrand, J., Weaver, D.K., Sterling, T., Peterson, R.K.D. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America, Vancouver, BC, Canada.\nStrand, J.R., Weaver, D.K., Sterling, T., Peterson, R.K.D. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium, Montana State University, Bozeman, MT.\nStrand, J.R., Sterling, T., Weaver, D.K., 2022. Using organic volatiles to understand the impact of Alternaria oxytropis on locoweed physiology: E+/E-. Multistate Research Project Meeting, W2193, “Poisonous Plants: Impact, Ecology, and Management.” Montana State University, Bozeman, MT.\nStrand, J.R., Weaver, D.K., Sterling, T., Peterson, R.K.D. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\nWorkshops\n\nUnderstanding the Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "index.html#hosted-events",
-    "href": "index.html#hosted-events",
-    "title": "Jackson R. Strand",
-    "section": "Hosted Events",
-    "text": "Hosted Events\n\nStudent Organized Conferences\n\n2024 LRES-PSPP Student Research Symposium\nRole: Primary event organizer & co-emcee\nLocation: Montana State University, Bozeman, MT\nDate: April 18, 2024\nHyperlink: 2024 Symposium\n2023 LRES Colloquium\nRole: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 13, 2023\n2022 LRES Colloquium\nRole: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 29, 2022"
-  },
-  {
-    "objectID": "index.html#service-memberships",
-    "href": "index.html#service-memberships",
-    "title": "Jackson R. Strand",
-    "section": "Service & Memberships",
-    "text": "Service & Memberships\n\nSociety Memberships \n\n\nLRES Graduate Student Organization (Co-chair)\n\n\n2023 - Present\n\n\n\n\n\n\nLRES Graduate Student Organization (Treasurer)\n\n\n2021 - 2023\n\n\n\n\n\n\nEntomological Society of America\n\n\n2021 - Present\n\n\n\n\n\n\nMontana Grain Growers Association\n\n\n2021 - Present\n\n\n\nVolunteer\n\n\nSouthwest Montana Mountain Bike Association\n\n\n2021 - Present\n\n\n\n\n\nGallatin Watershed Council\n\n\n2021 - Present\n\n\n\n\n\nGallatin Valley Land Trust\n\n\n2021 - Present\n\n\n\n\n\nLake Elmo Regional Park Invasive Species Removal\n\n\n2021 - Present"
+    "section": "Research Interests",
+    "text": "Research Interests\nI am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.\nMy master’s thesis with Dr. David Weaver at Montana State University focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome found along roadways and in coulees could reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when found growing adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my thesis or my thesis defense recording for more information.\nMy current PhD project with Dr. Robert Peterson at Montana State University is investigating the efficacy of the weevil Rhinusa pilosa for the biological control of invasive yellow toadflax (Linaria vulgaris) in Montana and South Dakota. Specifically, I am interested in the ecological impacts of megaherbivores, parastioids, and climatic shifts on the establishment of beneficial R. pilosa populations."
   },
   {
     "objectID": "index.html#education-1",
@@ -154,25 +28,18 @@
     "text": "Education\n\n\n\nPhD Ecology & Environmental Science - Montana State University\n\n\n\n\n\n\n2024 - present\n\n\n\nGraduate Committee: Dr. Robert Peterson (co-chair), Dr. Sharlene Sing (co-chair), Dr. William Wetzel, Dr. David Weaver\n\n\n\nMS Entomology - Montana State University\n\n\n\n\n\n\n2021 - 2024\n\n\n\nGraduate Committee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson\nGraduate Certificate in Applied Statistics\n\n\n\nBS Biology - University of Minnesota\n\n\n\n\n\n2013 - 2017\n\n\n\nMinor: Marine Biology"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Jackson R. Strand",
-    "section": "Research Interests",
-    "text": "Research Interests\nI am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.\nMy master’s thesis with Dr. David Weaver at Montana State University focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome found along roadways and in coulees could reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when found growing adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my thesis or my thesis defense recording for more information.\nMy current PhD project with Dr. Robert Peterson at Montana State University is investigating the efficacy of the weevil Rhinusa pilosa for the biological control of invasive yellow toadflax (Linaria vulgaris) in Montana and South Dakota. Specifically, I am interested in the ecological impacts of megaherbivores, parastioids, and climatic shifts on the establishment of beneficial R. pilosa populations."
-  },
-  {
-    "objectID": "index.html#another-section-of-information-about-me",
-    "href": "index.html#another-section-of-information-about-me",
-    "title": "Jackson Strand",
-    "section": "",
-    "text": "ladksjf;lajsd lfjasdlfj lasdjfl; jasdlfkjlaksd jfl;kasjdflk jasdl;fkj"
-  },
-  {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "Jackson R. Strand",
     "section": "Publications",
     "text": "Publications\nCheck out my “Pubilcations” page\n\n\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
+  },
+  {
+    "objectID": "index.html#honors-awards",
+    "href": "index.html#honors-awards",
+    "title": "Jackson R. Strand",
+    "section": "Honors & Awards",
+    "text": "Honors & Awards\n\n\n\n\nAngus and Anne McMiillan Family Agriculture Scholarship ($1,200)\n\n\n\n\n\n\n2025\n\n\n\n\nMontana State University \n\n\n\n\n\nOpen Access Author Fund($1,736)\n\n\n\n\n\n\n2025\n\n\n\n\nMontana State University Library\n\nFunded the publication of  Strand et al. 2025 \n\n\n\n\n\n NAISMA 2025 Student Scholarship \n\n\n\n\n\n\n2025\n\n\n\n\nNational Forum on Biological Control, Annapolis, MD\n\n\n\n\n Graduate Land Grant Excellence Award\n\n\n\n\n\n\n2024\n\n\n\n\nThe Graduate School, Montana State University\n\n\n\n\n\nOpen Access Author Fund($3,296)\n\n\n\n\n\n\n2023\n\n\n\n\nMontana State University Library\n\nFunded the publication of  Strand et al. 2024 \n\n\n\n\n President’s Prize - 2nd Place Speaker \n\n\n\n\n\n2023\n\n\n\nEntomology 2023, National Harbor, MD\n\nEntomological Society of America\n\n\n\nStudent Scholar Travel Award ($500)\n\n\n\n\n\n2023\n\n\n\nCollege of Agriculture, Montana State University\n\n\n\n1st Place Speaker\n\n\n\n\n\n2023\n\n\n\n2023 LRES GSO Student Research Colloquium\n\nLRES Graduate Student Organization, Montana State University\n\n\n\n Montana Grains Foundation Scholarship ($2,500)\n\n\n\n\n\n2022\n\n\n\nMontana Grain Growers Association\n\n\n\nGradaute Professional Advancement Grant ($500)\n\n\n\n\n\n2023\n\n\n\nThe Graduate School, Montana State University"
   },
   {
     "objectID": "index.html#seminars-and-presentations",
@@ -196,55 +63,6 @@
     "text": "Service\n\nPeer Review Journal Activity\n\n\nJournal of Environmental Entomology\n\n\n\n\n\n\n2024 - Present\n\n\n\n\nJournal of Environmental Toxicology and Chemistry\n\n\n\n\n\n\n2025 - Present\n\n\n Society Memberships\n\n\nMontana State University Graduate Employee Organization (LRES Steward)\n\n\n\n\n\n2025 - Present\n\n\n\n\nLRES Graduate Student Organization (Co-chair)\n\n\n\n\n\n\n2022 - Present\n\n\n\n\nLRES Graduate Student Organization (Treasurer)\n\n\n\n\n\n\n2021 - 2022\n\n\n\n\nEntomological Society of America\n\n\n\n\n\n\n2021 - Present\n\n\n\n\nMontana Grain Growers Association\n\n\n\n\n\n\n2022 - Present\n\n\n Active Community Volunteer\n\n\nSouthwest Montana Mountain Bike Association\n\n\n\n\n\n\n2021 - Present\n\n\n\n\nGallatin Watershed Council\n\n\n\n\n\n\n2021 - Present\n\n\n\n\nGallatin Valley Land Trust\n\n\n\n\n\n\n2021 - Present"
   },
   {
-    "objectID": "index.html#non-academic-employment-history",
-    "href": "index.html#non-academic-employment-history",
-    "title": "Jackson R. Strand",
-    "section": "Non-Academic Employment History",
-    "text": "Non-Academic Employment History\n\n\n\n\n Pace Analytical - Onsite at 3M  - Regulatory IT Analyst\n\n\n2017 - 2021\n\n\n (Maplewood, MN)\n\nProvided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n\nIntegrated, tested, and supported user and data interface between CDMS and SAP.\n\nGenerated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.\n\n\n\n\n Metropolitan Mosquito Control District  - Seasonal Mosquito Technician\n\n\n2017\n\n\n (Oakdale, MN)\n\nWorked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.\n\nIndependently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.\n\n\n\n\n Leatherdale Equine Center   - Barn Maintenance Crew \n\n\n2015-2017\n\n\n (St. Paul, MN)\n\nMaintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.\n\nTrained and managed new members of the crew.\n\n\n\n\nMinnesota Youth Soccer Association - Youth Soccer Referee\n\n\n2010 - 2021"
-  },
-  {
-    "objectID": "index.html#co-hosted-academic-events",
-    "href": "index.html#co-hosted-academic-events",
-    "title": "Jackson R. Strand",
-    "section": "Co-Hosted Academic Events",
-    "text": "Co-Hosted Academic Events\n\nStudent Organized Conferences\n\n2024 LRES-PSPP Student Research Symposium\nRole: Primary event organizer & emcee\nLocation: Montana State University, Bozeman, MT\nDate: April 18, 2024\nHyperlink: 2024 Symposium\n2023 LRES Colloquium\nRole: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 13, 2023\n2022 LRES Colloquium\nRole: Treasurer\nLocation: Montana State University, Bozeman, MT\nDate: April 29, 2022"
-  },
-  {
-    "objectID": "index.html#non-academic-employment",
-    "href": "index.html#non-academic-employment",
-    "title": "Jackson R. Strand",
-    "section": "Non-Academic Employment",
-    "text": "Non-Academic Employment\n\n\n\n\n Pace Analytical - Onsite at 3M  - Regulatory IT Analyst\n\n\n2017 - 2021\n\n\n (Maplewood, MN)\n\nProvided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n\nIntegrated, tested, and supported user and data interface between CDMS and SAP.\n\nGenerated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.\n\n\n\n\n Metropolitan Mosquito Control District  - Seasonal Mosquito Technician\n\n\n2017\n\n\n (Oakdale, MN)\n\nWorked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.\n\nIndependently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.\n\n\n\n\n Leatherdale Equine Center   - Barn Maintenance Crew \n\n\n2015-2017\n\n\n (St. Paul, MN)\n\nMaintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.\n\nTrained and managed new members of the crew.\n\n\n\n\nMinnesota Youth Soccer Association - Youth Soccer Referee\n\n\n2010 - 2021"
-  },
-  {
-    "objectID": "index.html#seminars-and-presentations-this-is-smaller-text-after-the-header.",
-    "href": "index.html#seminars-and-presentations-this-is-smaller-text-after-the-header.",
-    "title": "Jackson R. Strand",
-    "section": "Seminars and Presentations This is smaller text after the header.",
-    "text": "Seminars and Presentations This is smaller text after the header.\n\nContributed presentations at scientific meetings\n\n\n\nSE Sing, Strand JR, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ. (scheduled)\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. Second place in section.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. First place overall.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\n\nContributed presentations at scientific meetings\n\n\nSing SE, Ward SM, Peterson RKD, Strand JR, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.\n\n\n\nWorkshops\n\n\nUnderstanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "index.html#seminars-and-presentations-underline-presentor",
-    "href": "index.html#seminars-and-presentations-underline-presentor",
-    "title": "Jackson R. Strand",
-    "section": "Seminars and Presentations (underline = presentor)",
-    "text": "Seminars and Presentations (underline = presentor)\n\nContributed presentations at scientific meetings\n\n\n\nSE Sing, Strand JR, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ. (scheduled)\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. Second place in section.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. First place overall.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\n\nContributed presentations at scientific meetings\n\n\nSing SE, Ward SM, Peterson RKD, Strand JR, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.\n\n\n\nWorkshops\n\n\nUnderstanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "index.html#seminars-and-presentations-underline-presenter",
-    "href": "index.html#seminars-and-presentations-underline-presenter",
-    "title": "Jackson R. Strand",
-    "section": "Seminars and Presentations (underline = presenter)",
-    "text": "Seminars and Presentations (underline = presenter)\n\nContributed presentations at scientific meetings\n\n\n\nSE Sing, Strand JR, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.\n\n\nSing SE, Ward SM, Peterson RKD, Strand JR, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.\n\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. Second place in section.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. First place overall.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\n\nWorkshops\n\n\nUnderstanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "index.html#education-2",
-    "href": "index.html#education-2",
-    "title": "Jackson R. Strand",
-    "section": "Education",
-    "text": "Education\n\n\n&lt;div style=\"float: left;\"&gt;\n  &lt;img src=\"qmd/logos/msu.png\" alt=\"University Logo\" style=\"width: 50px; height: auto; margin-right: 10px;\"&gt;\n  &lt;strong&gt;MS Entomology&lt;/strong&gt;\n  &lt;em&gt;- Montana State University&lt;/em&gt;\n&lt;/div&gt;\n&lt;div style=\"float: right;\"&gt;2021-2024&lt;/div&gt;\n&lt;div style=\"clear: both;\"&gt;&lt;/div&gt; &lt;!-- Clears the float --&gt;\n\n\n\nCommittee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson\n\n\nGraduate Certificate in Applied Statistics\n\n\n\n\n\n&lt;strong&gt;BS Biology&lt;/strong&gt;\n&lt;em&gt;- University of Minnesota&lt;/em&gt;\n\n\n2013-2017\n\n\n\n\n\n\n\n\n\nMinor: Marine Biology"
-  },
-  {
     "objectID": "index.html#co-hosted-events",
     "href": "index.html#co-hosted-events",
     "title": "Jackson R. Strand",
@@ -252,11 +70,11 @@
     "text": "Co-Hosted Events\n\nLRES Graduate Student Organization Annual Symposium\n\n\nLEPS 2025 Role: Chair\nLocation: Montana State University, Bozeman, MT\nDate: April 7, 2025\nEvent website: LEPS 2025\n\n\n\n2024 LRES-PSPP Student Research Symposium Role: Chair & event emcee Location: Montana State University, Bozeman, MT Date: April 18, 2024 Hyperlink: 2024 Symposium\n\n\n\n2023 LRES Colloquium Role: Treasurer Location: Montana State University, Bozeman, MT Date: April 13, 2023\n\n\n\n2022 LRES Colloquium Role: Treasurer Location: Montana State University, Bozeman, MT Date: April 29, 2022"
   },
   {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
+    "objectID": "index.html#employment-history",
+    "href": "index.html#employment-history",
     "title": "Jackson R. Strand",
-    "section": "",
-    "text": "Publications \n\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. (in review)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. DOI: 10.1093/jee/toae246"
+    "section": "Employment History",
+    "text": "Employment History\n\n\n\n\n Pace Analytical - Onsite at 3M - Regulatory IT Analyst\n\n\n\n\n\n2017 - 2021\n\n\n\n(Maplewood, MN)\n\n\n\nProvided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n\n\nIntegrated, tested, and supported user and data interface between CDMS and SAP.\n\n\nGenerated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.\n\n\n\n\n\n Metropolitan Mosquito Control District - Seasonal Mosquito Technician\n\n\n\n\n\n2017\n\n\n\n(Oakdale, MN)\n\n\n\nWorked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.\n\n\nIndependently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.\n\n\n\n\n\n Leatherdale Equin Center - Barn Maintenance Crew\n\n\n\n\n\n\n2015 - 2017\n\n\n\n\n\n(St. Paul, MN)\n\n\n\nMaintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.\n\n\nTrained and managed new members of the crew.\n\n\n\n\n\n Minnesota Youth Soccer Association - Youth Soccer Referee\n\n\n\n\n\n\n2010 - 2021"
   },
   {
     "objectID": "qmd/publications.html",
@@ -266,20 +84,6 @@
     "text": "Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome\nAuthors: Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver\nJournal: Insect Science\nDOI: 10.1093/jisesa/ieaf016"
   },
   {
-    "objectID": "qmd/publications.html#journal-articles",
-    "href": "qmd/publications.html#journal-articles",
-    "title": "Publications",
-    "section": "",
-    "text": "Strand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. DOI: 10.1093/jee/toae246"
-  },
-  {
-    "objectID": "qmd/publications.html#conference-proceedings",
-    "href": "qmd/publications.html#conference-proceedings",
-    "title": "Publications",
-    "section": "Conference Proceedings",
-    "text": "Conference Proceedings"
-  },
-  {
     "objectID": "qmd/publications.html#section",
     "href": "qmd/publications.html#section",
     "title": "Publications",
@@ -287,11 +91,46 @@
     "text": "Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome\nAuthors: Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver\nJournal: Insect Science\nDOI: 10.1093/jisesa/ieaf016"
   },
   {
-    "objectID": "qmd/aboutme.html#employment",
-    "href": "qmd/aboutme.html#employment",
+    "objectID": "qmd/publications.html#section-1",
+    "href": "qmd/publications.html#section-1",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\n\n\n \n\n\nAgroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids\nAuthors: Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver\nJournal: Economic Entomology\nDOI: 10.1093/jee/toae246"
+  },
+  {
+    "objectID": "qmd/projects.html",
+    "href": "qmd/projects.html",
     "title": "Jackson Strand",
-    "section": "Employment",
-    "text": "Employment\n\n\nResume\n\n\n    \n        Pace analytical - Onsite at 3M - Regulatory IT Analyst\n        \n            Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n    \n    2017 - 2021\n\n{css, echo = FALSE} .grey-box {   background-color: #f2f2f2;   padding: 10px;   border-radius: 5px;   border: 1px solid #ccc; }\n\nPace Analytical- Onsite at 3M – Regulatory IT Analyst (Maplewood, MN) 2013-2017 2017-2021 • Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS). • Integrated, tested, and supported user and data interface between CDMS and SAP. • Generated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP."
+    "section": "",
+    "text": "You can read my field notes here"
+  },
+  {
+    "objectID": "qmd/projects.html#field-journal",
+    "href": "qmd/projects.html#field-journal",
+    "title": "Jackson Strand",
+    "section": "",
+    "text": "You can read my field notes here"
+  },
+  {
+    "objectID": "qmd/projects.html#lres-graduate-student-organization",
+    "href": "qmd/projects.html#lres-graduate-student-organization",
+    "title": "Jackson Strand",
+    "section": "LRES Graduate Student Organization",
+    "text": "LRES Graduate Student Organization\n\n\n\nThe Land Resources and Environmental Science (LRES) Graduate Student Organization (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.\nLRES GSO 2024 LRES-PSPP Student Research Symposium"
+  },
+  {
+    "objectID": "qmd/projects.html#basketball-roster-analysis-tool",
+    "href": "qmd/projects.html#basketball-roster-analysis-tool",
+    "title": "Jackson Strand",
+    "section": "Basketball Roster Analysis Tool",
+    "text": "Basketball Roster Analysis Tool\nFrom 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.\nView tool"
+  },
+  {
+    "objectID": "qmd/index cv.html",
+    "href": "qmd/index cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
   },
   {
     "objectID": "qmd/talks.html",
@@ -301,32 +140,11 @@
     "text": "You can view all my given talks below. You can view a more condensed list of my given talks on my “about me” page."
   },
   {
-    "objectID": "qmd/talks.html#defense",
-    "href": "qmd/talks.html#defense",
+    "objectID": "qmd/talks.html#pinned",
+    "href": "qmd/talks.html#pinned",
     "title": "Talks & Presentations",
-    "section": "",
-    "text": "Master’s Thesis Defense - August 19, 2024\nThe Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids\nLocation: 108 Plant Biosciencies Building, Montana State University, Bozeman, MT\nTime: 9:00 AM"
-  },
-  {
-    "objectID": "qmd/talks.html#esa",
-    "href": "qmd/talks.html#esa",
-    "title": "Talks & Presentations",
-    "section": "ESA",
-    "text": "ESA\n\n\n\n  \n\n\nMaster’s Thesis Defense - August 19, 2024\nThe Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids\nLocation: 108 Plant Biosciencies Building, Montana State University, Bozeman, MT\nTime: 9:00 AM"
-  },
-  {
-    "objectID": "qmd/talks.html#entomological-society-of-america---national-conference",
-    "href": "qmd/talks.html#entomological-society-of-america---national-conference",
-    "title": "Talks & Presentations",
-    "section": "Entomological Society of America - National Conference",
-    "text": "Entomological Society of America - National Conference\n\n\n\n  \n\n\nMaster’s Thesis Defense - August 19, 2024\nThe Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids\nLocation: 108 Plant Biosciencies Building, Montana State University, Bozeman, MT\nTime: 9:00 AM"
-  },
-  {
-    "objectID": "qmd/talks.html#entomological-society-of-america---annual-meetings",
-    "href": "qmd/talks.html#entomological-society-of-america---annual-meetings",
-    "title": "Talks & Presentations",
-    "section": "Entomological Society of America - Annual Meetings",
-    "text": "Entomological Society of America - Annual Meetings\n\n\n\n  \n\n\nEntomology 2024 - Student Competition\nAgroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids\nPhoenix Convention Center, Phoenix, AZ\n\n\n\n\n\n\n\n  \n\n\nEntomology 2023 - Student Competition\nUsing organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome\nGaylord National Resort & Convention Center, Maryland"
+    "section": " Pinned",
+    "text": "Pinned\n\n\n\n\n  \n\n\nMaster’s Thesis Defense\n\nTitle: The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids\n\nDate: Monday, August 19, 2024\nLocation: 108 Plant Biosciences Building, Montana State University\nTime: 8:30 AM - 9:30 AM\n\n\nView my slides\n\n\n\n\n\n\n\n  \n\n\n Entomology 2023 | National Harbor, MD \n🥈 2nd place in student competition\n\nTitle: Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome\n\nDate: Monday, November 16, 2023\nTime: 12:18 PM - 12:30 PM\n\n\nView my slides"
   },
   {
     "objectID": "qmd/talks.html#section",
@@ -334,13 +152,6 @@
     "title": "Talks & Presentations",
     "section": "2025",
     "text": "2025\n\n\n\n\n  \n\n\n NFBC 2025 | Annapolis, MD \n\n\nNational Forum on Biological Control\n\n\nTitle: Understanding Host Preference in Mecinus janthinus and M. janthiniformis: Implications of Hybridization for Effective Biological Control\n\nDate: April 15, 2025\n\nView my slides"
-  },
-  {
-    "objectID": "qmd/talks.html#pinned",
-    "href": "qmd/talks.html#pinned",
-    "title": "Talks & Presentations",
-    "section": " Pinned",
-    "text": "Pinned\n\n\n\n\n  \n\n\nMaster’s Thesis Defense\n\nTitle: The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids\n\nDate: Monday, August 19, 2024\nLocation: 108 Plant Biosciences Building, Montana State University\nTime: 8:30 AM - 9:30 AM\n\n\nView my slides\n\n\n\n\n\n\n\n  \n\n\n Entomology 2023 | National Harbor, MD \n🥈 2nd place in student competition\n\nTitle: Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome\n\nDate: Monday, November 16, 2023\nTime: 12:18 PM - 12:30 PM\n\n\nView my slides"
   },
   {
     "objectID": "qmd/talks.html#section-1",
@@ -364,62 +175,6 @@
     "text": "2022\n\n\n\n\n  \n\n\n Entomology 2022 | Vancouver, BC, Canada \n\nTitle: Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome\n\nDate: Monday, November 14, 2022\nTime: 12:18 PM - 12:30 PM\n\n\nView my slides\n\n\n\n\n\n\n\n\n  \n\n\n 2022 LRES Colloquium \n\nTitle: Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly\n\nDate: Friday, April 29, 2022\nTime: 3:46 PM - 3:53 PM\n\n\nView my slides"
   },
   {
-    "objectID": "index.html#seminars-and-presentations-visit-my-talks-presentations-page",
-    "href": "index.html#seminars-and-presentations-visit-my-talks-presentations-page",
-    "title": "Jackson R. Strand",
-    "section": "Seminars and Presentations [Visit my Talks & Presentations page]",
-    "text": "Seminars and Presentations [Visit my Talks & Presentations page]\nunderline = presenter\n\nContributed presentations at scientific meetings\n\n\n\nSE Sing, Strand JR, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.\n\n\nSing SE, Ward SM, Peterson RKD, Strand JR, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.\n\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. Second place in section.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. First place overall.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\n\nWorkshops\n\n\nUnderstanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "index.html#seminars-and-presentations-view-my-cv",
-    "href": "index.html#seminars-and-presentations-view-my-cv",
-    "title": "Jackson R. Strand",
-    "section": "Seminars and Presentations View my CV",
-    "text": "Seminars and Presentations View my CV\nunderline = presenter\n\nContributed presentations at scientific meetings\n\n\n\nSE Sing, Strand JR, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.\n\n\nSing SE, Ward SM, Peterson RKD, Strand JR, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.\n\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. Second place in section.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. First place overall.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\n\nWorkshops\n\n\nUnderstanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "index.html#seminars-and-presentations-check-out-my-talks-and-presentations-page",
-    "href": "index.html#seminars-and-presentations-check-out-my-talks-and-presentations-page",
-    "title": "Jackson R. Strand",
-    "section": "Seminars and Presentations Check out my “Talks and Presentations” page",
-    "text": "Seminars and Presentations Check out my “Talks and Presentations” page\nunderline = presenter\n\nContributed presentations at scientific meetings\n\n\n\nSE Sing, Strand JR, Peterson RKD, Weaver DK. 2025. Evaluating Host Preferences in Biological Control: Behavioral and Electrophysiological Responses of Mecinus janthinus and M. janthiniformis to Invasive Toadflax Species. National Forum on Biological Control Conference. Annapolis, MD. (scheduled)\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2024. The role of chemical ecology and agroecological importance of smooth brome in biological control of the wheat stem sawfly by native parasitoids. Masters of Entomology Defense. Montana State University, Bozeman, MT.\n\n\nSing SE, Ward SM, Peterson RKD, Strand JR, Friesenhahn E, Holland M, Hubbard CE, Randall CB, Weaver DK. 2024. Biological control of hybrid toadflax: insights from chemical ecology. National Forum on Biological Control Conference. Annapolis, MD.\n\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 2. Annual Meeting of the Entomological Society of America, National Harbor, MD. Second place in section.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2023. The importance of smooth brome and parasitoids in wheat stem sawfly biocontrol. 2023 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT. First place overall.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Using organic volatile compounds to assess the relationship between wheat stem sawfly, parasitoids, and smooth brome. Session: Grad Competition, Plant-Insect Ecosystems: Chemical Ecology 1. Annual Meeting of the Entomological Society of America. Vancouver, BC, Canada.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2022. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. 2022 Land Resources and Environmental Sciences Graduate Student Organization Research Colloquium. Montana State University, Bozeman, MT.\n\n\nStrand JR, Weaver DK, Sterling TM, Peterson RKD. 2021. Importance of parasitoids and smooth brome for integrated pest management of wheat stem sawfly. Session: Plant Insect-Ecosystems: IPM – General. Annual Meeting of the Entomological Society of America, Denver, CO.\n\n\nWorkshops\n\n\nUnderstanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop. Montana State University, Bozeman, MT."
-  },
-  {
-    "objectID": "qmd/projects.html",
-    "href": "qmd/projects.html",
-    "title": "Jackson Strand",
-    "section": "",
-    "text": "The Land Resources and Environmental Science (LRES) Graduate Student Organization (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.\nLRES GSO 2024 LRES-PSPP Student Research Symposium"
-  },
-  {
-    "objectID": "qmd/projects.html#project-1-example-project",
-    "href": "qmd/projects.html#project-1-example-project",
-    "title": "Projects",
-    "section": "",
-    "text": "Description: This is an example project description.\nTechnologies Used: Quarto, R, Python\nRepository: GitHub Link"
-  },
-  {
-    "objectID": "qmd/projects.html#project-2-another-project",
-    "href": "qmd/projects.html#project-2-another-project",
-    "title": "Projects",
-    "section": "",
-    "text": "Description: This is another example project description.\nTechnologies Used: Quarto, JavaScript, HTML, CSS\nRepository: GitHub Link"
-  },
-  {
-    "objectID": "qmd/projects.html#lres-graduate-student-organization",
-    "href": "qmd/projects.html#lres-graduate-student-organization",
-    "title": "Jackson Strand",
-    "section": "",
-    "text": "The Land Resources and Environmental Science (LRES) Graduate Student Organization (GSO) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO exists to help students take advantage of the rich knowledge base that this broad range of interests encompasses.\nLRES GSO 2024 LRES-PSPP Student Research Symposium"
-  },
-  {
-    "objectID": "qmd/projects.html#basketball-reference-tool",
-    "href": "qmd/projects.html#basketball-reference-tool",
-    "title": "Jackson Strand",
-    "section": "Basketball Reference Tool",
-    "text": "Basketball Reference Tool\n NBA Roster Analysis Tool  basketball roster analysis\n\nFrom 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.\nView tool"
-  },
-  {
     "objectID": "qmd/talks.html#section-4",
     "href": "qmd/talks.html#section-4",
     "title": "Talks & Presentations",
@@ -427,18 +182,46 @@
     "text": "2021\n\n\n\n  \n\n\n Entomology 2021 | Denver, CO \n\nTitle: Comparing use of wheat stem sawfly larvae infesting winter wheat and smooth brome by two braconid parasitoid species in Montana\n\nDate: Tuesday, November 2, 2021\nTime: 1:42 PM - 1:54 PM\n\n\nView my slides"
   },
   {
-    "objectID": "qmd/projects.html#nba-roster-analysis-tool-basketball-roster-analysis",
-    "href": "qmd/projects.html#nba-roster-analysis-tool-basketball-roster-analysis",
+    "objectID": "qmd/aboutme.html",
+    "href": "qmd/aboutme.html",
     "title": "Jackson Strand",
-    "section": " NBA Roster Analysis Tool  basketball roster analysis\n",
-    "text": "NBA Roster Analysis Tool  basketball roster analysis\n\nFrom 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.\nView tool"
+    "section": "",
+    "text": ":::{#me}\nI am currently a Master’s graduate student at Montana State University studying entomology. I live in Bozeman, MT with my wife Grace."
   },
   {
-    "objectID": "qmd/projects.html#basketball-roster-analysis-tool",
-    "href": "qmd/projects.html#basketball-roster-analysis-tool",
+    "objectID": "qmd/aboutme.html#education",
+    "href": "qmd/aboutme.html#education",
     "title": "Jackson Strand",
-    "section": "Basketball Roster Analysis Tool",
-    "text": "Basketball Roster Analysis Tool\nFrom 2017 to 2019, I built my own NBA roster analysis tool for analyzing roster construction, free agency, and per-game metrics. The information is out of date, but all of the functionality still works.\nView tool"
+    "section": "Education",
+    "text": "Education\nBA Biology, 2013-2017 - University of Minnesota - Twin Cities\nMSc Entomology, 2021-2024 - Montana State University"
+  },
+  {
+    "objectID": "qmd/aboutme.html#employment",
+    "href": "qmd/aboutme.html#employment",
+    "title": "Jackson Strand",
+    "section": "Employment",
+    "text": "Employment\n\n\nResume\n\n\n    \n        Pace analytical - Onsite at 3M - Regulatory IT Analyst\n        \n            Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n    \n    2017 - 2021\n\n{css, echo = FALSE} .grey-box {   background-color: #f2f2f2;   padding: 10px;   border-radius: 5px;   border: 1px solid #ccc; }\n\nPace Analytical- Onsite at 3M – Regulatory IT Analyst (Maplewood, MN) 2013-2017 2017-2021 • Provided digital support between 3M employees and the 3M Chemical Data Management System (CDMS). • Integrated, tested, and supported user and data interface between CDMS and SAP. • Generated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP."
+  },
+  {
+    "objectID": "qmd/helpful.html",
+    "href": "qmd/helpful.html",
+    "title": "Helpful Resources & Links",
+    "section": "",
+    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
+  },
+  {
+    "objectID": "qmd/helpful.html#r-studio",
+    "href": "qmd/helpful.html#r-studio",
+    "title": "Helpful Resources & Links",
+    "section": "",
+    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
+  },
+  {
+    "objectID": "qmd/helpful.html#r-statistics",
+    "href": "qmd/helpful.html#r-statistics",
+    "title": "Helpful Resources & Links",
+    "section": "R Statistics",
+    "text": "R Statistics\n\nMixed Effects Models"
   },
   {
     "objectID": "qmd/helpful.html#quarto-website-building",
@@ -448,25 +231,25 @@
     "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages. Learn how to integrate Quarto with GitHub Pages to host your site. How to Create a Web Site Using Quarto, RStudio, and GitHub Pages\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
   },
   {
+    "objectID": "qmd/helpful.html#github",
+    "href": "qmd/helpful.html#github",
+    "title": "Helpful Resources & Links",
+    "section": "GitHub",
+    "text": "GitHub\n\nA guide to using GitHub created by Callum Arnold: Introduction to Git and GitHub"
+  },
+  {
+    "objectID": "qmd/helpful.html#citations",
+    "href": "qmd/helpful.html#citations",
+    "title": "Helpful Resources & Links",
+    "section": "Citations",
+    "text": "Citations\n\nZotero Citations Repository\nA collection of citation styles for use with Zotero, a free tool for managing references:\nZotero Citations Repository\nUse this to manage and generate citations for your research papers."
+  },
+  {
     "objectID": "qmd/helpful.html#other",
     "href": "qmd/helpful.html#other",
     "title": "Helpful Resources & Links",
     "section": "Other",
     "text": "Other\n\nGallatin Watershed Volunteering Video\nGracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at 0:43!\nConcious Spending Plan\nA guide to creating a personal financial plan that prioritizes essential spending and savings. It is a useful resource for developing a budget that reflects your personal financial goals."
-  },
-  {
-    "objectID": "index.html#research-interests-zzzzz",
-    "href": "index.html#research-interests-zzzzz",
-    "title": "Jackson R. Strand",
-    "section": "Research Interests zzzzz",
-    "text": "Research Interests zzzzz\nI am broadly interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.\nMy master’s thesis with Dr. David Weaver focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome could serve as a trap crop to reduce WSS larvae and provide a refuge for parasitoids like Bracon cephi and B. lissogaster. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when grown adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my thesis defense for more detailed findings.\n\n\n  You can view my CV contents below, or download my CV here:\n  \n    View my CV\n  \n\n\n\n\n\n\n\n\n  \n  \n  Image Gallery"
-  },
-  {
-    "objectID": "qmd/publications.html#section-1",
-    "href": "qmd/publications.html#section-1",
-    "title": "Publications",
-    "section": "2024",
-    "text": "2024\n\n\n\n \n\n\nAgroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids\nAuthors: Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver\nJournal: Economic Entomology\nDOI: 10.1093/jee/toae246"
   },
   {
     "objectID": "qmd/media.html",
@@ -476,10 +259,185 @@
     "text": "2025\n\n\n\n  \n\n\nGraduate Student Success StoriesJanuary, 2025\n\nI was featured on Montana State University’s Gradaute School website!\n\nYou can read it here (scroll to the bottom)\n\n\n\n\n\n\n  \n\n\nMontana Wheat and Barley Committee Facebook PostJanuary, 2025\n\nI co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee (along with Dr. Robert Peterson and Dr. David Weaver). I also took the picture of the ovipositor for their post.\nYou can read it here\n\n\n\n\n\n\n  \n\n\nMontana State graduate students publish new explorations of wheat stem sawfly managementJanuary, 2025\n\nLochlin and I were featured in an article about our master’s projects at MSU.\n\nYou can read the full article here\n\n\n\n\n\n2024\n\n\n\n  \n\n\nHow locoweeds host a fungus that makes them toxic to livestock, but don’t seem to careDecember, 2024\n\nMy photography was featured in an article about Locoweed.\n\nYou can read the full article here\n\n\n\n\n\n\n  \n\n\nWheat Stem Sawfly - Best Managment PracticesSeptember, 2024\n\nMy photography was used on the cover of an MSU Extension brochure discussing the best management practices for wheat stem sawfly.\n\nYou can read the full brochure here\n\n\n\n\n\n2023\n\n\n\n  \n\n\n2023 Multi-State Wheat Stem Sawfly SurveyJune, 2023\n\nDavid, Lochlin, and I made this short instructional video on how to survey a field for wheat stem sawfly damage. I acted in, filmed, and produced.\n\nYou can watch the full video here"
   },
   {
-    "objectID": "index.html#invited-lectures",
-    "href": "index.html#invited-lectures",
-    "title": "Jackson R. Strand",
-    "section": "Invited Lectures",
-    "text": "Invited Lectures"
+    "objectID": "qmd/cv.html",
+    "href": "qmd/cv.html",
+    "title": "Cirriculum vitae",
+    "section": "",
+    "text": "Download \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nDownload File Button"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25.html",
+    "href": "qmd/field_notes/Spring 2025/spring25.html",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "",
+    "text": "We left Bozeman on Monday, May 12 at 6 AM - driving through Eastern Montana to Aberdeen, SD.\nOn Tuesday morning, we left Aberdeen and headed up to Sand Lake National Wildlife Refuge."
+  },
+  {
+    "objectID": "qmd/field_notes/fieldjournal.html",
+    "href": "qmd/field_notes/fieldjournal.html",
+    "title": "Toadflax Biocontrol Field Journal",
+    "section": "",
+    "text": "Welcome to my field journal. I use this space to document all field related activites for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2024\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Dakota Trip (Aberdeen) - Spring 2025\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Dakota Trip (Spearfish) - Spring 2025\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/fall24.html",
+    "href": "qmd/field_notes/Spring 2025/fall24.html",
+    "title": "Fall 2024",
+    "section": "",
+    "text": "Today I watched a Rhinusa oviposit into a scorched toadflax stem."
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25.html#exclosure",
+    "href": "qmd/field_notes/Spring 2025/spring25.html#exclosure",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Exclosure",
+    "text": "Exclosure\n\n\n\n\n\nSand Lake Exclosure\n\n\n\n\n\n\nData Loggers\n\n\n\n\n\n\nTrail Camera Install"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25.html#control-grid",
+    "href": "qmd/field_notes/Spring 2025/spring25.html#control-grid",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Control Grid",
+    "text": "Control Grid\n\n\n\n\n\nSand Lake Control Grid"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25.html#mecinus-janthinus-controlled-release",
+    "href": "qmd/field_notes/Spring 2025/spring25.html#mecinus-janthinus-controlled-release",
+    "title": "South Dakota Trip - Spring 2025",
+    "section": "Mecinus janthinus Controlled Release",
+    "text": "Mecinus janthinus Controlled Release\nAfter completing the exclosure and control grids, we drove down to another section of the Sand Lake NWR to set up a Mecinus janthinus release cage and release M. janthinus biocontrol agents."
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25.html#release-cage",
+    "href": "qmd/field_notes/Spring 2025/spring25.html#release-cage",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Release Cage",
+    "text": "Release Cage\n\n\n\n\n\nSand Lake Biocontrol Release Site\n\n\n\n\n\n\nSand Lake Cage Setup\n\n\n\n\n\n\nSand Lake M. janthinus Release"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "",
+    "text": "View the Spearfish portion of this trip here →\nEric, Aden, and I left Bozeman at 6 AM on Monday, May 12 - driving through Eastern Montana to Aberdeen, SD. We purchased welded metal fencing from Menards in Aberdeen.\nOn Tuesday morning, we left Aberdeen and headed North to the Sand Lake National Wildlife Refuge."
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#exclosure",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#exclosure",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Exclosure",
+    "text": "Exclosure\n\n\n\n\n\nSand Lake Exclosure\n\n\n\n\n\n\nData Loggers\n\n\n\n\n\n\nTrail Camera Install"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#control-grid",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#control-grid",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Control Grid",
+    "text": "Control Grid\n\n\n\n\n\nSand Lake Control Grid"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#release-cage",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#release-cage",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Release Cage",
+    "text": "Release Cage\n\n\n\n\n\nSand Lake Biocontrol Release Site\n\n\n\n\n\n\nSand Lake Cage Setup\n\n\n\n\n\n\nSand Lake M. janthinus Release\n\n\n\n\n\n Next: South Dakota Trip (Spearfish) →"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "",
+    "text": "View the Aberdeen portion of this trip here →\nOn Wednesday, May 14 we drove from Aberdeen to Spearfish, SD. We visited two sites while in the Black Hills, both south of Deadwood, SD."
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#exclosure",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#exclosure",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Exclosure",
+    "text": "Exclosure\n\n\n\n\n\nNemo Exclosure\n\n\n\n\n\n\nExclosure Trail Camera\n\n\n\n\n\n\nControl Grid Trail Camera"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#control-grid",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#control-grid",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Control Grid",
+    "text": "Control Grid\n\n\n\n\n\nSand Lake Control Grid"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#release-cage",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#release-cage",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Release Cage",
+    "text": "Release Cage\n\n\n\n\n\nSand Lake Biocontrol Release Site\n\n\n\n\n\n\nSand Lake Cage Setup\n\n\n\n\n\n\nSand Lake M. janthinus Release\n\n\n\n\n \n\n Next: South Dakota Trip (Spearfish) →"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#exclosure-control-grid",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#exclosure-control-grid",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Exclosure & Control Grid",
+    "text": "Exclosure & Control Grid\n\n\n\n\n\nNemo exclosure\n\n\n\n\n\n\nExclosure trail camera\n\n\n\n\n\n\nControl grid trail camera"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#rhinusa-pilosa-monitoring-grids",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#rhinusa-pilosa-monitoring-grids",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Rhinusa pilosa Monitoring Grids",
+    "text": "Rhinusa pilosa Monitoring Grids\nExclosure grid location\nControl grid location\nSite activities:\n\nSetup exclosure and control grid\n\nBuild exclosure\n\nRetrieve weather data from data loggers\n\nSetup trail cameras to monitor herbivory\n\n\n\n\n\n\nSand lake exclosure\n\n\n\n\n\n\nSetting up control grid data loggers\n\n\n\n\n\n\nExclosure trail camera\n\n\n\n\n\n\nSand Lake Control Grid"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#mecinus-janthinus-biocontrol-release",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#mecinus-janthinus-biocontrol-release",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Mecinus janthinus Biocontrol Release",
+    "text": "Mecinus janthinus Biocontrol Release\nAfter completing the exclosure and control grids, we drove down to another section of the Sand Lake NWR to set up a Mecinus janthinus release cage and release M. janthinus biocontrol agents.\nCage release location\nOpen release location\nSite activities:\n\nBuild release cage ontop of existing monitoring transect\nRelease M. janthinus biocontrol agents in cage and in open release transect\nRetrieve weather data from data loggers\n\n\n\n\n\n\nSand Lake biocontrol release site\n\n\n\n\n\n\nSand Lake cage setup\n\n\n\n\n\n\nSand Lake M. janthinus release"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#rhinusa-pilosa-monitoring-grids-1",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#rhinusa-pilosa-monitoring-grids-1",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Rhinusa pilosa Monitoring Grids",
+    "text": "Rhinusa pilosa Monitoring Grids\nExclosure grid location\nControl grid location\nSite activities:\n\nBuild exclosure around existing monitoring grid\nRetrieve weather data from data loggers\n\nSetup trail cameras to monitor herbivory\n\n\n\n\n\n\nBuilding the exclosure\n\n\n\n\n\n\nFully setup exclosure"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#m.-janthinus-cage-release",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#m.-janthinus-cage-release",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "M. janthinus Cage & Release",
+    "text": "M. janthinus Cage & Release\n\n\n\n\n\nRelease cage\n\n\n\n\n\n Up Next: Spring 2025 South Dakota Trip (Spearfish) →"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#caged-release",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#caged-release",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Caged Release",
+    "text": "Caged Release\n\n\n\n\nNemo caged release"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#rhinusa-pilosa-monitoring-grid",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#rhinusa-pilosa-monitoring-grid",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Rhinusa pilosa Monitoring Grid",
+    "text": "Rhinusa pilosa Monitoring Grid\nSite details:\nSite activities:\n\nBuild exclosure (grids already in place)\nRetrieve weather data from data loggers\n\nSetup trail cameras to monitor herbivory\n\nSite coordinates:\nExclosure points:\nControl points:"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25aberdeen.html#mecinus-janthinus-cage-release",
+    "href": "qmd/field_notes/Spring 2025/spring25aberdeen.html#mecinus-janthinus-cage-release",
+    "title": "South Dakota Trip (Aberdeen) - Spring 2025",
+    "section": "Mecinus janthinus Cage & Release",
+    "text": "Mecinus janthinus Cage & Release\nAfter completing the exclosure and control grids, we drove down to another section of the Sand Lake NWR to set up a Mecinus janthinus release cage and release M. janthinus biocontrol agents.\nCage release location\nOpen release location\nSite activities:\n\nBuild release cage ontop of existing monitoring transect\nRelease M. janthinus biocontrol agents in cage and in open release transect\nRetrieve weather data from data loggers\n\n\n\n\n\n\nSand Lake biocontrol release site\n\n\n\n\n\n\nSand Lake cage setup\n\n\n\n\n\n\nSand Lake M. janthinus release"
+  },
+  {
+    "objectID": "qmd/field_notes/Spring 2025/spring25spearfish.html#rhinusa-pilosa-monitoring-grid-biocontrol-caged-open-release",
+    "href": "qmd/field_notes/Spring 2025/spring25spearfish.html#rhinusa-pilosa-monitoring-grid-biocontrol-caged-open-release",
+    "title": "South Dakota Trip (Spearfish) - Spring 2025",
+    "section": "Rhinusa pilosa Monitoring Grid, Biocontrol Caged & Open Release",
+    "text": "Rhinusa pilosa Monitoring Grid, Biocontrol Caged & Open Release\nExclosure grid location\nControl grid location\nSite activities:\n\nBuild exclosure (grids already in place)\nSetup trail cameras to monitor herbivory\nBuild release cage ontop of existing monitoring transect\nRelease M. janthinus biocontrol agents in cage and in open release transect\nRetrieve weather data from data loggers\n\n\n\n\n\n\nNemo exclosure\n\n\n\n\n\n\nExclosure trail camera\n\n\n\n\n\n\nControl grid trail camera\n\n\n\n\n\n\nNemo caged release"
   }
 ]

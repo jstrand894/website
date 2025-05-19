@@ -1,0 +1,83 @@
+---
+title: "South Dakota Trip (Spearfish) - Spring 2025"
+date: 2025-05-19
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+<div style="text-align: center; margin-top: 2em;">
+  <a class="btn-small" href="spring25aberdeen.qmd" role="button">
+    View the Aberdeen portion of this trip here →
+  </a>
+</div>
+
+On Wednesday, May 14 we drove from Aberdeen to Spearfish, SD. We visited two sites while in the Black Hills, both south of Deadwood, SD. 
+
+# Nemo 
+
+## *Rhinusa pilosa* Monitoring Grid, Biocontrol Caged & Open Release
+<a href="https://www.google.com/maps?q=44.22548,-103.56796" target="_blank">Exclosure grid location</a>
+
+<a href="https://www.google.com/maps?q=44.22579,-103.56708" target="_blank">Control grid location</a>
+
+Site activities:
+
+- Build exclosure (grids already in place) 
+- Setup trail cameras to monitor herbivory
+- Build release cage ontop of existing monitoring transect
+- Release *M. janthinus* biocontrol agents in cage and in open release transect
+- Retrieve weather data from data loggers  
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Nemo exclosure](Pictures/nemo_exclosure.jpeg)](Pictures/nemo_exclosure.jpeg){data-fancybox="gallery" 
+data-caption="Nemo exclosure"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Exclosure trail camera](Pictures/nemo_cam.jpeg)](Pictures/nemo_cam.jpeg){data-fancybox="gallery"
+data-caption="Exclosure trail camera"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Control grid trail camera](Pictures/nemo_controlcam.jpeg)](Pictures/nemo_controlcam.jpeg){data-fancybox="gallery"
+data-caption="Control grid trail camera"}
+:::
+
+:::{.column width="33%" .px-2}
+[![Nemo caged release](Pictures/nemo_cage.jpeg)](Pictures/nemo_cage.jpeg){data-fancybox="gallery"
+data-caption="Nemo caged release"}
+:::
+:::
+
+# Sawyer *Mecinus janthinus* Releases
+Our Sawyer site is located almost directly south of Deadwood, SD. We built a release cage on the exist caged-release transect. We also released *M. janthinus* in the cage and on the open transect. 
+
+<a href="https://www.google.com/maps?q=44.279,-103.69864" target="_blank">Caged release location</a>
+
+<a href="https://www.google.com/maps?q=44.27884,-103.69842" target="_blank">Open release location</a>
+
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Sawyer release cage](Pictures/sawyer_cage2.jpeg)](Pictures/sawyer_cage2.jpeg){data-fancybox="gallery"
+data-caption="Sawyer release cage"}
+:::
+
+:::
+
+<div style="text-align: center; margin-top: 2em;">
+  <a class="btn-small" href="../fieldjournal.qmd" role="button">
+    Back to Field Journal Home →
+  </a>
+</div>

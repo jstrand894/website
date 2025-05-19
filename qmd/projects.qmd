@@ -4,6 +4,9 @@ format: html
 
 <!-- ## Montana State University -->
 
+## Field Journal
+You can read my field notes <a href="Field Notes/_index.qmd" target="_blank">here</a> 
+
 ## LRES Graduate Student Organization 
 
 <div class="projects-container">
