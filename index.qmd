@@ -202,7 +202,6 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
 
 
-
 <!-- PUBLICATIONS -->
 ## Publications
 <a class="btn-small" href="qmd/publications.qmd" role="button">Check out my "Pubilcations" page</a>  
@@ -210,7 +209,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 <ol reversed>
     <li style="margin-bottom: 1em;">
-        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. DOI: <a href="https://doi.org/10.1093/jisesa/ieaf016">10.1093/jisesa/ieaf016</a>
+        <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: <a href="https://doi.org/10.1093/jisesa/ieaf016">10.1093/jisesa/ieaf016</a>
     </li>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
@@ -221,6 +220,19 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 ## Honors & Awards
 
 <div class="box">
+
+<!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
+<div style="display: flex; align-items: center;">
+  <div><strong>Angus and Anne McMiillan Family Agriculture Scholarship</strong></a> ($1,200)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University 
+</a>
+</div>
 
 <!-- Author Open Access Funds -->
 <div style="display: flex; align-items: center;">
