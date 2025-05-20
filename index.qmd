@@ -223,7 +223,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 <!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
 <div style="display: flex; align-items: center;">
-  <div><strong>Angus and Anne McMiillan Family Agriculture Scholarship</strong></a> ($1,200)
+  <div><strong>Angus and Anne McMillan Family Agriculture Scholarship</strong></a> ($1,200)
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
