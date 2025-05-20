@@ -23,6 +23,8 @@ website:
         file: qmd/talks.qmd
       - text: "Projects"
         file: qmd/projects.qmd
+      - text: "Field Notes"
+        file: qmd/field_notes/fieldjournal.qmd
       - text: "In the Media"
         file: qmd/media.qmd
       - text: "Helpful Resources"
@@ -30,12 +32,11 @@ website:
       - text: "Photography"
         url: "https://jacksonstrandphoto.myportfolio.com"
         target: _blank
-      - text: "Field Journal"
-        file: qmd/field_notes/fieldjournal.qmd
       
     # right: 
-    #   - href: index.qmd
-    #     text: About Me
+    #   - text: "Photography"
+    #     url: "https://jacksonstrandphoto.myportfolio.com"
+    #     target: _blank
     tools:
       - icon: linkedin
         href: https://linkedin.com/in/jacksonstrand
