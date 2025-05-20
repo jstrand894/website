@@ -1,6 +1,9 @@
 ---
 title: "South Dakota Trip (Aberdeen) - Spring 2025"
 date: 2025-05-14
+description: "Trip to South Dakota to build exclosures, set up *Rhinusa pilosa* monitoring grids, and release *Mecinus janthinus* at Sand Lake NWR and Schaunaman Ranch."
+image: "Pictures/sl_excl.jpeg"
+categories: ["South Dakota", "Yellow toadflax"]
 format:
   html:
     include-in-header:
@@ -117,7 +120,7 @@ Site activities:
 
 - Build exclosure around existing monitoring grid
 - Retrieve weather data from data loggers  
-- Setup trail cameras to monitor herbivory
+- Setup trail cameras at both the exclosure and control grid
 
 :::{.columns}
 
@@ -136,7 +139,7 @@ Site activities:
 :::{.columns}
 
 ::: {.column width="33%" .px-2}
-[![Release cage](Pictures/ranch cage.jpeg)](Pictures/ranch_exclosure3.jpeg){data-fancybox="gallery" data-caption="Release cage"}
+[![Schaunaman Ranch Release cage](Pictures/ranch cage.jpeg)](Pictures/ranch cage.jpeg){data-fancybox="gallery" data-caption="Schaunaman Ranch Release cage"}
 :::
 
 :::

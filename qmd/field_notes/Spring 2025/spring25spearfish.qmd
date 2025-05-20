@@ -1,6 +1,9 @@
 ---
 title: "South Dakota Trip (Spearfish) - Spring 2025"
 date: 2025-05-12
+description: "We continued west to the Black Hills, where we set up *Rhinusa pilosa* monitoring grids and released *Mecinus janthinus* at sites near Nemo and Sawyer, South Dakota."
+image: "Pictures/nemo_exclosure.jpeg"
+categories: ["South Dakota", "Yellow toadflax"]
 format:
   html:
     include-in-header:
@@ -19,7 +22,7 @@ format:
   </a>
 </div>
 
-On Wednesday, May 14 we drove from Aberdeen to Spearfish, SD. We visited two sites while in the Black Hills, both south of Deadwood, SD. 
+FOn Wednesday, May 14 we drove from Aberdeen to Spearfish, SD. We visited two sites while in the Black Hills, both south of Deadwood, SD. 
 
 # Nemo 
 
