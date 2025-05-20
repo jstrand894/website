@@ -1,6 +1,0 @@
----
-title: "Helpful Resources & Links"
----
-Welcome to my field journal. I use this space to document fieldwork, observations, and thoughts from ongoing research.
-
-<i class="fas fa-binoculars"></i> Scroll down to read recent entries.

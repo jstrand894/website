@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://msu-git.jacksonstrand.com/field_notes/Spring 2025/spring25.html</loc>
-    <lastmod>2025-05-19T17:01:24.588Z</lastmod>
+    <loc>https://msu-git.jacksonstrand.com/about.html</loc>
+    <lastmod>2024-12-11T21:24:48.000Z</lastmod>
   </url>
   <url>
-    <loc>https://msu-git.jacksonstrand.com/index.html</loc>
-    <lastmod>2025-05-20T20:11:56.944Z</lastmod>
+    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Fall 2024/horsegulch24.html</loc>
+    <lastmod>2025-05-20T17:28:34.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/spring25spearfish.html</loc>
+    <lastmod>2025-05-20T16:32:49.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/ElkParkChainsaw.html</loc>
+    <lastmod>2025-05-20T16:35:42.207Z</lastmod>
   </url>
   <url>
     <loc>https://msu-git.jacksonstrand.com/qmd/publications.html</loc>
@@ -41,39 +49,15 @@
     <lastmod>2024-12-11T21:24:48.000Z</lastmod>
   </url>
   <url>
-    <loc>https://msu-git.jacksonstrand.com/about.html</loc>
-    <lastmod>2024-12-11T21:24:48.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/spring25.html</loc>
-    <lastmod>2025-05-19T18:28:08.568Z</lastmod>
+    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/spring25aberdeen.html</loc>
+    <lastmod>2025-05-20T16:33:09.037Z</lastmod>
   </url>
   <url>
     <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/fieldjournal.html</loc>
     <lastmod>2025-05-20T17:25:24.498Z</lastmod>
   </url>
   <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/fall24.html</loc>
-    <lastmod>2025-05-19T17:19:27.889Z</lastmod>
-  </url>
-  <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/spring25aberdeen.html</loc>
-    <lastmod>2025-05-20T16:33:09.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/spring25spearfish.html</loc>
-    <lastmod>2025-05-20T16:32:49.945Z</lastmod>
-  </url>
-  <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Spring 2025/ElkParkChainsaw.html</loc>
-    <lastmod>2025-05-20T16:35:42.207Z</lastmod>
-  </url>
-  <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Fall 2024/fall24_pictures/horsegulch24.html</loc>
-    <lastmod>2025-05-20T16:50:49.633Z</lastmod>
-  </url>
-  <url>
-    <loc>https://msu-git.jacksonstrand.com/qmd/field_notes/Fall 2024/horsegulch24.html</loc>
-    <lastmod>2025-05-20T17:28:34.521Z</lastmod>
+    <loc>https://msu-git.jacksonstrand.com/index.html</loc>
+    <lastmod>2025-05-20T20:24:08.172Z</lastmod>
   </url>
 </urlset>

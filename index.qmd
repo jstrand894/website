@@ -180,7 +180,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2024 - present</div>
 </div>
-- Graduate Committee: Dr. Robert Peterson (co-chair), Dr. Sharlene Sing (co-chair), Dr. William Wetzel, Dr. David Weaver
+- Graduate Committee: Dr. Robert Peterson (co-chair), Dr. David Weaver (co-chair), Dr. Sharlene Sing, Dr. William Wetzel
 
 <div style="display: flex; align-items: center;">
   <div><strong>MS Entomology</strong> - <span style="font-style: italic;">Montana State University</span></div>
@@ -421,7 +421,7 @@ Online course taught by Dr. David Weaver
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2024 - Present</div>
+  <div>2024 - present</div>
 </div>
 
 <div style="display: flex; align-items: center;">
@@ -429,7 +429,7 @@ Online course taught by Dr. David Weaver
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2025 - Present</div>
+  <div>2025 - present</div>
 </div>
 
 
@@ -439,14 +439,14 @@ Online course taught by Dr. David Weaver
   <div><a href="" target="_blank" style="text-decoration: none;">Montana State University Graduate Employee Organization (LRES Steward)</a>
   </div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2025 - Present</div>
+  <div>2025 - present</div>
 </div>
 <div style="display: flex; align-items: center;">
   <div><a href="https://landresources.montana.edu/gso/" target="_blank" style="text-decoration: none;">LRES Graduate Student Organization (Co-chair)</a>
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2022 - Present</div>
+  <div>2022 - present</div>
 </div>
 <div style="display: flex; align-items: center;">
   <div><a href="https://landresources.montana.edu/gso/" target="_blank" style="text-decoration: none;">LRES Graduate Student Organization (Treasurer)</a>
@@ -460,14 +460,14 @@ Online course taught by Dr. David Weaver
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2021 - Present</div>
+  <div>2021 - present</div>
 </div>
 <div style="display: flex; align-items: center;">
   <div><a href="https://mgga.org" target="_blank" style="text-decoration: none;">Montana Grain Growers Association</a>
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2022 - Present</div>
+  <div>2022 - present</div>
 </div>
 <br>
 <u>Active Community Volunteer</u>
@@ -476,21 +476,21 @@ Online course taught by Dr. David Weaver
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2021 - Present</div>
+  <div>2021 - present</div>
 </div>
 <div style="display: flex; align-items: center;">
   <div><a href="https://www.gallatinwatershedcouncil.org" target="_blank" style="text-decoration: none;">Gallatin Watershed Council</a>
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2021 - Present</div>
+  <div>2021 - present</div>
 </div>
 <div style="display: flex; align-items: center;">
   <div><a href="https://gvlt.org" target="_blank" style="text-decoration: none;">Gallatin Valley Land Trust</a>
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2021 - Present</div>
+  <div>2021 - present</div>
 </div>  
 <br>
 </div>
