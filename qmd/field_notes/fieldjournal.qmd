@@ -1,5 +1,5 @@
 ---
-title: "Toadflax Biocontrol Field Journal"
+title: "Toadflax Biocontrol Field Notes"
 listing:
   type: grid
   fields: [image, title, date, description, categories]
@@ -12,9 +12,11 @@ format:
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+body-footer: |
+    This page brought to you by victory simulations
 ---
 <img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;">
 
-Welcome to my field journal. I use this space to document all field related activites for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.  
+Welcome to my field notes journal. I use this space to document all field related activites for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.  
 
 <!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->

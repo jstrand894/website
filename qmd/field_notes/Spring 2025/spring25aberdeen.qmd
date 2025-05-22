@@ -6,6 +6,8 @@ image: "Pictures/sl_excl.jpeg"
 categories: ["South Dakota", "Yellow toadflax"]
 format:
   html:
+    toc: true
+    toc-depth: 3  # Adjust based on how many header levels you use
     include-in-header:
       - text: |
           <link
@@ -16,27 +18,17 @@ format:
           <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 ---
 
-<div style="text-align: center; margin-top: 2em;">
+::: {.callout-warning title="Weather"}
+🔥 Low 90s, 25 mph winds. Hot, dry, and windy. Wind kept the mosquitos away!
+:::
+
+<!-- <div style="text-align: center; margin-top: 2em;">
   <a class="btn-small" href="spring25spearfish.qmd" role="button">
     View the Spearfish portion of this trip here →
   </a>
-</div>
+</div> -->
 
-Eric, Aden, and I left Bozeman at 6 AM on Monday, May 12 - driving through Eastern Montana to Aberdeen, SD. We purchased welded metal fencing from Menards in Aberdeen.
-
-:::{.columns}
-
-::: {.column width="33%" .px-2}
-[![Metal fencing](Pictures/fencing.jpeg)](Pictures/fencing.jpeg){data-fancybox="gallery" data-caption="Metal fencing"}
-:::
-
-::: {.column width="33%" .px-2}
-[![Tag for the fencing](Pictures/fencing2.jpeg)](Pictures/fencing2.jpeg){data-fancybox="gallery" data-caption="Tag for the fencing"}
-:::
-
-:::
-
-On Tuesday morning, we left Aberdeen and headed North to the [Sand Lake National Wildlife Refuge](https://www.fws.gov/refuge/sand-lake).
+Eric, Aden, and I left Bozeman at 6 AM on Monday, May 12 - driving through Eastern Montana to Aberdeen, SD. On Tuesday morning, we left Aberdeen and headed North to the [Sand Lake National Wildlife Refuge](https://www.fws.gov/refuge/sand-lake).
 
 # Sand Lake 
 
@@ -108,7 +100,8 @@ Site activities:
 
 # Schaunaman Ranch 
 
-After completing work at Sand Lake, we headed back to Aberdeen to visit our other site - the Schaunaman Ranch just outside of town. 
+After completing work at Sand Lake, we headed back to Aberdeen to visit our other site - the Schaunaman Ranch just outside of town. Thank you to Kirk and Craig Schaunaman for allowing us to access their land and set up our experiments.
+
 
 ## *Rhinusa pilosa* Monitoring Grids
 
@@ -140,6 +133,10 @@ Site activities:
 
 ::: {.column width="33%" .px-2}
 [![Schaunaman Ranch Release cage](Pictures/ranch cage.jpeg)](Pictures/ranch cage.jpeg){data-fancybox="gallery" data-caption="Schaunaman Ranch Release cage"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Releasing *Mecinus janthinus* in the cage](Pictures/ranch_janthinus.jpeg)](Pictures/ranch_janthinus.jpeg){data-fancybox="gallery" data-caption="Releasing *Mecinus janthinus* in the cage"}
 :::
 
 :::

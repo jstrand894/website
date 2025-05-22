@@ -16,6 +16,9 @@ format:
           <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 ---
 
+::: {.callout-note title="Weather"}
+🌤️ Low 70s, sunny, light breeze. Perfect field day conditions.
+:::
 David, Eric, and I went out to our Elk Park site to repair the exclosure that was a built a few years ago. A couple trees fell across the fencing into and across the exclosure. 
 
 Site activities:
