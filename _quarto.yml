@@ -53,6 +53,7 @@ website:
 
 format:
   html:
+    engine: knitr
     toc: true
     toc-links: false
     theme: 
