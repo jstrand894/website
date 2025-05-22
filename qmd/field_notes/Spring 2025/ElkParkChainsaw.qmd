@@ -3,7 +3,7 @@ title: "Elk Park Exclosure Repair"
 date: 2025-05-8
 description: "Repaired the Elk Park exclosure after tree damage, expanded the monitoring grid, and installed trail cameras and data loggers at both the exclosure and control sites."
 image: "Pictures/elk_jackson_chainsaw copy.jpeg"
-categories: ["Montana", "Yellow toadflax"]
+categories: ["Montana", "yellow toadflax"]
 format:
   html:
     include-in-header:

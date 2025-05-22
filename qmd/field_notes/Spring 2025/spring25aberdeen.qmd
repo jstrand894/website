@@ -3,7 +3,7 @@ title: "South Dakota Trip (Aberdeen) - Spring 2025"
 date: 2025-05-14
 description: "Trip to South Dakota to build exclosures, set up *Rhinusa pilosa* monitoring grids, and release *Mecinus janthinus* at Sand Lake NWR and Schaunaman Ranch."
 image: "Pictures/sl_excl.jpeg"
-categories: ["South Dakota", "Yellow toadflax"]
+categories: ["South Dakota", "yellow toadflax"]
 format:
   html:
     toc: true

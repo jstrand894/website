@@ -105,3 +105,55 @@ data-caption="Eric and Aden working on a data logger"}
 
 :::
 
+# Trail camera images
+
+Captured a couple cool things with our cameras after just two weeks!
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Nightime elk visitor to the exclosure](elk_badger_5-21-25_pics/trailcams/elk_exc_elk2.JPG)](elk_badger_5-21-25_pics/trailcams/elk_exc_elk2.JPG){data-fancybox="gallery" 
+data-caption="Nightime elk visitor to the exclosure"} 
+::: 
+
+::: {.column width="33%" .px-2}
+[![Ground squirrel (bottom left)](elk_badger_5-21-25_pics/trailcams/elk_gsquirrel1.JPG)](elk_badger_5-21-25_pics/trailcams/elk_gsquirrel1.JPG){data-fancybox="gallery" 
+data-caption="Ground squirrel (bottom left)"} 
+:::
+
+::: {.column width="33%" .px-2}
+[![A Bobcat! (bottom left)](elk_badger_5-21-25_pics/trailcams/elkp_bobcat.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_bobcat.JPG){data-fancybox="gallery" 
+data-caption="A Bobcat! (bottom left)"} 
+:::
+
+::: {.column width="33%" .px-2}
+[![Morning elk at control grid](elk_badger_5-21-25_pics/trailcams/elkp_cont_elk1.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_cont_elk1.JPG){data-fancybox="gallery" 
+data-caption="Morning elk at control grid"} 
+:::
+
+::: {.column width="33%" .px-2}
+[![Elk munching on camera](elk_badger_5-21-25_pics/trailcams/elkp_cont_elk2.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_cont_elk2.JPG){data-fancybox="gallery" 
+data-caption="Elk munching on camera"} 
+:::
+
+::: {.column width="33%" .px-2}
+[![Deer at control grid](elk_badger_5-21-25_pics/trailcams/elkp_deer1.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_deer1.JPG){data-fancybox="gallery" 
+data-caption="Deer at control grid"} 
+:::
+
+::: {.column width="33%" .px-2}
+[![Elk at control grid](elk_badger_5-21-25_pics/trailcams/elkp_nightelk.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_nightelk.JPG){data-fancybox="gallery" 
+data-caption="Elk at control grid"} 
+:::
+
+::: {.column width="33%" .px-2}
+[![Mid-May snow at the exclosure](elk_badger_5-21-25_pics/trailcams/elkp_snow.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_snow.JPG){data-fancybox="gallery" 
+data-caption="Mid-May snow at the exclosure"} 
+:::
+
+:::
+
+```{r}
+image_files <- list.files("/Users/jacksonstrand/Library/CloudStorage/OneDrive-MontanaStateUniversity/GitHub/website/qmd/field_notes/Spring\ 2025/elk_badger_5-21-25_pics/trailcams", pattern = "\\.jpg$|\\.jpeg$|\\.png$|\\.tif$|\\.tiff$", ignore.case = TRUE)
+image_files
+```
