@@ -3,7 +3,7 @@ title: "Wheat Stem Sawfly: One Tiny Egg, One Big Problem"
 date: 2025-4-9
 description: "I co-consulted on the description for this Montana Wheat and Barley Committee post about wheat stem sawfly eggs."
 image: "wss_eggs.png"
-categories: ["Facebook"]
+categories: ["Facebook", "MWBC"]
 format:
   html:
     include-in-header: 

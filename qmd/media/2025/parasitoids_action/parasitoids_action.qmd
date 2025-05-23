@@ -3,7 +3,7 @@ title: "Parasitoids in Action: Nature’s Tiny Wheat Defenders"
 date: 2025-5-13
 description: "I co-consulted on the description for this Montana Wheat and Barley Committee post about parasitoids of wheat stem sawfly. "
 image: "parasitoid_action.png"
-categories: ["Facebook"]
+categories: ["Facebook", "MWBC"]
 format:
   html:
     include-in-header: 

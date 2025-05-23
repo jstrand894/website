@@ -3,7 +3,7 @@ title: "Tiny but Mighty: Parasitoids vs. Wheat Stem Sawfly"
 date: 2025-1-30
 description: "I co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee. I also took the picture of the ovipositor for their post."
 image: "ovipositor.png"
-categories: ["Facebook"]
+categories: ["Facebook", "MWBC"]
 format:
   html:
     include-in-header: 
