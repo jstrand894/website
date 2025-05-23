@@ -14,11 +14,16 @@ format:
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 ---
 <p id="last-updated" style="font-style: italic; font-size: 0.9em;"></p>
- 
+
 <script>
-  const today = new Date();
+  const lastUpdated = new Date(document.lastModified);
   document.getElementById("last-updated").innerText = 
-    `Last updated: ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
-</script>  
-
-
+    `Last updated: ${lastUpdated.toLocaleString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true
+    })}`;
+</script>

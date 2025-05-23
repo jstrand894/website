@@ -1,0 +1,25 @@
+---
+title: "Agroecological importance of smooth brome..."
+date: 2024-10-28
+description: "Smooth brome serves as a valuable host refuge that supports wheat stem sawfly parasitoids by sustaining high larval mortality and comparable parasitism rates to wheat, enhancing biocontrol potential in Montana cereal systems."
+image: "bigsandy.png"
+categories: ["Ecology", "parasitoids", "IPM"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+**Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids**
+   
+**Authors:** Jackson R. Strand, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver  
+**Journal:** Economic Entomology  
+**DOI:** <a href="https://doi.org/10.1093/jee/toae246" target="_blank">10.1093/jee/toae246</a>
+
+**Abstract:** Wheat stem sawfly (WSS), *Cephus cinctus* Norton (Hymenoptera: Cephidae), is a major pest of cereal crops throughout the Northern Great Plains of North America. Native parasitoids, *Bracon cephi* (Gahan) and *B. lissogaster* Muesebeck (Hymenoptera: Braconidae), play a key role in suppressing WSS populations and limiting associated damage. Smooth brome grass (*Bromus inermis* Leyss.) serves as a potential trap reservoir for WSS when grown in areas surrounding wheat (*Triticum aestivum* L.) fields in Montana. Its unique biology allows it to support high WSS infestation while promoting significant larval mortality throughout the growing season. Late-season WSS survivors can then serve as hosts for WSS parasitoids. Our study investigated smooth brome as a host refuge for WSS parasitoids. We measured WSS larval infestation and survival rate inside smooth brome grown within WSS-inclusion cages, finding a maximum infestation of 66.5% and an end-of-year WSS survival of 5.7%. In addition, we collected stems from sites in central and north-central Montana to measure the WSS infestation and parasitoid prevalence in wheat and adjacent smooth brome. WSS infestation was high in both Big Sandy (64.5% smooth brome, 65.7% adjacent wheat) and Moccasin, MT (50.6%, 38.6%). Year-end WSS larval mortality was 43.6% greater in smooth brome compared to adjacent wheat at both field sites, but both hosted similar numbers of WSS parasitoids. This research underscores the importance of smooth brome in providing a sustainable host refuge for WSS parasitoids and highlights its significant role in supporting the economics of wheat cultivation.

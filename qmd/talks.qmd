@@ -76,6 +76,7 @@ You can view all my given talks below. You can view a more condensed list of my 
   <div style="display: flex; justify-content: flex-end; margin-top: auto;"><a class="slides-btn" href="https://drive.google.com/file/d/17U7s5vnfRguPi5sBfNoev-YG2IjkRB2G/view?usp=share_link" target="_blank" role="button">View my slides</a>
   </div>
   </div>
+  </div>
 </div>
 
 ## 2024  

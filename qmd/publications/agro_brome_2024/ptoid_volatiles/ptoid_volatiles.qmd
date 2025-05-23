@@ -1,0 +1,25 @@
+---
+title: "Sensory and behavioral responses of braconid parasitoids..."
+date: 2025-3-14
+description: "Wheat stem sawfly-infested smooth brome emits key volatiles that elicit strong electrophysiological and behavioral responses in native parasitoids, supporting its role as a biocontrol-enhancing refuge in wheat agroecosystems."
+image: "fig2_eadfid.png"
+categories: ["Chemical ecology", "parasitoids"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+**Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome**
+   
+**Authors:** Jackson R. Strand, Oscar G. Perez Moya, Robert K.D. Peterson, Tracy M. Sterling, David K. Weaver  
+**Journal:** Insect Science  
+**DOI:** <a href="https://doi.org/10.1093/jisesa/ieaf016" target="_blank">10.1093/jisesa/ieaf016</a>
+
+**Abstract:** The wheat stem sawfly, *Cephus cinctus* Norton, is a major pest of cultivated wheat (*Triticum aestivum* L.) and other cereals in North America. The native congeneric parasitoids *Bracon cephi* (Gahan) and *B. lissogaster* Muesebeck are important biocontrol agents and play a crucial role in managing wheat stem sawfly outbreaks and damage. Smooth brome grass (*Bromus inermis* Leyss) has been found to be an effective wheat stem sawfly sink and parasitoid source when grown in areas neighboring wheat fields in Montana. To better understand the ecology of the system, we investigated both the wheat stem sawfly-induced volatile organic compounds produced by smooth brome and winter wheat, and the electrophysiological and behavioral response of *B. cephi* and *B. lissogaster* to the collected volatiles via coupled electroantennography and gas chromatography-flame ionization detection. Volatile concentration analysis indicated significantly increased production of (*Z*)-3-hexenyl acetate, 6-methyl-5-hepten-2-one, and (*E*)-2-hexenal in wheat stem sawfly-infested smooth brome, and elevated production of 6-methyl-5-hepten-2-one in infested smooth brome and winter wheat when compared to their uninfested counterparts. Both *B. cephi* and *B. lissogaster* exhibited significant electrophysiological and behavioral response to (*Z*)-3-hexenyl acetate, 6-methyl-5-hepten-2-one, and hexahydrofarnesyl acetone. Our results provide important evidence supporting habitat management recommendations that will enhance the effectiveness of biological control, contributing to more sustainable agricultural practices and the preservation of vital ecological functions.
