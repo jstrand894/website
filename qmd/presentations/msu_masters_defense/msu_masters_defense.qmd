@@ -1,0 +1,40 @@
+---
+title: "Master's Thesis Defense"
+date: 2024-8-19
+description: "The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids"
+image: "defense_youtube2.png"
+categories: ["MSU", "Defense", "WSS", "Chemical ecology"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+I successfully defended my Master’s thesis at Montana State University on August 19, 2024. My research focused on the agroecological role of smooth brome (*Bromus inermis*) in supporting native parasitoids of the wheat stem sawfly (*Cephus cinctus*), with a particular emphasis on agro- and chemical ecology. 
+
+<p style="text-align:left;">
+  <a href="https://1drv.ms/p/c/af438b0dd68ebd20/ESdYofrjdrBFhGr6sogRo40B_yUkKuJewVN1OVJWuha-_g?e=yls71e" target="_blank">
+    <i class="fas fa-file-powerpoint" style="margin-right:8px; color:#d24726;"></i>View My Slides
+  </a>
+</p>
+
+You can view the video recording of my defense here:  
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/P30QPadkdZE?si=HiBvs2bmtSQQ3OWY" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+  </iframe>
+</div>
+
+

@@ -20,7 +20,7 @@ website:
       - text: "Publications"
         file: qmd/publications/publications.qmd
       - text: "Talks & Presentations"
-        file: qmd/talks.qmd
+        file: qmd/presentations/presentations.qmd
       - text: "Projects"
         file: qmd/projects.qmd
       - text: "Field Notes"

@@ -9,6 +9,7 @@ page-layout: article
 format:
   html:
     toc: true
+    toc-location: left
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -16,14 +17,6 @@ format:
 <img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;">
 
 <p>Welcome to my field notes journal. I use this space to document all field related activities for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.</p>
-
-<p id="last-updated" style="font-style: italic; font-size: 0.9em;"></p>
-
-<script>
-  const today = new Date();
-  document.getElementById("last-updated").innerText = 
-    `Last updated: ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
-</script>
 
 <hr>
 
