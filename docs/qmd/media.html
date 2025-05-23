@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/aboutme/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,7 +67,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../_box.scss">
@@ -103,6 +164,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../qmd/field_notes/fieldjournal.html"> 
+<span class="menu-text">Field Notes</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="../qmd/media.html" aria-current="page"> 
 <span class="menu-text">In the Media</span></a>
   </li>  
@@ -113,10 +178,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="https://jacksonstrandphoto.myportfolio.com" target="_blank"> 
 <span class="menu-text">Photography</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../qmd/field_notes/fieldjournal.html"> 
-<span class="menu-text">Field Journal</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -142,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2023</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Dalmatian toadflax">Dalmatian toadflax <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Montana">Montana <span class="quarto-category-count">(3)</span></div><div class="category" data-category="South Dakota">South Dakota <span class="quarto-category-count">(2)</span></div><div class="category" data-category="yellow toadflax">yellow toadflax <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -165,8 +226,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p id="last-updated" style="font-style: italic; font-size: 0.9em;">
+</p>
+<script>
+  const today = new Date();
+  document.getElementById("last-updated").innerText = 
+    `Last updated: ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
+</script>
 <section id="section" class="level1">
 <h1>2025</h1>
+<div id="fb-root">
+
+</div>
+<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v19.0"></script>
+<div class="fb-post" data-href="https://www.facebook.com/MTwheatbarley/posts/pfbid02ncXRBqXb2yvPSoUYP7jwv3wSKDpqRZaYQ2YztSZcnjKSBjbpRYoT3y1Tg7j3zMuyl?rdid=uPkVNbdJhqQKMIeN" data-width="500">
+
+</div>
+<div class="box">
+<div style="display: flex; margin-bottom: 0px;">
+<div style="flex: 1; margin-right: 15px;">
+<p><a href="https://www.facebook.com/share/p/16acghtsAN/" target="_blank" class="link-container"> <img src="pics/ovipositor_mwbc.jpg" alt="Tiny but Mighty: Parasitoids vs. Wheat Stem Sawfly" class="zoom-image square-image"> </a></p>
+</div>
+<div style="flex: 3;">
+<p><strong><span style="font-size: 1.5em;">Montana Wheat and Barley Committee Facebook Post</span></strong><br><span style="font-size: 0.85em; color: gray;">January, 2025</span></p>
+<p>
+</p><p>I co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee (along with Dr.&nbsp;Robert Peterson and Dr.&nbsp;David Weaver). I also took the picture of the ovipositor for their post.</p>
+<p>You can read it <a href="https://www.facebook.com/MTwheatbarley/posts/636268242271770?ref=embed_post" target="_blank">here</a></p>
+</div>
+</div>
+</div>
 <div class="box">
 <div style="display: flex; margin-bottom: 0px;">
 <div style="flex: 1; margin-right: 15px;">
@@ -258,9 +346,294 @@ David, Lochlin, and I made this short instructional video on how to survey a fie
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1744990343000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1345">
+<a href="../qmd/talks.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="pics/defense_youtube2.png" alt="Jackson Strand Defense" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Talks &amp; Presentations
+</h5>
+<div class="card-text listing-description">
+You can view all my given talks below. You can view a more condensed list of my given talks on my “about me” page.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1733952288000" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
+<a href="../qmd/aboutme.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jackson Strand
+</h5>
+<div class="card-text listing-description">
+:::{#me}
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1733952288000" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
+<a href="../qmd/index cv.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Curriculum vitae
+</h5>
+<div class="card-text listing-description">
+
+  
+    <i class="fa-solid fa-file-arrow-down"></i> Download current CV
+  
+
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1735664031000" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
+<a href="../qmd/helpful.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Helpful Resources &amp; Links
+</h5>
+<div class="card-text listing-description">
+<strong>Guide to Using R</strong><br>
+A comprehensive guide for R beginners by Jared Adam:<br>
+One code to rule them all (┛ಠ_ಠ)┛彡O<br>
+This tutorial helps streamline your R learning process, offering…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1747674984331" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+<a href="../qmd/projects.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="pics/GSO Leadership (2024).JPG" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Field Journal
+</h5>
+<div class="card-text listing-description">
+You can read my field notes here
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1737588246000" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<a href="../qmd/publications.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="pics/fig2_eadfid.png" alt="Big Sandy, MT" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Publications
+</h5>
+<div class="card-text listing-description">
+<strong><span style="font-size: 1.2em;">Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids</span></strong>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1733952288000" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<a href="../qmd/cv.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cirriculum vitae
+</h5>
+<div class="card-text listing-description">
+<!-- Button to download the file -->  <button class="button">Download</button> 
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1747952956569" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<a href="../qmd/field_notes/fieldjournal.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="field_notes/nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Toadflax Biocontrol Field Notes
+</h5>
+<div class="card-text listing-description">
+
+Welcome to my field notes journal. I use this space to document all field related activities for my PhD and activities related to the biological control of yellow and…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Montana,yellow toadflax" data-listing-date-sort="1747807200000" data-listing-file-modified-sort="1747951196436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="475">
+<a href="../qmd/field_notes/Spring 2025/Elk_Badger.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../qmd/field_notes/Spring 2025/Pictures/elk_hoghollow_5-21-25/elk_ericadan_buildfence.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Elk Park and Badger Gulch - Spring 2025
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Montana'); return false;">
+Montana
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('yellow toadflax'); return false;">
+yellow toadflax
+</div>
+</div>
+<div class="card-text listing-description">
+Back to Elk Park to finish up building the exclosure fence, and visited Badger Gulch to set up trail cameras and retrieve weather data.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 21, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="South Dakota,yellow toadflax" data-listing-date-sort="1747202400000" data-listing-file-modified-sort="1747951305007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
+<a href="../qmd/field_notes/Spring 2025/spring25aberdeen.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../qmd/field_notes/Spring 2025/Pictures/sl_excl.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+South Dakota Trip (Aberdeen) - Spring 2025
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('South Dakota'); return false;">
+South Dakota
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('yellow toadflax'); return false;">
+yellow toadflax
+</div>
+</div>
+<div class="card-text listing-description">
+Trip to South Dakota to build exclosures, set up <em>Rhinusa pilosa</em> monitoring grids, and release <em>Mecinus janthinus</em> at Sand Lake NWR and Schaunaman Ranch.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 14, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="South Dakota,yellow toadflax" data-listing-date-sort="1747202400000" data-listing-file-modified-sort="1747951276178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
+<a href="../qmd/field_notes/Spring 2025/spring25spearfish.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../qmd/field_notes/Spring 2025/Pictures/nemo_exclosure.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+South Dakota Trip (Spearfish) - Spring 2025
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('South Dakota'); return false;">
+South Dakota
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('yellow toadflax'); return false;">
+yellow toadflax
+</div>
+</div>
+<div class="card-text listing-description">
+We continued west to the Black Hills, where we set up <em>Rhinusa pilosa</em> monitoring grids and released <em>Mecinus janthinus</em> at sites near Nemo and Sawyer, South Dakota.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 14, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Montana,yellow toadflax" data-listing-date-sort="1746684000000" data-listing-file-modified-sort="1747951265396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<a href="../qmd/field_notes/Spring 2025/ElkParkChainsaw.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../qmd/field_notes/Spring 2025/Pictures/elk_jackson_chainsaw copy.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Elk Park Exclosure Repair
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Montana'); return false;">
+Montana
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('yellow toadflax'); return false;">
+yellow toadflax
+</div>
+</div>
+<div class="card-text listing-description">
+Repaired the Elk Park exclosure after tree damage, expanded the monitoring grid, and installed trail cameras and data loggers at both the exclosure and control sites.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 8, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Montana,Dalmatian toadflax" data-listing-date-sort="1731654000000" data-listing-file-modified-sort="1747952656144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
+<a href="../qmd/field_notes/Fall 2024/horsegulch24.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../qmd/field_notes/Fall 2024/fall24_pictures/hg_fireline.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Horse Gulch Stem Collection - Fall 2024
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Montana'); return false;">
+Montana
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Dalmatian toadflax'); return false;">
+Dalmatian toadflax
+</div>
+</div>
+<div class="card-text listing-description">
+Visited the 2024 Horse Gulch Fire site in the Helena-Lewis &amp; Clark National Forest Lake near historical <em>Mecinus janthiniformis</em> biocontrol monitoring sites.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 15, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -652,7 +1025,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2025, Jackson Strand</p>
+<p>© Copyright 2025, Jackson R. Strand</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

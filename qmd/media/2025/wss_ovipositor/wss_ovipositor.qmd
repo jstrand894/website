@@ -1,0 +1,27 @@
+---
+title: "Tiny but Mighty: Parasitoids vs. Wheat Stem Sawfly"
+date: 2025-1-30
+description: "I co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee. I also took the picture of the ovipositor for their post."
+image: "ovipositor.png"
+categories: ["Facebook"]
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+I co-consulted a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee (along with Dr. Robert Peterson and Dr. David Weaver). I also took the picture of the ovipositor for their post.
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
+
+<div class="fb-post" 
+     data-href="https://www.facebook.com/MTwheatbarley/posts/636268242271770?ref=embed_post" 
+     data-width="500"></div> 

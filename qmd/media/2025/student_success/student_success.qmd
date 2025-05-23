@@ -1,0 +1,23 @@
+---
+title: "MSU Graduate School - Student Success Stories"
+date: 2025-1-15
+description: "I was featured on Montana State University’s Gradaute School website."
+image: "jrs_student_success.png"
+categories: ["MSU", "The Graduate School"]
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+<iframe src="https://www.montana.edu/gradschool/graduatestudentsuccessstories.html#latest-story" 
+        width="100%" 
+        height="800" 
+        style="border:none;">
+</iframe>

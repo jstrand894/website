@@ -26,7 +26,7 @@ website:
       - text: "Field Notes"
         file: qmd/field_notes/fieldjournal.qmd
       - text: "In the Media"
-        file: qmd/media.qmd
+        file: qmd/media/media.qmd
       - text: "Helpful Resources"
         file: qmd/helpful.qmd
       - text: "Photography"

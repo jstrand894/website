@@ -1,0 +1,25 @@
+---
+title: "Wheat Stem Sawfly: One Tiny Egg, One Big Problem"
+date: 2025-4-9
+description: "I co-consulted on the description for this Montana Wheat and Barley Committee post about wheat stem sawfly eggs."
+image: "wss_eggs.png"
+categories: ["Facebook"]
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
+
+<div class="fb-post" 
+     data-href="https://www.facebook.com/MTwheatbarley/posts/pfbid0G6zgWU6Zw1Bo7o3vDoQCZxZdvU9A6vJuuHtU55CbBkVNcJdQZBPDeupHjn74srcxl?rdid=5RUeh3grBg6AwnEO" 
+     data-width="500"></div> 

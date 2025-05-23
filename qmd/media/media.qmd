@@ -1,0 +1,24 @@
+---
+title: "In the Media"
+listing:
+  type: grid
+  fields: [image, title, date, description, categories]
+  sort: "date desc"
+  categories: true
+page-layout: article
+format:
+  html:
+    toc: true
+    include-in-header:
+      - text: |
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+---
+<p id="last-updated" style="font-style: italic; font-size: 0.9em;"></p>
+ 
+<script>
+  const today = new Date();
+  document.getElementById("last-updated").innerText = 
+    `Last updated: ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
+</script> 
+
+

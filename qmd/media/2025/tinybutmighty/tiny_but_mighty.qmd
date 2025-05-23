@@ -1,0 +1,26 @@
+---
+title: "Tiny but Mighty: Parasitoids vs. Wheat Stem Sawfly"
+date: 2025-4-29
+description: "I co-consulted on the description for this Montana Wheat and Barley Committee post about parasitoids and wheat stem sawfly - and I took the photo featured in it."
+image: "wssparasitoid.png"
+categories: ["Facebook"]
+# pinned: true
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
+
+<div class="fb-post" 
+     data-href="https://www.facebook.com/MTwheatbarley/posts/pfbid02ncXRBqXb2yvPSoUYP7jwv3wSKDpqRZaYQ2YztSZcnjKSBjbpRYoT3y1Tg7j3zMuyl?rdid=uPkVNbdJhqQKMIeN" 
+     data-width="500"></div> 

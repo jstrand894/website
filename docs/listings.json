@@ -8,5 +8,41 @@
       "/qmd/field_notes/Spring 2025/ElkParkChainsaw.html",
       "/qmd/field_notes/Fall 2024/horsegulch24.html"
     ]
+  },
+  {
+    "listing": "/qmd/media.html",
+    "items": [
+      "/qmd/talks.html",
+      "/qmd/aboutme.html",
+      "/qmd/index cv.html",
+      "/qmd/helpful.html",
+      "/qmd/projects.html",
+      "/qmd/publications.html",
+      "/qmd/cv.html",
+      "/qmd/field_notes/fieldjournal.html",
+      "/qmd/field_notes/Spring 2025/Elk_Badger.html",
+      "/qmd/field_notes/Spring 2025/spring25aberdeen.html",
+      "/qmd/field_notes/Spring 2025/spring25spearfish.html",
+      "/qmd/field_notes/Spring 2025/ElkParkChainsaw.html",
+      "/qmd/field_notes/Fall 2024/horsegulch24.html"
+    ]
+  },
+  {
+    "listing": "/qmd/media/media.html",
+    "items": [
+      "/qmd/media/2025/parasitoids_action/parasitoids_action.html",
+      "/qmd/media/2025/tinybutmighty/tiny_but_mighty.html",
+      "/qmd/media/2025/WSS_eggs/wss_eggs.html",
+      "/qmd/media/2025/wss_ovipositor/wss_ovipositor.html",
+      "/qmd/media/2025/student_success/student_success.html",
+      "/qmd/media/2025/MSU_newexplorations/new_explorations.html",
+      "/qmd/media/2024/locoweed_picture/locoweed_pic.html",
+      "/qmd/media/2024/wss_bestmanagement/wss_bestmanage.html",
+      "/qmd/media/2023/wss_youtube/wss_youtube.html"
+    ]
+  },
+  {
+    "listing": "/qmd/media/2023/wss_youtube/wss_youtube.html",
+    "items": []
   }
 ]

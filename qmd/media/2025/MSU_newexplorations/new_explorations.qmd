@@ -1,0 +1,25 @@
+---
+title: "Montana State graduate students publish new explorations of wheat stem sawfly management"
+date: 2025-1-8
+description: "Lochlin and I were featured in an article about our master’s projects at MSU."
+image: "wheat_hands.png"
+categories: ["MSU"]
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+You can read the full article <a href="https://www.montana.edu/news/24230" target="_blank">here</a>
+
+<iframe src="https://www.montana.edu/news/24230" 
+        width="100%" 
+        height="800" 
+        style="border:none;">
+</iframe>
