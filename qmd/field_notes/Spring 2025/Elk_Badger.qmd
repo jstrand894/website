@@ -152,8 +152,3 @@ data-caption="Mid-May snow at the exclosure"}
 :::
 
 :::
-
-```{r}
-image_files <- list.files("/Users/jacksonstrand/Library/CloudStorage/OneDrive-MontanaStateUniversity/GitHub/website/qmd/field_notes/Spring\ 2025/elk_badger_5-21-25_pics/trailcams", pattern = "\\.jpg$|\\.jpeg$|\\.png$|\\.tif$|\\.tiff$", ignore.case = TRUE)
-image_files
-```
