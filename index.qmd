@@ -33,8 +33,8 @@ toc: true
 ---
 
 ::: {#about-block}
-<!-- <span style="font-size: 35px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span>   -->
-# Jackson R. Strand
+<span style="font-size: 38px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span> 
+
 I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I focus on applied entomology, ecology, and the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.  
 
 I live in Bozeman with my wife Grace where we enjoy running, biking, and skiing.
