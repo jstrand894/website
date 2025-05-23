@@ -17,14 +17,6 @@ format:
 
 <p>Welcome to my field notes journal. I use this space to document all field related activities for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.</p>
 
-<p id="last-updated" style="font-style: italic; font-size: 0.9em;"></p>
-
-<script>
-  const today = new Date();
-  document.getElementById("last-updated").innerText = 
-    `Last updated: ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
-</script>
-
 <hr>
 
 <!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->

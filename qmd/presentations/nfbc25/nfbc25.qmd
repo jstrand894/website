@@ -1,0 +1,30 @@
+---
+title: "National Forum on Biological Control 2025"
+date: 2025-4-15
+description: "Understanding Host Preference in *Mecinus janthinus* and *M. janthiniformis*: Implications of Hybridization for Effective Biological Control"
+image: "nfbc25.png"
+categories: ["NFBC", "Biological Control", "Toadflax"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+I presented this talk at the 2025 National Forum on Biological Control in Annapolis, MD. My research examined behavioral differences between *Mecinus janthinus* and *M. janthiniformis*, focusing on hybridization and its implications for sustainable biological control of yellow and Dalmatian toadflax.
+
+<p style="text-align:left;">
+  <a href="https://montanaedu-my.sharepoint.com/:p:/g/personal/n47c392_student_montana_edu/Ebdqa-cWMU9KlW0wgJrp3BEBECdytJ8hjGeq1T1jraNU5g?e=g12gIO" target="_blank">
+    <i class="fas fa-file-powerpoint" style="color:#d24726;margin-right:8px;"></i>View Slides
+  </a> 
+</p>
+
+> 📍 **Location:** Annapolis, MD  
+> 📅 **Date:** Tuesday, April 15, 2025

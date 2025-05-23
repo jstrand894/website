@@ -78,5 +78,19 @@
       "/qmd/publications/agro_brome_2024/ptoid_volatiles/ptoid_volatiles.html",
       "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
     ]
+  },
+  {
+    "listing": "/qmd/presentations/presentations.html",
+    "items": [
+      "/qmd/presentations/nfbc25/nfbc25.html",
+      "/qmd/presentations/esa24/esa24.html",
+      "/qmd/presentations/msu_masters_defense/msu_masters_defense.html",
+      "/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html",
+      "/qmd/presentations/esa23/esa23.html",
+      "/qmd/presentations/lres_srs_23/lres_srs_23.html",
+      "/qmd/presentations/esa22/esa22.html",
+      "/qmd/presentations/lres_colloq_22/lres_colloq_22.html",
+      "/qmd/presentations/esa21/esa21.html"
+    ]
   }
 ]
