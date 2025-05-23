@@ -18,5 +18,5 @@ format:
 <p>Welcome to my field notes journal. I use this space to document all field related activities for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.</p>
  
 <hr>
-
+  
 <!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->

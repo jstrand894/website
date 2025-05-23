@@ -2,7 +2,7 @@
 title: "Elk Park and Badger Gulch - Spring 2025"
 date: 2025-5-21
 description: "Back to Elk Park to finish up building the exclosure fence, and visited Badger Gulch to set up trail cameras and retrieve weather data."
-image: "Pictures/elk_hoghollow_5-21-25/elk_ericadan_buildfence.jpeg"
+image: "elk_badger_5-21-25_pics/elk_ericaden_buildfence.jpeg"
 categories: ["Montana", "yellow toadflax"]
 format:
   html:
