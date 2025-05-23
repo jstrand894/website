@@ -19,6 +19,6 @@ format:
   const today = new Date();
   document.getElementById("last-updated").innerText = 
     `Last updated: ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
-</script> 
+</script>  
 
 
