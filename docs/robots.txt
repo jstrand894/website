@@ -1,1 +1,1 @@
-Sitemap: https://msu-git.jacksonstrand.com/sitemap.xml
+Sitemap: https://jackson-strand.com/sitemap.xml
