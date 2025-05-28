@@ -147,8 +147,8 @@ data-caption="Elk at control grid"}
 :::
 
 ::: {.column width="33%" .px-2}
-[![Mid-May snow at the exclosure](elk_badger_5-21-25_pics/trailcams/elkp_snow.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_snow.JPG){data-fancybox="gallery" 
-data-caption="Mid-May snow at the exclosure"} 
+[![Mid-May snow at Elk Park](elk_badger_5-21-25_pics/trailcams/elkp_snow.JPG)](elk_badger_5-21-25_pics/trailcams/elkp_snow.JPG){data-fancybox="gallery" 
+data-caption="Mid-May snow at Elk Park"} 
 :::
 
 :::

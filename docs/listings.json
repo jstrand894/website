@@ -14,13 +14,6 @@
     ]
   },
   {
-    "listing": "/qmd/publications/publications.html",
-    "items": [
-      "/qmd/publications/agro_brome_2024/ptoid_volatiles/ptoid_volatiles.html",
-      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
-    ]
-  },
-  {
     "listing": "/qmd/presentations/presentations.html",
     "items": [
       "/qmd/presentations/nfbc25/nfbc25.html",
@@ -35,8 +28,16 @@
     ]
   },
   {
+    "listing": "/qmd/publications/publications.html",
+    "items": [
+      "/qmd/publications/agro_brome_2024/ptoid_volatiles/ptoid_volatiles.html",
+      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
+    ]
+  },
+  {
     "listing": "/qmd/field_notes/fieldjournal.html",
     "items": [
+      "/qmd/field_notes/Spring 2025/hoghollow.html",
       "/qmd/field_notes/Spring 2025/Elk_Badger.html",
       "/qmd/field_notes/Spring 2025/spring25spearfish.html",
       "/qmd/field_notes/Spring 2025/spring25aberdeen.html",
