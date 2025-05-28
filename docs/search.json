@@ -179,7 +179,7 @@
     "href": "qmd/helpful.html#quarto-website-building",
     "title": "Helpful Resources & Links",
     "section": "Quarto Website Building",
-    "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages. Learn how to integrate Quarto with GitHub Pages to host your site. How to Create a Web Site Using Quarto, RStudio, and GitHub Pages\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
+    "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages:\nHow to Create a Web Site Using Quarto, RStudio, and GitHub Pages\nLearn how to integrate Quarto with GitHub Pages to host your site. \n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
   },
   {
     "objectID": "qmd/helpful.html#github",
@@ -200,7 +200,7 @@
     "href": "qmd/helpful.html#other",
     "title": "Helpful Resources & Links",
     "section": "Other",
-    "text": "Other\n\nGallatin Watershed Volunteering Video\nGracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at 0:43!\nConcious Spending Plan\nA guide to creating a personal financial plan that prioritizes essential spending and savings. It is a useful resource for developing a budget that reflects your personal financial goals."
+    "text": "Other\n\nWatershed Volunteering\nGracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at\nWatershed Volunteering\n\n&lt;iframe width=\"560\" height=\"315\" src=\"https://youtu.be/65MAB0qRtAE?si=beO8jD5t5SOJzooF\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\nConscious Spending Plan\nA guide to creating a personal financial plan that prioritizes essential spending and savings:\nConscious Spending Plan\nA useful resource for developing a budget that reflects your personal financial goals.\nLibgen library A website to get free textbooks: Libgen"
   },
   {
     "objectID": "qmd/presentations/esa24/esa24.html",
@@ -383,5 +383,89 @@
     "title": "Jackson Strand",
     "section": "Employment History",
     "text": "Employment History\n\n\n\n\n Pace Analytical - Onsite at 3M - Regulatory IT Analyst\n\n\n\n\n\n2017 - 2021\n\n\n\n(Maplewood, MN)\n\n\n\nProvided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n\n\nIntegrated, tested, and supported user and data interface between CDMS and SAP.\n\n\nGenerated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.\n\n\n\n\n\n Metropolitan Mosquito Control District - Seasonal Mosquito Technician\n\n\n\n\n\n2017\n\n\n\n(Oakdale, MN)\n\n\n\nWorked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.\n\n\nIndependently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.\n\n\n\n\n\n Leatherdale Equin Center - Barn Maintenance Crew\n\n\n\n\n\n\n2015 - 2017\n\n\n\n\n\n(St. Paul, MN)\n\n\n\nMaintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.\n\n\nTrained and managed new members of the crew.\n\n\n\n\n\n Minnesota Youth Soccer Association - Youth Soccer Referee\n\n\n\n\n\n\n2010 - 2021"
+  },
+  {
+    "objectID": "qmd/helpful.html#forest-service-roads",
+    "href": "qmd/helpful.html#forest-service-roads",
+    "title": "Helpful Resources & Links",
+    "section": "Forest Service Roads",
+    "text": "Forest Service Roads\nThis website lets you download maps for the Cutster Gallatin National Forest. These maps reference when roads open in the spring and close in the fall. These maps are the Motorized Vehicle Use Maps (MVUMs).\n  Visit US Forest Service  \n\n\n\n\n\nMap for Bridgers and Bangtail Mountains"
+  },
+  {
+    "objectID": "qmd/helpful.html#outdoors-stuff",
+    "href": "qmd/helpful.html#outdoors-stuff",
+    "title": "Helpful Resources & Links",
+    "section": "Outdoors Stuff",
+    "text": "Outdoors Stuff\n\nHow to check for snow on the trail\nI use this website in the spring to check to see which trails in the area are potentially snow free.\nMontana Smoke Forecast\nThis tells you how bad the smoke will be and for how long.\nFungi Identification Guide\nWhile it’s basically impossible to ID a mushroom accurately without a gill print, I found this website helpful in at least narrowing down the specimen somewhat."
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html",
+    "href": "qmd/helpful/helpful.html",
+    "title": "Helpful Resources & Links",
+    "section": "",
+    "text": "Guide to Using R A comprehensive guide for R beginners by Jared Adam: One code to rule them all (┛ಠ_ಠ)┛彡O This tutorial helps streamline your R learning process, offering clear steps and examples.\n\n\nCodecademy: Learn R A helpful, free interactive tutorial to learn R from the basics: Learn R with Codecademy Start from the ground up and improve your R programming skills with hands-on practice.\n\n\nR Markdown Documentation Learn to create professional reports, PDFs, and Word documents directly from R code using R Markdown: R Markdown Documentation This resource is great for integrating code with reports and presentations.\n\n\nR Studio Graphing Notes A reference for creating visualizations and graphs using R Studio: R Studio Graphing This guide provides a deeper dive into R’s graphing capabilities."
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#r-studio",
+    "href": "qmd/helpful/helpful.html#r-studio",
+    "title": "Helpful Resources & Links",
+    "section": "",
+    "text": "Guide to Using R A comprehensive guide for R beginners by Jared Adam: One code to rule them all (┛ಠ_ಠ)┛彡O This tutorial helps streamline your R learning process, offering clear steps and examples.\n\n\nCodecademy: Learn R A helpful, free interactive tutorial to learn R from the basics: Learn R with Codecademy Start from the ground up and improve your R programming skills with hands-on practice.\n\n\nR Markdown Documentation Learn to create professional reports, PDFs, and Word documents directly from R code using R Markdown: R Markdown Documentation This resource is great for integrating code with reports and presentations.\n\n\nR Studio Graphing Notes A reference for creating visualizations and graphs using R Studio: R Studio Graphing This guide provides a deeper dive into R’s graphing capabilities."
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#r-statistics",
+    "href": "qmd/helpful/helpful.html#r-statistics",
+    "title": "Helpful Resources & Links",
+    "section": "R Statistics",
+    "text": "R Statistics\n\nMixed Effects Models"
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#quarto-website-building",
+    "href": "qmd/helpful/helpful.html#quarto-website-building",
+    "title": "Helpful Resources & Links",
+    "section": "Quarto Website Building",
+    "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages. Learn how to integrate Quarto with GitHub Pages to host your site. How to Create a Web Site Using Quarto, RStudio, and GitHub Pages\n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#github",
+    "href": "qmd/helpful/helpful.html#github",
+    "title": "Helpful Resources & Links",
+    "section": "GitHub",
+    "text": "GitHub\n\nA guide to using GitHub created by Callum Arnold: Introduction to Git and GitHub"
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#citations",
+    "href": "qmd/helpful/helpful.html#citations",
+    "title": "Helpful Resources & Links",
+    "section": "Citations",
+    "text": "Citations\n\nZotero Citations Repository\nA collection of citation styles for use with Zotero, a free tool for managing references:\nZotero Citations Repository\nUse this to manage and generate citations for your research papers."
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#other",
+    "href": "qmd/helpful/helpful.html#other",
+    "title": "Helpful Resources & Links",
+    "section": "Other",
+    "text": "Other\n\n\nGallatin Watershed Volunteering Video Grace and I volunteered a park near our house to plant trees. You can see us in the back of the video at 0:43!\n\n\nConscious Spending Plan A guide to creating a personal financial plan that prioritizes essential spending and savings. It is a useful resource for developing a budget that reflects your personal financial goals.\n\n\nZLibrary Website that lets you download any book for free! The web address is constantly changing so I just linked the search.\n\n\nLibGen Books This website lets you download textbooks. The web address is constantly changing so I just linked the search.\n\n\nAdobe Portfolio This is the service I used to make my photography website.\n\n\nYoutube Converter Use this website to turn YouTube videos into MP4 files that you can send to your friends."
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#outdoors-stuff",
+    "href": "qmd/helpful/helpful.html#outdoors-stuff",
+    "title": "Helpful Resources & Links",
+    "section": "Outdoors Stuff",
+    "text": "Outdoors Stuff\n\nHow to check for snow on the trail\nI use this website in the spring to check to see which trails in the area are potentially snow free.\nMontana Smoke Forecast\nThis tells you how bad the smoke will be and for how long.\nFungi Identification Guide\nWhile it’s basically impossible to ID a mushroom accurately without a gill print, I found this website helpful in at least narrowing down the specimen somewhat."
+  },
+  {
+    "objectID": "qmd/helpful/helpful.html#forest-service-roads",
+    "href": "qmd/helpful/helpful.html#forest-service-roads",
+    "title": "Helpful Resources & Links",
+    "section": "Forest Service Roads",
+    "text": "Forest Service Roads\nThis website lets you download maps for the Cutster Gallatin National Forest. These maps reference when roads open in the spring and close in the fall. These maps are the Motorized Vehicle Use Maps (MVUMs).\n  Visit US Forest Service  \n\n\n\n\n\nMap for Bridgers and Bangtail Mountains"
+  },
+  {
+    "objectID": "qmd/helpful/jared_guide/jared_guide.html",
+    "href": "qmd/helpful/jared_guide/jared_guide.html",
+    "title": "Guide to Using R - by Jared Adam",
+    "section": "",
+    "text": "This is a test"
   }
 ]

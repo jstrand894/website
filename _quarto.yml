@@ -28,7 +28,7 @@ website:
       - text: "In the Media"
         file: qmd/media/media.qmd
       - text: "Helpful Resources"
-        file: qmd/helpful.qmd
+        file: qmd/helpful/helpful.qmd 
       - text: "Photography"
         url: "https://jacksonstrandphoto.myportfolio.com"
         target: _blank

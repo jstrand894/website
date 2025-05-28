@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-05-27">
+<meta name="description" content="Drove out to Hog Hollow to retrieve data and set up cameras.">
 
-<title>Toadflax Biocontrol Field Notes – Jackson Strand</title>
+<title>Guide to Using R - by Jared Adam – Jackson Strand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../img/aboutme/logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -68,66 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../_box.scss">
@@ -166,7 +107,7 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../qmd/field_notes/fieldjournal.html" aria-current="page"> 
+    <a class="nav-link" href="../../qmd/field_notes/fieldjournal.html"> 
 <span class="menu-text">Field Notes</span></a>
   </li>  
   <li class="nav-item">
@@ -174,7 +115,7 @@ window.Quarto = {
 <span class="menu-text">In the Media</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../qmd/helpful.html"> 
+    <a class="nav-link" href="../../qmd/helpful/helpful.html"> 
 <span class="menu-text">Helpful Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -195,22 +136,37 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RGFsbWF0aWFuJTIwdG9hZGZsYXg=">Dalmatian toadflax <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9udGFuYQ==">Montana <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U291dGglMjBEYWtvdGE=">South Dakota <span class="quarto-category-count">(2)</span></div><div class="category" data-category="eWVsbG93JTIwdG9hZGZsYXg=">yellow toadflax <span class="quarto-category-count">(5)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Toadflax Biocontrol Field Notes</h1>
-</div>
+<h1 class="title">Guide to Using R - by Jared Adam</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Montana</div>
+    <div class="quarto-category">yellow toadflax</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Drove out to Hog Hollow to retrieve data and set up cameras.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 27, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -220,189 +176,10 @@ window.Quarto = {
 </header>
 
 
-<p><img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;"></p>
-<p>
-Welcome to my field notes journal. I use this space to document all field related activities for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.
-</p>
-<hr>
-<!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TW9udGFuYSUyQ3llbGxvdyUyMHRvYWRmbGF4" data-listing-date-sort="1748325600000" data-listing-file-modified-sort="1748401689350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
-<a href="../../qmd/field_notes/Spring 2025/hoghollow.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../qmd/field_notes/Spring 2025/hoghollow_pics_5-27-25/hog_exclosure1.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hog Hollow - Spring 2025
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9udGFuYQ=='); return false;">Montana</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('eWVsbG93JTIwdG9hZGZsYXg='); return false;">yellow toadflax</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Drove out to Hog Hollow to retrieve data and set up cameras.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 27, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TW9udGFuYSUyQ3llbGxvdyUyMHRvYWRmbGF4" data-listing-date-sort="1747807200000" data-listing-file-modified-sort="1748401851181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="466">
-<a href="../../qmd/field_notes/Spring 2025/Elk_Badger.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../qmd/field_notes/Spring 2025/elk_badger_5-21-25_pics/elk_ericaden_buildfence.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Elk Park and Badger Gulch - Spring 2025
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9udGFuYQ=='); return false;">Montana</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('eWVsbG93JTIwdG9hZGZsYXg='); return false;">yellow toadflax</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Back to Elk Park to finish up building the exclosure fence, and visited Badger Gulch to set up trail cameras and retrieve weather data.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 21, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="U291dGglMjBEYWtvdGElMkN5ZWxsb3clMjB0b2FkZmxheA==" data-listing-date-sort="1747375200000" data-listing-file-modified-sort="1748030002926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
-<a href="../../qmd/field_notes/Spring 2025/spring25spearfish.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../qmd/field_notes/Spring 2025/Pictures/nemo_exclosure.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-South Dakota Trip (Spearfish) - Spring 2025
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U291dGglMjBEYWtvdGE='); return false;">South Dakota</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('eWVsbG93JTIwdG9hZGZsYXg='); return false;">yellow toadflax</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>We continued west to the Black Hills, where we set up <em>Rhinusa pilosa</em> monitoring grids and released <em>Mecinus janthinus</em> at sites near Nemo and Sawyer, South Dakota.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="U291dGglMjBEYWtvdGElMkN5ZWxsb3clMjB0b2FkZmxheA==" data-listing-date-sort="1747202400000" data-listing-file-modified-sort="1747951305007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
-<a href="../../qmd/field_notes/Spring 2025/spring25aberdeen.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../qmd/field_notes/Spring 2025/Pictures/sl_excl.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-South Dakota Trip (Aberdeen) - Spring 2025
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U291dGglMjBEYWtvdGE='); return false;">South Dakota</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('eWVsbG93JTIwdG9hZGZsYXg='); return false;">yellow toadflax</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Trip to South Dakota to build exclosures, set up <em>Rhinusa pilosa</em> monitoring grids, and release <em>Mecinus janthinus</em> at Sand Lake NWR and Schaunaman Ranch.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 14, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="TW9udGFuYSUyQ3llbGxvdyUyMHRvYWRmbGF4" data-listing-date-sort="1746684000000" data-listing-file-modified-sort="1747951265396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
-<a href="../../qmd/field_notes/Spring 2025/ElkParkChainsaw.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../qmd/field_notes/Spring 2025/Pictures/elk_jackson_chainsaw copy.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Elk Park Exclosure Repair
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9udGFuYQ=='); return false;">Montana</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('eWVsbG93JTIwdG9hZGZsYXg='); return false;">yellow toadflax</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Repaired the Elk Park exclosure after tree damage, expanded the monitoring grid, and installed trail cameras and data loggers at both the exclosure and control sites.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 8, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="TW9udGFuYSUyQ0RhbG1hdGlhbiUyMHRvYWRmbGF4" data-listing-date-sort="1731654000000" data-listing-file-modified-sort="1747952656144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
-<a href="../../qmd/field_notes/Fall 2024/horsegulch24.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../qmd/field_notes/Fall 2024/fall24_pictures/hg_fireline.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Horse Gulch Stem Collection - Fall 2024
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9udGFuYQ=='); return false;">Montana</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGFsbWF0aWFuJTIwdG9hZGZsYXg='); return false;">Dalmatian toadflax</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Visited the 2024 Horse Gulch Fire site in the Helena-Lewis &amp; Clark National Forest Lake near historical <em>Mecinus janthiniformis</em> biocontrol monitoring sites.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 15, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

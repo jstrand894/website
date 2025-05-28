@@ -1,0 +1,6 @@
+---
+title: "Guide to Using R - by Jared Adam"
+external-url: https://jared-adam-psu.github.io/R-Tutorial-for-Tooker-Lab/
+---
+
+This is a test

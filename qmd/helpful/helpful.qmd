@@ -1,0 +1,126 @@
+---
+title: "Helpful Resources & Links"
+listing:
+  type: grid
+  fields: [image, title, date, description, categories]
+  sort: "date desc"
+  categories: true 
+---
+
+## R Studio 
+  
+<ol>
+  <li><strong>Guide to Using R</strong><br>
+      A comprehensive guide for R beginners by <a href="https://www.linkedin.com/in/jared-adam-24b107241/" target="_blank">Jared Adam</a>:<br>
+      <a href="https://jared-adam-psu.github.io/R-Tutorial-for-Tooker-Lab/" target="_blank">One code to rule them all (┛ಠ_ಠ)┛彡O</a><br>
+      This tutorial helps streamline your R learning process, offering clear steps and examples.
+  </li> 
+ 
+  <li><strong>Codecademy: Learn R</strong><br>
+      A helpful, free interactive tutorial to learn R from the basics:<br>
+      <a href="https://www.codecademy.com/learn/learn-r?utm_source=pepperjam&utm_medium=affiliate&utm_term=159404&clickId=4716939938&pj_creativeid=8-12462&pj_publisherid=159404" target="_blank">Learn R with Codecademy</a><br>
+      Start from the ground up and improve your R programming skills with hands-on practice.
+  </li>
+
+  <li><strong>R Markdown Documentation</strong><br>
+      Learn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:<br>
+      <a href="https://rmarkdown.rstudio.com/lesson-1.html" target="_blank">R Markdown Documentation</a><br>
+      This resource is great for integrating code with reports and presentations.
+  </li>
+
+  <li><strong>R Studio Graphing Notes</strong><br>
+      A reference for creating visualizations and graphs using R Studio:<br>
+      <a href="https://www.jeffdoser.com/files/for875/_book/" target="_blank">R Studio Graphing</a><br>
+      This guide provides a deeper dive into R's graphing capabilities.
+  </li>
+</ol>
+
+## R Statistics
+-   [Mixed Effects Models](https://meghan.rbind.io/blog/2022-06-28-a-beginners-guide-to-mixed-effects-models)
+
+## Quarto Website Building
+
+1. **How to Create a Quarto Website**  
+   A YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages. Learn how to integrate Quarto with GitHub Pages to host your site.
+   <a href="https://youtu.be/YN75YXaLFGM?si=RyCG23IMBwFUKsO8" target="_blank">How to Create a Web Site Using Quarto, RStudio, and GitHub Pages</a>  
+   
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/YN75YXaLFGM" frameborder="0" allowfullscreen></iframe>
+2. Gallery showing different options for formatting a Quarto website: [Quarto Gallery](https://quarto.org/docs/gallery/)
+3. Quarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: <a href="https://quarto.org/docs/websites/" target="_blank">Quarto - Creating a Website</a>
+
+## GitHub
+
+-   A guide to using GitHub created by [Callum Arnold](https://www.linkedin.com/in/arnold-c/){style="text-decoration: none;"}: <a href="https://psu-git.callumarnold.com" target="_blank">Introduction to Git and GitHub</a>
+
+## Citations
+
+1. **Zotero Citations Repository**  
+   A collection of citation styles for use with Zotero, a free tool for managing references:  
+   [Zotero Citations Repository](https://www.zotero.org/styles)  
+   Use this to manage and generate citations for your research papers.
+
+## Other 
+<ol>
+  <li><a href="https://youtu.be/65MAB0qRtAE?si=beO8jD5t5SOJzooF" target="_blank">Gallatin Watershed Volunteering Video</a><br>
+      Grace and I volunteered a park near our house to plant trees. You can see us in the back of the video at 
+      <a href="https://youtu.be/65MAB0qRtAE?t=42" target="_blank">0:43</a>!
+  </li>
+
+  <li><a href="https://www.iwillteachyoutoberich.com/c-conscious-spending-plan/" target="_blank">Conscious Spending Plan</a><br>
+      A guide to creating a personal financial plan that prioritizes essential spending and savings. It is a useful resource for developing a budget that reflects your personal financial goals.
+  </li>
+
+  <li><a href="https://www.bing.com/search?q=ZLibrary" target="_blank">ZLibrary</a><br>
+      Website that lets you download any book for free! The web address is constantly changing so I just linked the search. 
+  </li>
+
+  <li><a href="https://www.bing.com/search?q=LibGen" target="_blank">LibGen Books</a><br>
+      This website lets you download textbooks. The web address is constantly changing so I just linked the search.
+  </li>
+
+  <li><a href="https://portfolio.adobe.com/sites" target="_blank">Adobe Portfolio</a><br>
+      This is the service I used to make my photography website.
+  </li>
+
+  <li><a href="https://zeemo.ai/tools/youtube-converter" target="_blank">Youtube Converter</a><br>
+      Use this website to turn YouTube videos into MP4 files that you can send to your friends.
+  </li>
+</ol>
+
+## Outdoors Stuff
+
+1. **<a href="https://alpenflo.com/journal/how-to-check-for-snow-on-the-trail" target="_blank">How to check for snow on the trail</a>**  
+I use this website in the spring to check to see which trails in the area are potentially snow free.
+
+2. **<a href="https://deq.mt.gov/air/Programs/smokeforecasts" target="_blank">Montana Smoke Forecast</a>**  
+This tells you how bad the smoke will be and for how long.
+
+3. **<a href="https://www.first-nature.com/fungi/~id-guide.php" target="_blank">Fungi Identification Guide</a>**  
+While it's basically impossible to ID a mushroom accurately without a gill print, I found this website helpful in at least narrowing down the specimen somewhat.
+
+## Forest Service Roads
+
+This website lets you download maps for the Cutster Gallatin National Forest. These maps reference when roads open in the spring and close in the fall. These maps are the Motorized Vehicle Use Maps (MVUMs).
+
+<a href="http://www.fs.usda.gov/r01/custergallatin/maps-guides" target="_blank" style="text-decoration: none;">
+  <button style="
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #2E8B57;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  ">
+    Visit US Forest Service
+  </button>
+</a>
+
+:::{.columns}
+::: {.column width="30%"}
+[![Map for Bridgers and Bangtail Mountains](https://www.fs.usda.gov/sites/nfs/files/r01/custergallatin/publication/BridgersCraziesMVUMBack_Bridgers_2025.pdf)](https://www.fs.usda.gov/sites/nfs/files/r01/custergallatin/publication/BridgersCraziesMVUMBack_Bridgers_2025.pdf){data-fancybox="gallery" 
+data-caption="Map for Bridgers and Bangtail Mountains"} 
+:::
+:::
