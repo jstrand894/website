@@ -31,11 +31,15 @@ website:
       #   url: "https://jacksonstrandphoto.myportfolio.com"
       #   target: _blank
       
-    right: 
-      - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'
-        url: "https://jacksonstrandphoto.myportfolio.com"
-        target: _blank
+    # right: 
+    #   - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'
+    #     url: "https://jacksonstrandphoto.myportfolio.com"
+    #     target: _blank
     tools:
+      - icon: camera
+        href: https://jacksonstrandphoto.myportfolio.com
+        target: _blank
+        aria-label: "Photography Portfolio"
       - icon: linkedin
         href: https://linkedin.com/in/jacksonstrand
       # - icon: instagram
