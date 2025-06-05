@@ -14,84 +14,11 @@
     ]
   },
   {
-    "listing": "/qmd/presentations/presentations.html",
-    "items": [
-      "/qmd/presentations/nfbc25/nfbc25.html",
-      "/qmd/presentations/esa24/esa24.html",
-      "/qmd/presentations/msu_masters_defense/msu_masters_defense.html",
-      "/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html",
-      "/qmd/presentations/esa23/esa23.html",
-      "/qmd/presentations/lres_srs_23/lres_srs_23.html",
-      "/qmd/presentations/esa22/esa22.html",
-      "/qmd/presentations/lres_colloq_22/lres_colloq_22.html",
-      "/qmd/presentations/esa21/esa21.html"
-    ]
-  },
-  {
     "listing": "/qmd/publications/publications.html",
     "items": [
       "/qmd/publications/agro_brome_2024/ptoid_volatiles/ptoid_volatiles.html",
       "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
     ]
-  },
-  {
-    "listing": "/qmd/field_notes/fieldjournal.html",
-    "items": [
-      "/qmd/field_notes/Spring 2025/hoghollow.html",
-      "/qmd/field_notes/Spring 2025/Elk_Badger.html",
-      "/qmd/field_notes/Spring 2025/spring25spearfish.html",
-      "/qmd/field_notes/Spring 2025/spring25aberdeen.html",
-      "/qmd/field_notes/Spring 2025/ElkParkChainsaw.html",
-      "/qmd/field_notes/Fall 2024/horsegulch24.html"
-    ]
-  },
-  {
-    "listing": "/qmd/helpful.html",
-    "items": [
-      "/qmd/publications/publications.html",
-      "/qmd/index cv.html",
-      "/qmd/projects.html",
-      "/qmd/presentations/presentations.html",
-      "/qmd/cv.html",
-      "/qmd/field_notes/fieldjournal.html",
-      "/qmd/media/media.html",
-      "/qmd/field_notes/Spring 2025/hoghollow.html",
-      "/qmd/field_notes/Spring 2025/Elk_Badger.html",
-      "/qmd/field_notes/Spring 2025/spring25spearfish.html",
-      "/qmd/field_notes/Spring 2025/spring25aberdeen.html",
-      "/qmd/media/2025/parasitoids_action/parasitoids_action.html",
-      "/qmd/field_notes/Spring 2025/ElkParkChainsaw.html",
-      "/qmd/media/2025/tinybutmighty/tiny_but_mighty.html",
-      "/qmd/presentations/nfbc25/nfbc25.html",
-      "/qmd/media/2025/WSS_eggs/wss_eggs.html",
-      "/qmd/publications/agro_brome_2024/ptoid_volatiles/ptoid_volatiles.html",
-      "/qmd/media/2025/wss_ovipositor/wss_ovipositor.html",
-      "/qmd/media/2025/student_success/student_success.html",
-      "/qmd/media/2025/MSU_newexplorations/new_explorations.html",
-      "/qmd/media/2024/locoweed_picture/locoweed_pic.html",
-      "/qmd/field_notes/Fall 2024/horsegulch24.html",
-      "/qmd/presentations/esa24/esa24.html",
-      "/qmd/publications/agro_brome_2024/agro_brome_2024.html",
-      "/qmd/media/2024/wss_bestmanagement/wss_bestmanage.html",
-      "/qmd/presentations/msu_masters_defense/msu_masters_defense.html",
-      "/qmd/media/2023/wss_youtube/wss_youtube.html",
-      "/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html",
-      "/qmd/presentations/esa23/esa23.html",
-      "/qmd/presentations/lres_srs_23/lres_srs_23.html",
-      "/qmd/presentations/esa22/esa22.html",
-      "/qmd/presentations/lres_colloq_22/lres_colloq_22.html",
-      "/qmd/presentations/esa21/esa21.html"
-    ]
-  },
-  {
-    "listing": "/qmd/helpful/helpful.html",
-    "items": [
-      "/qmd/helpful/jared_guide/jared_guide.html"
-    ]
-  },
-  {
-    "listing": "/qmd/helpful/jared_guide/jared_guide.html",
-    "items": []
   },
   {
     "listing": "/qmd/projects/projects.html",
@@ -110,6 +37,20 @@
       "/qmd/projects/field_notes/Spring 2025/spring25aberdeen.html",
       "/qmd/projects/field_notes/Spring 2025/ElkParkChainsaw.html",
       "/qmd/projects/field_notes/Fall 2024/horsegulch24.html"
+    ]
+  },
+  {
+    "listing": "/qmd/presentations/presentations.html",
+    "items": [
+      "/qmd/presentations/nfbc25/nfbc25.html",
+      "/qmd/presentations/esa24/esa24.html",
+      "/qmd/presentations/msu_masters_defense/msu_masters_defense.html",
+      "/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html",
+      "/qmd/presentations/esa23/esa23.html",
+      "/qmd/presentations/lres_srs_23/lres_srs_23.html",
+      "/qmd/presentations/esa22/esa22.html",
+      "/qmd/presentations/lres_colloq_22/lres_colloq_22.html",
+      "/qmd/presentations/esa21/esa21.html"
     ]
   }
 ]

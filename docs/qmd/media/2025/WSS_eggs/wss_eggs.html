@@ -68,6 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
@@ -105,28 +106,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Talks &amp; Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../qmd/projects.html"> 
+    <a class="nav-link" href="../../../../qmd/projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../../qmd/field_notes/fieldjournal.html"> 
-<span class="menu-text">Field Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../../qmd/media/media.html"> 
 <span class="menu-text">In the Media</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../qmd/helpful.html"> 
+    <a class="nav-link" href="../../../../qmd/helpful/helpful.html"> 
 <span class="menu-text">Helpful Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://jacksonstrandphoto.myportfolio.com" target="_blank"> 
-<span class="menu-text">Photography</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
+    <a href="https://jacksonstrandphoto.myportfolio.com" title="" class="quarto-navigation-tool px-1" aria-label="Photography Portfolio" target="_blank"><i class="bi bi-camera"></i></a>
     <a href="https://linkedin.com/in/jacksonstrand" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/jstrand894/quarto_website" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="mailto:jstrand894@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
@@ -261,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/msu-git\.jacksonstrand\.com");
+        var filterRegex = new RegExp("https:\/\/jackson-strand\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
