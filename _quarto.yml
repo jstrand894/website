@@ -5,17 +5,17 @@ project:
 website:
   title: "Jackson Strand"
   site-url: https://jackson-strand.com
-  search:
-    location: sidebar
-    type: textbox
+  # search:
+  #   location: sidebar
+  #   type: textbox
   bread-crumbs: true
   favicon: img/aboutme/logo.png
   navbar:
     background: dark
     pinned: true
-    search: true
+    # search: true
     logo: img/aboutme/logo.png
-    title: "Jackson Strand"
+    title: "Jackson R. Strand"
     left:
       - text: 'Publications'
         file: qmd/publications/publications.qmd
@@ -56,8 +56,6 @@ website:
 format:
   html:
     engine: knitr
-    toc: true
-    toc-links: false
     theme: 
       light: [cosmo, _box.scss, _nav-bar.scss, _about-block.scss, _awards-text.scss, _projects-box.scss]
     # title-block-banner: "#9e74f1"
