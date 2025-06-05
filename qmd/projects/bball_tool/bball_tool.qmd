@@ -1,0 +1,34 @@
+---
+title: "Basketball Roster Analysis Tool"
+date: 2019-5-20
+description: "A fun side project: From 2017 to 2019, I built my own NBA roster analysis tool to explore roster construction, free agency, and per-game metrics. While the data is now out of date, the tool’s functionality still works as intended."
+image: "bball_tool_pics/shooting.png"
+categories: ["Basektball", "Excel"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+<a class="multi-btn" href="https://1drv.ms/x/c/af438b0dd68ebd20/ESC9jtYNi0MggK-vAwAAAAABir6-ypi99PhsXzTK0_DIjg?e=axLlSI" target="_blank" role="button">View tool</a>
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![View each team's roster in-depth](bball_tool_pics/team.png)](bball_tool_pics/team.png){data-fancybox="gallery" 
+data-caption="View each team's roster in-depth"} 
+::: 
+::: {.column width="33%" .px-2}
+[![Understand team shooting trends](bball_tool_pics/shooting.png)](bball_tool_pics/shooting.png){data-fancybox="gallery" 
+data-caption="Understand team shooting trends"} 
+:::
+::: {.column width="33%" .px-2}
+[![View all contracts across the association](bball_tool_pics/salaries.png)](bball_tool_pics/salaries.png){data-fancybox="gallery" 
+data-caption="View all contracts across the association"} 
+:::
+:::

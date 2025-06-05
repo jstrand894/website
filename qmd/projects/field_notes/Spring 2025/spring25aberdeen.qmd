@@ -1,0 +1,154 @@
+---
+title: "South Dakota Trip (Aberdeen) - Spring 2025"
+date: 2025-05-14
+description: "Trip to South Dakota to build exclosures, set up *Rhinusa pilosa* monitoring grids, and release *Mecinus janthinus* at Sand Lake NWR and Schaunaman Ranch."
+image: "Pictures/sl_excl.jpeg"
+categories: ["South Dakota", "yellow toadflax"]
+format:
+  html:
+    toc: true
+    toc-depth: 3  # Adjust based on how many header levels you use
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+::: {.callout-warning title="Weather"}
+🔥 Low 90s, 25 mph winds. Hot, dry, and windy. Wind kept the mosquitos away!
+:::
+
+<!-- <div style="text-align: center; margin-top: 2em;">
+  <a class="btn-small" href="spring25spearfish.qmd" role="button">
+    View the Spearfish portion of this trip here →
+  </a>
+</div> -->
+
+Eric, Aden, and I left Bozeman at 6 AM on Monday, May 12 - driving through Eastern Montana to Aberdeen, SD. On Tuesday morning, we left Aberdeen and headed North to the [Sand Lake National Wildlife Refuge](https://www.fws.gov/refuge/sand-lake).
+
+# Sand Lake 
+
+## *Rhinusa pilosa* Monitoring Grids
+
+<a href="https://www.google.com/maps?q=45.80185,-99.203277" target="_blank">Exclosure grid location</a>
+
+<a href="https://www.google.com/maps?q=45.80234,-99.203777" target="_blank">Control grid location</a>
+
+
+Site activities:
+
+- Setup exclosure and control grid  
+- Build exclosure  
+- Retrieve weather data from data loggers  
+- Setup trail cameras to monitor herbivory
+ 
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Sand lake exclosure](Pictures/sl_excl.jpeg)](Pictures/sl_excl.jpeg){data-fancybox="gallery" data-caption="Sand Lake exclosure"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Setting up control grid data loggers](Pictures/sl_dataloggers.jpeg)](Pictures/sl_dataloggers.jpeg){data-fancybox="gallery" data-caption="Setting up Sand Lake data loggers"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Exclosure trail camera](Pictures/sl_trailcam1.jpeg)](Pictures/sl_trailcam1.jpeg){data-fancybox="gallery" data-caption="Exclosure trail camera"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Sand Lake Control Grid](Pictures/sl_control.jpeg)](Pictures/sl_control.jpeg){data-fancybox="gallery"
+data-caption="Sand Lake Control Grid"}
+:::
+
+:::
+
+## *Mecinus janthinus* Cage & Release
+
+After completing the exclosure and control grids, we drove down to another section of the Sand Lake NWR to set up a *Mecinus janthinus* release cage and release *M. janthinus* biocontrol agents. 
+
+<a href="https://www.google.com/maps?q=45.912467,-99.279119" target="_blank">Cage release location</a>
+
+<a href="https://www.google.com/maps?q=45.912312, -99.279233" target="_blank">Open release location</a>
+
+Site activities:  
+
+- Build release cage ontop of existing monitoring transect
+- Release *M. janthinus* biocontrol agents in cage and in open release transect
+- Retrieve weather data from data loggers
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Sand Lake biocontrol release site](Pictures/sl_releasesite.jpeg)](Pictures/sl_releasesite.jpeg){data-fancybox="gallery" data-caption="Sand Lake biocontrol release site"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Sand Lake cage setup](Pictures/sl_setupcage.jpeg)](Pictures/sl_setupcage.jpeg){data-fancybox="gallery" data-caption="Sand Lake cage setup"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Sand Lake *M. janthinus* release](Pictures/sl_release.jpeg)](Pictures/sl_release.jpeg){data-fancybox="gallery" data-caption="Sand Lake <em>M. janthinus</em> release"}
+:::
+
+:::
+
+
+# Schaunaman Ranch 
+
+After completing work at Sand Lake, we headed back to Aberdeen to visit our other site - the Schaunaman Ranch just outside of town. Thank you to Kirk and Craig Schaunaman for allowing us to access their land and set up our experiments.
+
+
+## *Rhinusa pilosa* Monitoring Grids
+
+<a href="https://www.google.com/maps?q=45.407562255859375,-98.55270385742188" target="_blank">Exclosure grid location</a>
+
+<a href="https://www.google.com/maps?q=45.4073371887207, -98.55327606201172" target="_blank">Control grid location</a>
+
+Site activities:  
+
+- Build exclosure around existing monitoring grid
+- Retrieve weather data from data loggers  
+- Setup trail cameras at both the exclosure and control grid
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Building the exclosure](Pictures/ranch_exclosure3.jpeg)](Pictures/ranch_exclosure3.jpeg){data-fancybox="gallery" data-caption="Building the exclosure"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Fully setup exclosure](Pictures/ranch_exclosure.jpeg)](Pictures/ranch_exclosure.jpeg){data-fancybox="gallery" data-caption="Fully setup exclosure"}
+:::
+
+:::
+
+## *M. janthinus* Cage & Release
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Schaunaman Ranch Release cage](Pictures/ranch cage.jpeg)](Pictures/ranch cage.jpeg){data-fancybox="gallery" data-caption="Schaunaman Ranch Release cage"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Releasing *Mecinus janthinus* in the cage](Pictures/ranch_janthinus.jpeg)](Pictures/ranch_janthinus.jpeg){data-fancybox="gallery" data-caption="Releasing *Mecinus janthinus* in the cage"}
+:::
+
+:::
+
+
+<div style="text-align: center; margin-top: 2em;">
+  <a class="btn-small" href="spring25spearfish.qmd" role="button">
+    Up Next: Spring 2025 South Dakota Trip (Spearfish) →
+  </a>
+</div>
+
+
+
+
+

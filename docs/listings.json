@@ -92,5 +92,24 @@
   {
     "listing": "/qmd/helpful/jared_guide/jared_guide.html",
     "items": []
+  },
+  {
+    "listing": "/qmd/projects/projects.html",
+    "items": [
+      "/qmd/projects/field_notes/fieldjournal.html",
+      "/qmd/projects/LRES_GSO/LRES_GSO.html",
+      "/qmd/projects/bball_tool/bball_tool.html"
+    ]
+  },
+  {
+    "listing": "/qmd/projects/field_notes/fieldjournal.html",
+    "items": [
+      "/qmd/projects/field_notes/Spring 2025/hoghollow.html",
+      "/qmd/projects/field_notes/Spring 2025/Elk_Badger.html",
+      "/qmd/projects/field_notes/Spring 2025/spring25spearfish.html",
+      "/qmd/projects/field_notes/Spring 2025/spring25aberdeen.html",
+      "/qmd/projects/field_notes/Spring 2025/ElkParkChainsaw.html",
+      "/qmd/projects/field_notes/Fall 2024/horsegulch24.html"
+    ]
   }
 ]

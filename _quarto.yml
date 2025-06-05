@@ -17,26 +17,24 @@ website:
     logo: img/aboutme/logo.png
     title: "Jackson Strand"
     left:
-      - text: "Publications"
+      - text: 'Publications'
         file: qmd/publications/publications.qmd
       - text: "Talks & Presentations"
         file: qmd/presentations/presentations.qmd
       - text: "Projects"
-        file: qmd/projects.qmd
-      - text: "Field Notes"
-        file: qmd/field_notes/fieldjournal.qmd
+        file: qmd/projects/projects.qmd
       - text: "In the Media"
         file: qmd/media/media.qmd
       - text: "Helpful Resources"
         file: qmd/helpful/helpful.qmd 
-      - text: "Photography"
+      # - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'
+      #   url: "https://jacksonstrandphoto.myportfolio.com"
+      #   target: _blank
+      
+    right: 
+      - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'
         url: "https://jacksonstrandphoto.myportfolio.com"
         target: _blank
-      
-    # right: 
-    #   - text: "Photography"
-    #     url: "https://jacksonstrandphoto.myportfolio.com"
-    #     target: _blank
     tools:
       - icon: linkedin
         href: https://linkedin.com/in/jacksonstrand
@@ -68,6 +66,9 @@ format:
       sidebar-width: 300px
       body-width: 1000px
       margin-width: 200px
+    include-in-header:  
+      - text: |
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 
 freeze: true
 

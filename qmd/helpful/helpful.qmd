@@ -1,10 +1,10 @@
 ---
 title: "Helpful Resources & Links"
-listing:
-  type: grid
-  fields: [image, title, date, description, categories]
-  sort: "date desc"
-  categories: true 
+# listing:
+#   type: grid
+#   fields: [image, title, date, description, categories]
+#   sort: "date desc"
+#   categories: true 
 ---
 
 ## R Studio 

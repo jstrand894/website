@@ -1,0 +1,61 @@
+---
+title: "LRES Graduate Student Organization"
+description: "The Land Resources & Environmental Sciences (**LRES**) Graduate Student Organization (**GSO**) is a student-run group at Montana State University, working to provide community, workshops, and social and professional networking opportunities for grad students in the department. "
+image: "GSO_Leadership_2025_header.JPG"
+categories: ["MSU"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+---
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](gso_pics/gso_leaders(LEPS).jpg)](gso_pics/gso_leaders(LEPS).jpg){data-fancybox="gallery" 
+data-caption=""} 
+::: 
+::: {.column width="33%" .px-2}
+[![](gso_pics/leps25.jpg)](gso_pics/leps25.jpg){data-fancybox="gallery" 
+data-caption=""} 
+:::
+::: {.column width="33%" .px-2}
+[![](gso_pics/pizza_social.jpeg)](gso_pics/pizza_social.jpeg){data-fancybox="gallery" 
+data-caption=""} 
+:::
+:::
+
+<a class="multi-btn" href="https://landresources.montana.edu/gso/" target="_blank" rel="noopener">
+  LRES GSO Website <i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
+</a>
+
+<u>What does the GSO do?</u>:  
+The Land Resources and Environmental Science Graduate Student Organization (LRES GSO) is a student-run group at Montana State University, working to provide social and professional networking opportunities for grad students in our department.  LRES boasts a wide range of diversity, from plant scientists, to environmental microbiologists, to hydrologists, and the GSO is here to help students take advantage of the rich knowledge base that this broad range of interests encompasses.
+
+<u>My roles</u>:
+<ul>
+  <li>2022–2023: Treasurer</li>
+  <li>2023–2025: Co-Chair</li>
+  <li>2025–2026: Treasurer</li>
+</ul>
+
+<u>GSO-hosted events</u>:
+
+
+<a class="multi-btn" href="https://leps2025.weebly.com" target="_blank" rel="noopener">LEPS 2025<i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
+</a>
+
+<a class="multi-btn" href="https://lres-research-symposium.weebly.com" target="_blank" rel="noopener">2024 LRES-PSPP Student Research Symposium<i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
+</a>
+
+<a class="multi-btn" href="https://landresources.montana.edu/gso/events/index.html" target="_blank" rel="noopener">2023 LRES GSO Research Colloquium<i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
+</a>
+
+**2022 LRES Colloquium**
