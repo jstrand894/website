@@ -44,9 +44,26 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 :::
 <br>  
 
+:::{.columns}
+::: {.column width="20%" .px-2}
+[![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="WSS"}
+:::
+::: {.column width="20%" .px-2}
+[![](img/index/pinecreek.jpeg)](img/index/pinecreek.jpeg){data-fancybox="gallery" data-caption="Pine Creek"}
+:::
+::: {.column width="20%" .px-2}
+[![](img/index/loco-bee.JPG)](img/index/loco-bee.JPG){data-fancybox="gallery" data-caption="Locoweed with Bee"}
+:::
+::: {.column width="20%" .px-2}
+[![](img/index/mushroom1.jpeg)](img/index/mushroom1.jpeg){data-fancybox="gallery" data-caption="Mushroom"}
+:::
+::: {.column width="20%" .px-2}
+[![](img/index/brownmoth.JPG)](img/index/brownmoth.JPG){data-fancybox="gallery" data-caption="Brown Moth"}
+:::
+:::  
 <!-- pictures below about me -->
 ```{=html}
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -146,7 +163,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 </script>
 
 </body>
-</html>
+</html> -->
 
 ```
 <br>
