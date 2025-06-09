@@ -3,6 +3,7 @@
     "listing": "/qmd/media/media.html",
     "items": [
       "/qmd/media/2025/parasitoids_action/parasitoids_action.html",
+      "/qmd/media/2025/sawfly_solutions/sawfly_solution.html",
       "/qmd/media/2025/tinybutmighty/tiny_but_mighty.html",
       "/qmd/media/2025/WSS_eggs/wss_eggs.html",
       "/qmd/media/2025/wss_ovipositor/wss_ovipositor.html",
@@ -16,7 +17,7 @@
   {
     "listing": "/qmd/publications/publications.html",
     "items": [
-      "/qmd/publications/agro_brome_2024/ptoid_volatiles/ptoid_volatiles.html",
+      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
       "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
     ]
   },

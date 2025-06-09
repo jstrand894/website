@@ -1,0 +1,29 @@
+---
+title: "MWBC - Sawfly Solutions Research Episode"
+date: 2025-5-1
+description: "I contributed to the photogrphy and videography used in this episode made by the Montana Wheat and Barley Committee"
+categories: ["MWBC", "YouTube"]
+image: "sawfly_solutions.png"
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+You can view the MWBC video here:  
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/huZTLk1JYL0?si=f6BxU7v7QgoSukeI" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+  </iframe>
+</div>

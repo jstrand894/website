@@ -5,7 +5,7 @@ listing:
   fields: [image, title, date, description, categories]
   sort: "date desc"
   categories: true
-page-layout: article
+page-layout: custom
 format:
   html:
     toc: true
@@ -14,5 +14,8 @@ format:
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 ---
 
+ 
 
+Paper's I've been aknowledged in...
 
+<p>Ermatinger, L. S., S. L. Powell, R. K. D. Peterson, and D. K. Weaver. 2024. Multitemporal hyperspectral characterization of wheat infested by wheat stem sawfly, <i>Cephus cinctus</i> Norton. <i>Remote Sens.</i> 16(18): 3505. <a href="https://doi.org/10.3390/rs16183505" target="_blank">https://doi.org/10.3390/rs16183505</a></p>
