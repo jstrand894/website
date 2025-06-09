@@ -1,7 +1,7 @@
 ---
 title: "MWBC - Sawfly Solutions Research Episode"
 date: 2025-5-1
-description: "I contributed to the photogrphy and videography used in this episode made by the Montana Wheat and Barley Committee"
+description: "I contributed to the photography and videography used in this episode made by the Montana Wheat and Barley Committee"
 categories: ["MWBC", "YouTube"]
 image: "sawfly_solutions.png"
 format:
