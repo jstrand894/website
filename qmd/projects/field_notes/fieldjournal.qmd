@@ -19,7 +19,7 @@ format:
 <img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;">
 
 
-       
+        
 <hr>
     
 <!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->
