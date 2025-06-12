@@ -1,0 +1,106 @@
+---
+title: "Hog Hollow - June 2025"
+date: 2025-6-11
+description: "I visited Hog Hollow to release <i>Rhinusa pilosa</i> in our grids."
+image: "pics/rhinusa3.jpg"
+categories: ["Montana", "yellow toadflax"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+::: {.callout-note title="Weather"}
+⛅ Mid 60s, cloudy. Really nice for field work!
+:::
+
+I drove back out to Hog Hollow to release *Rhinua pilosa*. Thank you to Tracy with the Forest Service for letting me through the locked gate!
+
+## Site & Release Images
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![hog_exclosure.jpg](pics/hog_exclosure.jpg)](pics/hog_exclosure.jpg){data-fancybox="gallery" data-caption="hog_exclosure.jpg"}
+:::
+
+::: {.column width="33%" .px-2}
+[![release.jpg](pics/release.jpg)](pics/release.jpg){data-fancybox="gallery" data-caption="release.jpg"}
+:::
+
+::: {.column width="33%" .px-2}
+[![rhinusa1.jpg](pics/rhinusa1.jpg)](pics/rhinusa1.jpg){data-fancybox="gallery" data-caption="rhinusa1.jpg"}
+:::
+
+::: {.column width="33%" .px-2}
+[![rhinusa2.jpg](pics/rhinusa2.jpg)](pics/rhinusa2.jpg){data-fancybox="gallery" data-caption="rhinusa2.jpg"}
+:::
+
+::: {.column width="33%" .px-2}
+[![rhinusa3.jpg](pics/rhinusa3.jpg)](pics/rhinusa3.jpg){data-fancybox="gallery" data-caption="rhinusa3.jpg"}
+:::
+:::
+
+## Trail Cam Images
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![A fox at the control grid](pics/hog_c_6-11/DSCF0005.jpg)](pics/hog_c_6-11/DSCF0005.jpg){data-fancybox="gallery" data-caption="A fox at the control grid"}
+:::
+
+::: {.column width="33%" .px-2}
+[![A deer](pics/hog_c_6-11/DSCF0013.jpg)](pics/hog_c_6-11/DSCF0013.jpg){data-fancybox="gallery" data-caption="A deer"}
+:::
+
+::: {.column width="33%" .px-2}
+[![An elk](pics/hog_c_6-11/DSCF0020.jpg)](pics/hog_c_6-11/DSCF0020.jpg){data-fancybox="gallery" data-caption="An elk"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Another elk](pics/hog_c_6-11/DSCF0021.jpg)](pics/hog_c_6-11/DSCF0021.jpg){data-fancybox="gallery" data-caption="Another elk"}
+:::
+
+::: {.column width="33%" .px-2}
+[![The fox is back!](pics/hog_c_6-11/DSCF0032.jpg)](pics/hog_c_6-11/DSCF0032.jpg){data-fancybox="gallery" data-caption="The fox is back!"}
+:::
+:::
+
+## Some other pictures that I took!
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![A grasshopper perching on a leaf](pics/ghopper.jpg)](pics/ghopper.jpg){data-fancybox="gallery" data-caption="A grasshopper perching on a leaf"}
+:::
+
+::: {.column width="33%" .px-2}
+[![A ladybug](pics/ladybug.jpg)](pics/ladybug.jpg){data-fancybox="gallery" data-caption="A ladybug"}
+:::
+
+::: {.column width="33%" .px-2}
+[![A clickbeetle](pics/click.jpg)](pics/click.jpg){data-fancybox="gallery" data-caption="A clickbeetle"}
+:::
+
+::: {.column width="33%" .px-2}
+[![White flower](pics/whiteflower.jpg)](pics/whiteflower.jpg){data-fancybox="gallery" data-caption="White flower"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Dandelion](pics/dandy.jpg)](pics/dandy.jpg){data-fancybox="gallery" data-caption="Dandelion"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Lupin](pics/lupin.jpg)](pics/lupin.jpg){data-fancybox="gallery" data-caption="Lupin"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Red flower](pics/redflower2.jpg)](pics/redflower2.jpg){data-fancybox="gallery" data-caption="Red flower"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Tent caterpillars](pics/tentcat.jpg)](pics/tentcat.jpg){data-fancybox="gallery" data-caption="Tent caterpillars"}
+:::
+:::
+

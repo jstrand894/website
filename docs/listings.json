@@ -31,11 +31,13 @@
   {
     "listing": "/qmd/projects/field_notes/fieldjournal.html",
     "items": [
-      "/qmd/projects/field_notes/Spring 2025/hoghollow.html",
-      "/qmd/projects/field_notes/Spring 2025/Elk_Badger.html",
-      "/qmd/projects/field_notes/Spring 2025/spring25spearfish.html",
-      "/qmd/projects/field_notes/Spring 2025/spring25aberdeen.html",
-      "/qmd/projects/field_notes/Spring 2025/ElkParkChainsaw.html",
+      "/qmd/projects/field_notes/Spring 2025/hoghollow_june/hoghollow_june.html",
+      "/qmd/projects/field_notes/Spring 2025/elk_badger_june/elk_badger_june.html",
+      "/qmd/projects/field_notes/Spring 2025/hoghollow_may/hoghollow.html",
+      "/qmd/projects/field_notes/Spring 2025/elk_badger_may/Elk_Badger_May.html",
+      "/qmd/projects/field_notes/Spring 2025/sd_spring_25/spring25spearfish.html",
+      "/qmd/projects/field_notes/Spring 2025/sd_spring_25/spring25aberdeen.html",
+      "/qmd/projects/field_notes/Spring 2025/elk_park_chainsaw/ElkParkChainsaw.html",
       "/qmd/projects/field_notes/Fall 2024/horsegulch24.html"
     ]
   },
