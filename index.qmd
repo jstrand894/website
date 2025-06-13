@@ -35,32 +35,33 @@ toc: true
 ::: {#about-block}
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span> 
 
-I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I focus on applied entomology, ecology, and the biological control of invasive plant species. My research focuses on leveraging insect agents to manage yellow and Dalmatian toadflax in Montana and South Dakota, aiming to provide sustainable solutions for invasive species management and ecosystem restoration.  
+I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I study applied entomology and invasive plant management. My research focuses on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota, using insect agents to support sustainable management and ecosystem restoration.
+
 
 ### Education
-<img src="qmd/logos/msu2.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **MS** - Entomology  
-<img src="qmd/logos/umn.png" alt="University Logo" style="width: 50px; height: auto; margin-right: 10px;"> **BS** - Biology
-
-:::
-<br>  
+<img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;"> **M.S. in Entomology**, Montana State University  
+<img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;"> **B.S. in Biology**, University of Minnesota
 
 :::{.columns}
-::: {.column width="20%" .px-2}
+::: {.column width="20%" .px-1}
 [![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="WSS"}
 :::
-::: {.column width="20%" .px-2}
-[![](img/index/pinecreek.jpeg)](img/index/pinecreek.jpeg){data-fancybox="gallery" data-caption="Pine Creek"}
+::: {.column width="20%" .px-1}
+[![](img/index/bluedeath.jpg)](img/index/bluedeath.jpg){data-fancybox="gallery" data-caption="Pine Creek"}
 :::
-::: {.column width="20%" .px-2}
-[![](img/index/loco-bee.JPG)](img/index/loco-bee.JPG){data-fancybox="gallery" data-caption="Locoweed with Bee"}
+::: {.column width="20%" .px-1}
+[![](img/index/mecinus.jpg)](img/index/mecinus.jpg){data-fancybox="gallery" data-caption="Pine Creek"}
 :::
-::: {.column width="20%" .px-2}
-[![](img/index/mushroom1.jpeg)](img/index/mushroom1.jpeg){data-fancybox="gallery" data-caption="Mushroom"}
-:::
-::: {.column width="20%" .px-2}
+::: {.column width="20%" .px-1}
 [![](img/index/brownmoth.JPG)](img/index/brownmoth.JPG){data-fancybox="gallery" data-caption="Brown Moth"}
 :::
+::: {.column width="20%" .px-1}
+[![](img/index/loco-bee.JPG)](img/index/loco-bee.JPG){data-fancybox="gallery" data-caption="Locoweed with Bee"}
+:::
 :::  
+ 
+:::
+  
 <!-- pictures below about me -->
 ```{=html}
 <!-- <!DOCTYPE html>
