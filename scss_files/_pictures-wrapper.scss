@@ -1,0 +1,24 @@
+/*-- scss:rules: --*/
+.pictures-wrapper {
+  background-color: #fefefe;
+  border: 1px solid #eee;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+
+  .columns {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .column {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  img {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block; /* avoids extra space below inline images */
+  }
+}

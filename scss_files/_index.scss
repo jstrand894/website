@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules: --*/
+
+.committee {
+  list-style-type: disc;
+  padding-left: 1.2em;
+}
+
+.committee .label {
+  /* no bold, just inline label */
+}
+
+.committee .member {
+  display: inline;
+}
+
+.committee .indent {
+  display: inline-block;
+  margin-left: 10.5ch; /* matches width of "Graduate Committee: " */
+}

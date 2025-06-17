@@ -1,0 +1,52 @@
+/* Default variables and settings */
+
+/*-- scss:rules --*/
+
+.navbar {
+  background: linear-gradient(120deg, #3C2059, #551A44) !important;
+  display: flex;
+  align-items: center; /* vertically center navbar contents */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 0;            /* remove default padding */
+  line-height: 1;        /* tighten line height */
+}
+
+.navbar .navbar-brand:hover {
+  color: #c3dfa6;
+  transform: scale(1.05);
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;  /* vertically center nav links */
+}
+
+.navbar .navbar-nav a {
+//   font-weight: bold;
+  margin: 0 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1;       /* tighten line height */
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-nav a:hover {
+  // color: #c3dfa6;
+  transform: scale(1.05);
+}
+
+

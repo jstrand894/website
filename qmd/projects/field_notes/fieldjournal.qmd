@@ -1,7 +1,7 @@
 ---
 title: "Toadflax Biocontrol Field Notes"
-description: "I use this space to document all field related activities for my PhD and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs."
-image: "Spring 2025/hoghollow_pics_5-27-25/hog_exclosure1.jpeg"
+description: "I use this space to document all field related activities for my PhD at Montana State University and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs."
+image: "Spring 2025/hoghollow_may/pics/hog_exclosure1.jpeg"
 categories: ["MSU", "Science"]
 listing:
   type: grid
@@ -16,10 +16,34 @@ format:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 ---
-<img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;">
+<!-- <img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;"> -->
+      
+<div class="fieldsite-wrapper">
+<div class="fieldsite-intro">Coordinates for each site can be found below:</div>
+<div class="fieldsite-container">
+<div class="fieldsite-column">
+  <div class="fieldsite-header">Montana</div>
+  <div class="site-buttons"><a href="https://maps.app.goo.gl/cBi1Rnv8fDN8azmE9" target="_blank"></i> Elk Park</a>
+      <a href="https://maps.app.goo.gl/TDpLtZTM1sUWpbzGA" target="_blank">Badger Gulch</a>
+      <a href="https://maps.app.goo.gl/eKicY8evbLh8PKqcA" target="_blank">Hog Hollow</a>
+      <a href="https://maps.app.goo.gl/kZXEfzW3RLZi9u7J9" target="_blank">Horse Gulch Fire</a>
+  </div>
+  </div>
 
+<div class="fieldsite-column">
+<div class="fieldsite-header">South Dakota</div>
+<div class="site-buttons"><a href="https://maps.app.goo.gl/sbYWqxmbHe2GaaiW8" target="_blank">Schaunaman Ranch</a>
+      <a href="https://maps.app.goo.gl/xfVjWdXx1EzaZcLr8" target="_blank">Sand Lake</a>
+      <a href="https://maps.app.goo.gl/Uwbe5Jyv1eKRiY6r7" target="_blank">Nemo</a>
+      <a href="https://maps.app.goo.gl/JX3QNazWbzdZfLP88" target="_blank">Sawyer</a>
+  </div>
+  </div>
+  </div>
+</div> 
 
-        
+     
 <hr>
-    
+
+<div class="fieldsite-header">Field Log</div>
+
 <!-- <i class="fas fa-binoculars"></i> Scroll down to read recent entries.  -->
