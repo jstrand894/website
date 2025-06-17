@@ -16,22 +16,22 @@ about:
       text: GitHub
       href: https://github.com/jstrand894/
       target: "_blank"
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/jstrand894/
-      target: "_blank"
+    # - icon: instagram
+    #   text: Instagram
+    #   href: https://www.instagram.com/jstrand894/
+    #   target: "_blank"
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=_szV1hYAAAAJ&hl=en
       target: "_blank"
-    - icon: researchgate
+    - icon: book
       text: ResearchGate
       href: https://www.researchgate.net/profile/Jackson-Strand
       target: "_blank"
 
 toc: true
 ---
-
+  
 ::: {#about-block}
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span> 
 
@@ -44,13 +44,13 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 
 :::{.columns}
 ::: {.column width="20%" .px-1}
-[![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="WSS"}
+[![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="Wheat stem sawfly (<i>Cephus cinctus</i>)"}
 :::
 ::: {.column width="20%" .px-1}
-[![](img/index/bluedeath.jpg)](img/index/bluedeath.jpg){data-fancybox="gallery" data-caption="Pine Creek"}
+[![](img/index/bluedeath.jpg)](img/index/bluedeath.jpg){data-fancybox="gallery" data-caption="Blue death feining beetle (<i>Asbolus verucosus</i>)"}
 :::
 ::: {.column width="20%" .px-1}
-[![](img/index/mecinus.jpg)](img/index/mecinus.jpg){data-fancybox="gallery" data-caption="Pine Creek"}
+[![](img/index/mecinus.jpg)](img/index/mecinus.jpg){data-fancybox="gallery" data-caption="<i>Mecinus janthinus</i>"}
 :::
 ::: {.column width="20%" .px-1}
 [![](img/index/brownmoth.JPG)](img/index/brownmoth.JPG){data-fancybox="gallery" data-caption="Brown Moth"}
@@ -192,15 +192,15 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 ## Education  
 <div class="box">
 <div style="display: flex; align-items: center;">
-  <div><strong>PhD Ecology & Environmental Science</strong> - <span style="font-style: italic;">Montana State University</span></div>
+  <div><strong>PhD Ecology & Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2024 - present</div>
 </div>
-- Graduate Committee: Dr. Robert Peterson (co-chair), Dr. David Weaver (co-chair), Dr. Sharlene Sing, Dr. William Wetzel
-
+- Graduate Committee: Dr. Robert Peterson (co-chair), Dr. David Weaver (co-chair),<br> Dr. Sharlene Sing, Dr. William Wetzel
+ 
 <div style="display: flex; align-items: center;">
-  <div><strong>MS Entomology</strong> - <span style="font-style: italic;">Montana State University</span></div>
+  <div><strong>MS Entomology</strong> | <span style="font-style: italic;">Montana State University</span></div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2021 - 2024</div>
@@ -210,18 +210,17 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 
 <div style="display: flex; align-items: center;">
-  <div><strong>BS Biology</strong> - <span style="font-style: italic;">University of Minnesota</span></div>
+  <div><strong>BS Biology</strong> | <span style="font-style: italic;">University of Minnesota - Twin Cities</span></div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2013 - 2017</div>
 </div>
 - Minor: Marine Biology
 
-</div>
-
+</div>    
 
 <!-- PUBLICATIONS -->
 ## Publications
-<a class="btn-small" href="qmd/publications/publications.qmd" role="button">Check out my "Pubilcations" page</a>  
+<a class="btn-purple" href="qmd/publications/publications.qmd" role="button">Check out my "Pubilcations" page</a>  
 <div class="box">
 
 <ol reversed>
@@ -253,7 +252,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 <!-- Author Open Access Funds -->
 <div style="display: flex; align-items: center;">
-  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank"><strong>Open Access Author Fund</strong></a>($1,736)
+  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank">Open Access Author Fund</a>($1,736)
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -296,7 +295,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 <!-- Open Access Fund -->
 <div style="display: flex; align-items: center;">
-  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank"><strong>Open Access Author Fund</strong></a>($3,296)
+  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank">Open Access Author Fund</a>($3,296)
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -359,9 +358,9 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 - The Graduate School, Montana State University
 </div>
 
-
+   
 ## Seminars and Presentations  
-<a class="btn-small" href="qmd/presentations/presentations.qmd" role="button">Check out my "Talks and Presentations" page</a>  
+<a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">Check out my "Talks and Presentations" page</a>   
 <span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
 <div class="box">
 Contributed presentations at scientific meetings  

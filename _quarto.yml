@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+                              
 website:
   title: "Jackson Strand"
   site-url: https://jackson-strand.com
@@ -11,7 +11,7 @@ website:
   bread-crumbs: true
   favicon: img/aboutme/logo.png
   navbar:
-    background: dark
+    # background: dark
     pinned: true
     # search: true
     logo: img/aboutme/logo.png
@@ -57,13 +57,13 @@ format:
   html:
     engine: knitr
     theme: 
-      light: [cosmo, _box.scss, _nav-bar.scss, _about-block.scss, _awards-text.scss, _projects-box.scss]
+      light: [_themes.scss]
     # title-block-banner: "#9e74f1"
     code-block-bg: true
     code-block-border-left: "#1abcd9"
     code-copy: true
     code-overflow: wrap
-    css: [styles.css, _box.scss]
+    css: [styles.css, scss_files/_box.scss]
     grid:
       sidebar-width: 300px
       body-width: 1000px
