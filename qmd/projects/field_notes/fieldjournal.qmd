@@ -1,7 +1,15 @@
 ---
 title: "Toadflax Biocontrol Field Notes"
 description: "I use this space to document all field related activities for my PhD at Montana State University and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs."
+<<<<<<< HEAD
 image: "Spring 2025/hoghollow_may/pics/hog_exclosure1.jpeg"
+=======
+<<<<<<< HEAD
+image: "Spring 2025/hoghollow_may/pics/hog_exclosure1.jpeg"
+=======
+image: "Spring 2025/hoghollow_pics_5-27-25/hog_exclosure1.jpeg"
+>>>>>>> origin/main
+>>>>>>> origin/main
 categories: ["MSU", "Science"]
 listing:
   type: grid
@@ -17,7 +25,15 @@ format:
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 ---
 <!-- <img src="nemo_truck.jpeg" alt="Exclosure damage prior to repair" style="width:100%; object-fit:fill;"> -->
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+      
+=======
+ 
+>>>>>>> origin/main
+>>>>>>> origin/main
 <div class="fieldsite-wrapper">
 <div class="fieldsite-intro">Coordinates for each site can be found below:</div>
 <div class="fieldsite-container">
