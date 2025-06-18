@@ -6,6 +6,7 @@ image: "pics/sl_excl.jpeg"
 categories: ["South Dakota", "yellow toadflax"]
 format:
   html:
+    layout: full
     toc: true
     toc-depth: 3  # Adjust based on how many header levels you use
     include-in-header:

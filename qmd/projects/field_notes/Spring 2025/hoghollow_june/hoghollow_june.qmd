@@ -6,6 +6,9 @@ image: "pics/rhinusa3.jpg"
 categories: ["Montana", "yellow toadflax"]
 format:
   html:
+    layout: article
+    toc: true
+    toc-depth: 3
     include-in-header:
       - text: |
           <link

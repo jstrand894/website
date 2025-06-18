@@ -6,6 +6,7 @@ image: "pics/nemo_exclosure.jpeg"
 categories: ["South Dakota", "yellow toadflax"]
 format:
   html:
+    layout: full
     include-in-header:
       - text: |
           <link

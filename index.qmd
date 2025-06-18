@@ -354,7 +354,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 <div style="display: flex; align-items: center;">
   <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Gradaute Professional Advancement Grant</strong></a> ($500)</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2023</div>
+  <div>2022</div>
 </div>
 
 - The Graduate School, Montana State University

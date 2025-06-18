@@ -9,7 +9,7 @@ listing:
   fields: [image, title, date, description, categories]
   sort: "date desc"
   categories: true 
-page-layout: article
+page-layout: full
 format:
   html:
     toc: true

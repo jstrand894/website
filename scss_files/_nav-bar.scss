@@ -1,7 +1,6 @@
 /* Default variables and settings */
 
 /*-- scss:rules --*/
-
 .navbar {
   background: linear-gradient(120deg, #3C2059, #551A44) !important;
   display: flex;
@@ -32,7 +31,6 @@
 }
 
 .navbar .navbar-nav a {
-//   font-weight: bold;
   margin: 0 5px;
   color: #fff;
   text-decoration: none;
@@ -42,16 +40,115 @@
   line-height: 1;       /* tighten line height */
   display: flex;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.navbar .navbar-nav a:hover {
-  // color: #c3dfa6;
-  transform: scale(1.05);
-}
+// .navbar .navbar-nav a::after {
+//   content: "";
+//   position: absolute;
+//   left: 0.25rem;
+//   right: 0.25rem;
+//   bottom: -1px;
+//   height: 3px;
+//   background: linear-gradient(to right, #FF6F61, #FFD700);
+//   transform: scaleX(0);
+//   transform-origin: left;
+//   transition: transform 0.4s ease;
+//   z-index: 1;
+// }
+
+// .navbar .navbar-nav a:hover::after {
+//   transform: scaleX(1);
+// }
 
 // .navbar .navbar-nav a:hover {
 //   // color: #c3dfa6;
 //   transform: scale(1.05);
 // }
 
+// .navbar .navbar-nav a:hover {
+//   // color: #c3dfa6;
+//   transform: scale(1.05);
+// }
 
+/* Dropdown menu styles */
+.navbar .dropdown {
+  position: relative;
+}
+/* Show Quarto dropdown menu on hover */
+.navbar .dropdown:hover > .dropdown-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.navbar .dropdown-menu {
+  top: 100%;
+  margin-top: 24px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.2s ease;
+  color: black;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+/* Invisible hover bridge using pseudo-element */
+.navbar .dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -24px; /* hover zone height */
+  left: 0;
+  width: 100%;
+  height: 24px;
+  background: transparent;
+}
+
+/* Show dropdown on hover instead of click */
+.navbar .dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  // margin-top: 0;
+}
+
+/* Dropdown link styles */
+.navbar .dropdown-menu a {
+  font-size: 1.1rem;
+  position: relative;
+  padding: 0.5rem 0.25rem;
+  display: inline-block;
+  color: black !important;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.navbar .dropdown-menu a:hover {
+  background-color: transparent !important;
+}
+
+.navbar .dropdown-menu a::after {
+  content: "";
+  position: absolute;
+  left: 0.25rem;  /* matches left padding */
+  right: 1rem; /* matches right padding */
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(to right, #FF6F61, #FFD700);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+  z-index: 1;
+}
+
+.navbar .dropdown-menu a:hover::after {
+  transform: scaleX(1);
+}

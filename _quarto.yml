@@ -12,7 +12,7 @@ website:
   favicon: img/aboutme/logo.png
   navbar:
     # background: dark
-    pinned: true
+    pinned: true 
     # search: true
     logo: img/aboutme/logo.png
     title: "Jackson R. Strand"
@@ -21,27 +21,33 @@ website:
         file: qmd/publications/publications.qmd
       - text: "Talks & Presentations"
         file: qmd/presentations/presentations.qmd
-      - text: "Projects"
-        file: qmd/projects/projects.qmd
-      - text: "In the Media"
+      - text: "Projects" 
+        menu:
+        - text: "PhD Field Notes"
+          file: qmd/projects/field_notes/fieldjournal.qmd
+        - text: "LRES GSO"
+          file: qmd/projects/LRES_GSO/LRES_GSO.qmd
+        - text: "Basketball Roster Analysis Tool"
+          file: qmd/projects/bball_tool/bball_tool.qmd
+      - text: "In the Media" 
         file: qmd/media/media.qmd
       - text: "Helpful Resources"
         file: qmd/helpful/helpful.qmd 
       # - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'
       #   url: "https://jacksonstrandphoto.myportfolio.com"
       #   target: _blank
-      
+                                          
     # right: 
     #   - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'
     #     url: "https://jacksonstrandphoto.myportfolio.com"
     #     target: _blank
-    tools:
+    tools:   
       - icon: camera
         href: https://jacksonstrandphoto.myportfolio.com
         target: _blank
         aria-label: "Photography Portfolio"
       - icon: linkedin
-        href: https://linkedin.com/in/jacksonstrand
+        href: https://linkedin.com/in/jacksonstrand 
       # - icon: instagram
       #   href: https://www.instagram.com/jstrand894/
       - icon: github
@@ -80,7 +86,7 @@ format:
           <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 freeze: true
-
+  
 editor: source
 
 
