@@ -1,0 +1,38 @@
+// Project Box Styles
+// This file contains the styles for the project boxes used in the website.
+
+/*-- scss:defaults --*/
+// Default variables and settings can be added here
+
+/*-- scss:mixins --*/
+// Mixins can be added here
+
+/*-- scss:functions --*/
+// Functions can be added here
+
+/*-- scss:rules --*/
+
+
+.card-img-top {
+  transition: none !important;
+}
+
+.card:hover .card-img-top {
+  transform: none !important;
+}
+.card-img-top,
+.card-hover:hover .card-img-top,
+.card:hover img,
+.card img {
+  transition: none !important;
+  transform: none !important;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+//   transform: scale(1.02) rotate(0.2deg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
