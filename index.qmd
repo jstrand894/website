@@ -43,7 +43,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 <img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;"> **B.S. in Biology**, University of Minnesota
 
 <br> 
-
+ 
 :::{.columns}
 ::: {.column width="20%" .px-1}
 [![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="Wheat stem sawfly (<i>Cephus cinctus</i>)"}
@@ -331,7 +331,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
   - College of Agriculture, Montana State University
 
-         
+          
 <div style="display: flex; align-items: center;">
   <div><strong>1st Place Speaker</strong></div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
