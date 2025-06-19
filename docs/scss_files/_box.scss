@@ -33,7 +33,7 @@ $link-color:  steelblue !default;
     position: relative;
     display: flex;
     flex-direction: column;
-    transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+    transition: box-shadow 0.25s ease-in-out;
 }
 
 .box-media {
@@ -53,6 +53,6 @@ $link-color:  steelblue !default;
 }
 
 .box:hover {
-  background-color: $hover-color;
-  box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.1);
+//   background-color: $hover-color;
+//   box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.1);
 }

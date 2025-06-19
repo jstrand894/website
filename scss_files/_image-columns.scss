@@ -1,0 +1,20 @@
+/* Default variables and settings */
+
+/*-- scss:rules --*/
+
+/* Animate hover zoom on images inside .column */
+.columns .column img {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  border-radius: 6px;
+}
+
+.columns .column img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some spacing and alignment */
+.columns .column {
+  padding: 0.5rem;
+  text-align: center;
+}
