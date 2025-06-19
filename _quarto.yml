@@ -61,6 +61,9 @@ website:
 
 format:
   html:
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
     engine: knitr
     theme: 
       light: [_themes.scss]
