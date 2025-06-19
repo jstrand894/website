@@ -68,7 +68,21 @@
   z-index: 1; /* keep text above the background */
 }
 
+/* NAVBAR on MOBILE */
+@media (max-width: 768px) {
+  .navbar {
+    height: 80px;       /* increase navbar height */
+    min-height: 80px;   /* ensure minimum height */
+  }
 
+  .navbar-collapse {
+    background: linear-gradient(120deg, #3C2059, #551A44);
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+}
 
 
 
