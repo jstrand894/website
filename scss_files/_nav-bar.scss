@@ -5,8 +5,8 @@
   background: linear-gradient(120deg, #3C2059, #551A44) !important;
   display: flex;
   align-items: center; /* vertically center navbar contents */
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  height: 60px;
+  padding: 0;
 }
 
 .navbar .navbar-brand {
@@ -21,7 +21,7 @@
 }
 
 .navbar .navbar-brand:hover {
-  color: #c3dfa6;
+  // color: #c3dfa6;
   transform: scale(1.05);
 }
 
@@ -35,8 +35,9 @@
   color: #fff;
   text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease;
-  padding-top: 0;
-  padding-bottom: 0;
+  // padding-top: 0;
+  // padding-bottom: 0;
+  height: 60px;
   line-height: 1;       /* tighten line height */
   display: flex;
   align-items: center;
@@ -44,111 +45,33 @@
   overflow: hidden;
 }
 
-// .navbar .navbar-nav a::after {
-//   content: "";
-//   position: absolute;
-//   left: 0.25rem;
-//   right: 0.25rem;
-//   bottom: -1px;
-//   height: 3px;
-//   background: linear-gradient(to right, #FF6F61, #FFD700);
-//   transform: scaleX(0);
-//   transform-origin: left;
-//   transition: transform 0.4s ease;
-//   z-index: 1;
-// }
-
-// .navbar .navbar-nav a:hover::after {
-//   transform: scaleX(1);
-// }
-
-// .navbar .navbar-nav a:hover {
-//   // color: #c3dfa6;
-//   transform: scale(1.05);
-// }
-
-// .navbar .navbar-nav a:hover {
-//   // color: #c3dfa6;
-//   transform: scale(1.05);
-// }
-
-/* Dropdown menu styles */
-.navbar .dropdown {
-  position: relative;
-}
-/* Show Quarto dropdown menu on hover */
-.navbar .dropdown:hover > .dropdown-menu {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.navbar .dropdown-menu {
-  top: 100%;
-  margin-top: 24px;
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(4px);
-  border: 1px solid #ccc;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  position: absolute;
-  transition: opacity 0.2s ease;
-  color: black;
-  border-radius: 4px;
-  z-index: 1000;
-}
-
-/* Invisible hover bridge using pseudo-element */
-.navbar .dropdown-menu::before {
+.navbar .navbar-nav a::before {
   content: "";
   position: absolute;
-  top: -24px; /* hover zone height */
+  top: 0;
   left: 0;
   width: 100%;
-  height: 24px;
-  background: transparent;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15); /* semi-transparent white */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0; /* behind the text */
+  border-radius: 4px; /* optional, for rounded box */
 }
 
-/* Show dropdown on hover instead of click */
-.navbar .dropdown:hover .dropdown-menu {
+.navbar .navbar-nav a:hover::before {
   opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  // margin-top: 0;
 }
 
-/* Dropdown link styles */
-.navbar .dropdown-menu a {
-  font-size: 1.1rem;
+.navbar .navbar-nav a {
   position: relative;
-  padding: 0.5rem 0.25rem;
-  display: inline-block;
-  color: black !important;
-  text-decoration: none;
-  overflow: hidden;
+  z-index: 1; /* keep text above the background */
 }
 
-.navbar .dropdown-menu a:hover {
-  background-color: transparent !important;
-}
 
-.navbar .dropdown-menu a::after {
-  content: "";
-  position: absolute;
-  left: 0.25rem;  /* matches left padding */
-  right: 1rem; /* matches right padding */
-  bottom: 0;
-  height: 3px;
-  background: linear-gradient(to right, #FF6F61, #FFD700);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.4s ease;
-  z-index: 1;
-}
 
-.navbar .dropdown-menu a:hover::after {
-  transform: scaleX(1);
-}
+
+
+
+
+

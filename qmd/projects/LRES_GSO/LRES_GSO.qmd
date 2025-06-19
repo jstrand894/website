@@ -32,8 +32,8 @@ data-caption=""}
 :::
 :::
 
-<a class="multi-btn" href="https://landresources.montana.edu/gso/" target="_blank" rel="noopener">
-  LRES GSO Website <i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
+<a class="btn-purple" href="https://landresources.montana.edu/gso/" target="_blank" rel="noopener">
+  LRES GSO Website 
 </a>
 
 <u>What does the GSO do?</u>:  
@@ -49,13 +49,11 @@ The Land Resources and Environmental Science Graduate Student Organization (LRES
 <u>GSO-hosted events</u>:
 
 
-<a class="multi-btn" href="https://leps2025.weebly.com" target="_blank" rel="noopener">LEPS 2025<i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
-</a>
+<a class="btn-purple" href="https://leps2025.weebly.com" target="_blank" rel="noopener">LEPS 2025</a>
 
-<a class="multi-btn" href="https://lres-research-symposium.weebly.com" target="_blank" rel="noopener">2024 LRES-PSPP Student Research Symposium<i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
-</a>
+<a class="btn-purple" href="https://lres-research-symposium.weebly.com" target="_blank" rel="noopener">2024 LRES-PSPP Student Research Symposium</a>
 
-<a class="multi-btn" href="https://landresources.montana.edu/gso/events/index.html" target="_blank" rel="noopener">2023 LRES GSO Research Colloquium<i class="fas fa-arrow-up-right-from-square" style="margin-left: 0.25em;"></i>
-</a>
+<a class="btn-purple" href="https://landresources.montana.edu/gso/events/index.html" target="_blank" rel="noopener">2023 LRES GSO Research Colloquium</a>
 
 **2022 LRES Colloquium**
+     

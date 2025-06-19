@@ -218,7 +218,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
 - Minor: Marine Biology
 
-</div>    
+</div>       
 
 <!-- PUBLICATIONS -->
 ## Publications
@@ -349,7 +349,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
 
 - Montana Grain Growers Association
-
+                    
   
 <div style="display: flex; align-items: center;">
   <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Gradaute Professional Advancement Grant</strong></a> ($500)</div>
