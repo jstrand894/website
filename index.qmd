@@ -33,7 +33,6 @@ toc: true
 ---
   
 ::: {#about-block}
-<br>
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
 I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I study applied entomology and invasive plant management. My research focuses on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota, using insect agents to support sustainable management and ecosystem restoration.
 
@@ -174,7 +173,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 ## Research Interests
 I am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.
  
-My master’s thesis with [Dr. David Weaver](https://landresources.montana.edu/directory/faculty/1524725/david-weaver) at Montana State University focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome found along roadways and in coulees could reduce WSS larvae and provide a refuge for parasitoids like <i>Bracon cephi</i> and <i>B. lissogaster</i>. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when found growing adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis](https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content) or my [thesis defense recording](qmd/presentations/msu_masters_defense/msu_masters_defense.qmd) for more information.
+My master’s thesis with [Dr. David Weaver](https://landresources.montana.edu/directory/faculty/1524725/david-weaver) at Montana State University focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome found along roadways and in coulees could reduce WSS larvae and provide a refuge for parasitoids <i>Bracon cephi</i> and <i>B. lissogaster</i>. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when found growing adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my [thesis](https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content) or my [thesis defense recording](qmd/presentations/msu_masters_defense/msu_masters_defense.qmd) for more information.
 
 My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpeterson/) at Montana State University is investigating the efficacy of the weevil <i>Rhinusa pilosa</i> for the biological control of invasive yellow toadflax (<i>Linaria vulgaris</i>) in Montana and South Dakota. Specifically, I am interested in the ecological impacts of megaherbivores, parastioids, and climatic shifts on the establishment of beneficial <i>R. pilosa</i> populations.  
 
@@ -222,7 +221,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 <!-- PUBLICATIONS -->
 ## Publications
-<a class="btn-purple" href="qmd/publications/publications.qmd" role="button">Check out my "Pubilcations" page</a>  
+<a class="btn-purple" href="qmd/publications/publications.qmd" role="button">Check out my&nbsp;<strong>Publications</strong>&nbsp;page</a>  
 <div class="box">
 
 <ol reversed>
@@ -362,7 +361,7 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
    
 ## Seminars and Presentations  
-<a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">Check out my "Talks and Presentations" page</a>   
+<a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</a>   
 <span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
 <div class="box">
 Contributed presentations at scientific meetings  
