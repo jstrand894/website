@@ -1,6 +1,18 @@
 ---
 title: "Guide to Using R - by Jared Adam"
+image: "P6133965-2.jpg"
+Description: "Jared's guide to R"
+categories: ["R", "Tutorial"]
 external-url: https://jared-adam-psu.github.io/R-Tutorial-for-Tooker-Lab/
+listing: false
 ---
 
 This is a test
+
+
+title: "R for Ecologists"
+image: "img/r-for-ecologists.jpg"
+description: "A practical R tutorial for field scientists."
+categories: ["R", "Tutorial"]
+external-url: "https://example.com"
+listing: false

@@ -291,7 +291,7 @@
     "href": "qmd/helpful/jared_guide/jared_guide.html",
     "title": "Guide to Using R - by Jared Adam",
     "section": "",
-    "text": "This is a test"
+    "text": "This is a test\ntitle: “R for Ecologists” image: “img/r-for-ecologists.jpg” description: “A practical R tutorial for field scientists.” categories: [“R”, “Tutorial”] external-url: “https://example.com” listing: false"
   },
   {
     "objectID": "qmd/publications/publications.html",
