@@ -58,116 +58,10 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 :::
 ::: {.column width="20%" .px-1}
 [![](img/index/loco-bee.JPG)](img/index/loco-bee.JPG){data-fancybox="gallery" data-caption="Locoweed with Bee"}
+::: 
 :::
-:::  
-
 :::
   
-<!-- pictures below about me -->
-```{=html}
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Gallery</title>
-  <style>
-    .gallery-container {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      grid-gap: 10px;
-      max-width: 1200px;
-      width: 100%;
-    }
-    .gallery img {
-      width: 100%;
-      object-fit: cover; /* Ensure images cover the entire space */
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-    .gallery img:hover {
-      transform: scale(1.05); /* Slightly increase size on hover */
-    }
-    .expanded-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
-      display: none; /* Initially hidden */
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-    }
-    .expanded {
-      max-width: 80%;
-      max-height: 80%;
-      cursor: pointer;
-    }
-    p.gallery-caption {
-      text-align: center;
-      font-style: italic;
-      color: #8B8989;
-    }
-  </style>
-</head>
-<body>
-
-<div class="gallery">
-  <img src="img/index/wss.JPG" alt="Image 1" onclick="expandImage(this)">
-  <img src="img/index/pinecreek.jpeg" alt="Image 1" onclick="expandImage(this)">
-  <img src="img/index/loco-bee.JPG" alt="Image 1" onclick="expandImage(this)">
-  <img src="img/index/mushroom1.jpeg" alt="Image 1" onclick="expandImage(this)">
-  <img src="img/index/brownmoth.JPG" alt="Image 1" onclick="expandImage(this)">
-  <img src="img/index/glacierfall.jpeg" alt="Image 1" onclick="expandImage(this)">
-</div>
-<div class="expanded-container" onclick="closeExpanded()">
-  <img class="expanded" id="expanded-image" onclick="navigateGallery(event)">
-</div>
-
-<script>
-  var currentImageIndex = 0;
-  var galleryImages = document.querySelectorAll('.gallery img');
-
-  function expandImage(img) {
-    currentImageIndex = Array.from(galleryImages).indexOf(img);
-    document.getElementById('expanded-image').src = img.src;
-    document.querySelector('.expanded-container').style.display = 'flex';
-  }
-
-  function closeExpanded() {
-    document.querySelector('.expanded-container').style.display = 'none';
-  }
-
-  function navigateGallery(event) {
-    // Calculate the click position relative to the expanded image
-    var clickX = event.pageX - event.target.getBoundingClientRect().left;
-    var imageWidth = event.target.offsetWidth;
-
-    // Determine if the click was on the left or right side of the image
-    if (clickX < imageWidth / 2) {
-      // Clicked on the left side: navigate to the previous image
-      currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
-    } else {
-      // Clicked on the right side: navigate to the next image
-      currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
-    }
-
-    // Update the expanded image source
-    document.getElementById('expanded-image').src = galleryImages[currentImageIndex].src;
-  }
-</script>
-
-</body>
-</html> -->
-
-```
 <br>
 
 ## Research Interests
@@ -178,20 +72,9 @@ My master’s thesis with [Dr. David Weaver](https://landresources.montana.edu/d
 My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpeterson/) at Montana State University is investigating the efficacy of the weevil <i>Rhinusa pilosa</i> for the biological control of invasive yellow toadflax (<i>Linaria vulgaris</i>) in Montana and South Dakota. Specifically, I am interested in the ecological impacts of megaherbivores, parastioids, and climatic shifts on the establishment of beneficial <i>R. pilosa</i> populations.  
 
 
-<!-- ![Me and Grace at Glacier National Park, 2023](img/aboutme/iceberg.JPG)   -->
-<!--- button for CV download--->
-<!-- ```{=html}
-<div style="margin: 30px; text-align: center; display: flex; align-items: center; justify-content: center;">
-  <span style="margin-right: 15px;">You can view my CV contents below, or download my CV here:</span>
-  <a class="btn-primary" href="qmd/cv.qmd" role="button">
-    View my CV
-  </a>
-</div>
-``` -->
-
 
 ## Education  
-<div class="box">
+:::{.box}
 <div style="display: flex; align-items: center;">
   <div><strong>PhD Ecology & Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
   <!-- This div creates the line between text and year -->
@@ -217,13 +100,13 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
 - Minor: Marine Biology
 
-</div>       
+:::      
 
 <!-- PUBLICATIONS -->
 ## Publications
 <a class="btn-purple" href="qmd/publications/publications.qmd" role="button">Check out my&nbsp;<strong>Publications</strong>&nbsp;page</a>  
-<div class="box">
 
+:::{.box}
 <ol reversed>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: <a href="https://doi.org/10.1093/jisesa/ieaf016">10.1093/jisesa/ieaf016</a>
@@ -232,11 +115,12 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
         <u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: <a href="https://doi.org/10.1093/jee/toae246">10.1093/jee/toae246</a>
     </li>
 </ol>
-</div> 
+
+:::
 
 ## Honors & Awards
 
-<div class="box">
+:::{.box}
 
 <!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
 <div style="display: flex; align-items: center;">
@@ -357,18 +241,21 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 </div>
 
 - The Graduate School, Montana State University
-</div>
+
+:::
 
    
-## Seminars and Presentations  
+## Seminars & Presentations  
 <a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</a>   
 <span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
-<div class="box">
+
+:::{.box}
 Contributed presentations at scientific meetings  
 
 <ol reversed>
     <li style="margin-bottom: 1em;">
         SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Understanding Host Preference in <i>Mecinus janthinus</i> and <i>M. janthiniformis</i>: Implications of Hybridization for Effective Biological Control. National Forum on Biological Control Conference. Annapolis, MD. 
+    </li>
     <li style="margin-bottom: 1em;">
         Strand JR, <u>Sterling TM</u>, Peterson RKD, Weaver DK. 2025. Agroecological Importance of Smooth Brome in Hosting Braconid Parasitoids Associated with the Insect Pest Wheat Stem Sawfly. Annual Meeting of the Western Society of Weed Science. Seattle, WA. (poster)
     </li>
@@ -407,7 +294,6 @@ Invited Guest Lectures
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Instructor: Will Wetzel. March 2025.
     </li>
-
 </ol>
 
 Workshops  
@@ -417,19 +303,22 @@ Workshops
         Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop, "MSU Extension IPM Workshop: Diagnosing Plant Health Problems" Montana State University, Bozeman, MT.
     </li>
 </ol>
-</div>
+:::
+
 
 ## Teaching
-<div class="box">
+
+:::{.box}
 <u>Montana State University</u>  
 **Integrated Pest Management** (TA), 3 credits (AGSC 401)  
 Fall 2023, 20 undergraduates, 10 graduate students  
 Online course taught by Dr. David Weaver
 
-</div>
+:::
 
 ## Service
-<div class="box">
+
+:::{.box}
 
 <u>Peer Review Journal Activity</u>
 <div style="display: flex; align-items: center;">
@@ -509,10 +398,13 @@ Online course taught by Dr. David Weaver
   <div>2021 - present</div>
 </div>  
 <br>
-</div>
+
+:::
 
 ## Co-Hosted Events
-<div class="box">
+
+:::{.box}
+
 <strong>LRES Graduate Student Organization Annual Symposium</strong>
 
 <ol reversed>
@@ -546,12 +438,12 @@ Online course taught by Dr. David Weaver
     Date: April 29, 2022
   </li>
 </ol>
-</div>
 
+:::
 
 
 ## Employment History
-<div class="box">
+:::{.box}
 <!-- Pace Analytical Work -->
 <div style="display: flex; align-items: center;">
   <div><a href="https://www.pacelabs.com" target="_blank">
@@ -608,11 +500,4 @@ Online course taught by Dr. David Weaver
 </div>
 <div style="height: 0.9em;"></div>
 </div>
-
-
-
-
-
-
-
-</div>
+:::
