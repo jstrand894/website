@@ -57,7 +57,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 [![](img/index/brownmoth.JPG)](img/index/brownmoth.JPG){data-fancybox="gallery" data-caption="Brown Moth"}
 :::
 ::: {.column width="20%" .px-1}
-[![](img/index/loco-bee.JPG)](img/index/loco-bee.JPG){data-fancybox="gallery" data-caption="Locoweed with Bee"}
+[![](img/index/loco-bee4.jpg)](img/index/loco-bee4.jpg){data-fancybox="gallery" data-caption="Locoweed with Bee"} 
 ::: 
 :::
 :::
@@ -397,8 +397,7 @@ Online course taught by Dr. David Weaver
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2021 - present</div>
 </div>  
-<br>
-
+   
 :::
 
 ## Co-Hosted Events

@@ -87,7 +87,11 @@ format:
           />
       - text: |
           <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    include-after-body:
+     - text: |
+          <script src="fancybox-init.js"></script>
 
+ 
 freeze: true
   
 editor: source
