@@ -42,13 +42,13 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 <img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;"> **B.S. in Biology**, University of Minnesota
 
 <br> 
- 
+  
 :::{.columns}
 ::: {.column width="20%" .px-1}
 [![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="Wheat stem sawfly (<i>Cephus cinctus</i>)"}
 :::
 ::: {.column width="20%" .px-1}
-[![](img/index/bluedeath.jpg)](img/index/bluedeath.jpg){data-fancybox="gallery" data-caption="Blue death feining beetle (<i>Asbolus verucosus</i>)"}
+[![](img/index/weevil1.jpg)](img/index/weevil1.jpg){data-fancybox="gallery" data-caption=""}
 :::
 ::: {.column width="20%" .px-1}
 [![](img/index/mecinus.jpg)](img/index/mecinus.jpg){data-fancybox="gallery" data-caption="<i>Mecinus janthinus</i>"}
