@@ -1,5 +1,5 @@
 ---
-title: "Toadflax Biocontrol Field Notes"
+title: "Toadflax Biocontrol Project Notes"
 description: "I use this space to document all field related activities for my PhD at Montana State University and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs."
 image: "Spring 2025/hoghollow_may/pics/hog_exclosure1.jpeg"
 categories: ["MSU", "Science"]
@@ -23,10 +23,15 @@ format:
 <div class="fieldsite-container">
 <div class="fieldsite-column">
   <div class="fieldsite-header">Montana</div>
-  <div class="site-buttons"><a href="https://maps.app.goo.gl/cBi1Rnv8fDN8azmE9" target="_blank"></i> Elk Park</a>
-      <a href="https://maps.app.goo.gl/TDpLtZTM1sUWpbzGA" target="_blank">Badger Gulch</a>
-      <a href="https://maps.app.goo.gl/eKicY8evbLh8PKqcA" target="_blank">Hog Hollow</a>
-      <a href="https://maps.app.goo.gl/kZXEfzW3RLZi9u7J9" target="_blank">Horse Gulch Fire</a>
+  <div class="site-buttons">
+  <a href="https://maps.app.goo.gl/yMJkfGZg2Ey5xhVC8" target="_blank">Alice Creek</a>
+    <a href="https://maps.app.goo.gl/TDpLtZTM1sUWpbzGA" target="_blank">Badger Gulch</a>
+    <a href="https://maps.app.goo.gl/jb8RrTf9MWFLUNFFA" target="_blank">Copper Creek</a>
+    <a href="https://maps.app.goo.gl/cBi1Rnv8fDN8azmE9" target="_blank"></i> Elk Park</a>
+    <a href="https://maps.app.goo.gl/eKicY8evbLh8PKqcA" target="_blank">Hog Hollow</a>
+    <a href="https://maps.app.goo.gl/kZXEfzW3RLZi9u7J9" target="_blank">Horse Gulch Fire</a>
+    <a href="https://maps.app.goo.gl/hbEY6qjhb3czuc6B6" target="_blank">Phelps Creek</a>
+    <a href="https://maps.app.goo.gl/QBsEXfXRiN46mnZJ8" target="_blank">Slim Sam Creek</a>
   </div>
   </div>
 
@@ -34,6 +39,7 @@ format:
 <div class="fieldsite-header">South Dakota</div>
 <div class="site-buttons"><a href="https://maps.app.goo.gl/sbYWqxmbHe2GaaiW8" target="_blank">Schaunaman Ranch</a>
       <a href="https://maps.app.goo.gl/xfVjWdXx1EzaZcLr8" target="_blank">Sand Lake</a>
+      <a href="https://maps.app.goo.gl/6CYvLUfVYgh6Rjod9" target="_blank">Bergdorf WPA</a>
       <a href="https://maps.app.goo.gl/Uwbe5Jyv1eKRiY6r7" target="_blank">Nemo</a>
       <a href="https://maps.app.goo.gl/JX3QNazWbzdZfLP88" target="_blank">Sawyer</a>
   </div>
