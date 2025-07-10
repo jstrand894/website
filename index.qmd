@@ -35,7 +35,7 @@ toc: true
 ::: {#about-block}
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
 I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I study applied entomology and invasive plant management. My research focuses on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota, using insect agents to support sustainable management and ecosystem restoration.
-
+ 
 
 ### Education
 <img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;"> **M.S. in Entomology**, Montana State University  
@@ -45,7 +45,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
   
 :::{.columns}
 ::: {.column width="20%" .px-1}
-[![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="Wheat stem sawfly (<i>Cephus cinctus</i>)"}
+[![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="Wheat stem sawfly (<i>Cephus cinctus</i>)"} 
 :::
 ::: {.column width="20%" .px-1}
 [![](img/index/weevil1.jpg)](img/index/weevil1.jpg){data-fancybox="gallery" data-caption=""}
@@ -104,7 +104,9 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
 <!-- PUBLICATIONS -->
 ## Publications
-<a class="btn-purple" href="qmd/publications/publications.qmd" role="button">Check out my&nbsp;<strong>Publications</strong>&nbsp;page</a>  
+<a class="btn-purple" href="qmd/publications/publications.qmd" role="button">
+  <span>Check out my&nbsp;<strong>Publications</strong>&nbsp;page</span>
+</a>    
 
 :::{.box}
 <ol reversed>
@@ -246,8 +248,9 @@ My current PhD project with [Dr. Robert Peterson](https://www.montana.edu/rkdpet
 
    
 ## Seminars & Presentations  
-<a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</a>   
-<span style="font-size: 15px; font-weight: normal;"><u>underline</u> = presenter</span>
+<a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">
+  <span>Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</span>
+</a>   
 
 :::{.box}
 Contributed presentations at scientific meetings  
@@ -313,7 +316,10 @@ Workshops
 **Integrated Pest Management** (TA), 3 credits (AGSC 401)  
 Fall 2023, 20 undergraduates, 10 graduate students  
 Online course taught by Dr. David Weaver
-
+  
+**Integrated Pest Management** (TA), 3 credits (AGSC 401)  
+Fall 2025, 25 undergraduates, 10 graduate students  
+Online course taught by Dr. David Weaver
 :::
 
 ## Service
