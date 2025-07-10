@@ -30,21 +30,22 @@ about:
       target: "_blank"
 
 toc: true
----
-This is a test!  
- 
+---                    
 ::: {#about-block}
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
 I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I study applied entomology and invasive plant management. My research focuses on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota, using insect agents to support sustainable management and ecosystem restoration.
  
-
-### Education
+<br>
 <img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;"> **M.S. in Entomology**, Montana State University  
 <img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;"> **B.S. in Biology**, University of Minnesota
 
+<br>   
 <br> 
-  
-:::{.columns}
+<br> 
+<br>                           
+:::
+      
+<!-- :::{.columns} 
 ::: {.column width="20%" .px-1}
 [![](img/index/wss.JPG)](img/index/wss.JPG){data-fancybox="gallery" data-caption="Wheat stem sawfly (<i>Cephus cinctus</i>)"} 
 :::
@@ -60,9 +61,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 ::: {.column width="20%" .px-1}
 [![](img/index/loco-bee4.jpg)](img/index/loco-bee4.jpg){data-fancybox="gallery" data-caption="Locoweed with Bee"} 
 ::: 
-:::
-:::
-  
+::: -->
 <br>
 
 ## Research Interests
