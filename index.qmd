@@ -31,7 +31,8 @@ about:
 
 toc: true
 ---
-  
+This is a test!  
+ 
 ::: {#about-block}
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
 I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I study applied entomology and invasive plant management. My research focuses on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota, using insect agents to support sustainable management and ecosystem restoration.
