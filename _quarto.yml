@@ -59,7 +59,7 @@ website:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2025, Jackson R. Strand"
 
-format:
+format:  
   html:
     toc: true
     toc-depth: 3
@@ -91,7 +91,7 @@ format:
      - text: |
           <script src="fancybox-init.js"></script>
 
- 
+  
 freeze: true
   
 editor: source
