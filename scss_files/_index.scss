@@ -8,10 +8,6 @@
   padding-left: 1.2em;
 }
 
-.committee .label {
-  /* no bold, just inline label */
-}
-
 .committee .member {
   display: inline;
 }
@@ -63,3 +59,44 @@
   /* existing styles... */
   animation: fadeInDown 1.5s ease-out;
 }
+
+.thesis-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+.thesis-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+.thesis-image {
+    flex-shrink: 0;
+    width: 175px;
+    border-radius: 4px;
+  }
+
+@media (max-width: 768px) {
+    .thesis-section {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+
+    .thesis-text {
+      padding-right: 0;
+    }
+
+    .thesis-image {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto; 
+    }
+  }
+
+
+
