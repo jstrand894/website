@@ -29,6 +29,7 @@ about:
       href: https://www.researchgate.net/profile/Jackson-Strand
       target: "_blank"
 
+freeze: true
 toc: true
 ---                    
 ::: {#about-block} 
@@ -36,8 +37,8 @@ toc: true
 I am a PhD student in Ecology and Environmental Sciences at Montana State University, where I study applied entomology and invasive plant management. My research focuses on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota, using insect agents to support sustainable management and ecosystem restoration.  
 
 <br>
-<img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;"> **M.S. in Entomology**, Montana State University  
-<img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;"> **B.S. in Biology**, University of Minnesota
+<img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;">**M.S. in Entomology**, Montana State University  
+<img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;">**B.S. in Biology**, University of Minnesota
   
    
 
@@ -92,9 +93,6 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 </div> 
   </div>
 </div>
-
-
-
 
 ## Education
 :::{.box}
