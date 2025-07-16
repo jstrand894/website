@@ -73,14 +73,13 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 <hr>
 
 <!-- Paragraph with image on the right -->
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
-<div style="flex: 1; padding-right: 20px;">
-<p>My **Master’s thesis** with <a href="https://landresources.montana.edu/directory/faculty/1524725/david-weaver" target="_blank">Dr. David Weaver</a> at Montana State University focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome found along roadways and in coulees could reduce WSS larvae and provide a refuge for parasitoids <i>Bracon cephi</i> and <i>B. lissogaster</i>. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when found growing adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my 
-<a href="https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content" target="_blank">thesis</a> or my <a href="qmd/presentations/msu_masters_defense/msu_masters_defense.qmd" target="_blank">thesis defense recording</a> for more information.</p>
-  </div>
-  <img src="img/index/wss.JPG" alt="Smooth brome research" style="width: 175px; border-radius: 8px;">
+<div class="thesis-section">
+  <div class="thesis-text">
+  <p>My <strong>Master’s thesis</strong> with <a href="https://landresources.montana.edu/directory/faculty/1524725/david-weaver" target="_blank">Dr. David Weaver</a> at Montana State University focused on the agroecological role of smooth brome grass in managing wheat stem sawfly (WSS) populations. Specifically, I investigated how smooth brome found along roadways and in coulees could reduce WSS larvae and provide a refuge for parasitoids <i>Bracon cephi</i> and <i>B. lissogaster</i>. Using a combination of volatile organic compound (VOC) analysis and field observations, I demonstrated that smooth brome, when found growing adjacent to wheat fields, could reduce WSS survival and support second-generation parasitoids. Please see my <a href="https://scholarworks.montana.edu/server/api/core/bitstreams/c763df5a-cc0c-4345-b21b-ffc746e64700/content" target="_blank">thesis</a> or my <a href="qmd/presentations/msu_masters_defense/msu_masters_defense.qmd" target="_blank">thesis defense recording</a> for more information.</p>
+  </div>  
+  <img src="img/index/Jackson_Field2.jpg" alt="Smooth brome research" class="thesis-image">
 </div>
-
+  
 <!-- Paragraph with image on the left -->
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
   <img src="img/index/mecinus.jpg" alt="Rhinusa pilosa" style="width: 175px; border-radius: 8px; margin-right: 20px;">
@@ -90,14 +89,14 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 <a class="btn-purple" href="qmd/projects/field_notes/fieldjournal.qmd" role="button">
  <span>PhD Field Notes</span>
   </a>
-</div>
+</div> 
   </div>
 </div>
 
 
 
 
-## Education  
+## Education
 :::{.box}
 <div style="display: flex; align-items: center;">
   <div><strong>PhD Ecology & Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
@@ -270,7 +269,7 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 :::
 
    
-## Seminars & Presentations  
+## Seminars & Presentations 
 <a class="btn-purple" href="qmd/presentations/presentations.qmd" role="button">
   <span>Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</span>
 </a>   
@@ -345,7 +344,7 @@ Fall 2025, 25 undergraduates, 10 graduate students
 Online course taught by Dr. David Weaver
 :::
 
-## Service
+## Service 
 
 :::{.box}
 
@@ -429,7 +428,7 @@ Online course taught by Dr. David Weaver
 <div style="margin-top: 0.5em;"></div>
 :::
 
-## Co-Hosted Events
+## Co-Hosted Events 
 
 :::{.box}
 
@@ -470,7 +469,7 @@ Online course taught by Dr. David Weaver
 :::
 
 
-## Employment History
+## Employment History 
 :::{.box}
 <!-- Pace Analytical Work -->
 <div style="display: flex; align-items: center;">
