@@ -2,6 +2,7 @@
   {
     "listing": "/qmd/media/media.html",
     "items": [
+      "/qmd/media/2025/double_trouble/double_trouble.html",
       "/qmd/media/2025/parasitoids_action/parasitoids_action.html",
       "/qmd/media/2025/sawfly_solutions/sawfly_solution.html",
       "/qmd/media/2025/tinybutmighty/tiny_but_mighty.html",
@@ -15,17 +16,18 @@
     ]
   },
   {
-    "listing": "/qmd/presentations/presentations.html",
+    "listing": "/qmd/publications/publications.html",
     "items": [
-      "/qmd/presentations/nfbc25/nfbc25.html",
-      "/qmd/presentations/esa24/esa24.html",
-      "/qmd/presentations/msu_masters_defense/msu_masters_defense.html",
-      "/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html",
-      "/qmd/presentations/esa23/esa23.html",
-      "/qmd/presentations/lres_srs_23/lres_srs_23.html",
-      "/qmd/presentations/esa22/esa22.html",
-      "/qmd/presentations/lres_colloq_22/lres_colloq_22.html",
-      "/qmd/presentations/esa21/esa21.html"
+      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
+      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
+    ]
+  },
+  {
+    "listing": "/qmd/projects/projects.html",
+    "items": [
+      "/qmd/projects/field_notes/fieldjournal.html",
+      "/qmd/projects/LRES_GSO/LRES_GSO.html",
+      "/qmd/projects/bball_tool/bball_tool.html"
     ]
   },
   {
@@ -44,18 +46,17 @@
     ]
   },
   {
-    "listing": "/qmd/projects/projects.html",
+    "listing": "/qmd/presentations/presentations.html",
     "items": [
-      "/qmd/projects/field_notes/fieldjournal.html",
-      "/qmd/projects/LRES_GSO/LRES_GSO.html",
-      "/qmd/projects/bball_tool/bball_tool.html"
-    ]
-  },
-  {
-    "listing": "/qmd/publications/publications.html",
-    "items": [
-      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
-      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
+      "/qmd/presentations/nfbc25/nfbc25.html",
+      "/qmd/presentations/esa24/esa24.html",
+      "/qmd/presentations/msu_masters_defense/msu_masters_defense.html",
+      "/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html",
+      "/qmd/presentations/esa23/esa23.html",
+      "/qmd/presentations/lres_srs_23/lres_srs_23.html",
+      "/qmd/presentations/esa22/esa22.html",
+      "/qmd/presentations/lres_colloq_22/lres_colloq_22.html",
+      "/qmd/presentations/esa21/esa21.html"
     ]
   }
 ]
