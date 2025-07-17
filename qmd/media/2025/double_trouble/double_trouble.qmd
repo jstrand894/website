@@ -1,0 +1,24 @@
+---
+title: "Double Trouble for Sawflies: Nature’s Tiny Defenders"
+date: 2025-7-01
+description: "I co-wrote this Montana Wheat and Barley Committee post about the parasitoids of wheat stem sawfly."
+image: "bracon_cephi.jpg"
+image_alt: "Close-up photo of a *Bracon cephi* parasitoid"
+categories: ["Facebook", "MWBC"]
+# pinned: true
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+This Facebook post from the Montana Wheat and Barley Committee highlights how tiny parasitoid wasps are helping combat the wheat stem sawfly, a major pest in Montana grain systems. I helped write the scientific background for the post.
+
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid025gSNbSgRLTbKFmbnSV5YnzkMSHpABtcQ1YYkhEvrk7S6nu13XyAbJGKk2vkrBhrHl&show_text=true&width=500" width="500" height="771" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
