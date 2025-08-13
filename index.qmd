@@ -332,14 +332,26 @@ Workshops
 ## Teaching
 
 :::{.box}
-<u>Montana State University</u>  
-**Integrated Pest Management** (TA), 3 credits (AGSC 401)  
-Fall 2023, 20 undergraduates, 10 graduate students  
+<u>Teaching Assisstant</u>  
+**Integrated Pest Management** (AGSC 401)  
+Fall 2023, 3 credits, 20 undergraduates, 10 graduate students  
 Online course taught by Dr. David Weaver
   
-**Integrated Pest Management** (TA), 3 credits (AGSC 401)  
-Fall 2025, 25 undergraduates, 10 graduate students  
+**Integrated Pest Management** (AGSC 401)  
+Fall 2025, 3 credits, 25 undergraduates, 10 graduate students  
 Online course taught by Dr. David Weaver
+  
+<u>Invited Guest Lecturer</u>  
+**Role of Plants in the Environment** (ENSC 210)  
+Spring 2025, 3 creidts  
+"Can Bugs Help Us?"  
+Course taught by Dr. Will Wetzel  
+
+**Principals of Biological Diversity** (BIOB 260)  
+Fall 2025, 5 credits   
+"Introduction to Insect Identification and Sampling"  
+Course taught by Erin Teichroew and Chris Larson
+
 :::
 
 ## Service 
