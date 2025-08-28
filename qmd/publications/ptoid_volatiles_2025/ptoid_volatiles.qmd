@@ -12,8 +12,7 @@ format:
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
           />
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 **Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome**

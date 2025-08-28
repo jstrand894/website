@@ -12,8 +12,7 @@ format:
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
           />
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 <a class="multi-btn" href="https://1drv.ms/x/c/af438b0dd68ebd20/ESC9jtYNi0MggK-vAwAAAAABir6-ypi99PhsXzTK0_DIjg?e=axLlSI" target="_blank" role="button">View tool</a>

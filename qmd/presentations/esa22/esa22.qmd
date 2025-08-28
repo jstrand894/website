@@ -14,8 +14,7 @@ format:
           />
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 I presented this talk at the 2022 Entomological Society of America (ESA) Annual Meeting in Vancouver, BC. This presentation explored how organic volatile compounds can be used to understand ecological interactions among the wheat stem sawfly, its parasitoids, and the non-crop grass smooth brome.

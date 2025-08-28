@@ -12,8 +12,7 @@ format:
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
           />
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 You can download the full brochure <a href="https://www.researchgate.net/publication/385621614_Wheat_Stem_Sawfly_Best_Management_Practices?channel=doi&linkId=672ccec02326b47637cf7fe9&showFulltext=true" target="_blank">here</a>

@@ -15,8 +15,7 @@ format:
           />
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 I presented this talk at the 2023 LRES Student Research Symposium in Bozeman, MT, where I received **1st place** in the oral presentation competition. The presentation focused on how organic volatile compounds mediate interactions between wheat stem sawfly, its braconid parasitoids, and smooth brome.

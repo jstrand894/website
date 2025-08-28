@@ -14,8 +14,7 @@ format:
           />
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 I successfully defended my Master’s thesis at Montana State University on August 19, 2024. My research focused on the agroecological role of smooth brome (*Bromus inermis*) in supporting native parasitoids of the wheat stem sawfly (*Cephus cinctus*), with a particular emphasis on agro- and chemical ecology. 
 
