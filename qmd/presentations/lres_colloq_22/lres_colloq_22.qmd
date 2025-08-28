@@ -14,8 +14,7 @@ format:
           />
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 I presented this talk at the 2022 Land Resources and Environmental Sciences (LRES) Graduate Student Organization Colloquium in Bozeman, MT. The presentation explored how the presence of smooth brome influences parasitoid communities and their effectiveness in the integrated pest management of wheat stem sawfly.

@@ -4,16 +4,6 @@ date: 2025-1-30
 description: "I co-authored a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee. I also took the picture of the ovipositor for their post."
 image: "ovipositor.png"
 categories: ["Facebook", "MWBC"]
-format:
-  html:
-    include-in-header: 
-      - text: |
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-          />
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 ---
 
 I co-consulted a description about wheat stem sawfly ovipositors for the Montana Wheat and Barley Committee (along with Dr. Robert Peterson and Dr. David Weaver). I also took the picture of the ovipositor for their post.

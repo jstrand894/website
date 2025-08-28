@@ -12,8 +12,7 @@ format:
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
           />
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 You can read the full article <a href="https://www.montana.edu/extension/invasiveplants/extension/monthly-weed-posts/2024-december-locoweed.html" target="_blank">here</a>

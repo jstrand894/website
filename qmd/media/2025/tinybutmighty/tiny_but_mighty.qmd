@@ -14,8 +14,7 @@ format:
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
           />
-      - text: |
-          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 ---
 
 This Facebook post from the Montana Wheat and Barley Committee highlights how tiny parasitoid wasps are helping combat the wheat stem sawfly, a major pest in Montana grain systems. I helped write the scientific background for the post and took the featured photograph.
