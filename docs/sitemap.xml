@@ -38,6 +38,7 @@
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/presentations/msu_masters_defense/msu_masters_defense.html</loc>
+<<<<<<< HEAD
     <lastmod>2025-08-28T21:05:05.095Z</lastmod>
   </url>
   <url>
@@ -51,6 +52,21 @@
   <url>
     <loc>https://jackson-strand.com/qmd/presentations/esa23/esa23.html</loc>
     <lastmod>2025-08-28T21:05:05.093Z</lastmod>
+=======
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/lres_srs_23/lres_srs_23.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/esa22/esa22.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/esa23/esa23.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+>>>>>>> origin/main
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/index cv.html</loc>
@@ -62,6 +78,7 @@
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/projects/field_notes/fieldjournal.html</loc>
+<<<<<<< HEAD
     <lastmod>2025-08-28T21:05:02.659Z</lastmod>
   </url>
   <url>
@@ -75,6 +92,21 @@
   <url>
     <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/hoghollow_june/hoghollow_june.html</loc>
     <lastmod>2025-08-28T21:05:05.097Z</lastmod>
+=======
+    <lastmod>2025-06-30T16:52:55.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/sd_spring_25/spring25spearfish.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/elk_badger_june/elk_badger_june.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/hoghollow_june/hoghollow_june.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+>>>>>>> origin/main
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/projects/projects.html</loc>
@@ -82,11 +114,19 @@
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/projects/LRES_GSO/LRES_GSO.html</loc>
+<<<<<<< HEAD
     <lastmod>2025-08-28T21:05:05.096Z</lastmod>
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html</loc>
     <lastmod>2025-08-28T21:05:05.098Z</lastmod>
+=======
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+>>>>>>> origin/main
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/helpful/helpful.html</loc>
@@ -106,6 +146,7 @@
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/publications/agro_brome_2024/agro_brome_2024.html</loc>
+<<<<<<< HEAD
     <lastmod>2025-08-28T21:05:05.098Z</lastmod>
   </url>
   <url>
@@ -127,6 +168,29 @@
   <url>
     <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/hoghollow_may/hoghollow_may25.html</loc>
     <lastmod>2025-08-28T21:05:05.098Z</lastmod>
+=======
+    <lastmod>2025-08-28T20:55:18.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/bball_tool/bball_tool.html</loc>
+    <lastmod>2025-08-28T20:55:18.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/elk_park_chainsaw/ElkParkChainsaw.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/elk_badger_may/Elk_Badger_May.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/sd_spring_25/spring25aberdeen.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/projects/field_notes/Spring 2025/hoghollow_may/hoghollow_may25.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+>>>>>>> origin/main
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/projects/field_notes/Life Tables/Summer 2025/phelps/phelps25.html</loc>
@@ -134,6 +198,7 @@
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/projects/field_notes/Fall 2024/horsegulch24.html</loc>
+<<<<<<< HEAD
     <lastmod>2025-08-28T21:05:05.096Z</lastmod>
   </url>
   <url>
@@ -155,6 +220,29 @@
   <url>
     <loc>https://jackson-strand.com/qmd/presentations/esa21/esa21.html</loc>
     <lastmod>2025-08-28T21:05:05.093Z</lastmod>
+=======
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/esa24/esa24.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/mwbc_marchmad/mwbc_marchmad.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/lres_colloq_22/lres_colloq_22.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/nfbc25/nfbc25.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jackson-strand.com/qmd/presentations/esa21/esa21.html</loc>
+    <lastmod>2025-08-28T20:55:18.754Z</lastmod>
+>>>>>>> origin/main
   </url>
   <url>
     <loc>https://jackson-strand.com/qmd/cv.html</loc>
