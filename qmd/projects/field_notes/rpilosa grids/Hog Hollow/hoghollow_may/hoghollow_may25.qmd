@@ -1,0 +1,73 @@
+---
+title: "Hog Hollow - May 2025"
+date: 2025-5-27
+description: "Drove out to Hog Hollow to retrieve data and set up cameras."
+image: "pics/hog_exclosure1.jpeg"
+categories: ["Montana","Rhinusa Grids"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+
+---
+
+::: {.callout-note title="Weather"}
+⛅ Low 60s, partly sunny. Got pretty toasty towards the end.
+:::
+
+I drove out to Hog Hollow to complete the setup of all *Rhinusa pilosa* exclosure grid sites for Spring 2025. I retrieved data from the data loggers, set up two game cameras, and checked the integrity of the exclosure fence. The exclosure looked in good condition since we lasted visited in September 2024. 
+
+:::{.columns}
+::: {.column width="25%" .px-2}
+[![Hog Hollow exclosure](pics/hog_exclosure1.jpeg)](pics/hog_exclosure1.jpeg){data-fancybox="gallery" 
+data-caption="Hog Hollow exclosure"} 
+::: 
+::: {.column width="25%" .px-2}
+[![Exclosure camera](pics/hog_exc_cam1.jpeg)](pics/hog_exc_cam1.jpeg){data-fancybox="gallery" 
+data-caption="Exclosure camera"} 
+:::
+::: {.column width="25%" .px-2}
+[![Foreground: exclosure, background: control](pics/hog_exc_cont.jpeg)](pics/hog_exc_cont.jpeg){data-fancybox="gallery" 
+data-caption="Foreground: exclosure, background: control"} 
+:::
+::: {.column width="25%" .px-2}
+[![Control grid camera](pics/hog_cont_cam1.jpeg)](pics/hog_cont_cam1.jpeg){data-fancybox="gallery" 
+data-caption="Control grid camera"} 
+:::
+
+:::
+
+I took a couple pictures with my camera while at the site as well.  
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Blue bell flowers](pics/hog_flower.jpg)](pics/hog_flower.jpg){data-fancybox="gallery" 
+data-caption="Blue bell flowers"} 
+:::
+::: {.column width="33%" .px-2}
+[![Hymenoptera on leaf](pics/hog_lilbug.jpg)](pics/hog_lilbug.jpg){data-fancybox="gallery" 
+data-caption="Hymenoptera on leaf"} 
+:::
+::: {.column width="33%" .px-2}
+[![Cutworm caterpillar I found under data logger](pics/hog_cutworm.jpg)](pics/hog_cutworm.jpg){data-fancybox="gallery" 
+data-caption="Cutworm caterpillar I found under data logger"} 
+:::
+::: {.column width="33%" .px-2}
+[![Ground squirrel near the site](pics/hog_squirrel1.jpg)](pics/hog_squirrel1.jpg){data-fancybox="gallery" 
+data-caption="Ground squirrel near the site"} 
+:::
+::: {.column width="33%" .px-2}
+[![Ground squirrel near the site](pics/hog_squirrel2.jpg)](pics/hog_squirrel2.jpg){data-fancybox="gallery" 
+data-caption="Ground squirrel near the site"} 
+:::
+::: {.column width="33%" .px-2}
+[![Ground squirrel near the site](pics/hog_squirrel3.jpg)](pics/hog_squirrel3.jpg){data-fancybox="gallery" 
+data-caption="Ground squirrel near the site"} 
+::: 
+
+:::

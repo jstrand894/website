@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules: --*/
+/* Dropdown */
+.dropdown {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Header styling */
+.fieldsite-header {
+    background: #2c3e50;
+    color: white;
+    padding: 0.75em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.fieldsite-header:hover {
+    background: #34495e;
+}
+
+/* Hidden content by default */
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+/* Active state controlled via JS */
+.dropdown-content.active {
+    max-height: 500px; /* enough to show your content */
+}
+
+/* Expand content on hover for desktop */
+@media (hover: hover) {
+  .dropdown:hover .dropdown-content {
+    max-height: 500px;
+  }
+}

@@ -1,0 +1,39 @@
+---
+title: "Alice & Copper Creeks - August 2025"
+date: 2025-8-17
+description: "August trip to these two sites for MD Life Tables" 
+image: "img/alice_col1.jpeg"
+categories: ["Life Tables", "Montana"]
+format:
+  html:
+    layout: article
+    toc: true
+    toc-depth: 3
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+
+--- 
+
+Grace and I visited these two sites on our way back from a camping trip to Lake Seeley, MT. 
+
+::: {.callout-note title="Weather"}
+⛅ Low 60s, partly sunny. Gusty winds. 
+:::
+
+## Site Images
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](img/IMG_1102.jpeg)](img/IMG_1102.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1103.jpeg)](img/IMG_1103.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1105.jpeg)](img/IMG_1105.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+:::

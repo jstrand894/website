@@ -1,0 +1,63 @@
+---
+title: "Elk Park Exclosure Repair"
+date: 2025-05-8
+description: "Repaired the Elk Park exclosure after tree damage, expanded the monitoring grid, and installed trail cameras and data loggers at both the exclosure and control sites."
+image: "pics/elk_jackson_chainsaw copy.jpeg"
+categories: ["Rhinusa Grids", "Montana"]
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+
+---
+
+::: {.callout-note title="Weather"}
+🌤️ Low 70s, sunny, light breeze. Perfect field day conditions.
+:::
+David, Eric, and I went out to our Elk Park site to repair the exclosure that was a built a few years ago. A couple trees fell across the fencing into and across the exclosure. 
+
+Site activities:
+
+- Clear debris and remove downed trees from the exclosure
+- Remove damaged cattle panels and extract existing fence posts
+- Expand the existing monitoring grid to 10 m × 10 m and add road hairs
+- Construct new exclosure using fence posts, intact cattle panels, and new materials
+- Retrieve data from data loggers at the exclosure and control grid
+- Install game cameras at both the exclosure and control grid
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![Exclosure damage prior to repair](pics/elk_treedown.jpg)](pics/elk_treedown.jpg){data-fancybox="gallery" 
+data-caption="Exclosure damage prior to repair"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Toadflax in damaged exclosure](pics/elk_excl_toadflax.jpg)](pics/elk_excl_toadflax.jpg){data-fancybox="gallery" 
+data-caption="Toadflax in damaged exclosure"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Jackson chainsawing logs in damaged exclosure](pics/elk_jackson_chainsaw.jpeg)](pics/elk_jackson_chainsaw.jpeg){data-fancybox="gallery" 
+data-caption="Jackson chainsawing logs in damaged exclosure"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Jackson chainsawing while David looks on](pics/elk_chainsaw_davidwatch.jpeg)](pics/elk_chainsaw_davidwatch.jpeg){data-fancybox="gallery"
+data-caption="Jackson chainsawing while David looks on"}
+:::
+
+::: {.column width="33%" .px-2}
+[![Exclosure grid trail camera](pics/elk_exclosure_cam.jpeg)](pics/elk_exclosure_cam.jpeg){data-fancybox="gallery"
+data-caption="Exclosure grid trail camera"}
+:::
+
+:::{.column width="33%" .px-2}
+[![Control grid trail camera](pics/elk_control_cam.jpeg)](pics/elk_control_cam.jpeg){data-fancybox="gallery"
+data-caption="Control grid trail camera"}
+:::
+:::

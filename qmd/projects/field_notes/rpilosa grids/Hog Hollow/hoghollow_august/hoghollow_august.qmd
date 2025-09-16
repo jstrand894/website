@@ -1,0 +1,112 @@
+---
+title: "Hog Hollow - August 2025"
+date: 2025-8-20
+description: "I visited Hog Hollow to check in on things and get data off the data loggers"
+image: "trail_pics/exclosure/DSCF0029.JPG"
+categories: ["Montana", "Rhinusa Grids"]
+format:
+  html:
+    layout: article
+    toc: true
+    toc-depth: 3
+    include-in-header:
+        - text: |
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+---
+
+::: {.callout-note title="Weather"}
+☀️ High 80s, mostly sunny. 
+::: 
+
+I drove back out to Hog Hollow to check in on how things were doing at the site.
+
+## Observations  
+- Found the cables for both trail cameras completed chewed and destroyed. Both cameras are out of commision until I get the wiring fixed. Need to do that soon to get the fall herbivory.
+- Data loggers and exclosure all in good shape!
+
+## Site & Release Images
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](pics/IMG_1123.jpeg)](pics/IMG_1123.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/IMG_1124.jpeg)](pics/IMG_1124.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/IMG_1125.jpeg)](pics/IMG_1125.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/IMG_1126.jpeg)](pics/IMG_1126.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/IMG_1127.jpeg)](pics/IMG_1127.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+:::
+
+## Trail Cam Images
+
+### Exclosure Grid
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0001.JPG)](trail_pics/exclosure/DSCF0001.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0009.JPG)](trail_pics/exclosure/DSCF0009.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0014.JPG)](trail_pics/exclosure/DSCF0014.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0029.JPG)](trail_pics/exclosure/DSCF0029.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0087.JPG)](trail_pics/exclosure/DSCF0087.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0120.JPG)](trail_pics/exclosure/DSCF0120.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0187.JPG)](trail_pics/exclosure/DSCF0187.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/exclosure/DSCF0201.JPG)](trail_pics/exclosure/DSCF0201.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+
+:::
+
+### Control Grid
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](trail_pics/control/DSCF0065.JPG)](trail_pics/control/DSCF0065.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/control/DSCF0072.JPG)](trail_pics/control/DSCF0072.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/control/DSCF0094.JPG)](trail_pics/control/DSCF0094.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](trail_pics/control/DSCF0136.JPG)](trail_pics/control/DSCF0136.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+  
+

@@ -1,0 +1,51 @@
+---
+title: "Phelps Creek - August 2025"
+date: 2025-8-20
+description: "August trip to Phelps Creek to collect Dalmatian toadflax and *M. janthiniformis*" 
+image: "img/IMG_1116.jpeg"
+categories: ["Montana", "Life Tables"]
+indicator: "base"
+format:
+  html:
+    layout: article
+    toc: true
+    toc-depth: 3
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+
+--- 
+
+I drove out by myself to visit this site soon after I visited Copper and Alice Creeks. 
+
+::: {.callout-note title="Weather"}
+☀️ High 70s, full sun.
+:::
+
+## Site Images
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](img/IMG_1116.jpeg)](img/IMG_1116.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1117.jpeg)](img/IMG_1117.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1118.jpeg)](img/IMG_1118.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1119.jpeg)](img/IMG_1119.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1120.jpeg)](img/IMG_1120.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](img/IMG_1121.jpeg)](img/IMG_1121.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+

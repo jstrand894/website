@@ -1,0 +1,12 @@
+{
+  "hash": "2da0fcf8e643498fe6583c481846cbd8",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Toadflax Biocontrol Project Notes\"\ndescription: \"I use this space to document all field related activities for my PhD at Montana State University and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs.\"\nimage: \"Spring 2025/hoghollow_may/pics/hog_exclosure1.jpeg\"\ncategories: [\"MSU\", \"Science\"]\npage-layout: full    \nformat:\n  html:\n    toc: true \n    include-in-header:\n      - text: |\n          <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\" rel=\"stylesheet\">\n---\n\n::: {.listing-grid}\n```{listing}\ntype: grid\nfields: [image, title, date, description, categories]\nsort: \"date desc\"\ncategories: true\ncontents: \"./*/*.qmd\"\n```\n:::\n\n<!-- Your grid of child pages will render automatically here -->\n<div class=\"fieldsite-header\">Site Locations</div>\n<div style=\"max-width: 900px; margin: auto; padding: 1em 0;\">\n  <iframe \n    src=\"https://www.google.com/maps/d/u/0/embed?mid=1ODiqTulmXsfuWONAk-Tlu-Sk_fw8Jss&ehbc=2E312F\" \n    width=\"100%\" \n    height=\"400\" \n    style=\"border:0; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\" \n    allowfullscreen \n    loading=\"lazy\">\n  </iframe>\n</div>\n\n<div class=\"fieldsite-header\">Field Log</div>\n\n",
+    "supporting": [
+      "fieldjournal_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

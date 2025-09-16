@@ -1,0 +1,67 @@
+---
+title: "Copper & Slim Sam Creeks - June 2025"
+date: 2025-6-25
+description: "Life table stem collection outing from Copper Creek in the Scapegoat Wilderness and Slim Sam Creek in the Elk Horn Mountains." 
+image: "pics/copper_view.jpeg"
+categories: ["Life Tables", "Montana"]
+format:
+  html:
+    layout: article
+    toc: true
+    toc-depth: 3
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+
+---
+
+::: {.callout-note title="Weather"}
+⛅ Mid 80s, mostly sunny. 
+:::
+  
+I drove out to Copper Creek to collect yellow toadflax for my life table project. Then, on the way back, I went to my Slim Sam Creek site to collect Dalmatian stems. This site is close to my Hog Hollow site, which is just up the road a little further. 
+
+## Copper Creek Images
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![View from Copper Creek](pics/copper_view.jpeg)](pics/copper_view.jpeg){data-fancybox="gallery" 
+data-caption="View from Copper Creek"} 
+:::
+::: {.column width="33%" .px-2}
+[![Field truck parked at Copper Creek](pics/copper_truck.jpeg)](pics/copper_truck.jpeg){data-fancybox="gallery" 
+data-caption="Field truck parked at Copper Creek"}
+:::
+::: {.column width="33%" .px-2}
+[![Found an ornate checkered beetle, <i>Trichodes ornatus</i>](pics/ornatus.jpg)](pics/ornatus.jpg){data-fancybox="gallery" 
+data-caption="Found an ornate checkered beetle, <i>Trichodes ornatus</i>"}
+:::
+:::
+
+## Slim Sam Images
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![Set up a data logger](pics/slim_data.jpeg)](pics/slim_data.jpeg){data-fancybox="gallery" 
+data-caption="Set up a data logger"} 
+:::
+::: {.column width="33%" .px-2}
+[![Dalmatian toadflax](pics/slim_dal1.jpeg)](pics/slim_dal1.jpeg){data-fancybox="gallery" 
+data-caption="Dalmatian toadflax"}
+:::
+::: {.column width="33%" .px-2}
+[![Dalmatian toadflax](pics/slim_dal2.jpeg)](pics/slim_dal2.jpeg){data-fancybox="gallery" 
+data-caption="Dalmatian toadflax"}
+:::
+::: {.column width="33%" .px-2}
+[![Dalmatian toadflax](pics/slim_dal3.jpeg)](pics/slim_dal3.jpeg){data-fancybox="gallery" 
+data-caption="Dalmatian toadflax"}
+:::
+::: {.column width="33%" .px-2}
+[![Dalmatian toadflax](pics/slim_dal4.jpeg)](pics/slim_dal4.jpeg){data-fancybox="gallery" 
+data-caption="Dalmatian toadflax"}
+:::
+:::

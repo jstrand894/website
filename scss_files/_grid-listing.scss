@@ -36,3 +36,16 @@
 //   transform: scale(1.02) rotate(0.2deg);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
+
+/* Change text color inside listing squares (title, description, metadata) */
+.quarto-listing .card-title,
+.quarto-listing .card-text,
+.quarto-listing .listing-category,
+.quarto-listing .listing-description {
+  color: #2c3e50; /* pick your color */
+}
+
+/* Add space above the description only */
+.quarto-listing .listing-description {
+  margin-top: 0.75em; /* adjust to your preference */
+}

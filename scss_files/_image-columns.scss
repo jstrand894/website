@@ -18,3 +18,42 @@
   padding: 0.5rem;
   text-align: center;
 }
+
+/* Lightbox overlay */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8); /* dark background */
+  backdrop-filter: blur(8px);   /* fuzzy/blurry background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease;
+  z-index: 1000;
+}
+
+/* Active state to show lightbox */
+.lightbox-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Image inside lightbox */
+.lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transform: scale(0.8);
+  transition: transform 0.4s ease;
+}
+
+.lightbox-overlay.active img {
+  transform: scale(1);
+  cursor: zoom-out;
+}
