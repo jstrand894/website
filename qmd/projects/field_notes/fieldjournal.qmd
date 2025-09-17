@@ -1,5 +1,5 @@
 ---
-title: "Toadflax Biocontrol Project Notes"
+title: "Toadflax Biocontrol Field Notes"
 description: "<br>I use this space to document all field related activities for my PhD at Montana State University and activities related to the biological control of yellow and Dalmatian toadflax. This work is ongoing, and I will update this page with new material as it occurs."
 image: "Spring 2025/hoghollow_may/pics/hog_exclosure1.jpeg"
 listing:

@@ -3,7 +3,7 @@ title: "Master's Thesis Defense"
 date: 2024-8-19
 description: "The Role of Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of the Wheat Stem Sawfly by Native Parasitoids"
 image: "defense_youtube2.png"
-categories: ["MSU", "Defense", "WSS", "Chemical ecology"]
+categories: ["WSS", "Chemical ecology"]
 format:
   html:
     include-in-header:
