@@ -1,0 +1,177 @@
+---
+title: "South Dakota Trip (Aberdeen) - September 2025"
+date: 2025-08-31
+description: "First half of the second trip of 2025 to South Dakota to collect data from *R. pilosa* grids and *M. janthinus* transects."
+image: "pics/aberdeen/ranch/IMG_1262.jpeg"
+categories: ["South Dakota", "Rhinusa Grids", "Mecinus Transects"]
+format:
+  html:
+    layout: full
+    toc: true
+    toc-depth: 3  # Adjust based on how many header levels you use
+---
+
+<!-- <div style="text-align: center; margin-top: 2em;">
+  <a class="btn-small" href="spring25spearfish.qmd" role="button">
+    View the Spearfish portion of this trip here →
+  </a>
+</div> -->
+# Schaunaman Ranch  
+::: {.callout-note title="Weather"}
+🌦️ High 70s, cloudy, some drizzle in the morning. Sooooo many mosquitos 🦟.
+:::
+
+Eric and I left Bozeman at 6 AM on Sunday, August 31 - driving through Eastern Montana to Aberdeen, SD. On Monday morning, we left Aberdeen and headed to the Schaunaman Ranch just west of Town. We visited the site to get data from our *Rhinusa pilosa* monitoring grids and *M. janthinus* transects.
+
+Site activities:
+
+- Collected grid data
+- Downloaded temperature data from Hobo loggers 
+- Retrieved images from and completed any maintaince work on trail cameras 
+ 
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1261.jpeg)](pics/aberdeen/ranch/IMG_1261.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1262.jpeg)](pics/aberdeen/ranch/IMG_1262.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1264.jpeg)](pics/aberdeen/ranch/IMG_1264.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1266.jpeg)](pics/aberdeen/ranch/IMG_1266.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1267.jpeg)](pics/aberdeen/ranch/IMG_1267.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1269.jpeg)](pics/aberdeen/ranch/IMG_1269.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1273.jpeg)](pics/aberdeen/ranch/IMG_1273.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1275.jpeg)](pics/aberdeen/ranch/IMG_1275.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1277.jpeg)](pics/aberdeen/ranch/IMG_1277.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/IMG_1280.jpeg)](pics/aberdeen/ranch/IMG_1280.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+
+### Trail Camera Images
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0002.JPG)](pics/aberdeen/ranch/trail cams/DSCF0002.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0051.JPG)](pics/aberdeen/ranch/trail cams/DSCF0051.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0053.JPG)](pics/aberdeen/ranch/trail cams/DSCF0053.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0081.JPG)](pics/aberdeen/ranch/trail cams/DSCF0081.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0084.JPG)](pics/aberdeen/ranch/trail cams/DSCF0084.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0087.JPG)](pics/aberdeen/ranch/trail cams/DSCF0087.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/ranch/trail cams/DSCF0164.JPG)](pics/aberdeen/ranch/trail cams/DSCF0164.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+
+
+# Sand Lake and Bergdorf WPAs
+::: {.callout-note title="Weather"}
+🌦️ Mid 80s, mostly sunny.
+:::
+On Tuesday, we headed north to visit our other sites - the Sand Lake and Bergdorf WPAs up by Long Lake, SD. Thankfully, there were much fewer mosquitos as these sites. We visited the site to get data from our *Rhinusa pilosa* monitoring grids and *M. janthinus* transects.
+
+Site activities:  
+
+- Collected grid data
+- Downloaded temperature data from Hobo loggers 
+- Retrieved images from and completed any maintaince work on trail cameras
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1282.jpeg)](pics/aberdeen/sand lake/IMG_1282.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1285.jpeg)](pics/aberdeen/sand lake/IMG_1285.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1290.jpeg)](pics/aberdeen/sand lake/IMG_1290.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1291.jpeg)](pics/aberdeen/sand lake/IMG_1291.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1292.jpeg)](pics/aberdeen/sand lake/IMG_1292.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1293.jpeg)](pics/aberdeen/sand lake/IMG_1293.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1294.jpeg)](pics/aberdeen/sand lake/IMG_1294.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/IMG_1295.jpeg)](pics/aberdeen/sand lake/IMG_1295.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+
+### Trail Camera Images
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/trail cams/DSCF0022.JPG)](pics/aberdeen/sand lake/trail cams/DSCF0022.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/trail cams/DSCF0031.JPG)](pics/aberdeen/sand lake/trail cams/DSCF0031.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/trail cams/DSCF0032.JPG)](pics/aberdeen/sand lake/trail cams/DSCF0032.JPG){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/aberdeen/sand lake/trail cams/DSCF0245.JPG)](pics/aberdeen/sand lake/trail cams/DSCF0245.JPG){data-fancybox="gallery" data-caption=""}
+:::
+:::
+
+
+

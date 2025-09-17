@@ -87,8 +87,16 @@ format:
           />
 
     include-after-body:
-     - text: |
-          <script src="fancybox-init.js"></script>
+    - text: |
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+        <script>
+          Fancybox.bind("[data-fancybox='gallery']", {
+            Thumbs: false,
+            Toolbar: {
+              display: ["close","prev","next"],
+            },
+          });
+        </script>
 
   
 freeze: true

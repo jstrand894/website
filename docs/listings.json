@@ -31,8 +31,25 @@
     ]
   },
   {
+    "listing": "/qmd/publications/publications.html",
+    "items": [
+      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
+      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
+    ]
+  },
+  {
+    "listing": "/qmd/projects/projects.html",
+    "items": [
+      "/qmd/projects/field_notes/fieldjournal.html",
+      "/qmd/projects/LRES_GSO/LRES_GSO.html",
+      "/qmd/projects/bball_tool/bball_tool.html"
+    ]
+  },
+  {
     "listing": "/qmd/projects/field_notes/fieldjournal.html",
     "items": [
+      "/qmd/projects/field_notes/rpilosa grids/sd_fall_25/spearfish_fall25.html",
+      "/qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html",
       "/qmd/projects/field_notes/rpilosa grids/Hog Hollow/hoghollow_august/hoghollow_august.html",
       "/qmd/projects/field_notes/LifeTables/phelps/August 2025/phelps_smr25.html",
       "/qmd/projects/field_notes/LifeTables/Copper_Alice/August 2025/smr25_cpr_alice.html",
@@ -47,67 +64,5 @@
       "/qmd/projects/field_notes/rpilosa grids/elk_park_chainsaw/ElkParkChainsaw.html",
       "/qmd/projects/field_notes/horsegulchfire/Fall 2024/horsegulch24.html"
     ]
-  },
-  {
-    "listing": "/qmd/projects/projects.html",
-    "items": [
-      "/qmd/projects/field_notes/fieldjournal.html",
-      "/qmd/projects/LRES_GSO/LRES_GSO.html",
-      "/qmd/projects/bball_tool/bball_tool.html"
-    ]
-  },
-  {
-    "listing": "/qmd/publications/publications.html",
-    "items": [
-      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
-      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
-    ]
-  },
-  {
-    "listing": "/qmd/projects/field_notes/Montana/LifeTables.html",
-    "items": []
-  },
-  {
-    "listing": "/qmd/projects/field_notes/horsegulchfire/horsegulchfire.html",
-    "items": [
-      "/qmd/projects/field_notes/horsegulchfire/Fall 2024/horsegulch24.html"
-    ]
-  },
-  {
-    "listing": "/qmd/projects/field_notes/rpilosa/rpilosa.html",
-    "items": [
-      "/qmd/projects/field_notes/rpilosa/hoghollow_june/hoghollow_june.html",
-      "/qmd/projects/field_notes/rpilosa/elk_badger_june/elk_badger_june.html",
-      "/qmd/projects/field_notes/rpilosa/hoghollow_may/hoghollow_may25.html",
-      "/qmd/projects/field_notes/rpilosa/elk_badger_may/Elk_Badger_May.html",
-      "/qmd/projects/field_notes/rpilosa/sd_spring_25/spring25spearfish.html",
-      "/qmd/projects/field_notes/rpilosa/sd_spring_25/spring25aberdeen.html",
-      "/qmd/projects/field_notes/rpilosa/elk_park_chainsaw/ElkParkChainsaw.html"
-    ]
-  },
-  {
-    "listing": "/qmd/projects/field_notes/LifeTables/lifetables.html",
-    "items": [
-      "/qmd/projects/field_notes/LifeTables/Summer25/Phelps/phelps_smr25.html",
-      "/qmd/projects/field_notes/LifeTables/Summer25/Alice_Copper/smr25_cpr_alice.html",
-      "/qmd/projects/field_notes/LifeTables/other3/copper_slimsam.html",
-      "/qmd/projects/field_notes/LifeTables/phelps/phelps25.html"
-    ]
-  },
-  {
-    "listing": "/qmd/projects/field_notes/rpilosa grids/rpilosa.html",
-    "items": [
-      "/qmd/projects/field_notes/rpilosa grids/hoghollow_june/hoghollow_june.html",
-      "/qmd/projects/field_notes/rpilosa grids/elk_badger_june/elk_badger_june.html",
-      "/qmd/projects/field_notes/rpilosa grids/hoghollow_may/hoghollow_may25.html",
-      "/qmd/projects/field_notes/rpilosa grids/elk_badger_may/Elk_Badger_May.html",
-      "/qmd/projects/field_notes/rpilosa grids/sd_spring_25/spring25spearfish.html",
-      "/qmd/projects/field_notes/rpilosa grids/sd_spring_25/spring25aberdeen.html",
-      "/qmd/projects/field_notes/rpilosa grids/elk_park_chainsaw/ElkParkChainsaw.html"
-    ]
-  },
-  {
-    "listing": "/qmd/projects/field_notes/mecinus transects/mecinus_transects.html",
-    "items": []
   }
 ]

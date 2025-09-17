@@ -1,0 +1,105 @@
+---
+title: "South Dakota Trip (Spearfish) - September 2025"
+date: 2025-09-03
+description: "Second half of the second trip of 2025 to South Dakota to collect data from *R. pilosa* grids and *M. janthinus* transects."
+image: "pics/spearfish/IMG_1335.jpeg"
+categories: ["South Dakota", "Rhinusa Grids", "Mecinus Transects"]
+format:
+  html:
+    layout: full
+    toc: true
+    toc-depth: 3  # Adjust based on how many header levels you use
+---
+
+<!-- <div style="text-align: center; margin-top: 2em;">
+  <a class="btn-small" href="spring25spearfish.qmd" role="button">
+    View the Spearfish portion of this trip here →
+  </a>
+</div> -->
+
+::: {.callout-note title="Weather"}
+🌦️ High 70s, cloudy, some drizzle in the morning. Sooooo many mosquitos 🦟.
+:::
+
+We left Aberdeen on Wednesday morning at 7 AM. We stopped by the <a href="https://www.brown.sd.us/department/weed-pest" target="_blank">Brown County Weed Control</a> garage to grab our cages that they kindly took down for us in July. Thanks Chris!! 
+
+After getting to the Spearfish area on Wednesday afternoon, we visited our Sawyer site to collect data from the *M. janthinus* transects. On Thursday, we visited Nemo to collect both grid data and transect data from the site. 
+
+:::{.columns}
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1335.jpeg)](pics/spearfish/IMG_1335.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1334.jpeg)](pics/spearfish/IMG_1334.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1309.jpeg)](pics/spearfish/IMG_1309.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1301.jpeg)](pics/spearfish/IMG_1301.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1307.jpeg)](pics/spearfish/IMG_1307.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1310.jpeg)](pics/spearfish/IMG_1310.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1312.jpeg)](pics/spearfish/IMG_1312.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1318.jpeg)](pics/spearfish/IMG_1318.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1319.jpeg)](pics/spearfish/IMG_1319.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1320.jpeg)](pics/spearfish/IMG_1320.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1323.jpeg)](pics/spearfish/IMG_1323.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1327.jpeg)](pics/spearfish/IMG_1327.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1329.jpeg)](pics/spearfish/IMG_1329.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1331.jpeg)](pics/spearfish/IMG_1331.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1333.jpeg)](pics/spearfish/IMG_1333.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1308.jpeg)](pics/spearfish/IMG_1308.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-2}
+[![](pics/spearfish/IMG_1332.jpeg)](pics/spearfish/IMG_1332.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+:::
+
+## Trail Cam Pictures
+
+:::{.columns}
+
+
+:::
+
+
+
