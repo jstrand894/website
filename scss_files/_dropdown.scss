@@ -20,7 +20,7 @@
 }
 
 .fieldsite-header:hover {
-    background: #34495e;
+    background: #3b536e;
 }
 
 /* Hidden content by default */
@@ -40,4 +40,18 @@
   .dropdown:hover .dropdown-content {
     max-height: 500px;
   }
+}
+
+/* Arrow after the header text */
+.fieldsite-header::after {
+    content: "▼"; /* down arrow */
+    display: inline-block;
+    margin-left: 0.5em;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when dropdown is active or on hover */
+.dropdown:hover .fieldsite-header::after,
+.dropdown-content.active + .fieldsite-header::after {
+    transform: rotate(180deg); /* points up */
 }

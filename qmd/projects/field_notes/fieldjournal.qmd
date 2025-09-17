@@ -11,6 +11,7 @@ page-layout: article
 format:   
   html:    
     toc: true 
+    lazy-load: true
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -28,7 +29,7 @@ format:
       </iframe> 
     </div>
   </div> 
-</div>        
+</div>          
    
 
 <h2>Project Logs</h2>
