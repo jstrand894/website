@@ -10,13 +10,20 @@ listing:
 page-layout: article      
 format:   
   html:    
-    toc: true 
+    toc: false 
     lazy-load: true
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 ---  
-       
+
+## Brief Project Background
+
+Yellow (*Linaria vulgaris*) and Dalmatian (*L. dalmatica*) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.  
+
+I am currently working with three non-native weevil species: *Mecinus janthinus*, *M. janthiniformis*, and *Rhinusa pilosa*. The two *Mecinus* species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. *Rhinusa pilosa* works a little differently — it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.  
+<br>
+
 <div class="dropdown">
   <div class="fieldsite-header">Site Locations</div>
   <div class="dropdown-content"><div style="padding: 1em 0;">
