@@ -16,19 +16,34 @@ format:
     View the Spearfish portion of this trip here →
   </a>
 </div> -->
+
 # Schaunaman Ranch  
 ::: {.callout-note title="Weather"}
 🌦️ High 70s, cloudy, some drizzle in the morning. Sooooo many mosquitos 🦟.
 :::
-
-Eric and I left Bozeman at 6 AM on Sunday, August 31 - driving through Eastern Montana to Aberdeen, SD. On Monday morning, we left Aberdeen and headed to the Schaunaman Ranch just west of Town. We visited the site to get data from our *Rhinusa pilosa* monitoring grids and *M. janthinus* transects.
-
-Site activities:
-
-- Collected grid data
-- Downloaded temperature data from Hobo loggers 
-- Retrieved images from and completed any maintaince work on trail cameras 
  
+Eric and I left Bozeman at 6:30 AM on Sunday, August 31, arriving in Aberdeen at 5:00 PM. On Monday, September 1, we visited the Schaunaman Ranch to get data from our *Rhinusa pilosa* grids and *M. janthinus* transects.
+
+## Rhinusa Grids
+- No galls in the exclosure or control
+- Exclosure toadflax was sparse and thin in structure
+- Both cameras had the metal covers torn off (possibly from wind)
+- Observed more red stems, unclear cause
+- Grass was dense, making roadhairs hard to find
+- Mosquitos were very bad in the morning, improved later
+- Foggy in the morning
+- Replaced open control camera due to water ingress
+- No issues with data loggers; no battery replacements
+- Plant density higher in control than exclosure
+- Released 600 insects in both control and exclosure
+
+## Transects
+- Some signs of external feeding
+- No live insects; Eric noted potential internal feeding by splitting a few stems
+- Added orange stakes on the corn-side transects within bushes
+- Non-corn-side transects hard to locate; placed metal posts at start of each line
+- Chris Hemen released 600 insects on non-corn side
+
 :::{.columns}
 
 ::: {.column width="33%" .px-2}
@@ -108,15 +123,30 @@ Site activities:
 
 # Sand Lake and Bergdorf WPAs
 ::: {.callout-note title="Weather"}
-🌦️ Mid 80s, mostly sunny.
+🌦️ Mid 80s, mostly sunny. Fewer mosquitos than Schaunaman Ranch.
 :::
-On Tuesday, we headed north to visit our other sites - the Sand Lake and Bergdorf WPAs up by Long Lake, SD. Thankfully, there were much fewer mosquitos as these sites. We visited the site to get data from our *Rhinusa pilosa* monitoring grids and *M. janthinus* transects.
 
-Site activities:  
+Visited on Tuesday, September 2, to collect data from *Rhinusa pilosa* grids and *M. janthinus* transects.
 
-- Collected grid data
-- Downloaded temperature data from Hobo loggers 
-- Retrieved images from and completed any maintaince work on trail cameras
+## Rhinusa Grids
+- No mosquitos; windy
+- Plant density similar between control and exclosure
+- Lots of garden spiders
+- Leafy spurge abundant in exclosure grid, resembling YT in early stages
+- More diverse plant community in control grid
+- No galls yet (insects not released until now)
+- Released 600 insects in both control and exclosure
+- Replaced exclosure grid solar panel (button not working)
+- Metal cover torn off at control grid
+
+## Transects
+- Impossible to find previous transects
+- Found both open releases; made new caged-release transects
+- Marked ends and middle (10 m) with orange spikes for future reference
+- Could not add roadhairs (wrong nail size)
+- Retrieved data from 4 loggers; farthest one may be unnecessary
+- No externally feeding insects observed, but feeding damage present
+- Drove over corn to access site (farmer seeded road anyway)
 
 :::{.columns}
 
