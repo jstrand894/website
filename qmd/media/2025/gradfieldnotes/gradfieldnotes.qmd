@@ -1,7 +1,7 @@
 ---
 title: "Graduate Field Notes: Jackson Strand"
 date: 2025-8-18
-description: "A fellow graduate student at MSU, Ceili DeMarais, did a short video on my and my PhD project!"
+description: "A fellow graduate student at MSU, Ceili DeMarais, did a short video on me and my PhD project!"
 image: "image.png"
 categories: ["Biocontrol"]
 format:
