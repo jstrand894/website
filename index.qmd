@@ -142,7 +142,6 @@ I am a PhD student in Ecology and Environmental Sciences at Montana State Univer
 :::
 ## Honors & Awards
 
-
 :::{.box}
 
 <!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
@@ -330,6 +329,9 @@ Invited Guest Lectures
 <ol reversed>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Instructor: Will Wetzel. March 2025.
+    </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principals of Biological Diversity. Instructors: Erin Teichroew and Chris Larson. August 2025.
     </li>
 </ol>
 
