@@ -1,0 +1,107 @@
+---
+title: "Research"
+format:   
+  html:    
+    toc: true 
+    toc-depth: 4
+    lazy-load: true
+    include-in-header:
+      - text: |
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+title-block-banner: "images/DJI_0094-2.jpg"
+---
+ 
+<!-- <img src="spanish_lake.jpg" alt="Mountain view" style="width:100%;"> -->
+
+## Ecology of Beneficial Insects
+:::{.box}
+Beneficial insects play a crucial role in maintaining healthy ecosystems and supporting agriculture. They act as natural pollinators, predators, and decomposers, helping to control pest populations, enhance plant reproduction, and recycle nutrients. By reducing the need for human-derived inputs and chemical pesticides, these insects promote biodiversity, protect soil and water quality, and contribute to sustainable food production. Beneficial insects are essential allies in both natural and managed environments, quietly sustaining life and ecological balance.
+::: 
+
+#### Yellow Toadflax Biological Control
+
+For my PhD at Montana State University, I’m studying how to better manage invasive toadflax species that spread across rangelands in the western United States. These weeds, yellow toadflax (*Linaria vulgaris*) and Dalmatian toadflax (*L. dalmatica*), reduce forage for livestock, crowd out native plants, and are difficult to control with traditional methods.
+
+My research focuses on using beneficial insects—specifically two stem-mining weevils (*Mecinus janthinus* and *M. janthiniformis*) and a stem-galling weevil (*Rhinusa pilosa*) — to help reduce toadflax populations. I’m combining field studies in Montana and South Dakota with long-term monitoring to see how these insects establish, reproduce, and affect the plants over time. I’m also interested in how events like wildfire and grazing by large animals shape the success of biocontrol.
+
+Ultimately, this work will help improve regional weed management programs and provide new insights into how insects and invasive plants interact in different climates and under different disturbances.
+
+:::{.columns}
+
+::: {.column width="33%" .px-2}
+[![](images/toadflax/rhinusa2.jpg)](images/toadflax/rhinusa2.jpg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](images/toadflax/cam_hog.jpg)](images/toadflax/cam_hog.jpg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-2}
+[![](images/toadflax/hog_exclosure.jpg)](images/toadflax/hog_exclosure.jpg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: 
+
+#### Wheat Stem Sawfly Parasitoids
+
+For my Master’s research at Montana State University, I studied how <a href="https://plants.usda.gov/DocumentLibrary/factsheet/pdf/fs_brin2.pdf" target="_blank">smooth brome grass (<i>Bromus inermis</i>)</a> supports two beneficial wasps, <i>Bracon cephi</i> and <i>Bracon lissogaster</i>, which parasitize and help control the <a href="https://www.montana.edu/extension/pubs-linked-in-store/EB0244_Wheat_Stem_Sawfly.pdf" target="_blank">wheat stem sawfly (<i>Cephus cinctus</i>)</a>, a major pest of cereal crops. At field sites in Bozeman, Big Sandy, and Moccasin, Montana, I found that smooth brome provides a critical late-season refuge for these wasps. This refuge is especially important in years with early wheat harvests, drought, or fire, when wheat may be removed. By providing alternative host plants for the wasps, smooth brome helps sustain their populations even when wheat stem sawfly hosts are scarce, preventing major declines and keeping pest numbers in check over time.
+
+:::{.columns}
+
+::: {.column width="33%" .px-3}
+[![](images/strand2024/toae246_fig3.jpeg)](images/strand2024/toae246_fig3.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-3}
+[![](images/strand2024/toae246_fig6.jpeg)](images/strand2024/toae246_fig6.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+::: {.column width="33%" .px-3}
+[![](images/strand2024/toae246_fig4.jpeg)](images/strand2024/toae246_fig4.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+
+<a class="btn-purple" href="../../qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.qmd" role="button">
+   <span>Read <i>Strand et al. 2024</i></span>
+  </a>
+
+## Chemical Ecology of Plant-Insect Interactions  
+
+:::{.box}
+My research also looks at how plant chemistry influences interactions between insects, their natural enemies, and the plants they feed on. Plants release chemical signals called volatile organic compounds (VOCs), which are essentially scents that can travel through the air. These VOCs play a key role in ecosystems because they can attract or repel insects, signal danger, or guide predators and parasitoids to their prey.
+
+To understand these interactions, I collect plant volatiles and study how insects respond to them using electrophysiological techniques (which measure how insect antennae detect these chemicals) and behavioral tests. By identifying the specific compounds that insects respond to, I can uncover how plant chemistry shapes feeding behavior, host choice, and the relationships between plants, herbivores, and their natural enemies.
+:::
+
+:::{.columns}
+
+::: {.column width="33%" .px-3}
+[![](images/chemeco/volatilecollection_loco.jpg)](images/chemeco/volatilecollection_loco.jpg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-3}
+[![](images/chemeco/electroantenno.jpg)](images/chemeco/electroantenno.jpg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="33%" .px-3}
+[![](images/chemeco/trace.png)](images/chemeco/trace.png){data-fancybox="gallery" data-caption=""}
+:::
+
+:::
+
+### *Mecinus janthinus* and *M. janthiniformis*
+
+As part of my PhD, I am studying the host-location behavior of the stem-mining weevils *Mecinus janthinus* (yellow toadflax specialist) and *M. janthiniformis* (Dalmatian toadflax specialist). Using Y-tube olfactometer assays, we demonstrated that female *M. janthiniformis* are attracted to volatiles from both yellow and Dalmatian toadflax, while *M. janthinus* responds only to yellow toadflax. I am coupling these behavioral assays with EAG-FID to identify plant compounds eliciting antennal responses, with the goal of linking specific VOCs to insect host fidelity and biocontrol effectiveness.
+
+#### Salt Cedar Biological Control
+
+As part of a broader interest in weed biocontrol, I also assist in the study of *Tamarix* spp. (salt cedar), an invasive woody shrub of riparian systems in the western U.S. Salt cedar biocontrol, particularly using the leaf beetle *Diorhabda* spp., provides a useful comparative system for understanding the successes and challenges of long-term weed management with insects. My focus here is on lessons from *Diorhabda–Tamarix* interactions that can inform biocontrol strategies for toadflax, particularly regarding climate adaptation, dispersal, and non-target concerns.
+
+:::{.columns}
+
+::: {.column width="25%" .px-3}
+[![](images/saltcedar/david_saltcedar.jpg)](images/saltcedar/david_saltcedar.jpg){data-fancybox="gallery" data-caption=""}
+:::
+
+::: {.column width="25%" .px-3}
+[![](images/saltcedar/saltcedar_cage.jpeg)](images/saltcedar/saltcedar_cage.jpeg){data-fancybox="gallery" data-caption=""}
+:::
+
+:::

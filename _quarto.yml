@@ -17,6 +17,8 @@ website:
     logo: img/aboutme/logo.png
     title: "Jackson R. Strand"
     left:
+      - text: 'Research'
+        file: qmd/research/research.qmd
       - text: 'Publications'
         file: qmd/publications/publications.qmd
       - text: "Talks & Presentations"

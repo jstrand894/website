@@ -1,22 +1,52 @@
 /* Default variables and settings */
+$img-radius: 12px;      // curve amount (adjust)
+$img-hover-dur: 0.3s;   // slower hover animation (adjust)
+$overlay-dur: 0.5s;     // overlay show/hide duration
 
 /*-- scss:rules --*/
 
-/* Animate hover zoom on images inside .column */
-.columns .column img {
-  transition: transform 0.4s ease, box-shadow 0.3s ease;
-  border-radius: 6px;
+/* Animate hover zoom on images inside .column
+   - more rounded corners
+   - slower, smoother transition
+   - use will-change for better GPU handling */
+.columns {
+  display: flex;        // keep columns in a row
+  flex-wrap: wrap;      // allow wrapping on small screens
+  align-items: center;  // vertically center all columns in the row
 }
 
-.columns .column img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Add some spacing and alignment */
 .columns .column {
   padding: 0.5rem;
   text-align: center;
+}
+
+.columns .column img {
+  border-radius: $img-radius;
+  transition: transform $img-hover-dur ease-in-out, box-shadow ($img-hover-dur / 2) ease;
+  transform-origin: center center;
+  will-change: transform, box-shadow;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* subtle default lift */
+  cursor: pointer; /* indicates clickable / lightbox */
+  outline: none;
+}
+
+/* Hover / focus state (keyboard accessible: focus) */
+.columns .column img:hover,
+.columns .column img:focus {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+  transition-duration: $img-hover-dur;
+}
+
+/* Optional: disable zoom for images with class .no-zoom */
+.columns .column img.no-zoom,
+.columns .column img[aria-hidden="true"] {
+  transform: none;
+  box-shadow: none;
+  cursor: default;
 }
 
 /* Lightbox overlay */
@@ -33,8 +63,9 @@
   align-items: center;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.4s ease;
+  transition: opacity $overlay-dur ease, visibility $overlay-dur ease;
   z-index: 1000;
+  padding: 1rem; /* keeps image away from edges on small screens */
 }
 
 /* Active state to show lightbox */
@@ -47,13 +78,61 @@
 .lightbox-overlay img {
   max-width: 90%;
   max-height: 90%;
-  border-radius: 8px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-  transform: scale(0.8);
-  transition: transform 0.4s ease;
+  border-radius: ($img-radius - 4px); /* slightly less round in overlay */
+  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+  transform: scale(0.9);
+  transition: transform $overlay-dur ease, box-shadow $overlay-dur ease;
+  cursor: zoom-out;
 }
 
+/* Reveal animation when active */
 .lightbox-overlay.active img {
   transform: scale(1);
-  cursor: zoom-out;
+}
+
+/* Accessibility: allow closing with keyboard (styles for focusable close button if present) */
+.lightbox-overlay .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+}
+.lightbox-overlay .close-btn:focus {
+  outline: 2px solid rgba(255,255,255,0.6);
+  border-radius: 4px;
+}
+
+/* Responsive tweak: prevent overflow on tiny screens */
+@media (max-width: 480px) {
+  .columns .column img {
+    border-radius: ($img-radius - 4px);
+  }
+  .lightbox-overlay img {
+    max-width: 96%;
+    max-height: 96%;
+  }
+}
+
+
+
+
+
+
+/* Standalone floated images inside content */
+.float-img img {
+  transition: $img-hover-dur, box-shadow 0.6s ease;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto; /* keeps it centered inside its div */
+}
+
+.float-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }

@@ -30,7 +30,7 @@ about:
       target: "_blank"
 
 freeze: true
-toc: true
+toc: true 
 ---                    
 ::: {#about-block} 
 <span style="font-size: 45px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>

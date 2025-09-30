@@ -44,7 +44,7 @@ Eric and I left Bozeman at 6:30 AM on Sunday, August 31, arriving in Aberdeen at
 - Non-corn-side transects hard to locate; placed metal posts at start of each line
 - Chris Hemen released 600 insects on non-corn side
 
-:::{.columns}
+:::{.columns}  
 
 ::: {.column width="33%" .px-2}
 [![](pics/aberdeen/ranch/IMG_1261.jpeg)](pics/aberdeen/ranch/IMG_1261.jpeg){data-fancybox="gallery" data-caption=""}
