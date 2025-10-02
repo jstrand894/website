@@ -231,6 +231,27 @@
     "text": "This is a test\ntitle: “R for Ecologists” image: “img/r-for-ecologists.jpg” description: “A practical R tutorial for field scientists.” categories: [“R”, “Tutorial”] external-url: “https://example.com” listing: false"
   },
   {
+    "objectID": "qmd/research/research.html",
+    "href": "qmd/research/research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Beneficial insects play a crucial role in maintaining healthy ecosystems and supporting agriculture. They act as natural pollinators, predators, and decomposers, helping to control pest populations, enhance plant reproduction, and recycle nutrients. By reducing the need for human-derived inputs and chemical pesticides, these insects promote biodiversity, protect soil and water quality, and contribute to sustainable food production. Beneficial insects are essential allies in both natural and managed environments, quietly sustaining life and ecological balance.\n\n\n\nFor my PhD at Montana State University, I’m studying how to better manage invasive toadflax species that spread across rangelands in the western United States. These weeds, yellow toadflax (Linaria vulgaris) and Dalmatian toadflax (L. dalmatica), reduce forage for livestock, crowd out native plants, and are difficult to control with traditional methods.\nMy research focuses on using beneficial insects—specifically two stem-mining weevils (Mecinus janthinus and M. janthiniformis) and a stem-galling weevil (Rhinusa pilosa) — to help reduce toadflax populations. I’m combining field studies in Montana and South Dakota with long-term monitoring to see how these insects establish, reproduce, and affect the plants over time. I’m also interested in how events like wildfire and grazing by large animals shape the success of biocontrol.\nUltimately, this work will help improve regional weed management programs and provide new insights into how insects and invasive plants interact in different climates and under different disturbances.\n\n\n\n\n\n\n\n\n\n\n\n\nFor my Master’s research at Montana State University, I studied how smooth brome grass (Bromus inermis) supports two beneficial wasps, Bracon cephi and Bracon lissogaster, which parasitize and help control the wheat stem sawfly (Cephus cinctus), a major pest of cereal crops. At field sites in Bozeman, Big Sandy, and Moccasin, Montana, I found that smooth brome provides a critical late-season refuge for these wasps. This refuge is especially important in years with early wheat harvests, drought, or fire, when wheat may be removed. By providing alternative host plants for the wasps, smooth brome helps sustain their populations even when wheat stem sawfly hosts are scarce, preventing major declines and keeping pest numbers in check over time.\n\n\n\n\n\n\n\n\n\n Read Strand et al. 2024"
+  },
+  {
+    "objectID": "qmd/research/research.html#ecology-of-beneficial-insects",
+    "href": "qmd/research/research.html#ecology-of-beneficial-insects",
+    "title": "Research",
+    "section": "",
+    "text": "Beneficial insects play a crucial role in maintaining healthy ecosystems and supporting agriculture. They act as natural pollinators, predators, and decomposers, helping to control pest populations, enhance plant reproduction, and recycle nutrients. By reducing the need for human-derived inputs and chemical pesticides, these insects promote biodiversity, protect soil and water quality, and contribute to sustainable food production. Beneficial insects are essential allies in both natural and managed environments, quietly sustaining life and ecological balance.\n\n\n\nFor my PhD at Montana State University, I’m studying how to better manage invasive toadflax species that spread across rangelands in the western United States. These weeds, yellow toadflax (Linaria vulgaris) and Dalmatian toadflax (L. dalmatica), reduce forage for livestock, crowd out native plants, and are difficult to control with traditional methods.\nMy research focuses on using beneficial insects—specifically two stem-mining weevils (Mecinus janthinus and M. janthiniformis) and a stem-galling weevil (Rhinusa pilosa) — to help reduce toadflax populations. I’m combining field studies in Montana and South Dakota with long-term monitoring to see how these insects establish, reproduce, and affect the plants over time. I’m also interested in how events like wildfire and grazing by large animals shape the success of biocontrol.\nUltimately, this work will help improve regional weed management programs and provide new insights into how insects and invasive plants interact in different climates and under different disturbances.\n\n\n\n\n\n\n\n\n\n\n\n\nFor my Master’s research at Montana State University, I studied how smooth brome grass (Bromus inermis) supports two beneficial wasps, Bracon cephi and Bracon lissogaster, which parasitize and help control the wheat stem sawfly (Cephus cinctus), a major pest of cereal crops. At field sites in Bozeman, Big Sandy, and Moccasin, Montana, I found that smooth brome provides a critical late-season refuge for these wasps. This refuge is especially important in years with early wheat harvests, drought, or fire, when wheat may be removed. By providing alternative host plants for the wasps, smooth brome helps sustain their populations even when wheat stem sawfly hosts are scarce, preventing major declines and keeping pest numbers in check over time.\n\n\n\n\n\n\n\n\n\n Read Strand et al. 2024"
+  },
+  {
+    "objectID": "qmd/research/research.html#chemical-ecology-of-plant-insect-interactions",
+    "href": "qmd/research/research.html#chemical-ecology-of-plant-insect-interactions",
+    "title": "Research",
+    "section": "Chemical Ecology of Plant-Insect Interactions",
+    "text": "Chemical Ecology of Plant-Insect Interactions\n\nMy research also looks at how plant chemistry influences interactions between insects, their natural enemies, and the plants they feed on. Plants release chemical signals called volatile organic compounds (VOCs), which are essentially scents that can travel through the air. These VOCs play a key role in ecosystems because they can attract or repel insects, signal danger, or guide predators and parasitoids to their prey.\nTo understand these interactions, I collect plant volatiles and study how insects respond to them using electrophysiological techniques (which measure how insect antennae detect these chemicals) and behavioral tests. By identifying the specific compounds that insects respond to, I can uncover how plant chemistry shapes feeding behavior, host choice, and the relationships between plants, herbivores, and their natural enemies.\n\n\n\n\n\n\n\n\n\n\n\nMecinus janthinus and M. janthiniformis\nAs part of my PhD, I am studying the host-location behavior of the stem-mining weevils Mecinus janthinus (yellow toadflax specialist) and M. janthiniformis (Dalmatian toadflax specialist). Using Y-tube olfactometer assays, we demonstrated that female M. janthiniformis are attracted to volatiles from both yellow and Dalmatian toadflax, while M. janthinus responds only to yellow toadflax. I am coupling these behavioral assays with EAG-FID to identify plant compounds eliciting antennal responses, with the goal of linking specific VOCs to insect host fidelity and biocontrol effectiveness.\n\nSalt Cedar Biological Control\nAs part of a broader interest in weed biocontrol, I also assist in the study of Tamarix spp. (salt cedar), an invasive woody shrub of riparian systems in the western U.S. Salt cedar biocontrol, particularly using the leaf beetle Diorhabda spp., provides a useful comparative system for understanding the successes and challenges of long-term weed management with insects. My focus here is on lessons from Diorhabda–Tamarix interactions that can inform biocontrol strategies for toadflax, particularly regarding climate adaptation, dispersal, and non-target concerns."
+  },
+  {
     "objectID": "qmd/helpful.html",
     "href": "qmd/helpful.html",
     "title": "Helpful Resources & Links",
@@ -462,6 +483,34 @@
     "text": "Weather\n\n\n\n🌦️ High 70s, cloudy, some drizzle in the morning. Sooooo many mosquitos 🦟.\n\n\nEric and I left Bozeman at 6:30 AM on Sunday, August 31, arriving in Aberdeen at 5:00 PM. On Monday, September 1, we visited the Schaunaman Ranch to get data from our Rhinusa pilosa grids and M. janthinus transects.\n\n\n\nNo galls in the exclosure or control\nExclosure toadflax was sparse and thin in structure\nBoth cameras had the metal covers torn off (possibly from wind)\nObserved more red stems, unclear cause\nGrass was dense, making roadhairs hard to find\nMosquitos were very bad in the morning, improved later\nFoggy in the morning\nReplaced open control camera due to water ingress\nNo issues with data loggers; no battery replacements\nPlant density higher in control than exclosure\nReleased 600 insects in both control and exclosure\n\n\n\n\n\nSome signs of external feeding\nNo live insects; Eric noted potential internal feeding by splitting a few stems\nAdded orange stakes on the corn-side transects within bushes\nNon-corn-side transects hard to locate; placed metal posts at start of each line\nChris Hemen released 600 insects on non-corn side"
   },
   {
+    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids",
+    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids",
+    "title": "South Dakota Trip (Aberdeen) - September 2025",
+    "section": "",
+    "text": "No galls in the exclosure or control\nExclosure toadflax was sparse and thin in structure\nBoth cameras had the metal covers torn off (possibly from wind)\nObserved more red stems, unclear cause\nGrass was dense, making roadhairs hard to find\nMosquitos were very bad in the morning, improved later\nFoggy in the morning\nReplaced open control camera due to water ingress\nNo issues with data loggers; no battery replacements\nPlant density higher in control than exclosure\nReleased 600 insects in both control and exclosure"
+  },
+  {
+    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects",
+    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects",
+    "title": "South Dakota Trip (Aberdeen) - September 2025",
+    "section": "",
+    "text": "Some signs of external feeding\nNo live insects; Eric noted potential internal feeding by splitting a few stems\nAdded orange stakes on the corn-side transects within bushes\nNon-corn-side transects hard to locate; placed metal posts at start of each line\nChris Hemen released 600 insects on non-corn side"
+  },
+  {
+    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids-1",
+    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids-1",
+    "title": "South Dakota Trip (Aberdeen) - September 2025",
+    "section": "Rhinusa Grids",
+    "text": "Rhinusa Grids\n\nNo mosquitos; windy\nPlant density similar between control and exclosure\nLots of garden spiders\nLeafy spurge abundant in exclosure grid, resembling YT in early stages\nMore diverse plant community in control grid\nNo galls yet (insects not released until now)\nReleased 600 insects in both control and exclosure\nReplaced exclosure grid solar panel (button not working)\nMetal cover torn off at control grid"
+  },
+  {
+    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects-1",
+    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects-1",
+    "title": "South Dakota Trip (Aberdeen) - September 2025",
+    "section": "Transects",
+    "text": "Transects\n\nImpossible to find previous transects\nFound both open releases; made new caged-release transects\nMarked ends and middle (10 m) with orange spikes for future reference\nCould not add roadhairs (wrong nail size)\nRetrieved data from 4 loggers; farthest one may be unnecessary\nNo externally feeding insects observed, but feeding damage present\nDrove over corn to access site (farmer seeded road anyway)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrail Camera Images"
+  },
+  {
     "objectID": "qmd/projects/field_notes/LifeTables/Copper_Alice/August 2025/smr25_cpr_alice.html",
     "href": "qmd/projects/field_notes/LifeTables/Copper_Alice/August 2025/smr25_cpr_alice.html",
     "title": "Alice & Copper Creeks - August 2025",
@@ -492,6 +541,13 @@
   {
     "objectID": "qmd/projects/field_notes/fieldjournal.html",
     "href": "qmd/projects/field_notes/fieldjournal.html",
+    "title": "Toadflax Biocontrol Field Notes",
+    "section": "",
+    "text": "Yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.\nI am currently working with three non-native weevil species: Mecinus janthinus, M. janthiniformis, and Rhinusa pilosa. The two Mecinus species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. Rhinusa pilosa works a little differently — it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.\n\n\n\nSite Locations"
+  },
+  {
+    "objectID": "qmd/projects/field_notes/fieldjournal.html#brief-project-background",
+    "href": "qmd/projects/field_notes/fieldjournal.html#brief-project-background",
     "title": "Toadflax Biocontrol Field Notes",
     "section": "",
     "text": "Yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.\nI am currently working with three non-native weevil species: Mecinus janthinus, M. janthiniformis, and Rhinusa pilosa. The two Mecinus species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. Rhinusa pilosa works a little differently — it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.\n\n\n\nSite Locations"
@@ -628,138 +684,5 @@
     "title": "Jackson Strand",
     "section": "Employment History",
     "text": "Employment History\n\n\n\n\n Pace Analytical - Onsite at 3M - Regulatory IT Analyst\n\n\n\n\n\n2017 - 2021\n\n\n\n(Maplewood, MN)\n\n\n\nProvided digital support between 3M employees and the 3M Chemical Data Management System (CDMS).\n\n\nIntegrated, tested, and supported user and data interface between CDMS and SAP.\n\n\nGenerated, designed, and communicated unique, detailed reports of material information using SQL, Microsoft Excel, and SAP.\n\n\n\n\n\n Metropolitan Mosquito Control District - Seasonal Mosquito Technician\n\n\n\n\n\n2017\n\n\n\n(Oakdale, MN)\n\n\n\nWorked on a team to collect and analyze mosquito larvae samples from wetland areas across the St. Paul metropolitan area.\n\n\nIndependently maintained low adult mosquito populations in Oakdale, MN by surveying and treating both adults and larvae.\n\n\n\n\n\n Leatherdale Equin Center - Barn Maintenance Crew\n\n\n\n\n\n\n2015 - 2017\n\n\n\n\n\n(St. Paul, MN)\n\n\n\nMaintained healthy conditions for equine patients at the University of Minnesota Horse Veterinary Center and Large Animal Hospital.\n\n\nTrained and managed new members of the crew.\n\n\n\n\n\n Minnesota Youth Soccer Association - Youth Soccer Referee\n\n\n\n\n\n\n2010 - 2021"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids",
-    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids",
-    "title": "South Dakota Trip (Aberdeen) - September 2025",
-    "section": "",
-    "text": "No galls in the exclosure or control\nExclosure toadflax was sparse and thin in structure\nBoth cameras had the metal covers torn off (possibly from wind)\nObserved more red stems, unclear cause\nGrass was dense, making roadhairs hard to find\nMosquitos were very bad in the morning, improved later\nFoggy in the morning\nReplaced open control camera due to water ingress\nNo issues with data loggers; no battery replacements\nPlant density higher in control than exclosure\nReleased 600 insects in both control and exclosure"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects",
-    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects",
-    "title": "South Dakota Trip (Aberdeen) - September 2025",
-    "section": "",
-    "text": "Some signs of external feeding\nNo live insects; Eric noted potential internal feeding by splitting a few stems\nAdded orange stakes on the corn-side transects within bushes\nNon-corn-side transects hard to locate; placed metal posts at start of each line\nChris Hemen released 600 insects on non-corn side"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids-1",
-    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#rhinusa-grids-1",
-    "title": "South Dakota Trip (Aberdeen) - September 2025",
-    "section": "Rhinusa Grids",
-    "text": "Rhinusa Grids\n\nNo mosquitos; windy\nPlant density similar between control and exclosure\nLots of garden spiders\nLeafy spurge abundant in exclosure grid, resembling YT in early stages\nMore diverse plant community in control grid\nNo galls yet (insects not released until now)\nReleased 600 insects in both control and exclosure\nReplaced exclosure grid solar panel (button not working)\nMetal cover torn off at control grid"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects-1",
-    "href": "qmd/projects/field_notes/rpilosa grids/sd_fall_25/aberdeen_fall25.html#transects-1",
-    "title": "South Dakota Trip (Aberdeen) - September 2025",
-    "section": "Transects",
-    "text": "Transects\n\nImpossible to find previous transects\nFound both open releases; made new caged-release transects\nMarked ends and middle (10 m) with orange spikes for future reference\nCould not add roadhairs (wrong nail size)\nRetrieved data from 4 loggers; farthest one may be unnecessary\nNo externally feeding insects observed, but feeding damage present\nDrove over corn to access site (farmer seeded road anyway)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrail Camera Images"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/fieldjournal.html#project-background",
-    "href": "qmd/projects/field_notes/fieldjournal.html#project-background",
-    "title": "Toadflax Biocontrol Project Notes",
-    "section": "",
-    "text": "Yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.\nI am currently working with three non-native weevil species: Mecinus janthinus, M. janthiniformis, and Rhinusa pilosa. The two Mecinus species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. Rhinusa pilosa works a little differently—it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.\n\n\n\nSite Locations"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/fieldjournal.html#project-background-1",
-    "href": "qmd/projects/field_notes/fieldjournal.html#project-background-1",
-    "title": "Toadflax Biocontrol Project Notes",
-    "section": "Project Background",
-    "text": "Project Background\nYellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.\nI am currently working with three non-native weevil species: Mecinus janthinus, M. janthiniformis, and Rhinusa pilosa. The two Mecinus species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. Rhinusa pilosa works a little differently—it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.\n\n\n\nSite Locations\n\n\n\n \n\n\n\n\nProject Logs"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/fieldjournal.html#a-brief-project-background",
-    "href": "qmd/projects/field_notes/fieldjournal.html#a-brief-project-background",
-    "title": "Toadflax Biocontrol Project Notes",
-    "section": "",
-    "text": "Yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.\nI am currently working with three non-native weevil species: Mecinus janthinus, M. janthiniformis, and Rhinusa pilosa. The two Mecinus species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. Rhinusa pilosa works a little differently—it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.\n\n\n\nSite Locations"
-  },
-  {
-    "objectID": "qmd/projects/field_notes/fieldjournal.html#brief-project-background",
-    "href": "qmd/projects/field_notes/fieldjournal.html#brief-project-background",
-    "title": "Toadflax Biocontrol Field Notes",
-    "section": "",
-    "text": "Yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax are invasive plants from Europe that have spread widely across rangelands in the western United States. They form dense patches that crowd out native vegetation, reduce forage for livestock and wildlife, and are difficult or costly to control with herbicides or mechanical methods. To address these challenges, researchers are exploring a range of strategies to limit their spread. My project focuses on biological control — using insects that naturally feed on toadflax — as a sustainable approach to long-term management.\nI am currently working with three non-native weevil species: Mecinus janthinus, M. janthiniformis, and Rhinusa pilosa. The two Mecinus species attack toadflax by laying their eggs inside the stems; the developing larvae feed as they tunnel through the plant. Rhinusa pilosa works a little differently — it lays its eggs in the stem and triggers the plant to form a gall, a swollen growth that provides food and protection for the larvae.\n\n\n\nSite Locations"
-  },
-  {
-    "objectID": "qmd/research/research.html",
-    "href": "qmd/research/research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Beneficial insects play a crucial role in maintaining healthy ecosystems and supporting agriculture. They act as natural pollinators, predators, and decomposers, helping to control pest populations, enhance plant reproduction, and recycle nutrients. By reducing the need for human-derived inputs and chemical pesticides, these insects promote biodiversity, protect soil and water quality, and contribute to sustainable food production. Beneficial insects are essential allies in both natural and managed environments, quietly sustaining life and ecological balance.\n\n\n\nFor my PhD at Montana State University, I’m studying how to better manage invasive toadflax species that spread across rangelands in the western United States. These weeds, yellow toadflax (Linaria vulgaris) and Dalmatian toadflax (L. dalmatica), reduce forage for livestock, crowd out native plants, and are difficult to control with traditional methods.\nMy research focuses on using beneficial insects—specifically two stem-mining weevils (Mecinus janthinus and M. janthiniformis) and a stem-galling weevil (Rhinusa pilosa) — to help reduce toadflax populations. I’m combining field studies in Montana and South Dakota with long-term monitoring to see how these insects establish, reproduce, and affect the plants over time. I’m also interested in how events like wildfire and grazing by large animals shape the success of biocontrol.\nUltimately, this work will help improve regional weed management programs and provide new insights into how insects and invasive plants interact in different climates and under different disturbances.\n\n\n\n\n\n\n\n\n\n\n\n\nFor my Master’s research at Montana State University, I studied how smooth brome grass (Bromus inermis) supports two beneficial wasps, Bracon cephi and Bracon lissogaster, which parasitize and help control the wheat stem sawfly (Cephus cinctus), a major pest of cereal crops. At field sites in Bozeman, Big Sandy, and Moccasin, Montana, I found that smooth brome provides a critical late-season refuge for these wasps. This refuge is especially important in years with early wheat harvests, drought, or fire, when wheat may be removed. By providing alternative host plants for the wasps, smooth brome helps sustain their populations even when wheat stem sawfly hosts are scarce, preventing major declines and keeping pest numbers in check over time.\n\n\n\n\n\n\n\n\n\n Read Strand et al. 2024"
-  },
-  {
-    "objectID": "qmd/research/research.html#biological-control-of-weeds",
-    "href": "qmd/research/research.html#biological-control-of-weeds",
-    "title": "Research",
-    "section": "",
-    "text": "My on-going research at Montana State University for my PhD focuses on the biological control of invasive toadflax species found within rangelands of the western United States. Specifically, I am investigating the use of specialist Eurasian herbivores to suppress populations of yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax in Montana and South Dakota. I am currently working with the two stem mining weevils Mecinus janthinus, M. janthiniformis, and the stem-galling weevil Rhinusa pilosa. My work combines classical biocontrol approaches with life table analyses and fire ecology to understand the long-term population dynamics of both plants and insects.\n\n\n\n\n\n\n\n\n\n\n\nYellow toadflax is perennial invasive weeds that reduce forage quality, compete with native vegetation, and resist many conventional management strategies. My current research focuses on evaluating the efficacy of the stem-galling weevil Rhinusa pilosa in controlling yellow toadflax popuulations. Using monitoring plots in Montana and South Dakota, I hope to track R. pilosa establishment, reproduction, and impact across multiple years. In addition, I’m interested in the impact of large herbivores on both toadflax and biocontrol persistence. These data will support regional biocontrol programs and provide new insights into the suitability of R. pilosa in different climates and disturbance regimes.\n\n\n\nAs part of a broader interest in weed biocontrol, I also assist in the study of Tamarix spp. (salt cedar), an invasive woody shrub of riparian systems in the western U.S. Salt cedar biocontrol, particularly using the leaf beetle Diorhabda spp., provides a useful comparative system for understanding the successes and challenges of long-term weed management with insects. My focus here is on lessons from Diorhabda–Tamarix interactions that can inform biocontrol strategies for toadflax, particularly regarding climate adaptation, dispersal, and non-target concerns."
-  },
-  {
-    "objectID": "qmd/research/research.html#chemical-ecology-of-plants",
-    "href": "qmd/research/research.html#chemical-ecology-of-plants",
-    "title": "Research",
-    "section": "Chemical Ecology of Plants",
-    "text": "Chemical Ecology of Plants\n\nWinter Wheat and Smooth Brome\n\n\nVolatile Emissions of Locoweed"
-  },
-  {
-    "objectID": "qmd/research/research.html#volatile-emissions-of-locoweed",
-    "href": "qmd/research/research.html#volatile-emissions-of-locoweed",
-    "title": "Research",
-    "section": "Volatile Emissions of Locoweed",
-    "text": "Volatile Emissions of Locoweed"
-  },
-  {
-    "objectID": "qmd/research/research.html#behavioral-ecology",
-    "href": "qmd/research/research.html#behavioral-ecology",
-    "title": "Research",
-    "section": "Behavioral Ecology",
-    "text": "Behavioral Ecology"
-  },
-  {
-    "objectID": "qmd/research/research.html#biological-control-of-toadflax",
-    "href": "qmd/research/research.html#biological-control-of-toadflax",
-    "title": "Research",
-    "section": "Biological Control of Toadflax",
-    "text": "Biological Control of Toadflax"
-  },
-  {
-    "objectID": "qmd/research/research.html#chemical-ecology-of-beneficial-insects",
-    "href": "qmd/research/research.html#chemical-ecology-of-beneficial-insects",
-    "title": "Research",
-    "section": "Chemical Ecology of Beneficial Insects",
-    "text": "Chemical Ecology of Beneficial Insects\nMy work also explores how plant chemistry mediates the interactions between insect herbivores, their natural enemies, and their host plants. I use a combination of volatile collections, electrophysiological assays (EAG/EAD-FID), and behavioral bioassays to identify compounds that structure ecological interactions and drive host specificity.\n\nWheat stem sawfly parasitoids\nDuring my M.S. research at MSU, I investigated the role of smooth brome (Bromus inermis) as a refuge habitat for parasitoids of the wheat stem sawfly (Cephus cinctus). Using volatile organic compound (VOC) collections, I examined whether smooth brome emits chemical cues that parasitoids use to locate hosts. My findings showed that parasitoids readily colonize brome-dominated field margins, enhancing biological control within wheat fields and highlighting the agroecological value of seminatural habitats.\n\n\nMecinus janthinus and M. janthiniformis\nAs part of my PhD, I am studying the host-location behavior of the stem-mining weevils Mecinus janthinus (yellow toadflax specialist) and M. janthiniformis (Dalmatian toadflax specialist). Using Y-tube olfactometer assays, we demonstrated that female M. janthiniformis are attracted to volatiles from both yellow and Dalmatian toadflax, while M. janthinus responds only to yellow toadflax. I am coupling these behavioral assays with EAG-FID to identify plant compounds eliciting antennal responses, with the goal of linking specific VOCs to insect host fidelity and biocontrol effectiveness."
-  },
-  {
-    "objectID": "qmd/research/research.html#biological-control-of-weeds---toadflax",
-    "href": "qmd/research/research.html#biological-control-of-weeds---toadflax",
-    "title": "Research",
-    "section": "",
-    "text": "My on-going research at Montana State University for my PhD focuses on the biological control of invasive toadflax species found within rangelands of the western United States. Specifically, I am investigating the use of specialist Eurasian herbivores to suppress populations of yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax in Montana and South Dakota. I am currently working with the two stem mining weevils Mecinus janthinus, M. janthiniformis, and the stem-galling weevil Rhinusa pilosa. My work combines classical biocontrol approaches with life table analyses and fire ecology to understand the long-term population dynamics of both plants and insects.\n\n\n\n\n\n\n\n\n\n\n\nYellow toadflax is perennial invasive weeds that reduce forage quality, compete with native vegetation, and resist many conventional management strategies. My current research focuses on evaluating the efficacy of the stem-galling weevil Rhinusa pilosa in controlling yellow toadflax popuulations. Using monitoring plots in Montana and South Dakota, I hope to track R. pilosa establishment, reproduction, and impact across multiple years. In addition, I’m interested in the impact of large herbivores on both toadflax and biocontrol persistence. These data will support regional biocontrol programs and provide new insights into the suitability of R. pilosa in different climates and disturbance regimes.\n\n\n\n\n\n\nAs part of a broader interest in weed biocontrol, I also assist in the study of Tamarix spp. (salt cedar), an invasive woody shrub of riparian systems in the western U.S. Salt cedar biocontrol, particularly using the leaf beetle Diorhabda spp., provides a useful comparative system for understanding the successes and challenges of long-term weed management with insects. My focus here is on lessons from Diorhabda–Tamarix interactions that can inform biocontrol strategies for toadflax, particularly regarding climate adaptation, dispersal, and non-target concerns."
-  },
-  {
-    "objectID": "qmd/research/research.html#beneficial-insects",
-    "href": "qmd/research/research.html#beneficial-insects",
-    "title": "Research",
-    "section": "",
-    "text": "Beneficial insects play a crucial role in maintaining healthy ecosystems and supporting agriculture. They act as natural pollinators, predators, and decomposers, helping to control pest populations, enhance plant reproduction, and recycle nutrients. By reducing the need for human-derived inputs and chemical pesticides, these insects promote biodiversity, protect soil and water quality, and contribute to sustainable food production. In short, beneficial insects are essential allies in both natural and managed environments, quietly sustaining life and ecological balance.\nMy on-going PhD project at Montana State University focuses on the biological control of invasive toadflax species found within rangelands of the western United States. Specifically, I am investigating the use of the two stem mining weevils Mecinus janthinus, M. janthiniformis, and the stem-galling weevil Rhinusa pilosa to suppress populations of yellow (Linaria vulgaris) and Dalmatian (L. dalmatica) toadflax in Montana and South Dakota. My work combines classical biocontrol approaches with life table analyses and fire ecology to understand the long-term population dynamics of both plants and insects.\n\n\n\n\n\n\n\n\n\n\n\nYellow toadflax is perennial invasive weeds that reduce forage quality, compete with native vegetation, and resist many conventional management strategies. My current research focuses on evaluating the efficacy of the stem-galling weevil Rhinusa pilosa in controlling yellow toadflax popuulations. Using monitoring plots in Montana and South Dakota, I hope to track R. pilosa establishment, reproduction, and impact across multiple years. In addition, I’m interested in the impact of large herbivores on both toadflax and biocontrol persistence. These data will support regional biocontrol programs and provide new insights into the suitability of R. pilosa in different climates and disturbance regimes.\n\n\n\n\n\n\nAs part of a broader interest in weed biocontrol, I also assist in the study of Tamarix spp. (salt cedar), an invasive woody shrub of riparian systems in the western U.S. Salt cedar biocontrol, particularly using the leaf beetle Diorhabda spp., provides a useful comparative system for understanding the successes and challenges of long-term weed management with insects. My focus here is on lessons from Diorhabda–Tamarix interactions that can inform biocontrol strategies for toadflax, particularly regarding climate adaptation, dispersal, and non-target concerns."
-  },
-  {
-    "objectID": "qmd/research/research.html#chemical-ecology-of-plant-insect-interactions",
-    "href": "qmd/research/research.html#chemical-ecology-of-plant-insect-interactions",
-    "title": "Research",
-    "section": "Chemical Ecology of Plant-Insect Interactions",
-    "text": "Chemical Ecology of Plant-Insect Interactions\n\nMy research also looks at how plant chemistry influences interactions between insects, their natural enemies, and the plants they feed on. Plants release chemical signals called volatile organic compounds (VOCs), which are essentially scents that can travel through the air. These VOCs play a key role in ecosystems because they can attract or repel insects, signal danger, or guide predators and parasitoids to their prey.\nTo understand these interactions, I collect plant volatiles and study how insects respond to them using electrophysiological techniques (which measure how insect antennae detect these chemicals) and behavioral tests. By identifying the specific compounds that insects respond to, I can uncover how plant chemistry shapes feeding behavior, host choice, and the relationships between plants, herbivores, and their natural enemies.\n\n\n\n\n\n\n\n\n\n\n\nMecinus janthinus and M. janthiniformis\nAs part of my PhD, I am studying the host-location behavior of the stem-mining weevils Mecinus janthinus (yellow toadflax specialist) and M. janthiniformis (Dalmatian toadflax specialist). Using Y-tube olfactometer assays, we demonstrated that female M. janthiniformis are attracted to volatiles from both yellow and Dalmatian toadflax, while M. janthinus responds only to yellow toadflax. I am coupling these behavioral assays with EAG-FID to identify plant compounds eliciting antennal responses, with the goal of linking specific VOCs to insect host fidelity and biocontrol effectiveness.\n\nSalt Cedar Biological Control\nAs part of a broader interest in weed biocontrol, I also assist in the study of Tamarix spp. (salt cedar), an invasive woody shrub of riparian systems in the western U.S. Salt cedar biocontrol, particularly using the leaf beetle Diorhabda spp., provides a useful comparative system for understanding the successes and challenges of long-term weed management with insects. My focus here is on lessons from Diorhabda–Tamarix interactions that can inform biocontrol strategies for toadflax, particularly regarding climate adaptation, dispersal, and non-target concerns."
-  },
-  {
-    "objectID": "qmd/research/research.html#ecology-of-beneficial-insects",
-    "href": "qmd/research/research.html#ecology-of-beneficial-insects",
-    "title": "Research",
-    "section": "",
-    "text": "Beneficial insects play a crucial role in maintaining healthy ecosystems and supporting agriculture. They act as natural pollinators, predators, and decomposers, helping to control pest populations, enhance plant reproduction, and recycle nutrients. By reducing the need for human-derived inputs and chemical pesticides, these insects promote biodiversity, protect soil and water quality, and contribute to sustainable food production. Beneficial insects are essential allies in both natural and managed environments, quietly sustaining life and ecological balance.\n\n\n\nFor my PhD at Montana State University, I’m studying how to better manage invasive toadflax species that spread across rangelands in the western United States. These weeds, yellow toadflax (Linaria vulgaris) and Dalmatian toadflax (L. dalmatica), reduce forage for livestock, crowd out native plants, and are difficult to control with traditional methods.\nMy research focuses on using beneficial insects—specifically two stem-mining weevils (Mecinus janthinus and M. janthiniformis) and a stem-galling weevil (Rhinusa pilosa) — to help reduce toadflax populations. I’m combining field studies in Montana and South Dakota with long-term monitoring to see how these insects establish, reproduce, and affect the plants over time. I’m also interested in how events like wildfire and grazing by large animals shape the success of biocontrol.\nUltimately, this work will help improve regional weed management programs and provide new insights into how insects and invasive plants interact in different climates and under different disturbances.\n\n\n\n\n\n\n\n\n\n\n\n\nFor my Master’s research at Montana State University, I studied how smooth brome grass (Bromus inermis) supports two beneficial wasps, Bracon cephi and Bracon lissogaster, which parasitize and help control the wheat stem sawfly (Cephus cinctus), a major pest of cereal crops. At field sites in Bozeman, Big Sandy, and Moccasin, Montana, I found that smooth brome provides a critical late-season refuge for these wasps. This refuge is especially important in years with early wheat harvests, drought, or fire, when wheat may be removed. By providing alternative host plants for the wasps, smooth brome helps sustain their populations even when wheat stem sawfly hosts are scarce, preventing major declines and keeping pest numbers in check over time.\n\n\n\n\n\n\n\n\n\n Read Strand et al. 2024"
   }
 ]
