@@ -2,7 +2,7 @@
 about: 
   template: trestles
   id: about-block
-  image: "img/aboutme/headshot.jpg"
+  image: "img/aboutme/headshot2.jpg"
   links:
     - icon: linkedin
       text: LinkedIn
