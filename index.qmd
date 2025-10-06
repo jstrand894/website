@@ -333,10 +333,10 @@ Invited Guest Lectures
 
 <ol reversed>
     <li style="margin-bottom: 1em;">
-        <u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Instructor: Will Wetzel. March 2025.
+        <u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Montana State University. Instructor: Will Wetzel. March 2025.
     </li>
     <li style="margin-bottom: 1em;">
-        <u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principals of Biological Diversity. Instructors: Erin Teichroew and Chris Larson. August 2025.
+        <u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principals of Biological Diversity. Montana State University. Instructors: Erin Teichroew and Chris Larson. August 2025.
     </li>
 </ol>
 
@@ -356,22 +356,26 @@ Workshops
 <u>Teaching Assisstant</u>  
 **Integrated Pest Management** (AGSC 401)  
 Fall 2023, 3 credits, 20 undergraduates, 10 graduate students  
-Online course taught by Dr. David Weaver
+Online course taught by Dr. David Weaver  
+Montana State Unviersity
   
 **Integrated Pest Management** (AGSC 401)  
 Fall 2025, 3 credits, 25 undergraduates, 10 graduate students  
-Online course taught by Dr. David Weaver
+Online course taught by Dr. David Weaver  
+Montana State Unviersity
   
 <u>Invited Guest Lecturer</u>  
 **Role of Plants in the Environment** (ENSC 210)  
 Spring 2025, 3 creidts  
 "Can Bugs Help Us?"  
 Course taught by Dr. Will Wetzel  
+Montana State Unviersity
 
 **Principals of Biological Diversity** (BIOB 260)  
 Fall 2025, 5 credits   
 "Introduction to Insect Identification and Sampling"  
-Course taught by Erin Teichroew and Chris Larson
+Course taught by Erin Teichroew and Chris Larson  
+Montana State Unviersity
 
 :::
 

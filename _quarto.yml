@@ -72,6 +72,10 @@ format:
     theme: 
       light: [_themes.scss]
     # title-block-banner: "#9e74f1"
+    # mainfont: "Playfair Display"
+    # sansfont: "Source Sans Pro"
+    # serif-font: "Lora"
+    # monofont: "IBM Plex Mono"
     code-block-bg: true
     code-block-border-left: "#1abcd9"
     code-copy: true

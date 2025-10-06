@@ -1,0 +1,38 @@
+/* project layout with image floated right for text wrapping */
+.proj-row {
+  overflow: auto; /* contain float */
+  margin: 1.25rem 0;
+  word-wrap: break-word;
+  line-height: 1.45;
+}
+
+.proj-row img {
+  float: right;
+  margin: 0 0 1rem 1.25rem; /* top, right, bottom, left */
+  width: 300px; /* adjust as needed */
+  max-width: 40%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(18, 24, 33, 0.12);
+  object-fit: cover;
+  border: 1px solid rgba(0,0,0,0.05);
+  display: block;
+}
+
+/* Make text slightly larger for the "Masters Research" title */
+.proj-row .mr-title {
+  font-size: 1.08em;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+/* Responsive: stack image above text on small screens */
+@media (max-width: 720px) {
+  .proj-row img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
