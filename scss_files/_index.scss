@@ -19,20 +19,20 @@
  
 
 /* About Block */
-#about-block {
-  background-image: url('img/index/speaks_bgr_reduced.png');
-  background-size: 100% auto;
-  background-position: center 100%;
-  //background-attachment: fixed;
-  background-repeat: no-repeat;
-  padding: 0.5rem 2rem 2rem 2rem;
-  border-radius: 12px;
-  color: black;
-  position: relative;
-  z-index: 1;
+ #about-block {
+   background-image: url('img/index/speaks_bgr_reduced.png');
+   background-size: 100% auto;
+   background-position: center 100%;
+   //background-attachment: fixed;
+   background-repeat: no-repeat;
+   padding: 0.5rem 2rem 2rem 2rem;
+   border-radius: 12px;
+   color: black;
+   position: relative;
+   z-index: 1;
   filter: grayscale(0%);
-  // border: 0.5px solid grey;
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+   // border: 0.5px solid grey;
+box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 #about-block::before {

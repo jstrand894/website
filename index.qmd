@@ -1,6 +1,6 @@
 ---
 about:   
-  template: trestles
+  template: trestles 
   id: about-block
   image: "img/aboutme/headshot3.jpg"
   links:  
@@ -29,8 +29,8 @@ about:
       href: https://www.researchgate.net/profile/Jackson-Strand
       target: "_blank"
  
-freeze: true
-toc: true 
+freeze: true  
+toc: true   
 ---                    
 ::: {#about-block} 
 <span style="font-size: 42px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
@@ -338,6 +338,9 @@ Invited Guest Lectures
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principals of Biological Diversity. Montana State University. Instructors: Erin Teichroew and Chris Larson. August 2025.
     </li>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>. Integrated Pest Management. ENSC 110: Land Resources and Environmental Sciences. Montana State University. Instructor: Frank Dougher. October 2025. 
+    </li>
 </ol>
 
 Workshops  
@@ -354,6 +357,7 @@ Workshops
 
 :::{.box}
 <u>Teaching Assisstant</u>  
+
 **Integrated Pest Management** (AGSC 401)  
 Fall 2023, 3 credits, 20 undergraduates, 10 graduate students  
 Online course taught by Dr. David Weaver  
@@ -365,6 +369,7 @@ Online course taught by Dr. David Weaver
 Montana State Unviersity
   
 <u>Invited Guest Lecturer</u>  
+
 **Role of Plants in the Environment** (ENSC 210)  
 Spring 2025, 3 creidts  
 "Can Bugs Help Us?"  
@@ -375,7 +380,13 @@ Montana State Unviersity
 Fall 2025, 5 credits   
 "Introduction to Insect Identification and Sampling"  
 Course taught by Erin Teichroew and Chris Larson  
-Montana State Unviersity
+Montana State Unviersity  
+
+**Land Resources and Environmental Sciences** (ENSC 110)  
+Fall 2025, 3 credits  
+"Integrated Pest Management"  
+Course taught by Frank Dougher  
+Montana State University
 
 :::
 
