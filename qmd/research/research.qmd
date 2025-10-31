@@ -8,22 +8,13 @@ format:
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-title-block-banner: "images/copper.jpg"
-include-in-header:
-  - text: |
-      <style>
-        .quarto-title-banner {
-          background-image: url("images/copper.jpg");
-          background-attachment: fixed;    
-          background-position: center 125%;   
-          background-size: cover;
-          height: 200px;     
-        }
-      </style>
+
 ---
 As agricultural expansion and invasive species reshape the Northern Great Plains, the ecological relationships between plants, pests, and their natural enemies are undergoing profound shifts. My research investigates how biological control agents interact with host plants and their environments to suppress pest populations and restore ecological balance. From wheat-dominated agroecosystems to rangeland invasions, I explore how chemical signaling, habitat structure, and multi-species interactions can be leveraged to enhance biocontrol efficacy and support resilient landscapes.
 
-<hr>
+![](images/copper.jpg)
+
+<hr> 
 
 
 <!-- <img src="spanish_lake.jpg" alt="Mountain view" style="width:100%;"> -->
