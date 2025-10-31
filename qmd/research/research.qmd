@@ -8,14 +8,20 @@ format:
     include-in-header:
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-title-block-banner: "images/DJI_0094-2.jpg"
+title-block-banner: "images/copper.jpg"
+include-in-header:
+  - text: |
+      <style>
+        .quarto-title-banner {
+          background-image: url("images/copper.jpg");
+          background-attachment: fixed;    
+          background-position: center 125%;   
+          background-size: cover;
+          height: 200px;     
+        }
+      </style>
 ---
- 
-As agricultural landscapes expand and native grasslands decline, the ecological dynamics between plants, pests, and their natural enemies are shifting in complex and often underappreciated ways. My research spans from wheat-dominated agroecosystems to rangeland invasions, focusing on how biological control agents interact with host plants and the broader environment to suppress pest populations. During my master’s research at Montana State University, I explored the agroecological role of smooth brome (*Bromus inermis*) in supporting native parasitoids of the wheat stem sawfly (*Cephus cinctus*). I investigated how volatile organic compounds from infested smooth brome attract parasitoids, enhancing parasitism rates and reducing pest survival, revealing that even a historically maligned invasive grass can provide critical refuge for beneficial insects.
-
-Building on this foundation, my PhD research examines the biological control of yellow (*Linaria vulgaris*) and Dalmatian (*L. dalmatica*) toadflax in Montana and South Dakota using *Rhinusa* and *Mecinus* weevils. I study host-specific behaviors, chemical cues, and multi-agent interactions to quantify herbivore impacts, parasitoid efficacy, and plant suppression. By combining chemical ecology, field experimentation, and life table analyses, my work aims to inform sustainable, landscape-level strategies for invasive plant management.
-
-Ultimately, this research highlights how understanding plant-insect interactions, chemical signaling, and habitat structure can be leveraged to conserve natural enemies, enhance biocontrol efficacy, and promote resilient ecosystems across the Northern Great Plains.
+As agricultural expansion and invasive species reshape the Northern Great Plains, the ecological relationships between plants, pests, and their natural enemies are undergoing profound shifts. My research investigates how biological control agents interact with host plants and their environments to suppress pest populations and restore ecological balance. From wheat-dominated agroecosystems to rangeland invasions, I explore how chemical signaling, habitat structure, and multi-species interactions can be leveraged to enhance biocontrol efficacy and support resilient landscapes.
 
 <hr>
 
