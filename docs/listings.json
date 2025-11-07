@@ -31,18 +31,18 @@
     ]
   },
   {
-    "listing": "/qmd/publications/publications.html",
-    "items": [
-      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
-      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
-    ]
-  },
-  {
     "listing": "/qmd/projects/projects.html",
     "items": [
       "/qmd/projects/field_notes/fieldjournal.html",
       "/qmd/projects/LRES_GSO/LRES_GSO.html",
       "/qmd/projects/bball_tool/bball_tool.html"
+    ]
+  },
+  {
+    "listing": "/qmd/publications/publications.html",
+    "items": [
+      "/qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
+      "/qmd/publications/agro_brome_2024/agro_brome_2024.html"
     ]
   },
   {
