@@ -1,0 +1,19 @@
+---
+title: "Montana Wheat and Barley Committee Social Media Posts - Wheat Stem Sawfly IPM"
+date: 2025-11-13
+description: "I co-wrote these Montana Wheat and Barley Committee post about WSS and associated insects"
+image: "images/mwbc_logo.png"
+image_alt: "Montana Wheat and Barley Committee"
+categories: ["Facebook", "MWBC"]
+# pinned: true
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+          />
+---
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid025gSNbSgRLTbKFmbnSV5YnzkMSHpABtcQ1YYkhEvrk7S6nu13XyAbJGKk2vkrBhrHl&show_text=true&width=500" width="500" height="771" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

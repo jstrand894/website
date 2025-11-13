@@ -53,7 +53,7 @@ As agricultural expansion and invasive species reshape the Northern Great Plains
 <hr>
 
 <div style="display:flex; justify-content:center; align-items:center; gap:20px;">
-  <img src="images/msu_logo.png" alt="MSU logo" style="width:200px; height:auto;">
+  <img src="images/msu_logo.png" alt="MSU logo" style="width:200px; height:auto;"> 
   <img src="images/mwbc_logo.png" alt="MSU logo" style="width:150px; height:auto;">
   <img src="images/masters/usda.png" alt="MSU logo" style="width:200px; height:auto;">
   <img src="images/masters/nifa.png" alt="MSU logo" style="width:150px; height:auto;">
@@ -72,4 +72,6 @@ As agricultural expansion and invasive species reshape the Northern Great Plains
     In an era of declining pesticide efficacy and increasing resistance, biological control remains one of the most sustainable tools in integrated pest management. By demonstrating that smooth brome can enhance parasitoid populations and reduce pest survival, this research reframes the role of a commonly maligned grass species. Rather than viewing smooth brome solely as an invasive threat, we propose its strategic conservation and placement as a functional component of agroecosystems — especially in landscapes where wheat and native parasitoids co-occur.</p>
 
   <p>Ultimately, this work contributes to a broader understanding of how plant-insect interactions, chemical signaling, and landscape structure can be harnessed to support ecological resilience and sustainable agriculture in the Northern Great Plains' dry-land cropping systems.</p>
+
+<p><strong>Related Publications</strong><br>
 </div>
