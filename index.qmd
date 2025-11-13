@@ -66,10 +66,6 @@ I am a PhD student in Ecology & Environmental Sciences at Montana State Universi
 ::: -->    
 <br>
 
-## Research Interests
-
-*I am interested in understanding the ecological roles of insects and their potential to address pressing global challenges, including improving agricultural productivity, combating climate change, and advancing waste management strategies. Through my research, I seek to develop innovative, nature-based solutions to these complex problems, focusing on the intersection of entomology, ecology, and sustainability.*
-
 <div style="text-align: left; margin-top: 1rem;">
 <a class="btn-purple" href="qmd/research/research.qmd" role="button">
  <span>Research Overview</span> 
