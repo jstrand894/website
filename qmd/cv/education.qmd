@@ -1,42 +1,60 @@
 :::{.box}
 
-<div style="display: flex; align-items: center;">
-  <div><strong>PhD Ecology & Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
-  <!-- This div creates the line between text and year -->
-  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2025 - present</div>
+<div style="display: flex; align-items: top; margin-bottom: 10px;">
+  <!-- Logo column -->
+<div style="width: 60px; margin-right: 15px; display: flex; justify-content: center;">
+<img src="/qmd/logos/msu2.png" alt="Montana State University Logo" style="height: 40px;">
 </div>
-- Graduate Committee: Dr. Robert Peterson (co-chair), Dr. David Weaver (co-chair),<br> Dr. Sharlene Sing, Dr. William Wetzel
- <br>
-
+  <!-- Content column -->
+<div style="flex: 1;">
 <div style="display: flex; align-items: center;">
-  <div><strong>MS Entomology</strong> | <span style="font-style: italic;">Montana State University</span></div>
-  <!-- This div creates the line between text and year -->
-  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2021 - 2024</div>
+<div><strong>PhD Ecology & Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
+<div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;">
 </div>
-- Graduate Committee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson
-- Graduate Certificate in Applied Statistics
+<div>2025 - present</div>
+</div>
+<div style="margin-top: 5px;">
+  - Graduate Committee: Dr. Robert Peterson (co-chair), Dr. David Weaver (co-chair),<br>
+      Dr. Sharlene Sing, Dr. William Wetzel
+</div>
+</div>
+</div>
 
-
+<div style="display: flex; align-items: top; margin-bottom: 10px;">
+<div style="width: 60px; margin-right: 15px; display: flex; justify-content: center;">
+  <img src="/qmd/logos/msu2.png" alt="Montana State University Logo" style="height: 40px;">
+</div>
+<div style="flex: 1;">
 <div style="display: flex; align-items: center;">
-  <div><strong>BS Biology</strong> | <span style="font-style: italic;">University of Minnesota - Twin Cities</span></div>
-  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
-  <div>2013 - 2017</div>
+<div><strong>MS Entomology</strong> | <span style="font-style: italic;">Montana State University</span></div>
+<div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+<div>2021 - 2024</div>
 </div>
-- Minor: Marine Biology
+<div style="margin-top: 5px;">
+  - Graduate Committee: Dr. David Weaver (co-chair), Dr. Tracy Sterling (co-chair), Dr. Robert Peterson<br>
+  - Graduate Certificate in Applied Statistics
+</div>
+</div>
+</div>
+
+
+<!-- BS -->
+<div style="display: flex; align-items: top; margin-bottom: 10px;">
+<div style="width: 60px; margin-right: 15px; display: flex; justify-content: center;">
+  <img src="/qmd/logos/umn.png" alt="University of Minnesota Logo" style="height: 50px;">
+</div>
+<div style="flex: 1;">
+<div style="display: flex; align-items: center;">
+<div><strong>BS Biology</strong> | <span style="font-style: italic;">University of Minnesota - Twin Cities</span></div>
+<div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+<div>2013 - 2017</div>
+</div>
+<div style="margin-top: 5px;">
+  - Minor: Marine Biology
+</div>
+</div>
+</div>
+
+
 
 :::
-
-::: {.box}
-```{=html}
-<div style="display:flex; align-items:center;">
-  <div><strong>PhD Ecology & Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
-  <div style="flex-grow:1; height:1px; background-color:lightgray; margin:0 10px;"></div>
-  <div>2025 - present</div>
-</div>
-```
-:::
-
-\noindent\textbf{PhD Ecology \& Environmental Science} \hfill \textit{Montana State University} \hfill 2025--present \\
-Graduate Committee: Dr. Robert Peterson (co-chair), Dr. David Weaver (co-chair), Dr. Sharlene Sing, Dr. William Wetzel

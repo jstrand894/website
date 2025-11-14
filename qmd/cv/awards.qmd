@@ -8,7 +8,7 @@
   <div>2025</div>
 </div>
 <div style="padding-right: 30px;">
-- <a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State Unviersity  
+- <a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State University  
 - Awarded for the proposal "*Mapping Biocontrol Success: Drone NDVI Monitoring of Invasive Toadflax in Post-Fire Montana Ecosystems*"
 </a>
 </div>

@@ -4,63 +4,96 @@ format:
   html:    
     toc: true 
     lazy-load: true
-  pdf:
-    toc: false
-    number-sections: false
-    keep-tex: true
-    includes:
-      in-header: cv_format.tex
-      include-before-body: null
+  # pdf:
+  #   toc: false
+  #   number-sections: false
+  #   keep-tex: true
+  #   includes:
+  #     in-header: cv_format.tex
+  #     include-before-body: null
 ---
- 
-<em>Last Updated: Nov 11, 2025</em>
 
- tried new code 
-<a class="btn-purple" href="yourfile.pdf" target="_blank" role="button">
-  Download PDF Version
+<a class="btn-purple" href="JRS_CV_11-14-25.pdf" role="button">
+  <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Downloadable CV
 </a>
-      
-## Education
+
+<label class="switch-wrapper">
+  <input type="checkbox" id="toggle-reveal" class="switch-input">
+  <span class="switch-slider"></span>
+  <span class="switch-label">Show all sections</span>
+</label>
+
+<em style="font-size: 0.8em;">Last Updated: Nov 12, 2025</em>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const checkbox = document.getElementById("toggle-reveal");
+  checkbox.addEventListener("change", function() {
+    document.body.classList.toggle("show-all", checkbox.checked);
+  });
+});
+</script>
+</script>
+<!-- <a class="btn-purple" href="yourfile.pdf" target="_blank" role="button">
+  Download PDF Version
+</a> -->
+       
+## Education 
+
+
+<div class="hover-reveal">
 
 {{< include "education.qmd" >}}
 
-      
+</div>
+
+           
 ## Publications
+
+<div class="hover-reveal">
+
 <a class="btn-purple" href="/qmd/publications/publications.qmd" role="button">
   <span>Check out my&nbsp;<strong>Publications</strong>&nbsp;page</span>
 </a>    
-
+ 
 {{< include "publications.qmd" >}}
 
+</div>
 
 ## Honors & Awards
 
+<div class="hover-reveal">  
 {{< include "awards.qmd" >}}
+</div>
 
    
 ## Seminars & Presentations 
+
+<div class="hover-reveal">
 <a class="btn-purple" href="/qmd/presentations/presentations.qmd" role="button">
   <span>Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</span>
 </a>   
-
+ 
 {{< include "presentations.qmd" >}}
+</div>
 
 
 ## Teaching
-    
+<div class="hover-reveal">
 {{< include "teaching.qmd" >}}
-
+</div>
 
 ## Service 
-
+<div class="hover-reveal">
 {{< include "service.qmd" >}}
-
+</div>
    
 ## Co-Hosted Events 
-
+<div class="hover-reveal">
 {{< include "events.qmd" >}}
-
+</div>
 
 ## Employment History 
-
+<div class="hover-reveal">
 {{< include "employment.qmd" >}}
+</div>

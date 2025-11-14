@@ -46,7 +46,7 @@ On this site you can find my [CV](#education), summaries of current and past [re
 <br>  
 <br>                            -->
 :::     
-
+<br>
 
 <div class="carousel" data-flickity='{
   "autoPlay": 5000, 

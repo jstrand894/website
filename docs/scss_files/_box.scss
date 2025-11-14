@@ -19,13 +19,14 @@ $link-color:  steelblue !default;
 // making objects, like a box with specified colors 
 
 .box {
-    background: $box-bg-color;
+    background: linear-gradient(to bottom, $box-bg-color 0%, #ffffff 100%);
     border-radius: 5px;
     padding-bottom: 0px;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid $box-border-color;
+    border-image: linear-gradient(to bottom, $box-border-color, #ffffff) 1;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 10px;
@@ -34,6 +35,7 @@ $link-color:  steelblue !default;
     display: flex;
     flex-direction: column;
     transition: box-shadow 0.25s ease-in-out;
+    
 }
 
 .box-media {

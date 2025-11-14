@@ -1,0 +1,90 @@
+
+/*-- scss:rules --*/
+.hover-section .hover-content {
+  display: none;
+  transition: opacity 0.9s ease;
+}
+
+.hover-section:hover .hover-content {
+  display: block;
+}
+
+/* Start hidden */
+.hover-reveal {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.9s ease,
+    opacity 0.9s ease;
+}
+
+/* Reveal when hovering over the header OR the content area */
+h2:hover + .hover-reveal,
+.hover-reveal:hover {
+  max-height: 2000px; /* large enough to fit any section */
+  opacity: 1;
+}
+
+/* --- TOGGLE SWITCH OVERRIDE: SHOW EVERYTHING --- */
+
+body.show-all .hover-reveal {
+  max-height: 2000px !important;
+  opacity: 1 !important;
+  overflow: visible;
+}
+
+body.show-all h2:hover + .hover-reveal {
+  /* Turn off hover behavior when showing all */
+  max-height: 2000px !important;
+  opacity: 1 !important;
+}
+
+/* --- Fancy iOS-style toggle switch --- */
+
+.switch-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-slider {
+  position: relative;
+  width: 46px;
+  height: 26px;
+  background-color: #ccc;
+  border-radius: 26px;
+  transition: background-color 0.3s ease;
+}
+
+.switch-slider::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 2px;
+  top: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+
+/* When toggled ON */
+.switch-input:checked + .switch-slider {
+  background-color: #4cd964; /* iOS green */
+}
+
+.switch-input:checked + .switch-slider::before {
+  transform: translateX(20px);
+}
+
+.switch-label {
+  user-select: none;
+}

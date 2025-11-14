@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-99880dfa39dcfd3d21a2921a3a25d44b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-0ee65ccf5e6c0894e8d4ef60b3738749.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#co-hosted-events" id="toc-co-hosted-events" class="nav-link" data-scroll-target="#co-hosted-events">Co-Hosted Events</a></li>
   <li><a href="#employment-history" id="toc-employment-history" class="nav-link" data-scroll-target="#employment-history">Employment History</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -194,16 +194,36 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><em>Last Updated: Nov 11, 2025</em></p>
-<p>tried new code <a class="btn-purple" href="yourfile.pdf" target="_blank" role="button"> Download PDF Version </a></p>
+<p><a class="btn-purple" href="JRS_CV_11-14-25.pdf" role="button"> <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Downloadable CV </a></p>
+<p><label class="switch-wrapper"> <input type="checkbox" id="toggle-reveal" class="switch-input"> <span class="switch-slider"></span> <span class="switch-label">Show all sections</span> </label></p>
+<p><em style="font-size: 0.8em;">Last Updated: Nov 12, 2025</em></p>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const checkbox = document.getElementById("toggle-reveal");
+  checkbox.addEventListener("change", function() {
+    document.body.classList.toggle("show-all", checkbox.checked);
+  });
+});
+</script>
+
+<!-- <a class="btn-purple" href="yourfile.pdf" target="_blank" role="button">
+  Download PDF Version
+</a> -->
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
+<div class="hover-reveal">
 <div class="box">
+<div style="display: flex; align-items: top; margin-bottom: 10px;">
+<!-- Logo column -->
+<div style="width: 60px; margin-right: 15px; display: flex; justify-content: center;">
+<p><img src="../../qmd/logos/msu2.png" alt="Montana State University Logo" style="height: 40px;"></p>
+</div>
+<!-- Content column -->
+<div style="flex: 1;">
 <div style="display: flex; align-items: center;">
 <div>
 <strong>PhD Ecology &amp; Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span>
 </div>
-<!-- This div creates the line between text and year -->
 <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;">
 
 </div>
@@ -211,14 +231,22 @@ ul.task-list li input[type="checkbox"] {
 2025 - present
 </div>
 </div>
+<div style="margin-top: 5px;">
 <ul>
-<li>Graduate Committee: Dr.&nbsp;Robert Peterson (co-chair), Dr.&nbsp;David Weaver (co-chair),<br> Dr.&nbsp;Sharlene Sing, Dr.&nbsp;William Wetzel <br></li>
+<li>Graduate Committee: Dr.&nbsp;Robert Peterson (co-chair), Dr.&nbsp;David Weaver (co-chair),<br> Dr.&nbsp;Sharlene Sing, Dr.&nbsp;William Wetzel</li>
 </ul>
+</div>
+</div>
+</div>
+<div style="display: flex; align-items: top; margin-bottom: 10px;">
+<div style="width: 60px; margin-right: 15px; display: flex; justify-content: center;">
+<p><img src="../../qmd/logos/msu2.png" alt="Montana State University Logo" style="height: 40px;"></p>
+</div>
+<div style="flex: 1;">
 <div style="display: flex; align-items: center;">
 <div>
 <strong>MS Entomology</strong> | <span style="font-style: italic;">Montana State University</span>
 </div>
-<!-- This div creates the line between text and year -->
 <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;">
 
 </div>
@@ -226,10 +254,20 @@ ul.task-list li input[type="checkbox"] {
 2021 - 2024
 </div>
 </div>
+<div style="margin-top: 5px;">
 <ul>
-<li>Graduate Committee: Dr.&nbsp;David Weaver (co-chair), Dr.&nbsp;Tracy Sterling (co-chair), Dr.&nbsp;Robert Peterson</li>
+<li>Graduate Committee: Dr.&nbsp;David Weaver (co-chair), Dr.&nbsp;Tracy Sterling (co-chair), Dr.&nbsp;Robert Peterson<br></li>
 <li>Graduate Certificate in Applied Statistics</li>
 </ul>
+</div>
+</div>
+</div>
+<!-- BS -->
+<div style="display: flex; align-items: top; margin-bottom: 10px;">
+<div style="width: 60px; margin-right: 15px; display: flex; justify-content: center;">
+<p><img src="../../qmd/logos/umn.png" alt="University of Minnesota Logo" style="height: 50px;"></p>
+</div>
+<div style="flex: 1;">
 <div style="display: flex; align-items: center;">
 <div>
 <strong>BS Biology</strong> | <span style="font-style: italic;">University of Minnesota - Twin Cities</span>
@@ -241,21 +279,19 @@ ul.task-list li input[type="checkbox"] {
 2013 - 2017
 </div>
 </div>
+<div style="margin-top: 5px;">
 <ul>
 <li>Minor: Marine Biology</li>
 </ul>
 </div>
-<div class="box">
-<div style="display:flex; align-items:center;">
-  <div><strong>PhD Ecology &amp; Environmental Science</strong> | <span style="font-style: italic;">Montana State University</span></div>
-  <div style="flex-grow:1; height:1px; background-color:lightgray; margin:0 10px;"></div>
-  <div>2025 - present</div>
 </div>
 </div>
-<p> 2025–present \ Graduate Committee: Dr.&nbsp;Robert Peterson (co-chair), Dr.&nbsp;David Weaver (co-chair), Dr.&nbsp;Sharlene Sing, Dr.&nbsp;William Wetzel</p>
+</div>
+</div>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div class="hover-reveal">
 <p><a class="btn-purple" href="../../qmd/publications/publications.html" role="button"> <span>Check out my&nbsp;<strong>Publications</strong>&nbsp;page</span> </a></p>
 <div class="box">
 <ol reversed="">
@@ -267,9 +303,11 @@ ul.task-list li input[type="checkbox"] {
 </li>
 </ol>
 </div>
+</div>
 </section>
 <section id="honors-awards" class="level2">
 <h2 class="anchored" data-anchor-id="honors-awards">Honors &amp; Awards</h2>
+<div class="hover-reveal">
 <div class="box">
 <!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
 <div style="display: flex; align-items: center;">
@@ -286,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div style="padding-right: 30px;">
 <ul>
-<li><a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State Unviersity<br>
+<li><a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State University<br>
 </li>
 <li>Awarded for the proposal “<em>Mapping Biocontrol Success: Drone NDVI Monitoring of Invasive Toadflax in Post-Fire Montana Ecosystems</em>” </li>
 </ul>
@@ -458,9 +496,11 @@ ul.task-list li input[type="checkbox"] {
 <li>The Graduate School, Montana State University</li>
 </ul>
 </div>
+</div>
 </section>
 <section id="seminars-presentations" class="level2">
 <h2 class="anchored" data-anchor-id="seminars-presentations">Seminars &amp; Presentations</h2>
+<div class="hover-reveal">
 <p><a class="btn-purple" href="../../qmd/presentations/presentations.html" role="button"> <span>Check out my&nbsp;<strong>Talks &amp; Presentations</strong>&nbsp;page</span> </a></p>
 <div class="box">
 <p>Contributed presentations at scientific meetings</p>
@@ -518,9 +558,11 @@ Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop, “MS
 </li>
 </ol>
 </div>
+</div>
 </section>
 <section id="teaching" class="level2">
 <h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
+<div class="hover-reveal">
 <div class="box">
 <p><u>Teaching Assisstant</u></p>
 <div style="margin-left: 30px;">
@@ -536,15 +578,15 @@ Montana State Unviersity</p>
 <p><u>Invited Guest Lecturer</u></p>
 <div style="margin-left: 30px;">
 <p><strong>Role of Plants in the Environment</strong> (ENSC 210)<br>
-Spring 2025, 3 creidts<br>
+Spring 2025, 3 credits<br>
 “Can Bugs Help Us?”<br>
 Course taught by Dr.&nbsp;Will Wetzel<br>
-Montana State Unviersity</p>
+Montana State University</p>
 <p><strong>Principals of Biological Diversity</strong> (BIOB 260)<br>
 Fall 2025, 5 credits<br>
 “Introduction to Insect Identification and Sampling”<br>
 Course taught by Erin Teichroew and Chris Larson<br>
-Montana State Unviersity</p>
+Montana State University</p>
 <p><strong>Land Resources and Environmental Sciences</strong> (ENSC 110)<br>
 Fall 2025, 3 credits<br>
 “Integrated Pest Management”<br>
@@ -552,9 +594,11 @@ Course taught by Frank Dougher<br>
 Montana State University</p>
 </div>
 </div>
+</div>
 </section>
 <section id="service" class="level2">
 <h2 class="anchored" data-anchor-id="service">Service</h2>
+<div class="hover-reveal">
 <div class="box">
 <u>Peer Review Journal Activity</u>
 <div style="margin-left: 30px;">
@@ -690,9 +734,11 @@ Montana State University</p>
 
 </div>
 </div>
+</div>
 </section>
 <section id="co-hosted-events" class="level2">
 <h2 class="anchored" data-anchor-id="co-hosted-events">Co-Hosted Events</h2>
+<div class="hover-reveal">
 <div class="box">
 <p><strong>LRES Graduate Student Organization Annual Symposium</strong></p>
 <ol reversed="">
@@ -716,9 +762,11 @@ Event website: <a href="https://leps2025.weebly.com" target="_blank">LEPS 2025</
 </li>
 </ol>
 </div>
+</div>
 </section>
 <section id="employment-history" class="level2">
 <h2 class="anchored" data-anchor-id="employment-history">Employment History</h2>
+<div class="hover-reveal">
 <div class="box">
 <!-- Pace Analytical Work -->
 <div style="display: flex; align-items: center;">
@@ -813,6 +861,7 @@ Trained and managed new members of the crew.
 </div>
 <div style="height: 0.9em;">
 
+</div>
 </div>
 </div>
 </section></main></div>
