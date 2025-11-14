@@ -1,0 +1,135 @@
+:::{.box}
+<!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
+<div style="display: flex; align-items: center;">
+  <div><strong><span class="award-text">Extreme Biofilms NRT Program SEED Grant</span></strong></a> ($1,500)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025</div>
+</div>
+<div style="padding-right: 30px;">
+- <a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State Unviersity  
+- Awarded for the proposal "*Mapping Biocontrol Success: Drone NDVI Monitoring of Invasive Toadflax in Post-Fire Montana Ecosystems*"
+</a>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <div><strong>Angus and Anne McMillan Family Agriculture Scholarship</strong></a> ($1,200)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University 
+</a>
+</div>
+
+<!-- Author Open Access Funds -->
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank">Open Access Author Fund</a>($1,736)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University Library  
+- Funded the publication of <a href="https://doi.org/10.1093/jisesa/ieaf016" target="_blank" 
+   style="color: black; text-decoration: none;" 
+   onmouseover="this.style.fontStyle='italic'; this.style.color='steelblue'; this.style.textDecoration='none';" 
+   onmouseout="this.style.fontStyle='italic'; this.style.color='black'; this.style.textDecoration='none';">
+    *Strand et al. 2025*
+</a>
+</div>
+
+<!-- NFBC Conference 2025 -->
+<div style="display: flex; align-items: center;">
+  <div><strong>
+    <a href="https://naisma.org/event/national-forum-on-biological-control-conference/" target="_blank">NAISMA 2025 Student Scholarship</a>
+  </strong></div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025</div>
+</div>
+<div style="padding-right: 30px;">
+- National Forum on Biological Control, Annapolis, MD
+</div>
+
+<div style="display: flex; align-items: center;">
+  <div><strong>
+    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank" class="award-text">Graduate Land Grant Excellence Award</a></strong>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2024</div>
+</div>
+<div style="padding-right: 30px;">
+- The Graduate School, Montana State University 
+</div>
+
+<!-- Open Access Fund -->
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.lib.montana.edu/services/publication/author-fund/" target="_blank">Open Access Author Fund</a>($3,296)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University Library  
+- Funded the publication of <a href="https://doi.org/10.1093/jee/toae246" target="_blank" 
+   style="color: black; text-decoration: none;" 
+   onmouseover="this.style.fontStyle='italic'; this.style.color='steelblue'; this.style.textDecoration='none';" 
+   onmouseout="this.style.fontStyle='italic'; this.style.color='black'; this.style.textDecoration='none';">
+    *Strand et al. 2024*
+</a>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <div><strong>
+      <a href="https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023" target="_blank" class="award-text">President's Prize - 2nd Place Speaker</a>
+  </strong></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+- Entomology 2023, National Harbor, MD  
+- Entomological Society of America 
+ 
+  
+<div style="display: flex; align-items: center;">
+  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Student Scholar Travel Award</strong></a> ($500)</div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+  - College of Agriculture, Montana State University
+
+          
+<div style="display: flex; align-items: center;">
+  <div><strong>1st Place Speaker</strong></div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2023</div>
+</div>
+- 2023 LRES GSO Student Research Colloquium  
+- LRES Graduate Student Organization, Montana State University
+
+  
+<div style="display: flex; align-items: center;">
+  <div><strong>
+      <a href="https://www.mgga.org/grainsfoundation/" target="_blank" class="award-text">Montana Grains Foundation Scholarship</strong></a> ($2,500)</div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022</div>
+</div>
+
+- Montana Grain Growers Association
+                    
+  
+<div style="display: flex; align-items: center;">
+  <div><strong><a href="https://landresources.montana.edu/grad/gradawards.html" target="_blank">Gradaute Professional Advancement Grant</strong></a> ($500)</div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022</div>
+</div>
+
+- The Graduate School, Montana State University
+
+:::

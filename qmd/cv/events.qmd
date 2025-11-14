@@ -1,0 +1,37 @@
+:::{.box}
+
+<strong>LRES Graduate Student Organization Annual Symposium</strong>
+
+<ol reversed>
+  <li>
+    <strong>LEPS 2025</strong><br>
+    Role: Chair  
+    Location: Montana State University, Bozeman, MT  
+    Date: April 7, 2025  
+    Event website: <a href="https://leps2025.weebly.com" target="_blank">LEPS 2025</a>
+  </li>
+  <br>
+  <li>
+    <strong>2024 LRES-PSPP Student Research Symposium</strong><br>
+    Role: Chair & event emcee<br>
+    Location: Montana State University, Bozeman, MT<br>
+    Date: April 18, 2024<br>
+    Hyperlink: <a href="https://lres-research-symposium.weebly.com/?c=mkt_w_chnl:aff_geo:all_prtnr:sas_subprtnr:1538097_camp:brand_adtype:txtlnk_ag:weebly_lptype:hp_var:358504&sscid=61k8_2eb95&utm_source=ShareASale" target="_blank">2024 Symposium</a>
+  </li>
+  <br>
+  <li>
+    <strong>2023 LRES Colloquium</strong><br>
+    Role: Treasurer<br>
+    Location: Montana State University, Bozeman, MT<br>
+    Date: April 13, 2023
+  </li>
+  <br>
+  <li>
+    <strong>2022 LRES Colloquium</strong><br>
+    Role: Treasurer<br>
+    Location: Montana State University, Bozeman, MT<br>
+    Date: April 29, 2022
+  </li>
+</ol>
+
+:::

@@ -17,6 +17,8 @@ website:
     logo: img/aboutme/logo.png
     title: "Jackson R. Strand"
     left:
+      - text: 'CV'
+        file: qmd/cv/cv.qmd
       - text: 'Research'
         menu:
         - text: "Research Overview"
@@ -102,6 +104,10 @@ format:
             gtag('js', new Date());
             gtag('config', 'G-95KDY0HY4C');
           </script>
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js">
+          </script>
 
     include-after-body:
     - text: |
@@ -121,4 +127,5 @@ freeze: true
   
 editor: source
 
-
+ 
+ 

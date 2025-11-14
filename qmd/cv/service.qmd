@@ -1,0 +1,87 @@
+:::{.box}
+
+<u>Peer Review Journal Activity</u>
+<div style="margin-left: 30px;">
+<div style="display: flex; align-items: center;">
+  <div><a href="https://academic.oup.com/ee" target="_blank" style="text-decoration: none;">Journal of Environmental Entomology</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2024 - present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://academic.oup.com/etc" target="_blank" style="text-decoration: none;">Journal of Environmental Toxicology and Chemistry</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025 - present</div>
+</div>
+</div>
+
+<br>
+
+<u>Society Memberships</u>
+<div style="margin-left: 30px;">
+<div style="display: flex; align-items: center;">
+  <div><a href="" target="_blank" style="text-decoration: none;">Montana State University Graduate Employee Organization (LRES Steward)</a>
+  </div>
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2025 - present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://landresources.montana.edu/gso/" target="_blank" style="text-decoration: none;">LRES Graduate Student Organization (Co-chair)</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022 - present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://landresources.montana.edu/gso/" target="_blank" style="text-decoration: none;">LRES Graduate Student Organization (Treasurer)</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - 2022</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://entsoc.org" target="_blank" style="text-decoration: none;">Entomological Society of America</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://mgga.org" target="_blank" style="text-decoration: none;">Montana Grain Growers Association</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2022 - present</div>
+</div>
+</div>
+<br>
+
+<u>Active Community Volunteer</u>
+<div style="margin-left: 30px;">
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.southwestmontanamba.org" target="_blank" style="text-decoration: none;">Southwest Montana Mountain Bike Association</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://www.gallatinwatershedcouncil.org" target="_blank" style="text-decoration: none;">Gallatin Watershed Council</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - present</div>
+</div>
+<div style="display: flex; align-items: center;">
+  <div><a href="https://gvlt.org" target="_blank" style="text-decoration: none;">Gallatin Valley Land Trust</a>
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2021 - present</div>
+</div>  
+</div>
+<div style="margin-top: 0.5em;"></div>
+:::

@@ -1,0 +1,26 @@
+
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules: --*/
+
+.carousel {
+  width: 600px;        /* Set desired width */
+  margin: 0 auto;      /* Center the carousel */
+  background: #f5f5f5;
+}
+/* Set a fixed height for the carousel */
+.carousel-cell {
+  height: 450px;              /* ← adjust this to what you want */
+  display: flex;              /* enables centering */
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+  overflow: hidden;           /* hides excess image */
+}
+
+/* Make images scale but stay centered */
+.carousel-cell img {
+  max-height: 100%;           /* prevent images from overflowing vertically */
+  width: auto;                /* keep aspect ratio */
+  max-width: 100%;            /* ensure they don't overflow horizontally */
+}

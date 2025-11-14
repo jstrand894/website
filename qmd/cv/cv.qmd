@@ -1,0 +1,66 @@
+---
+title: ""
+format:   
+  html:    
+    toc: true 
+    lazy-load: true
+  pdf:
+    toc: false
+    number-sections: false
+    keep-tex: true
+    includes:
+      in-header: cv_format.tex
+      include-before-body: null
+---
+ 
+<em>Last Updated: Nov 11, 2025</em>
+
+ tried new code 
+<a class="btn-purple" href="yourfile.pdf" target="_blank" role="button">
+  Download PDF Version
+</a>
+      
+## Education
+
+{{< include "education.qmd" >}}
+
+      
+## Publications
+<a class="btn-purple" href="/qmd/publications/publications.qmd" role="button">
+  <span>Check out my&nbsp;<strong>Publications</strong>&nbsp;page</span>
+</a>    
+
+{{< include "publications.qmd" >}}
+
+
+## Honors & Awards
+
+{{< include "awards.qmd" >}}
+
+   
+## Seminars & Presentations 
+<a class="btn-purple" href="/qmd/presentations/presentations.qmd" role="button">
+  <span>Check out my&nbsp;<strong>Talks & Presentations</strong>&nbsp;page</span>
+</a>   
+
+{{< include "presentations.qmd" >}}
+
+
+## Teaching
+    
+{{< include "teaching.qmd" >}}
+
+
+## Service 
+
+{{< include "service.qmd" >}}
+
+   
+## Co-Hosted Events 
+
+{{< include "events.qmd" >}}
+
+
+## Employment History 
+
+{{< include "employment.qmd" >}}
