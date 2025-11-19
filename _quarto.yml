@@ -15,7 +15,7 @@ website:
     pinned: true 
     # search: true
     logo: img/aboutme/logo.png
-    title: "Jackson R. Strand"
+    title: "Home"
     left:
       - text: 'CV'
         file: qmd/cv/cv.qmd
@@ -67,6 +67,7 @@ website:
 
 format:  
   html:
+    mainfont: "Lusitana"
     toc: true
     toc-depth: 3
     smooth-scroll: true
@@ -88,6 +89,10 @@ format:
       body-width: 1000px
       margin-width: 200px
     include-in-header:  
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
       - text: |
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
       - text: |

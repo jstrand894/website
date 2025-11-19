@@ -1,5 +1,6 @@
-
 /*-- scss:rules --*/
+
+/* Hover-section legacy (optional, can keep if needed) */
 .hover-section .hover-content {
   display: none;
   transition: opacity 0.9s ease;
@@ -9,38 +10,46 @@
   display: block;
 }
 
-/* Start hidden */
+/* --- HOVER-REVEAL SECTIONS --- */
+
+/* Start visible by default */
 .hover-reveal {
-  max-height: 0;
-  opacity: 0;
+  max-height: 2000px; /* large enough to fit any section */
+  opacity: 1;
+  overflow: visible;
+  transition:
+    max-height 0.9s ease,
+    opacity 0.9s ease;
+}
+
+/* Hover behavior (optional) */
+h2:hover + .hover-reveal,
+.hover-reveal:hover {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+/* --- TOGGLE SWITCH: MINIMIZE SECTIONS --- */
+
+/* When toggle is checked, collapse sections */
+body.minimize .hover-reveal {
+  max-height: 0 !important;
+  opacity: 0 !important;
   overflow: hidden;
   transition:
     max-height 0.9s ease,
     opacity 0.9s ease;
 }
 
-/* Reveal when hovering over the header OR the content area */
-h2:hover + .hover-reveal,
-.hover-reveal:hover {
-  max-height: 2000px; /* large enough to fit any section */
-  opacity: 1;
+/* Prevent hover from overriding minimized state */
+body.minimize h2:hover + .hover-reveal,
+body.minimize .hover-reveal:hover {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden;
 }
 
-/* --- TOGGLE SWITCH OVERRIDE: SHOW EVERYTHING --- */
-
-body.show-all .hover-reveal {
-  max-height: 2000px !important;
-  opacity: 1 !important;
-  overflow: visible;
-}
-
-body.show-all h2:hover + .hover-reveal {
-  /* Turn off hover behavior when showing all */
-  max-height: 2000px !important;
-  opacity: 1 !important;
-}
-
-/* --- Fancy iOS-style toggle switch --- */
+/* --- iOS-STYLE TOGGLE SWITCH --- */
 
 .switch-wrapper {
   display: flex;
@@ -76,7 +85,7 @@ body.show-all h2:hover + .hover-reveal {
   box-shadow: 0 1px 4px rgba(0,0,0,0.25);
 }
 
-/* When toggled ON */
+/* When toggled ON (minimize) */
 .switch-input:checked + .switch-slider {
   background-color: #4cd964; /* iOS green */
 }

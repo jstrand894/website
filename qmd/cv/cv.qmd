@@ -20,19 +20,26 @@ format:
 <label class="switch-wrapper">
   <input type="checkbox" id="toggle-reveal" class="switch-input">
   <span class="switch-slider"></span>
-  <span class="switch-label">Show all sections</span>
-</label>
+  <span class="switch-label">Collapse sections</span>
+</label>  
 
 <em style="font-size: 0.8em;">Last Updated: Nov 12, 2025</em>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const checkbox = document.getElementById("toggle-reveal");
+
+  // Make sure all sections are visible by default
+  document.body.classList.remove("minimize");
+
   checkbox.addEventListener("change", function() {
-    document.body.classList.toggle("show-all", checkbox.checked);
+    if (checkbox.checked) {
+      document.body.classList.add("minimize"); // minimize sections
+    } else {
+      document.body.classList.remove("minimize"); // show all sections
+    }
   });
 });
-</script>
 </script>
 <!-- <a class="btn-purple" href="yourfile.pdf" target="_blank" role="button">
   Download PDF Version
