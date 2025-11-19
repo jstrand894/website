@@ -1,0 +1,57 @@
+---
+title: "Montana Wheat and Barley Committee Social Media Posts - Wheat Stem Sawfly IPM"
+date: 2025-11-13
+description: "I co-wrote, and occasionally took the photgraphs, for these Montana Wheat and Barley Committee post about WSS and associated insects"
+image: "images/mwbc_logo.png"
+image_alt: "Montana Wheat and Barley Committee"
+categories: ["Facebook", "MWBC"]
+# pinned: true
+---
+
+<style>
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 1.25rem;
+  padding: 1rem 0;
+}
+
+.social-frame {
+  width: 100%;
+  min-height: 700px; /* baseline height */
+  border: none;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  background: #f7f7f7;
+}
+</style>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0">
+</script>
+
+<div class="social-grid">
+
+  <iframe class="social-frame"
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid025jZqYUrau3mGBfbeEt1sH9DAbKXDoSEEV1Cf7zjNtEDwXBBBcVwXxof7mHZGxwVJl&show_text=true&width=500">
+  </iframe>
+
+  <iframe class="social-frame"
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid02grzPiDYvioMCcdp4XNexB7Gy7zKgfEidRCtmPvVkMG3u2dbhkLndhraYjcDmGgXsl&show_text=true&width=500">
+  </iframe>
+
+  <iframe class="social-frame"
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid0ijSJJguJ2SNtPYahSMeK9zc8MUqHtnJZgdGB3rnuJTJeLyJR1m6m4MaiemQvpJgwl&show_text=true&width=500">
+  </iframe>
+
+  <iframe class="social-frame"
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid02L6wzHobfT3dv8r6eyCv3xh5THmucTjiQfmLEMe18HWpsAJWRVah8sHKmC53T13x5l&show_text=true&width=500">
+  </iframe>
+
+  <iframe class="social-frame"
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMTwheatbarley%2Fposts%2Fpfbid026FAQHQPWVEMT1ToF2ycxCVh3VDfGz5nhWsWk97bDrULXjzzzAoSBR4rzjGMeMvdBl&show_text=true&width=500">
+  </iframe>
+
+</div>
