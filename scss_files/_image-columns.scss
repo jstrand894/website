@@ -5,14 +5,11 @@ $overlay-dur: 0.5s;     // overlay show/hide duration
 
 /*-- scss:rules --*/
 
-/* Animate hover zoom on images inside .column
-   - more rounded corners
-   - slower, smoother transition
-   - use will-change for better GPU handling */
 .columns {
-  display: flex;        // keep columns in a row
-  flex-wrap: wrap;      // allow wrapping on small screens
-  align-items: center;  // vertically center all columns in the row
+  display: flex;        
+  flex-wrap: wrap;      
+  align-items: center; 
+  justify-content: center;
 }
 
 .columns .column {
@@ -29,7 +26,7 @@ $overlay-dur: 0.5s;     // overlay show/hide duration
   max-width: 100%;
   height: auto;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* subtle default lift */
-  cursor: pointer; /* indicates clickable / lightbox */
+  cursor: pointer; 
   outline: none;
 }
 

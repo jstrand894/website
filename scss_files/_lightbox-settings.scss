@@ -1,0 +1,12 @@
+/* Default variables and settings */
+$img-radius: 12px;
+$img-hover-dur: 0.3s;
+$overlay-dur: 0.5s;
+
+/*-- scss:rules --*/
+.image-fluid {
+  border-radius: 12px !important;     // example: round the corners
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); // example: shadow
+  max-width: 100%;        // ensure responsive scaling
+  transition: transform 0.3s ease-in-out; // example: hover effect
+}

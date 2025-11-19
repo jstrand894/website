@@ -28,9 +28,19 @@ about:
       text: ResearchGate
       href: https://www.researchgate.net/profile/Jackson-Strand
       target: "_blank"
- 
+
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - gallery/*.jpg
+  sort-ui: false
+  filter-ui: false
+  categories: false
+
 freeze: true  
 toc: true   
+lightbox: true  
 ---                    
 ::: {#about-block} 
 <span style="font-size: 42px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
@@ -38,48 +48,14 @@ Welcome! I am a PhD student in Ecology & Environmental Sciences at Montana State
 
 On this site you can find my [CV](#education), summaries of current and past [research projects](qmd/research/research.qmd), [media resources](qmd/media/media.qmd), [field notes](qmd/projects/field_notes/fieldjournal.qmd) from my current PhD work, and a collection of [tools and guides](qmd/helpful/helpful.qmd) I have accumulated for students and collaborators.
 
-<img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;">**M.S. Entomology**, Montana State University  
-<img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;">**B.S. Biology**, University of Minnesota
    
 <!-- <br>   
 <br> 
 <br>  
 <br>                            -->
 :::     
-<br>
 
-<div class="carousel" data-flickity='{
-  "autoPlay": 5000, 
-  "wrapAround": true, 
-  "pageDots": true, 
-  "pauseAutoPlayOnHover": true,
-  "friction": 0.3}'>
-<div class="carousel-cell">
-  <img src="images2/anterrini.jpg" alt="Rhinusa anterrini" style="width:100%;">
-  <!-- <div class="caption">Wheat stem sawfly</div> -->
-</div>
-<div class="carousel-cell">
-  <img src="images2/big sandy drone.jpg" alt="Big Sandy, MT" style="width:100%">
-</div>
-<div class="carousel-cell">
-  <img src="images2/crazysummit.jpg" alt="Crazy Mountain 100" style="width:100%">
-</div>
-<div class="carousel-cell">
-  <img src="images2/mecinus.jpg" alt="Mecinus janthinus" style="width:100%">
-</div>
-<div class="carousel-cell">
-  <img src="images2/pilosa.jpg" alt="Rhinusa pilosa" style="width:100%">
-</div>
-<div class="carousel-cell">
-  <img src="images2/wss.jpg" alt="wheat stem sawfly" style="width:100%">
-</div>
-<div class="carousel-cell">
-  <img src="images2/bombus.jpg" alt="bombus" style="width:100%">
-</div>
-</div> 
-  
-
+<hr>
+ 
    
-
-
 

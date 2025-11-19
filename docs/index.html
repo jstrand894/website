@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./img/aboutme/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -38,7 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0ee65ccf5e6c0894e8d4ef60b3738749.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7ab79a9d98a186cef0d54fe23eaabece.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-gallery .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-gallery'] = new List('listing-listing-gallery', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
@@ -81,6 +115,35 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js">
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="scss_files/_box.scss">
@@ -209,8 +272,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><div id="about-block">
 <p><span style="font-size: 42px; font-family: 'Georgia', sans-serif;"><strong>Jackson R. Strand</strong></span><br> Welcome! I am a PhD student in Ecology &amp; Environmental Sciences at Montana State University with research interests in applied entomology, invasive species management, and sustainable ecosystem restoration. My work broadly examines plant–insect interactions and the role of biological control in integrated pest management, with the goal of developing strategies that support resilient landscapes and long-term conservation outcomes.</p>
 <p>On this site you can find my <a href="#education">CV</a>, summaries of current and past <a href="./qmd/research/research.html">research projects</a>, <a href="./qmd/media/media.html">media resources</a>, <a href="./qmd/projects/field_notes/fieldjournal.html">field notes</a> from my current PhD work, and a collection of <a href="./qmd/helpful/helpful.html">tools and guides</a> I have accumulated for students and collaborators.</p>
-<p><img src="qmd/logos/msu2.png" alt="Montana State University logo" style="width: 50px; height: auto; margin-right: 10px;"><strong>M.S. Entomology</strong>, Montana State University<br>
-<img src="qmd/logos/umn.png" alt="University of Minnesota logo" style="width: 50px; height: auto; margin-right: 10px;"><strong>B.S. Biology</strong>, University of Minnesota</p>
 <!-- <br>   
 <br> 
 <br>  
@@ -218,40 +279,69 @@ ul.task-list li input[type="checkbox"] {
 </div></div>
 </div>
 
-<p><br></p>
-<div class="carousel" data-flickity="{
-  &quot;autoPlay&quot;: 5000, 
-  &quot;wrapAround&quot;: true, 
-  &quot;pageDots&quot;: true, 
-  &quot;pauseAutoPlayOnHover&quot;: true,
-  &quot;friction&quot;: 0.3}">
-<div class="carousel-cell">
-<p><img src="images2/anterrini.jpg" alt="Rhinusa anterrini" style="width:100%;"> <!-- <div class="caption">Wheat stem sawfly</div> --></p>
-</div>
-<div class="carousel-cell">
-<p><img src="images2/big sandy drone.jpg" alt="Big Sandy, MT" style="width:100%"></p>
-</div>
-<div class="carousel-cell">
-<p><img src="images2/crazysummit.jpg" alt="Crazy Mountain 100" style="width:100%"></p>
-</div>
-<div class="carousel-cell">
-<p><img src="images2/mecinus.jpg" alt="Mecinus janthinus" style="width:100%"></p>
-</div>
-<div class="carousel-cell">
-<p><img src="images2/pilosa.jpg" alt="Rhinusa pilosa" style="width:100%"></p>
-</div>
-<div class="carousel-cell">
-<p><img src="images2/wss.jpg" alt="wheat stem sawfly" style="width:100%"></p>
-</div>
-<div class="carousel-cell">
-<p><img src="images2/bombus.jpg" alt="bombus" style="width:100%"></p>
-</div>
-</div>
+<hr>
 
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing-gallery">
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href="./gallery/hunters_gulch.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/hunters_gulch.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/anterrini.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/anterrini.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/crazysummit.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/crazysummit.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/copper_creek.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/copper_creek.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/mecinus.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/mecinus.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/bombus.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/bombus.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/big sandy drone.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/big sandy drone.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/pilosa.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/pilosa.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/wss.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/wss.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="./gallery/volatiles.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="./gallery/volatiles.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
@@ -667,6 +757,38 @@ ul.task-list li input[type="checkbox"] {
     },
   });
 </script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

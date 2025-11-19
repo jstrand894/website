@@ -2,8 +2,11 @@
 // Default variables and settings can go here
 
 /*-- scss:rules --*/
+
 #about-block {
-    // background-color: blue; /* Replace with your desired color */
+  max-width: 90%;     // increase from default (often 600-800px)
+  margin-left: auto;
+  margin-right: auto;  // keeps it centered
 }
 
 
