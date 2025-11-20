@@ -7,18 +7,23 @@
   margin: 0 auto;
 }
 .grid-item {
-  width: 150px;
-  margin: 0 0.5rem 0.5rem 0;
-  display: inline-block;
   width: 100%;
   border-radius: 5px;
+  overflow: hidden;      /* Clip the image to the rounded corners */
+  display: inline-block;
+  will-change: transform; /* Hint to GPU to optimize transforms */
 }
+
 img.grid-item {
   width: 100%;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  display: block;
+  backface-visibility: hidden; /* Helps with anti-aliasing during transform */
+  transform-style: preserve-3d; /* Force 3D context */
 }
+
 img.grid-item:hover {
-  transform: scale(1.025);
+  transform: scale3d(1.025, 1.025, 1); /* 3D scaling avoids glitchy edges */
 }
 </style>
 ```

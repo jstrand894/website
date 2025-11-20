@@ -1,20 +1,73 @@
 /*-- scss:defaults --*/
-// Default variables and settings can go here
+// Add default variables here if needed.
+
+
 
 /*-- scss:rules --*/
 
+
+/* ===========================
+   ABOUT BLOCK (Styling + Layout)
+   =========================== */
+
 #about-block {
-  max-width: 90%;     // increase from default (often 600-800px)
+  background-size: 100% auto;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  padding: 0.5rem 2rem 2rem 2rem;
+  border-radius: 18px;
+  color: black;
+  position: relative;
+  z-index: 1;
+  filter: grayscale(0%);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+
+  max-width: 90%;          // center and widen the block
   margin-left: auto;
-  margin-right: auto;  // keeps it centered
+  margin-right: auto;
+}
+
+#about-block::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 18px;
 }
 
 
+/* ===========================
+   ABOUT CONTENT PADDING (INSIDE the box)
+   =========================== */
+
+.quarto-about-trestles .about-contents .about-block {
+  padding: 2rem;     /* adjust internal padding here */
+}
+
+
+/* ===========================
+   ABOUT IMAGE OVERRIDES
+   =========================== */
+
+.quarto-about-trestles .about-image {
+  height: auto;
+  border-radius: 18px !important;  
+  // box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+
+
+
 /*-- scss:mixins --*/
-// Mixins can go here
+// Add mixins here.
+
+
 
 /*-- scss:functions --*/
-// Functions can go here
+// Add functions here.
+
+
 
 /*-- scss:uses --*/
-// Imports and uses can go here
+// Add imports here.

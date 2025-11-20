@@ -23,12 +23,12 @@ about:
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=_szV1hYAAAAJ&hl=en
-      target: "_blank"
+      target: "_blank"  
     - icon: book
       text: ResearchGate
       href: https://www.researchgate.net/profile/Jackson-Strand
       target: "_blank"
-
+        
 listing:
   id: listing-gallery
   template: gallery.ejs
@@ -38,17 +38,15 @@ listing:
   filter-ui: false
   categories: false
 
-freeze: true  
+freeze: true   
 toc: true   
 lightbox: true  
----                    
-::: {#about-block} 
+---                           
+::: {#about-block}     
 <span style="font-size: 42px; font-family: 'Georgia', sans-serif;">**Jackson R. Strand**</span><br>
 Welcome! I am a PhD student in Ecology & Environmental Sciences at Montana State University with research interests in applied entomology, invasive species management, and sustainable ecosystem restoration. My work broadly examines plant–insect interactions and the role of biological control in integrated pest management, with the goal of developing strategies that support resilient landscapes and long-term conservation outcomes.  
 
-On this site you can find my [CV](#education), summaries of current and past [research projects](qmd/research/research.qmd), [media resources](qmd/media/media.qmd), [field notes](qmd/projects/field_notes/fieldjournal.qmd) from my current PhD work, and a collection of [tools and guides](qmd/helpful/helpful.qmd) I have accumulated for students and collaborators.
-
-   
+On this site you can find my [CV](#education), summaries of current and past [research projects](qmd/research/research.qmd), [media resources](qmd/media/media.qmd), [field notes](qmd/projects/field_notes/fieldjournal.qmd) from my current PhD work, and a collection of [tools and guides](qmd/helpful/helpful.qmd) I have accumulated for students and collaborators.   
 <!-- <br>   
 <br> 
 <br>  

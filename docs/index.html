@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c350b3fa3f7d320e2d480a5d55ab9193.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3ecb6282fbb5c781b10c97d70dc675f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&amp;family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Noto+Serif:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 <!-- Google tag (gtag.js) -->
@@ -274,11 +274,11 @@ window.Quarto = {
   </div>
   <div class="about-contents"><div id="about-block">
 <p><span style="font-size: 42px; font-family: 'Georgia', sans-serif;"><strong>Jackson R. Strand</strong></span><br> Welcome! I am a PhD student in Ecology &amp; Environmental Sciences at Montana State University with research interests in applied entomology, invasive species management, and sustainable ecosystem restoration. My work broadly examines plant–insect interactions and the role of biological control in integrated pest management, with the goal of developing strategies that support resilient landscapes and long-term conservation outcomes.</p>
-<p>On this site you can find my <a href="#education">CV</a>, summaries of current and past <a href="./qmd/research/research.html">research projects</a>, <a href="./qmd/media/media.html">media resources</a>, <a href="./qmd/projects/field_notes/fieldjournal.html">field notes</a> from my current PhD work, and a collection of <a href="./qmd/helpful/helpful.html">tools and guides</a> I have accumulated for students and collaborators.</p>
+<p>On this site you can find my <a href="#education">CV</a>, summaries of current and past <a href="./qmd/research/research.html">research projects</a>, <a href="./qmd/media/media.html">media resources</a>, <a href="./qmd/projects/field_notes/fieldjournal.html">field notes</a> from my current PhD work, and a collection of <a href="./qmd/helpful/helpful.html">tools and guides</a> I have accumulated for students and collaborators.<br>
 <!-- <br>   
 <br> 
 <br>  
-<br>                            -->
+<br>                            --></p>
 </div></div>
 </div>
 
@@ -297,18 +297,23 @@ window.Quarto = {
   margin: 0 auto;
 }
 .grid-item {
-  width: 150px;
-  margin: 0 0.5rem 0.5rem 0;
-  display: inline-block;
   width: 100%;
   border-radius: 5px;
+  overflow: hidden;      /* Clip the image to the rounded corners */
+  display: inline-block;
+  will-change: transform; /* Hint to GPU to optimize transforms */
 }
+
 img.grid-item {
   width: 100%;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  display: block;
+  backface-visibility: hidden; /* Helps with anti-aliasing during transform */
+  transform-style: preserve-3d; /* Force 3D context */
 }
+
 img.grid-item:hover {
-  transform: scale(1.025);
+  transform: scale3d(1.025, 1.025, 1); /* 3D scaling avoids glitchy edges */
 }
 </style>
 <div class="grid-gallery">
