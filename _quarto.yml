@@ -35,6 +35,8 @@ website:
           file: qmd/projects/LRES_GSO/LRES_GSO.qmd
         - text: "Basketball Roster Analysis Tool"
           file: qmd/projects/bball_tool/bball_tool.qmd
+      - text: "Teaching Philosophy"
+        file: qmd/teaching_phil/teaching_phil.qmd
       - text: "In the Media" 
         file: qmd/media/media.qmd
       - text: "Helpful Resources"
