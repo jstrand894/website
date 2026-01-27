@@ -1,5 +1,6 @@
 ---
 title: "Teaching Philosophy"
+# page-layout: full
 format:   
   html:    
     toc: false 
@@ -21,7 +22,8 @@ Active engagement helps students move beyond memorization toward synthesis and a
 
 :::{.box}  
 
-**Student led course discussion presentations from AGSC401: Integrated Pest Management - Fall 2025 at Montana State University.**
+**Student led course discussion presentations from AGSC401: Integrated Pest Management - Fall 2025 at Montana State University.**  
+Due to the increasing use of artificial intelligence and the asynchronous online format of the course, I altered the format to require the rotating weekly leader of each student group to create a brief, five-minute recorded presentation. These presentations tasked students with teaching their group-mates key concepts from the week’s material and were designed to promote discussion, and peer-to-peer learning.
 
 :::{.columns}
 
