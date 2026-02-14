@@ -22,12 +22,11 @@ Active engagement helps students move beyond memorization toward synthesis and a
 
 :::{.box}  
 
-**Student led course discussion presentations from AGSC401: Integrated Pest Management - Fall 2025 at Montana State University.**  
-<<<<<<< HEAD
+**Student led course discussion presentations from AGSC401: Integrated Pest Management**  
+`Fall 2025 at Montana State University`    
+This upper level course was structured around weekly readings and instructor provided discussion prompts. Students were assigned to small, consistent groups of five to six and were expected to engage with the material through structured discussion each week. In prior iterations of the course, the designated weekly discussion leader responded to the prompt with a written post, and other group members contributed by replying in text based discussion threads.
+
 Due to the increasing use of artificial intelligence and the asynchronous online format of the course, I altered the format to require the rotating weekly leader of each student group to create a brief, five-minute recorded presentation. These presentations tasked students with teaching their group-mates key concepts from the week’s material and were designed to promote discussion, and peer-to-peer learning.
-=======
-Due to the increasing use of artificial intelligence and the asynchronous online format of the course, I altered the format to require the rotating weekly leader of each student group to create a brief, five-minute recorded presentation. These presentations tasked students with teaching their group-mates key concepts from the week’s material and were designed to promote discussion,and peer-to-peer learning.
->>>>>>> origin/main
 
 :::{.columns}
 

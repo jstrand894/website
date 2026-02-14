@@ -1,6 +1,12 @@
 :::{.box}
-Contributed presentations at scientific meetings  
+<u>Invited presentations at scientific meetings</u>  
+<ol reversed>
+    <li style="margin-bottom: 1em;">
+        <u>Strand JR</u>. 2026. From Release to Persistence: How exclosures may enhance biocontrol success. Montana Weed Control Association Conference. Billings, MT. 
+    </li>
+</ol>
 
+<u>Contributed presentations at scientific meetings</u>  
 <ol reversed>
     <li style="margin-bottom: 1em;">
         SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Understanding Host Preference in <i>Mecinus janthinus</i> and <i>M. janthiniformis</i>: Implications of Hybridization for Effective Biological Control. National Forum on Biological Control Conference. Annapolis, MD. 
@@ -37,8 +43,7 @@ Contributed presentations at scientific meetings
     </li>
 </ol>
 
-Invited Guest Lectures
-
+<u>Invited seminars</u>  
 <ol reversed>
     <li style="margin-bottom: 1em;">
         <u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Montana State University. Instructor: Will Wetzel. March 2025.
@@ -51,8 +56,7 @@ Invited Guest Lectures
     </li>
 </ol>
 
-Workshops  
-
+<u>Workshops</u>  
 <ol reversed>
     <li style="margin-bottom: 1em;">
         Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop, "MSU Extension IPM Workshop: Diagnosing Plant Health Problems" Montana State University, Bozeman, MT.
