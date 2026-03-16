@@ -1,0 +1,179 @@
+```{=html}
+<style type="text/css">
+/* Masonry grid layout */
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.15s ease;
+  transform-origin: center center;
+  will-change: transform, box-shadow;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+/* Lightbox overlay */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  z-index: 1000;
+  padding: 1rem;
+  cursor: zoom-out;
+}
+
+.lightbox-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+  transform: scale(0.9);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.lightbox-overlay.active img {
+  transform: scale(1);
+}
+
+/* Close button */
+.lightbox-overlay .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+}
+
+.lightbox-overlay .close-btn:focus {
+  outline: 2px solid rgba(255,255,255,0.6);
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .grid-item {
+    border-radius: 8px;
+  }
+  .lightbox-overlay img {
+    max-width: 96%;
+    max-height: 96%;
+  }
+}
+</style>
+```
+
+::: {.grid-gallery}
+<% for (const item of items) { %>
+::: {}
+![](<%=item.path %>){.grid-item loading="lazy"}
+:::
+<% } %>
+:::
+
+```{=html}
+<script>
+// Run when DOM is ready
+document.addEventListener("DOMContentLoaded", function () {
+  // Create the overlay container
+  const overlay = document.createElement("div");
+  overlay.className = "lightbox-overlay";
+  
+  // Enlarged image element
+  const overlayImg = document.createElement("img");
+  overlay.appendChild(overlayImg);
+  
+  // Close button for accessibility
+  const closeBtn = document.createElement("button");
+  closeBtn.className = "close-btn";
+  closeBtn.innerHTML = "×";
+  closeBtn.setAttribute("aria-label", "Close lightbox");
+  overlay.appendChild(closeBtn);
+  
+  // Add overlay to the page
+  document.body.appendChild(overlay);
+  
+  // Function to close overlay
+  function closeLightbox() {
+    overlay.classList.remove("active");
+    setTimeout(() => {
+      overlayImg.src = "";
+    }, 500);
+  }
+  
+  // Close on overlay click
+  overlay.addEventListener("click", function(e) {
+    if (e.target === overlay || e.target === overlayImg) {
+      closeLightbox();
+    }
+  });
+  
+  // Close on button click
+  closeBtn.addEventListener("click", closeLightbox);
+  
+  // Close on Escape key
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape" && overlay.classList.contains("active")) {
+      closeLightbox();
+    }
+  });
+  
+  // Select all grid-item images
+  const images = document.querySelectorAll("img.grid-item");
+  
+  // Add click listeners to thumbnails
+  images.forEach(img => {
+    img.addEventListener("click", function() {
+      overlayImg.src = img.src;
+      overlay.classList.add("active");
+    });
+    
+    // Make images keyboard accessible
+    img.setAttribute("tabindex", "0");
+    img.setAttribute("role", "button");
+    img.setAttribute("aria-label", "Click to enlarge image");
+    
+    // Handle Enter/Space key press
+    img.addEventListener("keydown", function(e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        overlayImg.src = img.src;
+        overlay.classList.add("active");
+      }
+    });
+  });
+});
+</script>
+```

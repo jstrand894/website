@@ -39,6 +39,12 @@ website:
         file: qmd/teaching_phil/teaching_phil.qmd
       - text: "In the Media" 
         file: qmd/media/media.qmd
+      - text: "Pictures"
+        menu:
+        - text: "Insects"
+          file: qmd/pictures/insects/insects.qmd
+        - text: "Photography website"
+          url: "https://jacksonstrandphoto.myportfolio.com"
       - text: "Helpful Resources"
         file: qmd/helpful/helpful.qmd 
       # - text: 'Photography <i class="fas fa-arrow-up-right-from-square" style="font-size:0.8em;"></i>'

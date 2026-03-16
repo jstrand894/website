@@ -1,0 +1,81 @@
+```{=html}
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+
+</style>
+```
+
+::: {.grid-gallery}
+<% for (const item of items) { %>
+::: {}
+![](<%= item.path %>){.grid-item .lightbox loading="lazy" group="quarto-grid-gallery"}
+:::
+<% } %>
+:::
+
+<script>
+// Run when DOM is ready
+document.addEventListener("DOMContentLoaded", function () {
+  // Select all images marked for lightbox
+  const images = document.querySelectorAll("img.lightbox");
+
+  // Create the overlay container
+  const overlay = document.createElement("div");
+  overlay.style.position = "fixed";
+  overlay.style.top = "0";
+  overlay.style.left = "0";
+  overlay.style.width = "100vw";
+  overlay.style.height = "100vh";
+  overlay.style.background = "rgba(0,0,0,0.8)";
+  overlay.style.display = "none";
+  overlay.style.justifyContent = "center";
+  overlay.style.alignItems = "center";
+  overlay.style.zIndex = "9999";
+  overlay.style.cursor = "zoom-out";
+
+  // Enlarged image element
+  const overlayImg = document.createElement("img");
+  overlayImg.style.maxWidth = "90%";
+  overlayImg.style.maxHeight = "90%";
+  overlayImg.style.borderRadius = "8px";
+  overlayImg.style.boxShadow = "0 0 20px rgba(0,0,0,0.6)";
+  overlay.appendChild(overlayImg);
+
+  // Close on click
+  overlay.addEventListener("click", () => {
+    overlay.style.display = "none";
+    overlayImg.src = "";
+  });
+
+  // Add overlay to the page
+  document.body.appendChild(overlay);
+
+  // Add click listeners to thumbnails
+  images.forEach(img => {
+    img.style.cursor = "zoom-in";
+    img.addEventListener("click", () => {
+      overlayImg.src = img.src;
+      overlay.style.display = "flex";
+    });
+  });
+});
+</script>

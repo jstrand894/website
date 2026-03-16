@@ -17,13 +17,13 @@ format:
   <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Downloadable CV
 </a>
 
-<label class="switch-wrapper">
+<!-- <label class="switch-wrapper">
   <input type="checkbox" id="toggle-reveal" class="switch-input">
   <span class="switch-slider"></span>
   <span class="switch-label">Collapse sections</span>
-</label>  
+</label>   -->
 
-<em style="font-size: 0.8em;">Last Updated: Nov 12, 2025</em>
+<em style="font-size: 0.8em;">Last Updated: March 15, 2026</em>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {

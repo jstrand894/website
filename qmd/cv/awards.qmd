@@ -1,7 +1,8 @@
 :::{.box}
+<!-- To add a gold star marker next to an award title, wrap the text in: <span class="award-text">Award Name</span> -->
 <!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
 <div style="display: flex; align-items: center;">
-  <div><strong><span class="award-text">Extreme Biofilms NRT Program SEED Grant</span></strong></a> ($1,500)
+  <div><strong>Extreme Biofilms NRT Program SEED Grant</strong></a> ($1,500)
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -58,7 +59,7 @@
 
 <div style="display: flex; align-items: center;">
   <div><strong>
-    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank" class="award-text">Graduate Land Grant Excellence Award</a></strong>
+    <a href="https://www.montana.edu/gradschool/excellence_awards.html" target="_blank">Graduate Land Grant Excellence Award</a></strong>
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -88,7 +89,7 @@
 
 <div style="display: flex; align-items: center;">
   <div><strong>
-      <a href="https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023" target="_blank" class="award-text">President's Prize - 2nd Place Speaker</a>
+      <a href="https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023" target="_blank">President's Prize - 2nd Place Speaker</a>
   </strong></div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2023</div>
@@ -116,7 +117,7 @@
   
 <div style="display: flex; align-items: center;">
   <div><strong>
-      <a href="https://www.mgga.org/grainsfoundation/" target="_blank" class="award-text">Montana Grains Foundation Scholarship</strong></a> ($2,500)</div>
+      <a href="https://www.mgga.org/grainsfoundation/" target="_blank">Montana Grains Foundation Scholarship</strong></a> ($2,500)</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2022</div>
 </div>
