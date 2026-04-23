@@ -1,6 +1,20 @@
 :::{.box}
 <!-- To add a gold star marker next to an award title, wrap the text in: <span class="award-text">Award Name</span> -->
-<!-- Angus and Anne McMiillan Family Agriculture Scholarship -->
+
+<!-- Lloyd A. Anstutz Agricultural Studies Scholarship -->
+<div style="display: flex; align-items: center;">
+  <div><a href="https://montana.academicworks.com/opportunities/29722" target="_blank">Lloyd A. Anstutz Agricultural Studies Scholarship</a> ($950)
+  </div>
+  <!-- This div creates the line between text and year -->
+  <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
+  <div>2026</div>
+</div>
+<div style="padding-right: 30px;">
+- Montana State University
+</a>
+</div>
+
+<!-- Extreme Biofilms NRT Program SEED Grant -->
 <div style="display: flex; align-items: center;">
   <div><strong>Extreme Biofilms NRT Program SEED Grant</strong></a> ($1,500)
   </div>

@@ -1,0 +1,35 @@
+---
+page-layout: full
+title: "2025"
+search: false
+sitemap: false
+format:
+  html:
+    toc: false
+    css: ../../../scss_files/timeline.css
+---
+
+
+
+
+```{=html}
+<nav class='year-switcher'>
+  <a href='../2025/2025year.html' class='year-pill active'>2025</a>
+  <a href='../2026/2026year.html' class='year-pill'>2026</a>
+</nav>
+
+<section class='timeline'>
+
+  <article>
+    <span class='timeline__month'>July</span>
+
+    <div class='timeline__event'>
+      <h3>Crazy Mountain 100</h3>
+      <p>Jackson ran the Crazy Mountain 100 — a 100-mile ultramarathon through the Crazy Mountains of Montana. Grace paced him from miles 40–63, friend Jared took over from 63–93, and then Grace and Jared brought him home together from mile 93 to the finish.</p>
+      <p>📸 Full photo gallery: <a href='https://jacksonstrandphoto.myportfolio.com/cm100-2025' target='_blank'>jacksonstrandphoto.myportfolio.com/cm100-2025</a></p>
+    </div>
+
+  </article>
+
+</section>
+```
