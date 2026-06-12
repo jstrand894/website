@@ -74,7 +74,7 @@
     "href": "qmd/cv/cv.html#publications",
     "title": "Jackson Strand",
     "section": "Publications",
-    "text": "Publications\n\n Check out my Publications page \n\n\n\nPeterson RKD, Kennedy TE, Strand JR. 2026. Risk Determination for Non-Target Arthropods from Outdoor Space Applications of Mosquito Adulticides. Journal of Medican Entomology. in review\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
+    "text": "Publications\n\n Check out my Publications page \n\n\n\nPeterson RKD, Kennedy TE, Strand JR. 2026. Risk Determination for Non-Target Arthropods from Outdoor Space Applications of Mosquito Adulticides. Journal of Medican Entomology. 63(3). DOI: 10.1093/jme/tjag090\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
   },
   {
     "objectID": "qmd/cv/cv.html#honors-awards",
@@ -123,7 +123,7 @@
     "href": "qmd/cv/publications.html",
     "title": "Jackson Strand",
     "section": "",
-    "text": "Peterson RKD, Kennedy TE, Strand JR. 2026. Risk Determination for Non-Target Arthropods from Outdoor Space Applications of Mosquito Adulticides. Journal of Medican Entomology. in review\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
+    "text": "Peterson RKD, Kennedy TE, Strand JR. 2026. Risk Determination for Non-Target Arthropods from Outdoor Space Applications of Mosquito Adulticides. Journal of Medican Entomology. 63(3). DOI: 10.1093/jme/tjag090\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
   },
   {
     "objectID": "qmd/cv/events.html",
@@ -319,70 +319,7 @@
     "href": "qmd/publications/publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Sensory and behavioral responses of braconid parasitoids…\n\n\n\nChemical ecology\n\nparasitoids\n\n\n\nWheat stem sawfly-infested smooth brome emits key volatiles that elicit strong electrophysiological and behavioral responses in native parasitoids, supporting its role as a…\n\n\n\nMar 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgroecological importance of smooth brome…\n\n\n\nEcology\n\nparasitoids\n\nIPM\n\n\n\nSmooth brome serves as a valuable host refuge that supports wheat stem sawfly parasitoids by sustaining high larval mortality and comparable parasitism rates to wheat…\n\n\n\nOct 28, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "qmd/helpful/jared_guide/jared_guide.html",
-    "href": "qmd/helpful/jared_guide/jared_guide.html",
-    "title": "Guide to Using R - by Jared Adam",
-    "section": "",
-    "text": "This is a test\ntitle: “R for Ecologists” image: “img/r-for-ecologists.jpg” description: “A practical R tutorial for field scientists.” categories: [“R”, “Tutorial”] external-url: “https://example.com” listing: false"
-  },
-  {
-    "objectID": "qmd/research/research.html",
-    "href": "qmd/research/research.html",
-    "title": "Research",
-    "section": "",
-    "text": "As agricultural expansion and invasive species reshape the Northern Great Plains, the ecological relationships between plants, insects, and their natural enemies are undergoing profound shifts. My research investigates how biological control agents interact with host plants and their environments to suppress pest populations and restore ecological balance. From wheat-dominated agroecosystems to rangeland invasions, I explore how chemical signaling, habitat structure, and multi-species interactions can be leveraged to enhance biocontrol efficacy and support resilient landscapes.\n\n\n\n\n   \n\n\n\nPhD Research: Biological Control of Yellow and Dalmatian Toadflax in Montana and South Dakota\n\n\n\nMy current project with Dr. Robert Peterson at Montana State University investigates the establishment of the biological control agents Rhinusa pilosa and the two sister species Mecinus janthinus and Mecinus janthiniformis and their ability to suppress populations of yellow toadflax (Linaria vulgaris) and Dalmatian toadflax (Linaria dalmatica) in Montana and South Dakota. I study how these insects respond to chemical cues from their host plants and how these interactions affect herbivore survival, parasitism, and plant suppression.\n\n\nI am currently pursuing several interconnected projects:\n\n\nEstablishment of Rhinusa pilosa in controlling yellow toadflax populations: assessing survival, dispersal, and impact on plant density at release sites.\n\n\nImpacts of large herbivores on toadflax and Rhinusa establishment: constructing herbivore exclusion fences around release sites and monitoring herbivore activity in adjacent control areas.\n\n\nComparative stress assessment on yellow toadflax caused by Rhinusa pilosa and Mecinus janthinis: measuring plant health and chemical emissions to determine how each insect affects the plant individually and simultaneously.\n\n\nMultiple Decrement Life table analyses of Mecinus janthinis and Mecinus janthiniformis: quantifying mortality and performance under field conditions, including the effects of parasitoids, temperature extremes, and other environmental factors, on both yellow and Dalmatian toadflax populations.\n\n\n\n\nWhy this work matters: Invasive toadflax species can severely impact rangeland and cropland ecosystems. Biological control offers a sustainable alternative to chemical herbicides, reducing non-target impacts and supporting ecological balance. By elucidating host-specific behaviors, chemical cues, and multi-agent interactions, this research informs strategic releases and conservation of biocontrol agents to maximize suppression of toadflax populations.\n\n\nUltimately, this project contributes to understanding how plant-insect interactions, chemical signaling, and agent diversity can be harnessed to manage invasive plants and promote resilient agroecosystems across the Northern Great Plains.\n\n\n\n\n   \n\n\n\nMasters Research: Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of Wheat Stem Sawfly\n\n\n\nMy Master’s thesis with Dr. David Weaver at Montana State University combined chemical ecology, behavioral assays, and field surveys to investigate how volatile organic compounds (VOCs) emitted by WSS-infested smooth brome influence parasitoid attraction. Using electroantennography and gas chromatography, we found that smooth brome under sawfly attack emitted elevated levels of key volatiles — (Z)-3-hexenyl acetate, 6-methyl-5-hepten-2-one, and (E)-2-hexenal — that elicited strong antennal and behavioral responses from both Bracon parasitoid species.\n\n\nIn controlled olfactometer and wind tunnel trials, parasitoids consistently preferred volatile blends from infested smooth brome over those from infested wheat. Field surveys across central and northern Montana revealed that smooth brome adjacent to wheat fields had comparable sawfly infestation rates but significantly lower larval survival — up to 43.6% greater mortality than in wheat. Moreover, parasitism rates in smooth brome were consistently higher, especially in fall-collected stems, suggesting that this grass provides a valuable seasonal refuge for parasitoids.\n\n\nWhy this work matters: In an era of declining pesticide efficacy and increasing resistance, biological control remains one of the most sustainable tools in integrated pest management. By demonstrating that smooth brome can enhance parasitoid populations and reduce pest survival, this research reframes the role of a commonly maligned grass species. Rather than viewing smooth brome solely as an invasive threat, we propose its strategic conservation and placement as a functional component of agroecosystems — especially in landscapes where wheat and native parasitoids co-occur.\n\n\nUltimately, this work contributes to a broader understanding of how plant-insect interactions, chemical signaling, and landscape structure can be harnessed to support ecological resilience and sustainable agriculture in the Northern Great Plains’ dry-land cropping systems.\n\n\nRelated Publications:\n\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
-  },
-  {
-    "objectID": "qmd/helpful.html",
-    "href": "qmd/helpful.html",
-    "title": "Helpful Resources & Links",
-    "section": "",
-    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
-  },
-  {
-    "objectID": "qmd/helpful.html#r-studio",
-    "href": "qmd/helpful.html#r-studio",
-    "title": "Helpful Resources & Links",
-    "section": "",
-    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
-  },
-  {
-    "objectID": "qmd/helpful.html#quarto-website-building",
-    "href": "qmd/helpful.html#quarto-website-building",
-    "title": "Helpful Resources & Links",
-    "section": "Quarto Website Building",
-    "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages:\nHow to Create a Web Site Using Quarto, RStudio, and GitHub Pages\nLearn how to integrate Quarto with GitHub Pages to host your site. \n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
-  },
-  {
-    "objectID": "qmd/helpful.html#github",
-    "href": "qmd/helpful.html#github",
-    "title": "Helpful Resources & Links",
-    "section": "GitHub",
-    "text": "GitHub\n\nA guide to using GitHub created by Callum Arnold: Introduction to Git and GitHub"
-  },
-  {
-    "objectID": "qmd/helpful.html#r-statistics",
-    "href": "qmd/helpful.html#r-statistics",
-    "title": "Helpful Resources & Links",
-    "section": "R Statistics",
-    "text": "R Statistics\n\nMixed Effects Models"
-  },
-  {
-    "objectID": "qmd/helpful.html#citations",
-    "href": "qmd/helpful.html#citations",
-    "title": "Helpful Resources & Links",
-    "section": "Citations",
-    "text": "Citations\n\nZotero Citations Repository\nA collection of citation styles for use with Zotero, a free tool for managing references:\nZotero Citations Repository\nUse this to manage and generate citations for your research papers."
-  },
-  {
-    "objectID": "qmd/helpful.html#other",
-    "href": "qmd/helpful.html#other",
-    "title": "Helpful Resources & Links",
-    "section": "Other",
-    "text": "Other\n\nWatershed Volunteering\nGracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at\nWatershed Volunteering\n\n&lt;iframe width=\"560\" height=\"315\" src=\"https://youtu.be/65MAB0qRtAE?si=beO8jD5t5SOJzooF\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\nConscious Spending Plan\nA guide to creating a personal financial plan that prioritizes essential spending and savings:\nConscious Spending Plan\nA useful resource for developing a budget that reflects your personal financial goals.\nLibgen library A website to get free textbooks: Libgen"
+    "text": "Risk determination for non-target arthropods…\n\n\nRisk determination for non-target arthropods from outdoor space applications of mosquito adulticides\n\n\n\nMay 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSensory and behavioral responses of braconid parasitoids…\n\n\n\nChemical ecology\n\nparasitoids\n\n\n\nWheat stem sawfly-infested smooth brome emits key volatiles that elicit strong electrophysiological and behavioral responses in native parasitoids, supporting its role as a…\n\n\n\nMar 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgroecological importance of smooth brome…\n\n\n\nEcology\n\nparasitoids\n\nIPM\n\n\n\nSmooth brome serves as a valuable host refuge that supports wheat stem sawfly parasitoids by sustaining high larval mortality and comparable parasitism rates to wheat…\n\n\n\nOct 28, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "qmd/helpful/helpful.html",
@@ -446,6 +383,76 @@
     "title": "Helpful Resources & Links",
     "section": "Forest Service Roads",
     "text": "Forest Service Roads\nThis website lets you download maps for the Cutster Gallatin National Forest. These maps reference when roads open in the spring and close in the fall. These maps are the Motorized Vehicle Use Maps (MVUMs).\n  Visit US Forest Service  \n\n\n\n\n\nMap for Bridgers and Bangtail Mountains"
+  },
+  {
+    "objectID": "qmd/helpful.html",
+    "href": "qmd/helpful.html",
+    "title": "Helpful Resources & Links",
+    "section": "",
+    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
+  },
+  {
+    "objectID": "qmd/helpful.html#r-studio",
+    "href": "qmd/helpful.html#r-studio",
+    "title": "Helpful Resources & Links",
+    "section": "",
+    "text": "Guide to Using R\nA comprehensive guide for R beginners by Jared Adam:\nOne code to rule them all (┛ಠ_ಠ)┛彡O\nThis tutorial helps streamline your R learning process, offering clear steps and examples.\nCodecademy: Learn R\nA helpful, free interactive tutorial to learn R from the basics:\nLearn R with Codecademy\nStart from the ground up and improve your R programming skills with hands-on practice.\nR Markdown Documentation\nLearn to create professional reports, PDFs, and Word documents directly from R code using R Markdown:\nR Markdown Documentation\nThis resource is great for integrating code with reports and presentations.\nR Studio Graphing Notes\nA reference for creating visualizations and graphs using R Studio:\nR Studio Graphing\nThis guide provides a deeper dive into R’s graphing capabilities."
+  },
+  {
+    "objectID": "qmd/helpful.html#quarto-website-building",
+    "href": "qmd/helpful.html#quarto-website-building",
+    "title": "Helpful Resources & Links",
+    "section": "Quarto Website Building",
+    "text": "Quarto Website Building\n\nHow to Create a Quarto Website\nA YouTube tutorial showing how to build a website using RStudio, Quarto, and GitHub Pages:\nHow to Create a Web Site Using Quarto, RStudio, and GitHub Pages\nLearn how to integrate Quarto with GitHub Pages to host your site. \n\n\nGallery showing different options for formatting a Quarto website: Quarto Gallery\nQuarto documentation showing how to do a lot of the basics including website navigation, website search, and website tools: Quarto - Creating a Website"
+  },
+  {
+    "objectID": "qmd/helpful.html#github",
+    "href": "qmd/helpful.html#github",
+    "title": "Helpful Resources & Links",
+    "section": "GitHub",
+    "text": "GitHub\n\nA guide to using GitHub created by Callum Arnold: Introduction to Git and GitHub"
+  },
+  {
+    "objectID": "qmd/helpful.html#r-statistics",
+    "href": "qmd/helpful.html#r-statistics",
+    "title": "Helpful Resources & Links",
+    "section": "R Statistics",
+    "text": "R Statistics\n\nMixed Effects Models"
+  },
+  {
+    "objectID": "qmd/helpful.html#citations",
+    "href": "qmd/helpful.html#citations",
+    "title": "Helpful Resources & Links",
+    "section": "Citations",
+    "text": "Citations\n\nZotero Citations Repository\nA collection of citation styles for use with Zotero, a free tool for managing references:\nZotero Citations Repository\nUse this to manage and generate citations for your research papers."
+  },
+  {
+    "objectID": "qmd/helpful.html#other",
+    "href": "qmd/helpful.html#other",
+    "title": "Helpful Resources & Links",
+    "section": "Other",
+    "text": "Other\n\nWatershed Volunteering\nGracea and I volunteered a park near our house to plant trees. You can see us in the back of the video at\nWatershed Volunteering\n\n&lt;iframe width=\"560\" height=\"315\" src=\"https://youtu.be/65MAB0qRtAE?si=beO8jD5t5SOJzooF\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\nConscious Spending Plan\nA guide to creating a personal financial plan that prioritizes essential spending and savings:\nConscious Spending Plan\nA useful resource for developing a budget that reflects your personal financial goals.\nLibgen library A website to get free textbooks: Libgen"
+  },
+  {
+    "objectID": "qmd/research/research.html",
+    "href": "qmd/research/research.html",
+    "title": "Research",
+    "section": "",
+    "text": "As agricultural expansion and invasive species reshape the Northern Great Plains, the ecological relationships between plants, insects, and their natural enemies are undergoing profound shifts. My research investigates how biological control agents interact with host plants and their environments to suppress pest populations and restore ecological balance. From wheat-dominated agroecosystems to rangeland invasions, I explore how chemical signaling, habitat structure, and multi-species interactions can be leveraged to enhance biocontrol efficacy and support resilient landscapes.\n\n\n\n\n   \n\n\n\nPhD Research: Biological Control of Yellow and Dalmatian Toadflax in Montana and South Dakota\n\n\n\nMy current project with Dr. Robert Peterson at Montana State University investigates the establishment of the biological control agents Rhinusa pilosa and the two sister species Mecinus janthinus and Mecinus janthiniformis and their ability to suppress populations of yellow toadflax (Linaria vulgaris) and Dalmatian toadflax (Linaria dalmatica) in Montana and South Dakota. I study how these insects respond to chemical cues from their host plants and how these interactions affect herbivore survival, parasitism, and plant suppression.\n\n\nI am currently pursuing several interconnected projects:\n\n\nEstablishment of Rhinusa pilosa in controlling yellow toadflax populations: assessing survival, dispersal, and impact on plant density at release sites.\n\n\nImpacts of large herbivores on toadflax and Rhinusa establishment: constructing herbivore exclusion fences around release sites and monitoring herbivore activity in adjacent control areas.\n\n\nComparative stress assessment on yellow toadflax caused by Rhinusa pilosa and Mecinus janthinis: measuring plant health and chemical emissions to determine how each insect affects the plant individually and simultaneously.\n\n\nMultiple Decrement Life table analyses of Mecinus janthinis and Mecinus janthiniformis: quantifying mortality and performance under field conditions, including the effects of parasitoids, temperature extremes, and other environmental factors, on both yellow and Dalmatian toadflax populations.\n\n\n\n\nWhy this work matters: Invasive toadflax species can severely impact rangeland and cropland ecosystems. Biological control offers a sustainable alternative to chemical herbicides, reducing non-target impacts and supporting ecological balance. By elucidating host-specific behaviors, chemical cues, and multi-agent interactions, this research informs strategic releases and conservation of biocontrol agents to maximize suppression of toadflax populations.\n\n\nUltimately, this project contributes to understanding how plant-insect interactions, chemical signaling, and agent diversity can be harnessed to manage invasive plants and promote resilient agroecosystems across the Northern Great Plains.\n\n\n\n\n   \n\n\n\nMasters Research: Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of Wheat Stem Sawfly\n\n\n\nMy Master’s thesis with Dr. David Weaver at Montana State University combined chemical ecology, behavioral assays, and field surveys to investigate how volatile organic compounds (VOCs) emitted by WSS-infested smooth brome influence parasitoid attraction. Using electroantennography and gas chromatography, we found that smooth brome under sawfly attack emitted elevated levels of key volatiles — (Z)-3-hexenyl acetate, 6-methyl-5-hepten-2-one, and (E)-2-hexenal — that elicited strong antennal and behavioral responses from both Bracon parasitoid species.\n\n\nIn controlled olfactometer and wind tunnel trials, parasitoids consistently preferred volatile blends from infested smooth brome over those from infested wheat. Field surveys across central and northern Montana revealed that smooth brome adjacent to wheat fields had comparable sawfly infestation rates but significantly lower larval survival — up to 43.6% greater mortality than in wheat. Moreover, parasitism rates in smooth brome were consistently higher, especially in fall-collected stems, suggesting that this grass provides a valuable seasonal refuge for parasitoids.\n\n\nWhy this work matters: In an era of declining pesticide efficacy and increasing resistance, biological control remains one of the most sustainable tools in integrated pest management. By demonstrating that smooth brome can enhance parasitoid populations and reduce pest survival, this research reframes the role of a commonly maligned grass species. Rather than viewing smooth brome solely as an invasive threat, we propose its strategic conservation and placement as a functional component of agroecosystems — especially in landscapes where wheat and native parasitoids co-occur.\n\n\nUltimately, this work contributes to a broader understanding of how plant-insect interactions, chemical signaling, and landscape structure can be harnessed to support ecological resilience and sustainable agriculture in the Northern Great Plains’ dry-land cropping systems.\n\n\nRelated Publications:\n\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly (Hymenoptera: Cephidae) larval feeding in winter wheat and smooth brome. Journal of Insect Science. 25(2). DOI: 10.1093/jisesa/ieaf016\n\n\nStrand JR, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via associated braconid parasitoids. Journal of Economic Entomology. 117(6): 2344–2354. DOI: 10.1093/jee/toae246"
+  },
+  {
+    "objectID": "qmd/helpful/jared_guide/jared_guide.html",
+    "href": "qmd/helpful/jared_guide/jared_guide.html",
+    "title": "Guide to Using R - by Jared Adam",
+    "section": "",
+    "text": "This is a test\ntitle: “R for Ecologists” image: “img/r-for-ecologists.jpg” description: “A practical R tutorial for field scientists.” categories: [“R”, “Tutorial”] external-url: “https://example.com” listing: false"
+  },
+  {
+    "objectID": "qmd/publications/non_target_arth_2026/non_targert_arth_2026.html",
+    "href": "qmd/publications/non_target_arth_2026/non_targert_arth_2026.html",
+    "title": "Risk determination for non-target arthropods…",
+    "section": "",
+    "text": "Risk determination for non-target arthropods from outdoor space applications of mosquito adulticides\nAuthors: Robert K.D. Peterson, Taylor E. Kennedy, Jackson R. Strand Journal: Journal of Medical Entomology\nDOI: 10.1093/jme/tjag090\nAbstract: Outdoor space applications of ultra-low-volume (ULV) insecticides are widely used for adult mosquito management, but public concerns persist about their potential effects on non-target arthropods. Therefore, we conducted a systematic review and analysis to evaluate evidence from global peer-reviewed operational studies, field studies simulating operational studies, and modeled ecological risk assessments (ERA). A total of 38 articles met inclusion criteria, representing 43 distinct studies across multiple arthropod taxa and 10 insecticidal active ingredients. Study types comprised 25 field experiments, nine operational applications, and nine ERAs. We recorded the presence or absence of acute mortality effects on non-target arthropods and analyzed associations using Fisher’s exact test and Firth logistic regression. Operational studies—representing large-scale, real-world mosquito control applications—had no deleterious effects across all taxa and insecticides. In contrast, field studies documented effects in 15 of 25 cases, although results were equivocal, with 10 studies finding no effects despite conditions favoring direct exposure (eg caged insects placed in the direct aerosol path). The ERAs showed mixed outcomes, most likely reflecting their intentionally conservative design. Study type was strongly associated with effect detection (P &lt; 0.001), with operational applications significantly less likely to report effects. Overall, evidence suggests that risks to non-target arthropod populations from operational ULV mosquito adulticide applications are low, primarily due to reduced exposure from nighttime treatments, aerosol droplet characteristics (size and volume), rapid dispersal, and rapid breakdown. Increased emphasis on operational-scale research is needed to strengthen the understanding of risks for non-target arthropods."
   },
   {
     "objectID": "qmd/publications/ptoid_volatiles_2025/ptoid_volatiles.html",
