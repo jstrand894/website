@@ -23,7 +23,7 @@ format:
   <span class="switch-label">Collapse sections</span>
 </label>   -->
 
-<em style="font-size: 0.8em;">Last Updated: March 15, 2026</em>
+<em style="font-size: 0.8em;">Last Updated: June 12, 2026</em>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
