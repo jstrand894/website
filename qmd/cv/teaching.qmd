@@ -1,20 +1,36 @@
 :::{.box}
+<u>Intructor of Note</u>  
+
+<div style="margin-left: 30px;">
+**Integrated Pest Management** (AGSC 401)  
+Fall 2026, 3 credits  
+25 undergraduates, 10 graduate students    
+Montana State Unviersity
+</div>
+
 <u>Teaching Assisstant</u>  
 
 <div style="margin-left: 30px;">
 **Integrated Pest Management** (AGSC 401)  
-Fall 2023, 3 credits, 20 undergraduates, 10 graduate students  
-Online course taught by Dr. David Weaver  
-Montana State Unviersity
-  
-**Integrated Pest Management** (AGSC 401)  
 Fall 2025, 3 credits, 25 undergraduates, 10 graduate students  
 Online course taught by Dr. David Weaver  
 Montana State Unviersity
+
+**Integrated Pest Management** (AGSC 401)  
+Fall 2023, 3 credits, 20 undergraduates, 10 graduate students  
+Online course taught by Dr. David Weaver  
+Montana State Unviersity
 </div>
+  
 <u>Invited Guest Lecturer</u>  
 
 <div style="margin-left: 30px;">
+
+**Principals of Biological Diversity** (BIOB 260)  
+Fall 2026, 5 credits   
+"Introduction to Insect Identification and Sampling"  
+Course taught by Dr. Lisa Rew  
+Montana State University 
 
 **Role of Plants in the Environment** (ENSC 210)  
 Spring 2026, 3 credits  
