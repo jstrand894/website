@@ -1,3 +1,4 @@
+
 :::{.box}
 <!-- To add a gold star marker next to an award title, wrap the text in: <span class="award-text">Award Name</span> -->
 
@@ -28,7 +29,7 @@
 
 <!-- Extreme Biofilms NRT Program SEED Grant -->
 <div style="display: flex; align-items: center;">
-  <div><strong>Extreme Biofilms NRT Program SEED Grant</strong></a> ($1,500)
+  <div>Extreme Biofilms NRT Program SEED Grant</a> ($1,500)
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -36,12 +37,11 @@
 </div>
 <div style="padding-right: 30px;">
 - <a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State University  
-- Awarded for the proposal "*Mapping Biocontrol Success: Drone NDVI Monitoring of Invasive Toadflax in Post-Fire Montana Ecosystems*"
 </a>
 </div>
 
 <div style="display: flex; align-items: center;">
-  <div><strong>Angus and Anne McMillan Family Agriculture Scholarship</strong></a> ($1,200)
+  <div>Angus and Anne McMillan Family Agriculture Scholarship</a> ($1,200)
   </div>
   <!-- This div creates the line between text and year -->
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
@@ -133,7 +133,7 @@
 
           
 <div style="display: flex; align-items: center;">
-  <div><strong>1st Place Speaker</strong></div>
+  <div>1st Place Speaker</div>
   <div style="flex-grow: 1; height: 1px; background-color: lightgray; margin: 0 10px;"></div>
   <div>2023</div>
 </div>
