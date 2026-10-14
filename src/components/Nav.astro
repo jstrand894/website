@@ -12,7 +12,7 @@ const tools = [
   <header class="navbar">
     <a class="brand" href="/">
       <img src="/img/logo.svg" alt="" />
-      <span>Jackson Strand</span>
+      <span>Jackson R. Strand</span>
     </a>
     <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
       <i class="fa-solid fa-bars"></i>
@@ -30,7 +30,7 @@ const tools = [
             </div>
           </div>
         ) : (
-          <div class:list={['nav-item', { active: path.startsWith(item.href) }]} data-href={item.href}>
+          <div class:list={['nav-item', { active: path.startsWith(item.href) || ('also' in item && item.also.some((p) => path.startsWith(p))) }]} data-href={item.href}>
             <a class="nav-link" href={item.href}>{item.text}</a>
           </div>
         )

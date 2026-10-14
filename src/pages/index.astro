@@ -27,17 +27,17 @@ const cards = [
 // every image in src/assets/gallery is available by file name.
 const featured = [
   { file: 'hunters_gulch.jpg', title: "Hunter's Gulch", sub: 'Field site, southwest Montana' },
-  { file: 'bombus.jpg', title: 'Bumble bee', sub: 'Bombus on flower' },
-  { file: 'mecinus.jpg', title: 'Mecinus', sub: 'Biocontrol weevil' },
-  { file: 'copper_creek.jpg', title: 'Copper Creek', sub: 'Backcountry' },
-  { file: 'wss.jpg', title: 'Wheat stem sawfly', sub: 'Study organism' },
+  { file: 'bombus.jpg', title: 'Bumble bee', sub: '<em>Bombus</em> on locoweed (<em>Oxytropis sericea</em>)' },
+  { file: 'mecinus.jpg', title: '<em>Mecinus janthinus</em>', sub: 'Biocontrol agent for yellow toadflax' },
+  { file: 'copper_creek.jpg', title: 'Copper Creek', sub: 'Field site, Elkhorn Mountains, Montana' },
+  { file: 'wss.jpg', title: 'Wheat stem sawfly', sub: 'Pest of cereal crops in Montana' },
 ];
 const files = import.meta.glob<{ default: ImageMetadata }>('../assets/gallery/*.jpg', { eager: true });
 const byName = Object.fromEntries(Object.entries(files).map(([path, m]) => [path.split('/').pop()!, m.default]));
 const photos = featured.filter((f) => byName[f.file]).map((f) => ({ ...f, img: byName[f.file] }));
 const full = await Promise.all(photos.map((ph) => getImage({ src: ph.img, width: 2000, format: 'jpg' })));
 ---
-<Base title="Jackson Strand" wide>
+<Base title="Jackson Strand | PhD Student, Montana State University" wide>
   <div class="home-bg" aria-hidden="true"></div>
   <section class="hero">
     <div class="hero-text">
@@ -87,8 +87,8 @@ const full = await Promise.all(photos.map((ph) => getImage({ src: ph.img, width:
   <div class="bento">
     {photos.map((ph, i) => (
       <a class:list={['tile', { 'tile-hero': i === 0 }]} href={full[i].src} data-fancybox="gallery" data-caption={`${ph.title} — ${ph.sub}`}>
-        <Image src={ph.img} alt={ph.title} width={i === 0 ? 1400 : 700} loading="lazy" />
-        <span class="tile-caption"><strong>{ph.title}</strong><small>{ph.sub}</small></span>
+        <Image src={ph.img} alt={ph.title.replace(/<[^>]+>/g, '')} width={i === 0 ? 1400 : 700} loading="lazy" />
+        <span class="tile-caption"><strong set:html={ph.title} /><small set:html={ph.sub} /></span>
       </a>
     ))}
   </div>

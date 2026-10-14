@@ -229,6 +229,9 @@ h2 { border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin: 2.2re
 .card-featured .card-meta span { background: rgba(255, 255, 255, 0.18); color: #fff; }
 
 @media (max-width: 1000px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+/* research overview: three cards to the other research pages */
+.cards-3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 800px) { .cards-3 { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .cards { grid-template-columns: 1fr; } .card-featured { grid-column: auto; } }
 
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-top: 2.2rem; }
@@ -810,8 +813,7 @@ body { overflow-x: clip; }
 .r-banner-text {
   position: absolute; z-index: 2; bottom: 2.4rem; left: max(1.25rem, calc(50% - 500px)); right: auto;
   width: min(640px, calc(100% - 2.5rem)); padding: 1.3rem 1.7rem 1.5rem; border-radius: 22px; color: var(--purple-1);
-  background: rgba(255, 255, 255, 0.74);
-  -webkit-backdrop-filter: blur(14px) saturate(1.4); backdrop-filter: blur(14px) saturate(1.4);
+  background: #fff; /* opaque: the panel straddles the photo and the white sheet, so any see-through shows as a dark top half */
   border: 1px solid rgba(255, 255, 255, 0.6); box-shadow: 0 10px 34px rgba(30, 10, 50, 0.22);
 }
 .r-banner-text .eyebrow { color: var(--purple-2); margin-bottom: 0.4rem; }
@@ -1000,3 +1002,70 @@ body { overflow-x: clip; }
 .fs-maplink:hover { text-decoration: none; background: #fff; }
 .fs-maplink i { font-size: 0.7rem; margin-left: 0.2rem; }
 @media (max-width: 760px) { .fs-grid { grid-template-columns: 1fr; } .fs-map iframe { height: 320px; } .fs-photo, .fs-mapbox { height: 240px; } }
+
+/* research overview: the cards sit on the photo's sky; they stay pinned with the photo and the page slides over them */
+.research .r-more { position: absolute; z-index: 2; top: calc(var(--nav-h) + 1.4rem); left: 50%; transform: translateX(-50%); width: min(1040px, 100% - 40px); }
+.research .r-more .card { background: rgba(255, 255, 255, 0.94); box-shadow: 0 8px 26px rgba(30, 10, 50, 0.22); }
+.research .r-more .card:hover { background: #fff; }
+
+/* Lenis (smooth scrolling) needs the browser's own smooth scrolling off while it is running */
+html.lenis, html.lenis body { height: auto; }
+.lenis:not(.lenis-autoToggle).lenis-stopped { overflow: clip; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+
+
+/* ============ polish: scroll progress, back-to-top, hiding menu bar, page + image transitions ============ */
+.scroll-progress {
+  position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 200; pointer-events: none;
+  background: linear-gradient(90deg, var(--purple-1), #a23a73); transform: scaleX(0); transform-origin: 0 50%;
+}
+.to-top {
+  position: fixed; right: 1.2rem; bottom: 1.2rem; z-index: 150; width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center; border: 1px solid var(--box-border); background: rgba(255, 255, 255, 0.92);
+  color: var(--purple-1); font-size: 1rem; cursor: pointer; box-shadow: 0 6px 18px rgba(30, 10, 50, 0.18);
+  opacity: 0; visibility: hidden; transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s, background 0.2s, color 0.2s;
+}
+.to-top.show { opacity: 1; visibility: visible; transform: none; }
+.to-top:hover { background: var(--purple-1); color: #fff; }
+
+/* the menu bar slides away while reading down the page and returns when scrolling up; sticky bars move up with it */
+.navbar-wrap { transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+html.nav-away .navbar-wrap { transform: translateY(calc(-100% - 24px)); }
+.t-filters, .hr-chips, .r-bar, .t-year-label, .cv-toc { transition: top 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+html.nav-away .t-filters, html.nav-away .hr-chips, html.nav-away .r-bar { top: 12px; }
+html.nav-away .t-year-label { top: 74px; }
+html.nav-away .cv-toc { top: 24px; }
+
+/* page changes (used by Base.astro) */
+@keyframes page-out { to { opacity: 0; } }
+@keyframes page-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+/* photos fade in and sharpen as they load */
+@keyframes img-in { from { opacity: 0; filter: blur(14px); } to { opacity: 1; filter: blur(0); } }
+html.js main img.img-pending { opacity: 0; }
+main img.img-loaded { animation: img-in 0.7s ease both; }
+.r-logos .logo img.img-loaded { animation: none; }
+
+/* sections ease in on scroll */
+html.js .rv { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease var(--rv-d, 0s), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1) var(--rv-d, 0s); }
+html.js .rv.in { opacity: 1; transform: none; }
+
+/* ============ one hover feel for cards and photos ============ */
+:root { --lift-shadow: 0 10px 26px rgba(60, 32, 89, 0.14); --lift-border: #cdb9d9; --lift-bg: #f7f4fa; }
+.card:not(.card-featured), .pub-card, .talk, .m-item, .hr-card, .g-card, .tp-principle, .fs-card, .nf-links a {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+}
+.card:not(.card-featured):hover, .pub-card:hover, .talk:hover, .m-item:hover, .hr-card:hover, .g-card:hover, .tp-principle:hover, .fs-card:hover, .nf-links a:hover {
+  transform: translateY(-3px); box-shadow: var(--lift-shadow); border-color: var(--lift-border); background-color: var(--lift-bg);
+}
+.card-featured { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.card-featured:hover { transform: translateY(-3px); box-shadow: var(--lift-shadow); }
+.research .r-more .card:hover { background-color: #fff; }
+.tile img, .talk-media img, .m-media img, .r-figure img, .r-photos img, .ab-strip img, .ab-photos img { transition: transform 0.5s ease; }
+.tile:hover img, .talk-media:hover img, .m-item:hover .m-media img, .r-figure a:hover img, .r-photos a:hover img, .ab-strip a:hover img, .ab-photos a:hover img { transform: scale(1.04); }
+
+/* research overview: the cards on the photo move up with the menu bar */
+.research .r-more { transition: top 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+html.nav-away .research .r-more { top: 1.4rem; }
