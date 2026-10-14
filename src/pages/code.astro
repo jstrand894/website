@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { repos, github } from '../data/code';
+---
+<Base title="Code & Tutorials | Jackson Strand" description="Code and data repositories by Jackson R. Strand." wide>
+  <header class="page-head">
+    <p class="eyebrow">Data &amp; code</p>
+    <h1>Code I'm proud of</h1>
+    <p>Analysis code, data and small tools from my research. Everything here is on GitHub.</p>
+    <a class="btn" href={github} target="_blank" rel="noopener"><span><i class="fa-brands fa-github"></i> All repositories</span></a>
+  </header>
+
+  <div class="cards code-cards">
+    {repos.map((r) => (
+      <a class="card" href={`${github}/${r.repo}`} target="_blank" rel="noopener">
+        <span class="card-top">
+          <i class={r.icon}></i>
+          <h3>{r.title}</h3>
+          <i class="fa-solid fa-arrow-up-right-from-square card-arrow"></i>
+        </span>
+        <p>{r.desc}</p>
+        <span class="card-meta">{r.tags.map((t) => <span>{t}</span>)}</span>
+      </a>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .code-cards { grid-template-columns: repeat(2, 1fr); margin-top: 1.5rem; }
+  @media (max-width: 700px) { .code-cards { grid-template-columns: 1fr; } }
+</style>

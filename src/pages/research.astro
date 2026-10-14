@@ -1,0 +1,340 @@
+---
+import { Image, getImage } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { banner_image, intro, themes, projects } from '../data/research';
+import { talks } from '../data/talks';
+import { media } from '../data/media';
+
+const strip = (html: string) => html.replace(/<[^>]+>/g, '');
+
+// Full-size versions of every photo, for the click-to-enlarge lightbox.
+const fulls: Record<string, string> = {};
+for (const p of projects) {
+  for (const im of [...p.images, ...p.photos]) {
+    fulls[im.src.src] = (await getImage({ src: im.src, width: 2000, format: 'jpg' })).src;
+  }
+}
+
+// Talks and media that relate to each project, pulled from the other pages' data.
+const related = (id: string) => {
+  const t = talks
+    .map((x, i) => ({ x, i }))
+    .filter(({ x }) => (id === 'phd' ? /Mecinus|exclosure/i.test(x.title) : /smooth brome|Master/i.test(x.title)))
+    .map(({ x, i }) => ({
+      year: x.year, icon: 'fa-solid fa-microphone', type: 'Talk', title: strip(x.title),
+      meta: `${x.date} · ${x.event.split(' · ')[0]}`, href: `/talks#talk-${i}`, external: false,
+    }));
+  const m = media
+    .filter((x) => (id === 'phd' ? /PhD/.test(x.summary) : /sawfly/i.test(x.title + x.summary)))
+    .map((x) => ({
+      year: Number(x.date.slice(0, 4)),
+      icon: x.kind === 'photography' ? 'fa-solid fa-camera' : x.kind === 'production' ? 'fa-solid fa-video' : 'fa-solid fa-newspaper',
+      type: 'Media', title: x.title, meta: `${x.display} · ${x.outlet.split(' · ')[0]}`, href: x.href, external: true,
+    }));
+  return [...t, ...m].sort((a, b) => b.year - a.year);
+};
+
+// Timeline positions (scale runs 2021 to 2027).
+const pct = (year: number) => ((year - 2021) / 6) * 100;
+const ticks = [2021, 2022, 2023, 2024, 2025, 2026];
+---
+<Base title="Research | Jackson Strand" description="Research overview: biological control, chemical ecology and plant–insect interactions." wide>
+  <div class="research">
+    <figure class="r-banner">
+      <Image src={banner_image} alt="Forested hills near Copper Creek, Montana" width={6000} widths={[1600, 2800, 4200, 6000]} sizes="100vw" quality={88} loading="eager" />
+    </figure>
+
+    <div class="r-sheet">
+      <div class="r-banner-text">
+        <p class="eyebrow">Research overview</p>
+        <h1>Putting insects to work for resilient landscapes</h1>
+      </div>
+      <div class="r-sheet-inner">
+
+    <header class="r-intro" id="overview">
+      <p class="lede">{intro}</p>
+      <ul class="theme-chips">
+        {themes.map((t) => <li><i class={t.icon}></i> {t.label}</li>)}
+      </ul>
+    </header>
+
+    <div class="r-glance">
+      {projects.map((p) => (
+        <a class="g-card" href={`#${p.id}`}>
+          <p class="r-kind">
+            <span>{p.kind}</span>
+            <span class:list={['r-status', { current: p.status === 'Current' }]}>{p.status}</span>
+          </p>
+          <h2>{p.title}</h2>
+          <dl>
+            {p.glance.map((g) => (
+              <div>
+                <dt><i class={g.icon}></i> {g.label}</dt>
+                <dd set:html={g.value} />
+              </div>
+            ))}
+            <div>
+              <dt><i class="fa-solid fa-user-tie"></i> Advisor</dt>
+              <dd>{p.advisor.name}</dd>
+            </div>
+          </dl>
+          <span class="g-jump">Read about this project <i class="fa-solid fa-arrow-down"></i></span>
+        </a>
+      ))}
+    </div>
+
+    <nav class="r-bar" data-active="overview" aria-label="Research sections">
+      <div class="r-bar-chips">
+        <a class="filter-chip" href="#overview" data-spy="overview"><i class="fa-solid fa-compass"></i> Overview</a>
+        {projects.map((p) => <a class="filter-chip" href={`#${p.id}`} data-spy={p.id}>{p.short}</a>)}
+      </div>
+      <div class="r-tl" style={`--m-left:${pct(2021)}%; --m-w:${pct(2024.65)}%; --p-left:${pct(2025)}%; --p-w:${100 - pct(2025)}%`}>
+        <div class="rtl-track">
+          <a class="rtl-seg rtl-masters" href="#masters" title="Master’s thesis · MS Entomology · 2021–2024">
+            <span>Master’s thesis · 2021–2024</span><small>MS Entomology</small>
+          </a>
+          <a class="rtl-seg rtl-phd" href="#phd" title="PhD · Ecology &amp; Environmental Science · 2025–present">
+            <span>PhD · 2025–present <i class="rt-now"></i></span><small>Ecology &amp; Env. Science</small>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    {projects.map((p, idx) => {
+      const rel = related(p.id);
+      return (
+      <section class="r-project" id={p.id}>
+        <div class="r-head reveal">
+          <p class="r-kind">
+            <span>{p.kind}</span>
+            <span class:list={['r-status', { current: p.status === 'Current' }]}>{p.status}</span>
+          </p>
+          <h2>{p.title}</h2>
+          <p class="r-advisor">Advisor: <a href={p.advisor.href} target="_blank" rel="noopener">{p.advisor.name}</a>, Montana State University</p>
+          <div class="r-logos" aria-label="Partners and support">
+            {p.logos.map((l) => (
+              <span class="logo" tabindex="0" data-tip={l.alt}>
+                <Image src={l.src} alt={l.alt} height={90} loading="lazy" />
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class:list={['r-split', 'reveal', { flip: idx % 2 === 1, even: p.id === 'phd' }]}>
+          <div class="r-textcol">
+            <div class="r-text" data-clamp>
+              {p.paragraphs.map((t) => <p set:html={t} />)}
+            </div>
+            {p.stackBeside && p.subprojects.length > 0 && (
+              <>
+                <h3 class="r-sub">{p.subprojectsHeading}</h3>
+                <ol class="r-steps r-steps-stack">
+                  {p.subprojects.map((s) => (
+                    <li>
+                      <span class="r-step-icon"><i class={s.icon}></i></span>
+                      <h4 set:html={s.title} />
+                      <p set:html={s.text} />
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+          </div>
+          <div class="r-figures">
+            {(p.stackBeside ? [...p.images, ...p.photos] : p.images.filter((i) => i.placement !== 'below')).map((img) => (
+              <figure class="r-figure">
+                <a href={fulls[img.src.src]} data-fancybox="research" data-caption={strip(img.caption)}>
+                  <Image src={img.src} alt={img.alt} width={1100} loading="lazy" />
+                </a>
+                <figcaption set:html={img.caption} />
+              </figure>
+            ))}
+          </div>
+        </div>
+
+        {p.images.filter((i) => i.placement === 'below').map((img) => (
+          <figure class="r-figure r-below reveal">
+            <a href={fulls[img.src.src]} data-fancybox="research" data-caption={strip(img.caption)}>
+              <Image src={img.src} alt={img.alt} width={1400} loading="lazy" />
+            </a>
+            <figcaption set:html={img.caption} />
+          </figure>
+        ))}
+
+        {p.findings.length > 0 && (
+          <div class="r-stats reveal">
+            {p.findings.map((f) => (
+              <div class="r-stat">
+                <i class={f.icon}></i>
+                <strong>{f.value}</strong>
+                <span set:html={f.label} />
+              </div>
+            ))}
+          </div>
+        )}
+
+        {!p.stackBeside && p.subprojects.length > 0 && (
+          <div class="reveal">
+            <h3 class="r-sub">{p.subprojectsHeading}</h3>
+            <ol class="r-steps">
+              {p.subprojects.map((s) => (
+                <li>
+                  <span class="r-step-icon"><i class={s.icon}></i></span>
+                  <h4 set:html={s.title} />
+                  <p set:html={s.text} />
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+
+        {!p.stackBeside && p.photos.length > 0 && (
+          <div class="r-photos reveal">
+            {p.photos.map((ph) => (
+              <figure>
+                <a href={fulls[ph.src.src]} data-fancybox="research" data-caption={ph.caption}>
+                  <Image src={ph.src} alt={ph.alt} width={900} loading="lazy" />
+                </a>
+                <figcaption>{ph.caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+
+        <aside class="r-why reveal">
+          <h3><i class="fa-solid fa-lightbulb"></i> Why this work matters</h3>
+          {p.why.map((t) => <p set:html={t} />)}
+        </aside>
+
+        {rel.length > 0 && (
+          <div class="r-related reveal">
+            <h3 class="r-sub">Related talks &amp; media</h3>
+            <ul data-limit="5">
+              {rel.map((r) => (
+                <li>
+                  <a href={r.href} target={r.external ? '_blank' : undefined} rel={r.external ? 'noopener' : undefined}>
+                    <span class="rr-icon"><i class={r.icon}></i></span>
+                    <span class="rr-text"><strong>{r.title}</strong><small>{r.meta}</small></span>
+                    <i class={`fa-solid ${r.external ? 'fa-arrow-up-right-from-square' : 'fa-arrow-right'} rr-go`}></i>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {p.pubs.length > 0 && (
+          <div class="r-pubs reveal">
+            <h3 class="r-sub">Related publications</h3>
+            <ul>
+              {p.pubs.map((pub) => (
+                <li>
+                  <span set:html={pub.cite} />
+                  <a class="chip" href={`https://doi.org/${pub.doi}`} target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> DOI</a>
+                </li>
+              ))}
+            </ul>
+            <a class="btn" href="/publications"><span>See all publications</span></a>
+          </div>
+        )}
+      </section>
+      );
+    })}
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let ctrl: AbortController | undefined;
+
+    function initResearch() {
+      const root = document.querySelector<HTMLElement>('.research');
+      if (!root) return;
+      ctrl?.abort();
+      ctrl = new AbortController();
+      const { signal } = ctrl;
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // Fade sections in as they scroll into view.
+      if (!reduce && 'IntersectionObserver' in window) {
+        root.classList.add('reveal-ready');
+        const io = new IntersectionObserver(
+          (entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }),
+          { rootMargin: '0px 0px -8% 0px', threshold: 0.06 }
+        );
+        root.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+        signal.addEventListener('abort', () => io.disconnect());
+      }
+
+      // Long text: show the first part with a "Read more" toggle.
+      const LIMIT = 300;
+      const setupClamp = () => {
+        root.querySelectorAll<HTMLElement>('[data-clamp]').forEach((box) => {
+          if (box.dataset.clampDone || box.scrollHeight <= LIMIT + 60) return;
+          box.dataset.clampDone = '1';
+          box.classList.add('clamped');
+          box.style.maxHeight = LIMIT + 'px';
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'show-more';
+          btn.innerHTML = '<i class="fa-solid fa-chevron-down"></i> Read more';
+          btn.addEventListener('click', () => {
+            const open = box.classList.toggle('open');
+            box.style.maxHeight = open ? box.scrollHeight + 'px' : LIMIT + 'px';
+            btn.innerHTML = open ? '<i class="fa-solid fa-chevron-up"></i> Show less' : '<i class="fa-solid fa-chevron-down"></i> Read more';
+          });
+          box.after(btn);
+        });
+      };
+      setupClamp();
+      window.addEventListener('load', setupClamp, { signal });
+
+      // Related talks & media: show the first five, the rest behind a toggle.
+      root.querySelectorAll<HTMLElement>('[data-limit]').forEach((list) => {
+        if (list.dataset.limitDone) return;
+        const limit = Number(list.dataset.limit);
+        const items = Array.from(list.children) as HTMLElement[];
+        if (items.length <= limit) return;
+        list.dataset.limitDone = '1';
+        items.slice(limit).forEach((el) => el.classList.add('cl-hidden'));
+        list.setAttribute('data-collapsed', '');
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'show-more';
+        const label = (open: boolean) =>
+          (btn.innerHTML = open ? '<i class="fa-solid fa-chevron-up"></i> Show fewer' : `<i class="fa-solid fa-chevron-down"></i> Show all ${items.length}`);
+        label(false);
+        btn.addEventListener('click', () => {
+          const collapsed = list.hasAttribute('data-collapsed');
+          if (collapsed) list.removeAttribute('data-collapsed'); else list.setAttribute('data-collapsed', '');
+          label(collapsed);
+        });
+        list.after(btn);
+      });
+
+      // Highlight the section being read in the pinned bar.
+      const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('.r-bar [data-spy]'));
+      const spy = () => {
+        const line = window.innerHeight * 0.35;
+        let current = links[0]?.dataset.spy;
+        for (const l of links) {
+          const sec = document.getElementById(l.dataset.spy!);
+          if (sec && sec.getBoundingClientRect().top <= line) current = l.dataset.spy;
+        }
+        links.forEach((l) => l.classList.toggle('active', l.dataset.spy === current));
+        const bar = document.querySelector<HTMLElement>('.r-bar');
+        if (bar && current) bar.dataset.active = current;
+      };
+      window.addEventListener('scroll', spy, { passive: true, signal });
+      spy();
+
+      // Photo lightbox.
+      const F = (window as any).Fancybox;
+      if (F) {
+        F.unbind('[data-fancybox="research"]');
+        F.bind('[data-fancybox="research"]', { Thumbs: false, Toolbar: { display: ['close', 'prev', 'next'] } });
+      }
+    }
+    document.addEventListener('astro:page-load', initResearch);
+  </script>
+</Base>

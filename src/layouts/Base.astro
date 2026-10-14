@@ -1,0 +1,57 @@
+---
+import Nav from '../components/Nav.astro';
+import { ClientRouter } from 'astro:transitions';
+import '../styles/global.css';
+
+interface Props { title: string; description?: string; wide?: boolean; noindex?: boolean }
+const { title, wide = false, noindex = false, description = 'Jackson R. Strand — PhD student in Ecology & Environmental Science at Montana State University.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>{title}</title>
+    <ClientRouter />
+    <script is:inline src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95KDY0HY4C"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-95KDY0HY4C');
+    </script>
+  </head>
+  <body>
+    <Nav />
+    <main class:list={['page', { wide }]}>
+      <slot />
+    </main>
+    <footer class="footer">
+      <span>&copy; Copyright 2025, Jackson R. Strand</span>
+      <span>Built with <a href="https://astro.build">Astro</a></span>
+    </footer>
+    <script>
+      // Turns the scrambled address in data-m into a working mailto: link. Runs on every page load, including
+      // page changes that keep the navbar in place.
+      function wireEmail() {
+        document.querySelectorAll<HTMLAnchorElement>('a[data-m]').forEach((a) => {
+          if (a.dataset.wired) return;
+          a.href = 'mailto:' + [...a.dataset.m!].reverse().join('');
+          a.dataset.wired = '1';
+        });
+      }
+      document.addEventListener('astro:page-load', wireEmail);
+    </script>
+  </body>
+</html>

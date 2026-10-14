@@ -1,0 +1,97 @@
+---
+import { nav, emailScrambled } from '../data/site';
+const path = Astro.url.pathname;
+const tools = [
+  { icon: 'fa-solid fa-camera', href: 'https://jacksonstrandphoto.myportfolio.com', label: 'Photography Portfolio' },
+  { icon: 'fa-brands fa-linkedin', href: 'https://linkedin.com/in/jacksonstrand', label: 'LinkedIn' },
+  { icon: 'fa-brands fa-github', href: 'https://github.com/jstrand894/quarto_website', label: 'GitHub' },
+  { icon: 'fa-regular fa-envelope', href: '#', label: 'Email', mail: true },
+];
+---
+<div class="navbar-wrap" transition:persist="nav">
+  <header class="navbar">
+    <a class="brand" href="/">
+      <img src="/img/logo.svg" alt="" />
+      <span>Jackson Strand</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="links">
+      <span class="indicator" aria-hidden="true"></span>
+      {nav.map((item) =>
+        'items' in item ? (
+          <div class="nav-item dropdown">
+            <button class="nav-link" type="button">{item.text} <i class="fa-solid fa-chevron-down caret"></i></button>
+            <div class="dropdown-menu">
+              <div class="dropdown-panel">
+                {item.items.map((sub) => <a href={sub.href}>{sub.text}</a>)}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div class:list={['nav-item', { active: path.startsWith(item.href) }]} data-href={item.href}>
+            <a class="nav-link" href={item.href}>{item.text}</a>
+          </div>
+        )
+      )}
+    </nav>
+    <div class="tools">
+      {tools.map((t) => (
+        <a href={t.href} aria-label={t.label} title={t.label} data-m={t.mail ? emailScrambled : undefined} target={t.href.startsWith('http') ? '_blank' : undefined} rel="noopener"><i class={t.icon}></i></a>
+      ))}
+    </div>
+  </header>
+</div>
+<script>
+  function initNav() {
+    const navbar = document.querySelector<HTMLElement>('.navbar');
+    if (!navbar) return;
+
+    // Highlight the current page (the bar persists between pages, so this runs on every navigation).
+    const path = location.pathname.replace(/\/$/, '') || '/';
+    navbar.querySelectorAll<HTMLElement>('.nav-item[data-href]').forEach((el) => {
+      el.classList.toggle('active', path.startsWith(el.dataset.href!));
+    });
+    navbar.classList.remove('open');
+    (document.activeElement as HTMLElement | null)?.blur();
+
+    if (navbar.dataset.ready) return;
+    navbar.dataset.ready = '1';
+
+    // Sliding hover highlight.
+    const links = navbar.querySelector<HTMLElement>('.links')!;
+    const indicator = navbar.querySelector<HTMLElement>('.indicator')!;
+    links.querySelectorAll<HTMLElement>('.nav-item').forEach((item) => {
+      item.addEventListener('mouseenter', () => {
+        if (getComputedStyle(indicator).display === 'none') return;
+        const r = item.getBoundingClientRect();
+        const p = links.getBoundingClientRect();
+        indicator.style.width = r.width + 'px';
+        indicator.style.transform = `translateX(${r.left - p.left}px)`;
+        indicator.style.opacity = '1';
+      });
+    });
+    links.addEventListener('mouseleave', () => (indicator.style.opacity = '0'));
+
+    // Mobile menu toggle (the dropdown sections are always expanded inside it).
+    const toggle = navbar.querySelector('.menu-toggle')!;
+    toggle.addEventListener('click', () => {
+      const open = navbar.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+
+    // Picking an item from a dropdown closes it right away (it stays hidden until the mouse leaves),
+    // and focus is dropped so the persistent navbar does not keep the menu open on the next page.
+    navbar.querySelectorAll<HTMLElement>('.dropdown').forEach((dd) => {
+      dd.addEventListener('click', (e) => {
+        if ((e.target as HTMLElement).closest('.dropdown-panel a')) {
+          dd.classList.add('dismissed');
+          (document.activeElement as HTMLElement | null)?.blur();
+        }
+      });
+      dd.addEventListener('mouseleave', () => dd.classList.remove('dismissed'));
+    });
+  }
+  document.addEventListener('astro:page-load', initNav);
+</script>

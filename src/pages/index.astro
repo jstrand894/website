@@ -1,0 +1,135 @@
+---
+import { Image, getImage } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import headshot from '../assets/headshot.jpg';
+import { socials, emailScrambled } from '../data/site';
+import { publications } from '../data/publications';
+import { talks } from '../data/talks';
+import { media } from '../data/media';
+import { items as resources } from '../data/helpful';
+import { projects } from '../data/research';
+import { awards } from '../data/cv';
+import { sites } from '../data/sites';
+
+// Counts come straight from the data files, so they stay correct as you add things.
+const cards = [
+  { icon: 'fa-solid fa-file-lines', title: 'CV', text: 'Education, publications, awards, teaching and service, all in one place.', href: '/cv', featured: true,
+    meta: [`${publications.length} publications`, `${talks.length} talks`, `${awards.length} awards`] },
+  { icon: 'fa-solid fa-microscope', title: 'Research', text: 'Current and past research projects.', href: '/research', meta: [`${projects.length} projects`] },
+  { icon: 'fa-solid fa-book', title: 'Publications', text: 'Peer-reviewed papers, with abstracts.', href: '/publications', meta: [`${publications.length} papers`] },
+  { icon: 'fa-solid fa-microphone', title: 'Talks', text: 'Conference talks, seminars and lectures.', href: '/talks', meta: [`${talks.length} talks`] },
+  { icon: 'fa-solid fa-location-dot', title: 'Field Sites', text: 'Where my PhD field work happens.', href: '/field-sites', meta: [`${sites.length} sites`] },
+  { icon: 'fa-solid fa-newspaper', title: 'Media', text: 'Features, photography and video.', href: '/media', meta: [`${media.length} features`] },
+  { icon: 'fa-solid fa-toolbox', title: 'Resources', text: 'Resources for students and collaborators.', href: '/helpful-resources', meta: [`${resources.length} resources`] },
+];
+
+// Featured photos, in display order. The first one is shown large. Edit captions or swap files here;
+// every image in src/assets/gallery is available by file name.
+const featured = [
+  { file: 'hunters_gulch.jpg', title: "Hunter's Gulch", sub: 'Field site, southwest Montana' },
+  { file: 'bombus.jpg', title: 'Bumble bee', sub: 'Bombus on flower' },
+  { file: 'mecinus.jpg', title: 'Mecinus', sub: 'Biocontrol weevil' },
+  { file: 'copper_creek.jpg', title: 'Copper Creek', sub: 'Backcountry' },
+  { file: 'wss.jpg', title: 'Wheat stem sawfly', sub: 'Study organism' },
+];
+const files = import.meta.glob<{ default: ImageMetadata }>('../assets/gallery/*.jpg', { eager: true });
+const byName = Object.fromEntries(Object.entries(files).map(([path, m]) => [path.split('/').pop()!, m.default]));
+const photos = featured.filter((f) => byName[f.file]).map((f) => ({ ...f, img: byName[f.file] }));
+const full = await Promise.all(photos.map((ph) => getImage({ src: ph.img, width: 2000, format: 'jpg' })));
+---
+<Base title="Jackson Strand" wide>
+  <div class="home-bg" aria-hidden="true"></div>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">PhD Student · Montana State University</p>
+      <h1>Jackson R. Strand</h1>
+      <p class="lede">
+        I study plant–insect interactions and the role of biological control in integrated pest management, working in applied entomology, invasive species management, and ecology. My goal is to develop strategies that support resilient landscapes and long-term conservation outcomes.
+      </p>
+      <div class="hero-cta">
+        <a class="btn" href="/cv"><span>View my CV</span></a>
+        <a class="btn-ghost" href="/research"><span>Explore my research</span></a>
+        <div class="socials">
+          {socials.map((s) => (
+            <a href={s.href} target={s.mail ? undefined : '_blank'} rel="noopener" aria-label={s.text} title={s.text} data-m={s.mail ? emailScrambled : undefined}>
+              <i class={`${s.solid ? 'fa-solid' : 'fa-brands'} ${s.icon}`}></i>
+            </a>
+          ))}
+        </div>
+      </div>
+      <p class="hero-contact"><i class="fa-regular fa-handshake"></i> Open to collaborations and questions. <a href="#" data-m={emailScrambled}>Say hello! <i class="fa-solid fa-arrow-right"></i></a></p>
+    </div>
+    <div class="portrait">
+      <div class="portrait-frame"><Image src={headshot} alt="Jackson Strand" width={1000} loading="eager" /></div>
+    </div>
+  </section>
+
+  <div class="below">
+  <h2 class="section-title">Explore</h2>
+  <div class="cards">
+    {cards.map((c) => (
+      <a class:list={['card', { 'card-featured': c.featured }]} href={c.href}>
+        <span class="card-top">
+          <i class={c.icon}></i>
+          <h3>{c.title}</h3>
+          <i class="fa-solid fa-arrow-right card-arrow"></i>
+        </span>
+        <p>{c.text}</p>
+        {c.meta.length > 0 && <span class="card-meta">{c.meta.map((m) => <span>{m}</span>)}</span>}
+      </a>
+    ))}
+  </div>
+
+  <div class="section-head">
+    <h2 class="section-title">From the field</h2>
+    <a class="more-link" href="https://jacksonstrandphoto.myportfolio.com" target="_blank" rel="noopener">More photography <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <div class="bento">
+    {photos.map((ph, i) => (
+      <a class:list={['tile', { 'tile-hero': i === 0 }]} href={full[i].src} data-fancybox="gallery" data-caption={`${ph.title} — ${ph.sub}`}>
+        <Image src={ph.img} alt={ph.title} width={i === 0 ? 1400 : 700} loading="lazy" />
+        <span class="tile-caption"><strong>{ph.title}</strong><small>{ph.sub}</small></span>
+      </a>
+    ))}
+  </div>
+  </div>
+
+  <script>
+    let ctrl: AbortController | undefined;
+    function initHome() {
+      ctrl?.abort();
+      const hero = document.querySelector<HTMLElement>('.hero');
+      const below = document.querySelector<HTMLElement>('.below');
+      if (!hero || !below) return;
+      ctrl = new AbortController();
+      const { signal } = ctrl;
+
+      // The hero fills the screen at first. Over the first RANGE px of scrolling, everything below it
+      // is pulled up (transform only, so the layout never shifts) until it sits right under the intro.
+      const RANGE = 350;
+      let shift = 0;
+      const update = () => {
+        const p = Math.min(Math.max(window.scrollY / RANGE, 0), 1);
+        below.style.transform = `translate3d(0, ${-(p * (2 - p)) * shift}px, 0)`;
+      };
+      const measure = () => {
+        const inner = Math.max(
+          hero.querySelector<HTMLElement>('.hero-text')!.offsetHeight,
+          hero.querySelector<HTMLElement>('.portrait')!.offsetHeight
+        );
+        const pad = parseFloat(getComputedStyle(hero).paddingTop);
+        // the hero's content is vertically centred, so only half of the spare height sits below it
+        shift = Math.max(0, (hero.offsetHeight - inner - pad) / 2);
+        below.style.marginBottom = -shift + 'px'; // keeps the page from ending in an empty gap
+        update();
+      };
+      window.addEventListener('scroll', update, { passive: true, signal });
+      window.addEventListener('resize', measure, { signal });
+      window.addEventListener('load', measure, { signal });
+      measure();
+
+      (window as any).Fancybox?.bind("[data-fancybox='gallery']", { Thumbs: false, Toolbar: { display: ['close', 'prev', 'next'] } });
+    }
+    document.addEventListener('astro:page-load', initHome);
+  </script>
+</Base>

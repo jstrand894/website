@@ -1,0 +1,11 @@
+---
+interface Props { title: string; id: string; link?: { href: string; label: string } }
+const { title, id, link } = Astro.props;
+---
+<section id={id} class="cv-section">
+  <h2>{title}</h2>
+  {link && (
+    <a class="btn" href={link.href}><span>{link.label}</span></a>
+  )}
+  <div class="box"><slot /></div>
+</section>

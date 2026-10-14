@@ -1,0 +1,85 @@
+---
+import { Image, getImage } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { tagline, story } from '../data/about';
+import { socials, emailScrambled } from '../data/site';
+
+// Full-size versions of every real photo, for the click-to-enlarge lightbox.
+const fulls: Record<string, string> = {};
+for (const s of story) {
+  for (const p of s.figure?.photos ?? []) {
+    if (p.src) fulls[p.src.src] = (await getImage({ src: p.src, width: 2000, format: 'jpg' })).src;
+  }
+}
+const ratio = (p: { src?: ImageMetadata; url?: string; ratio?: number }) => (p.src ? p.src.width / p.src.height : p.ratio ?? 4 / 3);
+---
+<Base title="About | Jackson Strand" description="About Jackson R. Strand: how a regulatory data analyst became a PhD student studying biological control of invasive plants." wide>
+  <div class="about">
+    <header class="ab-head">
+      <p class="eyebrow">About me</p>
+      <h1>{tagline}</h1>
+      <div class="ab-links">
+        <a class="btn" href="/cv"><span>See my CV</span></a>
+        <a class="btn-ghost" href="/research"><span>My research</span></a>
+      </div>
+    </header>
+
+    <article class="ab-prose">
+      {story.map((s) => (
+        <section id={s.id} class="ab-story">
+          <h2>{s.title}</h2>
+          {s.paragraphs.map((t) => <p set:html={t} />)}
+          {s.figure && (
+            <figure class="ab-figure">
+              <div class="ab-photos">
+                {s.figure.photos.map((p) =>
+                  p.url ? (
+                    <a href={p.url} data-fancybox="about" data-caption={p.alt} style={`flex: ${ratio(p)} 1 0`}>
+                      <img src={p.url} alt={p.alt ?? ''} loading="lazy" />
+                    </a>
+                  ) : p.src ? (
+                    <a href={fulls[p.src.src]} data-fancybox="about" data-caption={p.alt} style={`flex: ${ratio(p)} 1 0`}>
+                      <Image src={p.src} alt={p.alt ?? ''} width={800} loading="lazy" />
+                    </a>
+                  ) : (
+                    <div class="ab-ph" style={`flex: ${ratio(p)} 1 0`}>
+                      <i class="fa-regular fa-image"></i>
+                      <strong>Photo coming soon</strong>
+                      <span>{p.note}</span>
+                    </div>
+                  )
+                )}
+              </div>
+              <figcaption set:html={s.figure.caption} />
+            </figure>
+          )}
+        </section>
+      ))}
+    </article>
+
+    <aside class="ab-connect">
+      <h2>Let’s connect</h2>
+      <p>If you want to talk about biological control, chemical ecology, or trails around Bozeman, I would love to hear from you.</p>
+      <div class="ab-connect-row">
+        <a class="btn" href="#" data-m={emailScrambled}><span><i class="fa-solid fa-envelope"></i> Say hello</span></a>
+        <div class="socials">
+          {socials.filter((s) => !s.mail).map((s) => (
+            <a href={s.href} target="_blank" rel="noopener" aria-label={s.text} title={s.text}>
+              <i class={`${s.solid ? 'fa-solid' : 'fa-brands'} ${s.icon}`}></i>
+            </a>
+          ))}
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    function initAbout() {
+      const F = (window as any).Fancybox;
+      if (!F || !document.querySelector('.about')) return;
+      F.unbind('[data-fancybox="about"]');
+      F.bind('[data-fancybox="about"]', { Thumbs: false, Toolbar: { display: ['close', 'prev', 'next'] } });
+    }
+    document.addEventListener('astro:page-load', initAbout);
+  </script>
+</Base>

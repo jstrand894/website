@@ -1,0 +1,190 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { sites, uses, intro, mapEmbed } from '../data/sites';
+
+const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/sites/*.jpg', { eager: true });
+const photoFor = (slug: string) => photos[`../assets/sites/${slug}.jpg`]?.default;
+const mapSrc = (lat: number, lng: number) => `https://maps.google.com/maps?q=${lat},${lng}&z=13&t=h&output=embed`;
+const mapLink = (lat: number, lng: number) => `https://www.google.com/maps?q=${lat},${lng}`;
+
+const states = ['Montana', 'South Dakota'] as const;
+const stats = [
+  { n: sites.length, label: 'field sites' },
+  { n: states.length, label: 'states' },
+  // <em>R. pilosa</em> is released at every monitoring grid, so the grid sites are its release sites.
+  { n: sites.filter((s) => s.uses.includes('grid')).length, label: '<em>R. pilosa</em> release sites' },
+  { n: sites.filter((s) => s.uses.includes('release')).length, label: '<em>M. janthinus</em> release sites' },
+];
+---
+<Base title="Field Sites | Jackson Strand" description="Field sites for Jackson Strand's PhD research on the biological control of yellow and Dalmatian toadflax in Montana and South Dakota." wide>
+  <div class="fs">
+    <header class="page-head">
+      <p class="eyebrow">Field sites</p>
+      <h1>Where the toadflax work happens</h1>
+      {intro.map((t) => <p set:html={t} />)}
+      <div class="t-stats">
+        {stats.map((s) => <div><strong>{s.n}</strong><span set:html={s.label} /></div>)}
+      </div>
+    </header>
+
+    <div class="fs-map">
+      <iframe src={mapEmbed} title="Map of field sites" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    {states.map((st) => (
+      <section class="fs-group">
+        <h2>{st}</h2>
+        <div class="fs-grid">
+          {sites.filter((s) => s.state === st).map((s) => (
+            <div class="fs-card" data-card>
+              <div class="fs-inner">
+              <div class="fs-summary" role="button" tabindex="0" aria-expanded="false">
+                <div class="fs-head">
+                  <h3>{s.name}</h3>
+                  <i class="fa-solid fa-chevron-down fs-caret" aria-hidden="true"></i>
+                </div>
+                <p class="fs-region"><i class="fa-solid fa-location-dot"></i> {s.region}</p>
+                <p class="fs-text" set:html={s.text} />
+                <div class="fs-tags">
+                  {s.uses.map((u) => <span class="tag"><i class={uses[u].icon}></i> <Fragment set:html={uses[u].label} /></span>)}
+                </div>
+              </div>
+              <div class:list={['fs-more', { 'no-map': s.lat === undefined }]}>
+                {photoFor(s.slug) && <div class="fs-photo"><Image src={photoFor(s.slug)} alt={`${s.name} field site`} width={900} loading="lazy" /></div>}
+                {s.lat !== undefined && s.lng !== undefined && (
+                  <div class="fs-mapbox">
+                    <iframe data-src={mapSrc(s.lat, s.lng)} title={`Map of ${s.name}`} loading="lazy"></iframe>
+                    <a class="fs-maplink" href={mapLink(s.lat, s.lng)} target="_blank" rel="noopener">Open in Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                )}
+              </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <script>
+    // Cards open in place: a card on the left grows to the right, one on the right grows to the left, and both grow down.
+    // The card is laid out at its final size straight away and the animation is only visual (FLIP): the other cards slide
+    // from where they were to where they are, while the card's own box (a ::before layer that carries the border and
+    // background) and a clip on its content grow from the closed size to the open size, anchored to its own side.
+    // Closing plays the same thing in reverse order: the card shrinks first, then the others slide back.
+    const OUT = 'cubic-bezier(0.22, 1, 0.36, 1)';
+    const IN_OUT = 'cubic-bezier(0.65, 0, 0.35, 1)';
+    let busy = false;
+
+    const rectsOf = (cards: HTMLElement[]) => cards.map((c) => c.getBoundingClientRect());
+    const load = (card: HTMLElement) =>
+      card.querySelectorAll<HTMLIFrameElement>('iframe[data-src]').forEach((f) => { f.src = f.dataset.src!; f.removeAttribute('data-src'); });
+
+    // Every card keeps its own column while one is open, so cards only ever move up and down, never across each other.
+    // The open card takes the whole of its row; its row-mate and everything below it in that column drop down one slot.
+    function setOpen(card: HTMLElement, open: boolean) {
+      const grid = card.parentElement!;
+      const cards = Array.from(grid.children) as HTMLElement[];
+      const cols = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+      const i = cards.indexOf(card);
+      const row = Math.floor(i / cols) + 1;
+      const col = i % cols;
+      cards.forEach((c, j) => {
+        if (c === card || cols === 1) { c.style.gridColumn = ''; c.style.gridRow = ''; return; }
+        const cj = j % cols;
+        const rj = Math.floor(j / cols) + 1;
+        c.style.gridColumn = open ? String(cj + 1) : '';
+        c.style.gridRow = open ? String(cj !== col && rj >= row ? rj + 1 : rj) : '';
+      });
+      card.style.gridRow = open ? String(row) : '';
+      card.classList.toggle('open', open);
+      card.classList.toggle('open-right', open && cols > 1 && col === cols - 1);
+      card.querySelector('.fs-summary')!.setAttribute('aria-expanded', String(open));
+    }
+
+    async function transition(card: HTMLElement, open: boolean) {
+      const grid = card.parentElement!;
+      const cards = Array.from(grid.children) as HTMLElement[];
+      const idx = cards.indexOf(card);
+      if (open) load(card);
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) { setOpen(card, open); return; }
+      busy = true;
+      document.documentElement.style.overflowAnchor = 'none';
+
+      const first = rectsOf(cards);
+      const h0 = grid.offsetHeight;
+      setOpen(card, open);
+      const last = rectsOf(cards);
+      const h1 = grid.offsetHeight;
+      if (!open) setOpen(card, true); // closing: stay in the open layout while it animates shut
+
+      const small = open ? first[idx] : last[idx];
+      const big = open ? last[idx] : first[idx];
+      const right = card.classList.contains('open-right');
+      // the closed box, as a clip inside the open card, anchored to the card's own side
+      const dw = big.width - small.width;
+      const dh = big.height - small.height;
+      const clipSmall = right ? `inset(1px 1px ${dh + 1}px ${dw + 1}px)` : `inset(1px ${dw + 1}px ${dh + 1}px 1px)`;
+      const clipBig = 'inset(1px 1px 1px 1px)';
+      const size = (r: DOMRect) => [`${r.width}px`, `${r.height}px`];
+
+      card.classList.add('anim');
+      card.style.setProperty('--box-w', `${big.width}px`);
+      card.style.setProperty('--box-h', `${big.height}px`);
+      cards.forEach((c) => { if (c !== card) c.classList.add('anim-other'); });
+
+      const slide = open
+        ? { delay: 0, duration: 380, easing: OUT }
+        : { delay: 170, duration: 380, easing: IN_OUT };
+      const box = open
+        ? { delay: 100, duration: 450, easing: OUT }
+        : { delay: 0, duration: 450, easing: IN_OUT };
+      const fill = 'both' as FillMode;
+
+      const anims: Animation[] = [];
+      const [w0, w1] = open ? [size(small)[0], size(big)[0]] : [size(big)[0], size(small)[0]];
+      const [hh0, hh1] = open ? [size(small)[1], size(big)[1]] : [size(big)[1], size(small)[1]];
+      anims.push(card.animate({ width: [w0, w1], height: [hh0, hh1] }, { ...box, fill, pseudoElement: '::before' }));
+      anims.push(card.querySelector<HTMLElement>('.fs-inner')!.animate({ clipPath: open ? [clipSmall, clipBig] : [clipBig, clipSmall] }, { ...box, fill }));
+
+      cards.forEach((c, i) => {
+        if (c === card) return;
+        const dx = first[i].left - last[i].left;
+        const dy = first[i].top - last[i].top;
+        if (!dx && !dy) return;
+        anims.push(c.animate({ transform: open ? [`translate(${dx}px, ${dy}px)`, 'translate(0px, 0px)'] : ['translate(0px, 0px)', `translate(${-dx}px, ${-dy}px)`] }, { ...slide, fill }));
+      });
+      // keep everything below the grid moving smoothly too
+      grid.style.overflow = 'visible';
+      anims.push(grid.animate({ height: [`${h0}px`, `${h1}px`] }, { ...slide, fill }));
+
+      await Promise.allSettled(anims.map((a) => a.finished));
+      if (!open) setOpen(card, false);
+      card.classList.remove('anim');
+      cards.forEach((c) => c.classList.remove('anim-other'));
+      card.style.removeProperty('--box-w');
+      card.style.removeProperty('--box-h');
+      anims.forEach((a) => a.cancel());
+      document.documentElement.style.overflowAnchor = '';
+      busy = false;
+    }
+
+    async function toggle(card: HTMLElement) {
+      if (busy) return;
+      const wasOpen = card.classList.contains('open');
+      const other = document.querySelector<HTMLElement>('.fs-card.open');
+      if (!wasOpen && other) await transition(other, false);
+      await transition(card, !wasOpen);
+    }
+
+    document.addEventListener('click', (e) => {
+      const head = (e.target as HTMLElement).closest<HTMLElement>('.fs-summary');
+      if (head) toggle(head.closest<HTMLElement>('.fs-card')!);
+    });
+    document.addEventListener('keydown', (e) => {
+      const head = (e.target as HTMLElement).closest<HTMLElement>('.fs-summary');
+      if (head && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); toggle(head.closest<HTMLElement>('.fs-card')!); }
+    });
+  </script>
+</Base>

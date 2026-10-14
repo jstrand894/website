@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import { categories, items } from '../data/helpful';
+
+const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+const byCat = categories.map((c) => ({ ...c, items: items.filter((i) => i.cat === c.id) }));
+---
+<Base title="Helpful Resources | Jackson Strand" description="Tutorials, tools and links I have collected for students and collaborators." wide>
+  <div class="hr">
+    <header class="page-head">
+      <p class="eyebrow">Helpful resources</p>
+      <h1>Tools and guides I keep coming back to</h1>
+      <p>A collection I have built up for students and collaborators: R and statistics, website building, research tools, and a few outdoor and everyday finds.</p>
+    </header>
+
+    <div class="hr-controls">
+      <label class="hr-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input id="hr-q" type="search" placeholder={`Search ${items.length} resources…`} autocomplete="off" />
+      </label>
+      <nav class="hr-chips" aria-label="Jump to a section">
+        {categories.map((c) => <a class="filter-chip" href={`#${c.id}`} data-jump={c.id}><i class={c.icon}></i> {c.title}</a>)}
+      </nav>
+    </div>
+
+    {byCat.map((c) => (
+      <section class="hr-group" id={c.id} data-group={c.id}>
+        <div class="hr-group-head">
+          <span class="hr-group-icon"><i class={c.icon}></i></span>
+          <div>
+            <h2>{c.title}</h2>
+            <p>{c.blurb}</p>
+          </div>
+        </div>
+        <div class="hr-grid">
+          {c.items.map((it) => (
+            <article class="hr-card" data-cat={c.id} data-text={`${it.title} ${it.by ?? ''} ${it.desc} ${c.title}`.toLowerCase()}>
+              <a class="hr-main" href={it.href} target="_blank" rel="noopener">
+                <i class:list={['hr-card-icon', it.icon ?? c.icon]}></i>
+                <h3>{it.title}</h3>
+                {it.by && <p class="hr-by">{it.by}</p>}
+                <p class="hr-desc">{it.desc}</p>
+                <span class="hr-foot">{host(it.href)} <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+              </a>
+              {it.more && <a class="hr-more" href={it.more.href} target="_blank" rel="noopener">{it.more.label} <i class="fa-solid fa-arrow-right"></i></a>}
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <p class="hr-empty" hidden>No resources match that search.</p>
+  </div>
+
+  <script>
+    // Search box: hides cards that do not match, and any section left empty.
+    function applySearch() {
+      const q = (document.getElementById('hr-q') as HTMLInputElement | null)?.value.trim().toLowerCase() ?? '';
+      let any = false;
+      document.querySelectorAll<HTMLElement>('.hr-group').forEach((g) => {
+        let shown = 0;
+        g.querySelectorAll<HTMLElement>('.hr-card').forEach((c) => {
+          const ok = !q || c.dataset.text!.includes(q);
+          c.hidden = !ok;
+          if (ok) shown++;
+        });
+        g.hidden = shown === 0;
+        if (shown) any = true;
+      });
+      document.querySelector<HTMLElement>('.hr-empty')!.hidden = any;
+      spy();
+    }
+    // The bubbles are jump links; the one for the section you are reading is highlighted.
+    function spy() {
+      const chips = Array.from(document.querySelectorAll<HTMLAnchorElement>('.hr-chips [data-jump]'));
+      if (!chips.length) return;
+      const line = window.innerHeight * 0.35;
+      let current: string | null = null;
+      for (const c of chips) {
+        const sec = document.getElementById(c.dataset.jump!);
+        if (sec && !sec.hidden && sec.getBoundingClientRect().top <= line) current = c.dataset.jump!;
+      }
+      chips.forEach((c) => c.classList.toggle('active', c.dataset.jump === current));
+    }
+    document.addEventListener('input', (e) => { if ((e.target as HTMLElement).id === 'hr-q') applySearch(); });
+    window.addEventListener('scroll', spy, { passive: true });
+    document.addEventListener('astro:page-load', spy);
+  </script>
+</Base>

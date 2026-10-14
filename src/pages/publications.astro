@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import { publications } from '../data/publications';
+
+const strip = (html: string) => html.replace(/<[^>]+>/g, '');
+const boldMe = (authors: string) => authors.replace('Strand JR', '<strong>Strand JR</strong>');
+const count = publications.filter((p) => !p.status).length;
+---
+<Base title="Publications | Jackson Strand" description="Peer-reviewed publications by Jackson R. Strand.">
+  <header class="page-head">
+    <h1>Publications</h1>
+    <a class="btn" href="https://scholar.google.com/citations?user=_szV1hYAAAAJ&hl=en" target="_blank" rel="noopener">
+      <span><i class="fa-brands fa-google"></i> Google Scholar</span>
+    </a>
+    <a class="btn" style="margin-left: 0.5rem" href="https://orcid.org/0009-0005-8827-021X" target="_blank" rel="noopener">
+      <span><i class="fa-brands fa-orcid"></i> ORCID</span>
+    </a>
+  </header>
+
+  <div class="pub-list">
+    {publications.map((p, i) => {
+      const plainCite = `${p.authors}. ${p.year}. ${strip(p.title)}. ${p.journal}${p.issue ? '. ' + p.issue : ''}.`;
+      return (
+        <div class="pub-row">
+        <span class="pub-num" aria-label={`Publication ${publications.length - i}`}>{String(publications.length - i).padStart(2, '0')}</span>
+        <article class="pub-card">
+          <div class="pub-body">
+            <p class="pub-meta">
+              <span class="pub-journal">{p.journal}</span> · {p.year}
+              {p.status && <span class="chip status">{p.status}</span>}
+            </p>
+            <h2 class="pub-title" set:html={p.title} />
+            <p class="pub-authors" set:html={boldMe(p.authors)} />
+            {p.summary && <p class="pub-summary">{p.summary}</p>}
+            {p.tags && <div class="pub-tags">{p.tags.map((t) => <span class="tag">{t}</span>)}</div>}
+            <div class="pub-actions">
+              {p.doi && <a class="chip" href={`https://doi.org/${p.doi}`} target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> DOI</a>}
+              <button class="chip copy-cite-btn" type="button" data-cite={plainCite} data-doi={p.doi ?? ''}>
+                <i class="fa-regular fa-copy"></i> <span>Copy citation</span>
+              </button>
+            </div>
+            {p.abstract && (
+              <details class="pub-abstract">
+                <summary>Abstract</summary>
+                <p set:html={p.abstract} />
+              </details>
+            )}
+          </div>
+        </article>
+        </div>
+      );
+    })}
+  </div>
+
+  <script>
+    // One delegated listener (this script only runs once, even with page transitions).
+    document.addEventListener('click', async (e) => {
+      const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.copy-cite-btn');
+      if (!btn) return;
+      const text = btn.dataset.cite + (btn.dataset.doi ? ` https://doi.org/${btn.dataset.doi}` : '');
+      try {
+        await navigator.clipboard.writeText(text);
+        const label = btn.querySelector('span')!;
+        label.textContent = 'Copied!';
+        setTimeout(() => (label.textContent = 'Copy citation'), 1600);
+      } catch {}
+    });
+  </script>
+</Base>

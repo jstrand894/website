@@ -1,0 +1,68 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { heroTitle, intro, principles, sections, closing } from '../data/teaching';
+---
+<Base title="Teaching Philosophy | Jackson Strand" description="Jackson R. Strand's teaching philosophy: inclusive, discussion-driven learning in the age of AI." wide>
+  <div class="tp">
+    <header class="tp-hero">
+      <p class="eyebrow">Teaching philosophy</p>
+      <h1 set:html={heroTitle} />
+      {intro.map((t) => <p class="lede">{t}</p>)}
+      <a class="more-link" href="/cv#teaching">See my teaching experience <i class="fa-solid fa-arrow-right"></i></a>
+    </header>
+
+    <div class="tp-principles">
+      {principles.map((p, i) => (
+        <a class="tp-principle" href={`#${p.id}`}>
+          <span class="tp-num">{String(i + 1).padStart(2, '0')}</span>
+          <i class={p.icon}></i>
+          <h2>{p.title}</h2>
+          <p>{p.tagline}</p>
+        </a>
+      ))}
+    </div>
+
+    {sections.map((s, i) => (
+      <section class="tp-section" id={s.id}>
+        <div class="tp-side"><span>{String(i + 1).padStart(2, '0')}</span></div>
+        <div class="tp-main">
+          <h2>{s.title}</h2>
+          {s.paragraphs.map((t) => <p>{t}</p>)}
+
+          {s.caseStudy && (
+            <aside class="tp-case">
+              <p class="tp-case-label"><i class="fa-solid fa-chalkboard-user"></i> {s.caseStudy.label}</p>
+              <h3>{s.caseStudy.title}</h3>
+              <p class="tp-case-course"><strong>{s.caseStudy.course}</strong> · {s.caseStudy.term}</p>
+              {s.caseStudy.paragraphs.map((t) => <p>{t}</p>)}
+              <div class="tp-slides">
+                {s.caseStudy.slides.map((sl) => (
+                  <a href={sl.src.src} data-fancybox="teaching" data-caption={sl.caption}>
+                    <Image src={sl.src} alt={sl.alt} width={700} loading="lazy" />
+                    <span>{sl.caption}</span>
+                  </a>
+                ))}
+              </div>
+            </aside>
+          )}
+        </div>
+      </section>
+    ))}
+
+    <aside class="tp-closing">
+      <i class="fa-solid fa-quote-left"></i>
+      <p>{closing}</p>
+    </aside>
+  </div>
+
+  <script>
+    function initTeaching() {
+      const F = (window as any).Fancybox;
+      if (!F || !document.querySelector('.tp')) return;
+      F.unbind('[data-fancybox="teaching"]');
+      F.bind('[data-fancybox="teaching"]', { Thumbs: false, Toolbar: { display: ['close', 'prev', 'next'] } });
+    }
+    document.addEventListener('astro:page-load', initTeaching);
+  </script>
+</Base>

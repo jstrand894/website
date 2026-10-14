@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+
+const links = [
+  { icon: 'fa-solid fa-house', label: 'Home', href: '/' },
+  { icon: 'fa-solid fa-user', label: 'About', href: '/about' },
+  { icon: 'fa-solid fa-file-lines', label: 'CV', href: '/cv' },
+  { icon: 'fa-solid fa-microscope', label: 'Research', href: '/research' },
+  { icon: 'fa-solid fa-book', label: 'Publications', href: '/publications' },
+  { icon: 'fa-solid fa-microphone', label: 'Talks', href: '/talks' },
+  { icon: 'fa-solid fa-newspaper', label: 'Media', href: '/media' },
+  { icon: 'fa-solid fa-graduation-cap', label: 'Teaching', href: '/teaching-philosophy' },
+  { icon: 'fa-solid fa-toolbox', label: 'Resources', href: '/helpful-resources' },
+];
+---
+<Base title="Page not found | Jackson Strand" description="This page could not be found." noindex>
+  <div class="nf">
+    <img class="nf-logo" src="/img/logo.svg" alt="" width="132" height="132" />
+    <p class="eyebrow">Error 404</p>
+    <h1>This page wandered off</h1>
+    <p class="nf-text">
+      The link may be broken, or the page may have moved. Like most good field sites, it can be tricky to find the first time.
+      Here is where most people are headed.
+    </p>
+    <div class="nf-links">
+      {links.map((l) => (
+        <a href={l.href}><i class={l.icon}></i> {l.label}</a>
+      ))}
+    </div>
+    <a class="btn" href="/"><span>Back to the home page</span></a>
+  </div>
+</Base>

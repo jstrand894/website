@@ -1,0 +1,25 @@
+---
+// One timeline row: date on the left, title and details on the right.
+interface Props { href?: string; extra?: string; years: string; details?: string[]; logo?: ImageMetadata; logoAlt?: string; sub?: string; featured?: boolean }
+const { href, extra, years, details = [], logo, logoAlt = '', sub, featured } = Astro.props;
+---
+<div class="entry">
+  <div class="entry-years">{years}</div>
+  <div class="entry-main">
+    {logo && <img class="entry-logo" src={logo.src} alt={logoAlt} />}
+    <div class="entry-content">
+      <div class="entry-title">
+        {featured && <i class="fa-solid fa-star featured-star" title="Featured"></i>}
+        {href ? <a href={href} target="_blank" rel="noopener"><slot /></a> : <slot />}
+        {extra && <span class="entry-extra"> {extra}</span>}
+        {sub && <> <span class="entry-sub">· {sub}</span></>}
+      </div>
+      {details.length > 0 && (
+        <ul class="entry-details">
+          {details.map((d) => <li set:html={d} />)}
+        </ul>
+      )}
+      <slot name="more" />
+    </div>
+  </div>
+</div>

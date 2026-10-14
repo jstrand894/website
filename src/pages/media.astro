@@ -1,0 +1,77 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { media, kindLabels } from '../data/media';
+
+const sorted = [...media].sort((a, b) => b.date.localeCompare(a.date));
+const years = [...new Set(sorted.map((m) => m.date.slice(0, 4)))];
+const count = (k: string) => sorted.filter((m) => m.kind === k).length;
+---
+<Base title="In the Media | Jackson Strand" description="Features, photography and video work by Jackson R. Strand." wide>
+  <div class="media-page">
+    <header class="page-head">
+      <p class="eyebrow">In the media</p>
+      <h1>Features, photography &amp; video</h1>
+      <p>Places my research and work have been featured, along with photography, video and writing I have contributed to for Montana State University, MSU Extension, and the Montana Wheat and Barley Committee.</p>
+    </header>
+
+    <div class="t-filters media-filters" role="group" aria-label="Filter by type">
+      <button class="filter-chip active" type="button" data-filter="all">All <span class="count">{sorted.length}</span></button>
+      {Object.entries(kindLabels).map(([k, label]) => (
+        <button class="filter-chip" type="button" data-filter={k}>{label} <span class="count">{count(k)}</span></button>
+      ))}
+    </div>
+
+    {years.map((y) => (
+      <section class="m-year" data-year={y}>
+        <h2 class="t-year-label">{y}</h2>
+        <div class="m-list">
+          {sorted.filter((m) => m.date.startsWith(y)).map((m) => (
+            <article class="m-item" data-kind={m.kind}>
+              <a class="m-media" href={m.href} target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <Image src={m.image} alt={m.imageAlt} width={560} loading="lazy" />
+              </a>
+              <div class="m-body">
+                <p class="talk-meta">
+                  <span class="talk-date">{m.display}</span>
+                  <span class="tag">{kindLabels[m.kind]}</span>
+                  {m.role !== 'Featured' && <span class="m-role">{m.role}</span>}
+                </p>
+                <h3><a href={m.href} target="_blank" rel="noopener">{m.title}</a></h3>
+                <p class="m-outlet">{m.outlet}</p>
+                <p class="m-summary">{m.summary}</p>
+                <div class="m-actions">
+                  <a class="btn" href={m.href} target="_blank" rel="noopener"><span><i class={m.icon ?? 'fa-solid fa-arrow-up-right-from-square'}></i> {m.cta}</span></a>
+                  {m.more && (
+                    <span class="m-more">
+                      {m.more.map((x) => <a class="chip" href={x.href} target="_blank" rel="noopener">{x.label}</a>)}
+                    </span>
+                  )}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <script>
+    // Type filter (one delegated listener; this script only runs once).
+    document.addEventListener('click', (e) => {
+      const chip = (e.target as HTMLElement).closest<HTMLButtonElement>('.media-filters .filter-chip');
+      if (!chip) return;
+      const f = chip.dataset.filter!;
+      document.querySelectorAll('.media-filters .filter-chip').forEach((c) => c.classList.toggle('active', c === chip));
+      document.querySelectorAll<HTMLElement>('.m-year').forEach((yr) => {
+        let shown = 0;
+        yr.querySelectorAll<HTMLElement>('.m-item').forEach((it) => {
+          const ok = f === 'all' || it.dataset.kind === f;
+          it.hidden = !ok;
+          if (ok) shown++;
+        });
+        yr.hidden = shown === 0;
+      });
+    });
+  </script>
+</Base>
