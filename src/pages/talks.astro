@@ -1,7 +1,11 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import { talks, defenseVideo as v, categoryLabels } from '../data/talks';
+
+// Lightbox versions of the talk photos (2000px wide) instead of the full-size originals.
+const fulls: Record<string, string> = {};
+for (const t of talks) if (t.image) fulls[t.image.src] = (await getImage({ src: t.image, width: 2000, format: 'jpg' })).src;
 
 const years = [...new Set(talks.map((t) => t.year))];
 const count = (f: (t: (typeof talks)[number]) => boolean) => talks.filter(f).length;
@@ -55,7 +59,7 @@ const stats = [
             {talks.filter((t) => t.year === y).map((t) => (
               <article id={`talk-${talks.indexOf(t)}`} class:list={['talk', { 'has-image': t.image }]} data-cat={t.category} data-award={t.award ? '1' : '0'}>
                 {t.image && (
-                  <a class="talk-media" href={t.image.src} data-fancybox="talks" data-caption={t.imageCaption ?? t.imageAlt}>
+                  <a class="talk-media" href={fulls[t.image.src]} data-fancybox="talks" data-caption={t.imageCaption ?? t.imageAlt}>
                     <Image src={t.image} alt={t.imageAlt ?? ''} width={500} loading="lazy" />
                   </a>
                 )}

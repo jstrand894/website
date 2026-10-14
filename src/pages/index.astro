@@ -60,7 +60,7 @@ const full = await Promise.all(photos.map((ph) => getImage({ src: ph.img, width:
       <p class="hero-contact"><i class="fa-regular fa-handshake"></i> Open to collaborations and questions. <a href="#" data-m={emailScrambled}>Say hello! <i class="fa-solid fa-arrow-right"></i></a></p>
     </div>
     <div class="portrait">
-      <div class="portrait-frame"><Image src={headshot} alt="Jackson Strand" width={1000} loading="eager" /></div>
+      <div class="portrait-frame"><Image src={headshot} alt="Jackson Strand" width={1000} loading="eager" fetchpriority="high" /></div>
     </div>
   </section>
 

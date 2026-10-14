@@ -1,7 +1,10 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import { heroTitle, intro, principles, sections, closing } from '../data/teaching';
+// Lightbox versions of the slides (2000px wide) instead of the full-size originals.
+const fulls: Record<string, string> = {};
+for (const s of sections) for (const sl of s.caseStudy?.slides ?? []) fulls[sl.src.src] = (await getImage({ src: sl.src, width: 2000, format: 'jpg' })).src;
 ---
 <Base title="Teaching Philosophy | Jackson Strand" description="Jackson R. Strand's teaching philosophy: inclusive, discussion-driven learning in the age of AI." wide>
   <div class="tp">
@@ -38,7 +41,7 @@ import { heroTitle, intro, principles, sections, closing } from '../data/teachin
               {s.caseStudy.paragraphs.map((t) => <p>{t}</p>)}
               <div class="tp-slides">
                 {s.caseStudy.slides.map((sl) => (
-                  <a href={sl.src.src} data-fancybox="teaching" data-caption={sl.caption}>
+                  <a href={fulls[sl.src.src]} data-fancybox="teaching" data-caption={sl.caption}>
                     <Image src={sl.src} alt={sl.alt} width={700} loading="lazy" />
                     <span>{sl.caption}</span>
                   </a>

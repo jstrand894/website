@@ -49,7 +49,7 @@ const ticks = [2021, 2022, 2023, 2024, 2025, 2026];
 <Base title="Research | Jackson Strand" description="Research overview: biological control, chemical ecology and plant–insect interactions." wide>
   <div class="research">
     <figure class="r-banner">
-      <Image src={banner_image} alt="Forested hills near Copper Creek, Montana" width={6000} widths={[1600, 2800, 4200, 6000]} sizes="max(100vw, calc(clamp(380px, 74vh, 780px) * 4.1))" quality={88} loading="eager" />
+      <Image src={banner_image} alt="Forested hills near Copper Creek, Montana" width={6000} widths={[1600, 2800, 4200, 6000]} sizes="max(100vw, calc(clamp(380px, 74vh, 780px) * 4.1))" quality={78} loading="eager" fetchpriority="high" />
           <section class="r-more" aria-label="More about my research">
         <div class="cards cards-3">
           {more.map((c) => (
@@ -113,6 +113,7 @@ const ticks = [2021, 2022, 2023, 2024, 2025, 2026];
       </div>
       <div class="r-tl" style={`--m-left:${pct(2021)}%; --m-w:${pct(2024.65)}%; --p-left:${pct(2025)}%; --p-w:${100 - pct(2025)}%`}>
         <div class="rtl-track">
+          <span class="rtl-link" aria-hidden="true"></span>
           <a class="rtl-seg rtl-masters" href="#masters" title="Master’s thesis · MS Entomology · 2021–2024">
             <span>Master’s thesis · 2021–2024</span><small>MS Entomology</small>
           </a>
@@ -143,7 +144,7 @@ const ticks = [2021, 2022, 2023, 2024, 2025, 2026];
           </div>
         </div>
 
-        <div class:list={['r-split', 'reveal', { flip: idx % 2 === 1, even: p.id === 'phd' }]}>
+        <div class:list={['r-split', 'reveal', { flip: p.id === 'masters', even: p.id === 'phd' }]}>
           <div class="r-textcol">
             <div class="r-text" data-clamp>
               {p.paragraphs.map((t) => <p set:html={t} />)}

@@ -1069,3 +1069,14 @@ html.js .rv.in { opacity: 1; transform: none; }
 /* research overview: the cards on the photo move up with the menu bar */
 .research .r-more { transition: top 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
 html.nav-away .research .r-more { top: 1.4rem; }
+
+/* research timeline: a line bridges the gap between the two bars, with a marker exactly halfway along it */
+.rtl-link {
+  position: absolute; left: calc(var(--m-left) + var(--m-w)); width: calc(var(--p-left) - var(--m-left) - var(--m-w));
+  top: 50%; height: 4px; transform: translateY(-50%); background: linear-gradient(90deg, #8f5a95, var(--purple-2));
+}
+.rtl-link::after {
+  content: ''; position: absolute; left: 50%; top: 50%; width: 11px; height: 11px; transform: translate(-50%, -50%);
+  border-radius: 50%; background: #fff; border: 2px solid var(--purple-2); box-sizing: border-box;
+}
+.rtl-seg { z-index: 1; }

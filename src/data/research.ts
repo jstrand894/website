@@ -29,48 +29,6 @@ export interface Logo { src: ImageMetadata; alt: string }
 
 export const projects = [
   {
-    id: 'phd',
-    stackBeside: true,   // sub-projects sit under the text and all photos stack in the right column
-    kind: 'PhD Research',
-    status: 'Current',
-    short: 'PhD · Toadflax',
-    period: '2025 – present',
-    degree: 'PhD, Ecology & Environmental Science',
-    glance: [
-      { icon: 'fa-solid fa-seedling', label: 'Target weeds', value: 'Yellow and Dalmatian toadflax' },
-      { icon: 'fa-solid fa-bug', label: 'Biocontrol agents', value: '<em>Rhinusa pilosa</em>, <em>Mecinus janthinus</em>, <em>M. janthiniformis</em>' },
-      { icon: 'fa-solid fa-location-dot', label: 'Where', value: 'Montana and South Dakota' },
-    ],
-    title: 'Biological Control of Yellow and Dalmatian Toadflax in Montana and South Dakota',
-    advisor: { name: 'Dr. Robert Peterson', href: 'https://www.montana.edu/rkdpeterson/' },
-    logos: [
-      { src: usfs, alt: 'U.S. Forest Service' },
-      { src: mtnwtf, alt: 'Montana Noxious Weed Trust Fund' },
-      { src: msu, alt: 'Montana State University' },
-      { src: cabi, alt: 'CABI (Centre for Agriculture and Bioscience International)' },
-    ] as Logo[],
-    images: [{ src: rhinusa, alt: 'Rhinusa pilosa weevil', caption: '<em>Rhinusa pilosa</em>, a stem-galling weevil released against yellow toadflax' }],
-    paragraphs: [
-      'My current project with <a href="https://www.montana.edu/rkdpeterson/" target="_blank" rel="noopener">Dr. Robert Peterson</a> at Montana State University investigates the establishment of the biological control agents <em>Rhinusa pilosa</em> and the two sister species <em>Mecinus janthinus</em> and <em>Mecinus janthiniformis</em> and their ability to suppress populations of yellow toadflax (<em>Linaria vulgaris</em>) and Dalmatian toadflax (<em>Linaria dalmatica</em>) in Montana and South Dakota. I study how these insects respond to chemical cues from their host plants and how these interactions are impacted by large ungulate herbivores, parasitism, and temperature extremes.',
-    ],
-    subprojectsHeading: 'Four interconnected projects',
-    subprojects: [
-      { icon: 'fa-solid fa-seedling', title: 'Establishment of <em>Rhinusa pilosa</em>', text: 'Assessing survival, dispersal, and impact on plant density at release sites to see how well it controls yellow toadflax.' },
-      { icon: 'fa-solid fa-cow', title: 'Large herbivore impacts', text: 'Building herbivore exclusion fences around release sites and monitoring herbivore activity in adjacent control areas.' },
-      { icon: 'fa-solid fa-leaf', title: 'Comparative plant stress', text: 'Measuring plant health and chemical emissions to determine how <em>Rhinusa pilosa</em> and <em>Mecinus janthinus</em> affect yellow toadflax individually and together.' },
-      { icon: 'fa-solid fa-chart-line', title: 'Life table analyses', text: 'Quantifying mortality and performance of <em>Mecinus janthinus</em> and <em>M. janthiniformis</em> in the field, including effects of parasitoids, temperature extremes, and other environmental factors.' },
-    ],
-    photos: [
-      { src: exclosure, alt: 'Herbivore exclosure fence', caption: 'A herbivore exclosure around a release site' },
-      { src: trailcam, alt: 'Trail camera image of a deer', caption: 'Trail-camera monitoring of large herbivore activity' },
-    ],
-    why: [
-      'Invasive toadflax species can severely impact rangeland and cropland ecosystems. Biological control offers a sustainable alternative to chemical herbicides, reducing non-target impacts and supporting ecological balance. By elucidating host-specific behaviors, chemical cues, and multi-agent interactions, this research informs strategic releases and conservation of biocontrol agents to maximize suppression of toadflax populations.',
-    ],
-    findings: [] as { icon: string; value: string; label: string }[],
-    pubs: [] as { cite: string; doi: string }[],
-  },
-  {
     id: 'masters',
     stackBeside: false,
     kind: 'Master’s Thesis',
@@ -113,5 +71,47 @@ export const projects = [
       { cite: '<strong>Strand JR</strong>, Peterson RKD, Sterling TM, Weaver DK. 2025. Sensory and behavioral responses of braconid parasitoids to changes in volatile emissions induced by wheat stem sawfly larval feeding in winter wheat and smooth brome. <em>Journal of Insect Science</em>.', doi: '10.1093/jisesa/ieaf016' },
       { cite: '<strong>Strand JR</strong>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly via associated braconid parasitoids. <em>Journal of Economic Entomology</em>. 117(6): 2344–2354.', doi: '10.1093/jee/toae246' },
     ],
+  },
+  {
+    id: 'phd',
+    stackBeside: true,   // sub-projects sit under the text and all photos stack in the right column
+    kind: 'PhD Research',
+    status: 'Current',
+    short: 'PhD · Toadflax',
+    period: '2025 – present',
+    degree: 'PhD, Ecology & Environmental Science',
+    glance: [
+      { icon: 'fa-solid fa-seedling', label: 'Target weeds', value: 'Yellow and Dalmatian toadflax' },
+      { icon: 'fa-solid fa-bug', label: 'Biocontrol agents', value: '<em>Rhinusa pilosa</em>, <em>Mecinus janthinus</em>, <em>M. janthiniformis</em>' },
+      { icon: 'fa-solid fa-location-dot', label: 'Where', value: 'Montana and South Dakota' },
+    ],
+    title: 'Biological Control of Yellow and Dalmatian Toadflax in Montana and South Dakota',
+    advisor: { name: 'Dr. Robert Peterson', href: 'https://www.montana.edu/rkdpeterson/' },
+    logos: [
+      { src: usfs, alt: 'U.S. Forest Service' },
+      { src: mtnwtf, alt: 'Montana Noxious Weed Trust Fund' },
+      { src: msu, alt: 'Montana State University' },
+      { src: cabi, alt: 'CABI (Centre for Agriculture and Bioscience International)' },
+    ] as Logo[],
+    images: [{ src: rhinusa, alt: 'Rhinusa pilosa weevil', caption: '<em>Rhinusa pilosa</em>, a stem-galling weevil released against yellow toadflax' }],
+    paragraphs: [
+      'My current project with <a href="https://www.montana.edu/rkdpeterson/" target="_blank" rel="noopener">Dr. Robert Peterson</a> at Montana State University investigates the establishment of the biological control agents <em>Rhinusa pilosa</em> and the two sister species <em>Mecinus janthinus</em> and <em>Mecinus janthiniformis</em> and their ability to suppress populations of yellow toadflax (<em>Linaria vulgaris</em>) and Dalmatian toadflax (<em>Linaria dalmatica</em>) in Montana and South Dakota. I study how these insects respond to chemical cues from their host plants and how these interactions are impacted by large ungulate herbivores, parasitism, and temperature extremes.',
+    ],
+    subprojectsHeading: 'Four interconnected projects',
+    subprojects: [
+      { icon: 'fa-solid fa-seedling', title: 'Establishment of <em>Rhinusa pilosa</em>', text: 'Assessing survival, dispersal, and impact on plant density at release sites to see how well it controls yellow toadflax.' },
+      { icon: 'fa-solid fa-cow', title: 'Large herbivore impacts', text: 'Building herbivore exclusion fences around release sites and monitoring herbivore activity in adjacent control areas.' },
+      { icon: 'fa-solid fa-leaf', title: 'Comparative plant stress', text: 'Measuring plant health and chemical emissions to determine how <em>Rhinusa pilosa</em> and <em>Mecinus janthinus</em> affect yellow toadflax individually and together.' },
+      { icon: 'fa-solid fa-chart-line', title: 'Life table analyses', text: 'Quantifying mortality and performance of <em>Mecinus janthinus</em> and <em>M. janthiniformis</em> in the field, including effects of parasitoids, temperature extremes, and other environmental factors.' },
+    ],
+    photos: [
+      { src: exclosure, alt: 'Herbivore exclosure fence', caption: 'A herbivore exclosure around a release site' },
+      { src: trailcam, alt: 'Trail camera image of a deer', caption: 'Trail-camera monitoring of large herbivore activity' },
+    ],
+    why: [
+      'Invasive toadflax species can severely impact rangeland and cropland ecosystems. Biological control offers a sustainable alternative to chemical herbicides, reducing non-target impacts and supporting ecological balance. By elucidating host-specific behaviors, chemical cues, and multi-agent interactions, this research informs strategic releases and conservation of biocontrol agents to maximize suppression of toadflax populations.',
+    ],
+    findings: [] as { icon: string; value: string; label: string }[],
+    pubs: [] as { cite: string; doi: string }[],
   },
 ];
