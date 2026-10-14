@@ -43,6 +43,7 @@ export const projects = [
     ],
     title: 'Chemical Ecology and Agroecological Importance of Smooth Brome in Biological Control of Wheat Stem Sawfly',
     advisor: { name: 'Dr. David Weaver', href: 'https://landresources.montana.edu/directory/faculty/1524725/david-weaver' },
+    support: 'Supported by the Montana Wheat and Barley Committee, the U.S. Department of Agriculture, and the USDA National Institute of Food and Agriculture.',
     logos: [
       { src: msu, alt: 'Montana State University' },
       { src: mwbc, alt: 'Montana Wheat and Barley Committee' },
@@ -87,6 +88,7 @@ export const projects = [
     ],
     title: 'Biological Control of Yellow and Dalmatian Toadflax in Montana and South Dakota',
     advisor: { name: 'Dr. Robert Peterson', href: 'https://www.montana.edu/rkdpeterson/' },
+    support: 'Supported by the U.S. Forest Service and the Montana Noxious Weed Trust Fund, in partnership with CABI.',
     logos: [
       { src: usfs, alt: 'U.S. Forest Service' },
       { src: mtnwtf, alt: 'Montana Noxious Weed Trust Fund' },

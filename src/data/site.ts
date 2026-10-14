@@ -8,6 +8,23 @@ export const nav = [
   { text: 'Resources', href: '/helpful-resources' },
 ];
 
+// Link groups shown in the site footer.
+export const footerLinks = [
+  { title: 'Explore', links: [
+    { text: 'CV', href: '/cv' },
+    { text: 'About', href: '/about' },
+    { text: 'Teaching', href: '/teaching-philosophy' },
+    { text: 'Media', href: '/media' },
+    { text: 'Resources', href: '/helpful-resources' },
+  ] },
+  { title: 'Research', links: [
+    { text: 'Overview', href: '/research' },
+    { text: 'Publications', href: '/publications' },
+    { text: 'Talks & Presentations', href: '/talks' },
+    { text: 'Field Sites', href: '/field-sites' },
+  ] },
+];
+
 // The email address is never written into the page as plain text. It is stored here reversed, and a small
 // script (in layouts/Base.astro) turns it back into a working mailto: link in the browser. To change it,
 // edit the two parts below.

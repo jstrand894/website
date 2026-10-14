@@ -30,8 +30,8 @@ const count = publications.filter((p) => !p.status).length;
               {p.status && <span class="chip status">{p.status}</span>}
             </p>
             <h2 class="pub-title" set:html={p.title} />
+            {p.summary && <div class="pub-plain"><span>In plain language</span><p>{p.summary}</p></div>}
             <p class="pub-authors" set:html={boldMe(p.authors)} />
-            {p.summary && <p class="pub-summary">{p.summary}</p>}
             {p.tags && <div class="pub-tags">{p.tags.map((t) => <span class="tag">{t}</span>)}</div>}
             <div class="pub-actions">
               {p.doi && <a class="chip" href={`https://doi.org/${p.doi}`} target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> DOI</a>}

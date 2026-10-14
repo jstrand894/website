@@ -1,5 +1,6 @@
 ---
 import Nav from '../components/Nav.astro';
+import { footerLinks, socials, emailScrambled } from '../data/site';
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 
@@ -70,8 +71,29 @@ const { title, wide = false, noindex = false, description = 'Jackson R. Strand â
     </main>
     <button class="to-top" type="button" aria-label="Back to top" transition:persist="to-top"><i class="fa-solid fa-chevron-up"></i></button>
     <footer class="footer">
-      <span>&copy; Copyright 2025, Jackson R. Strand</span>
-      <span>Built with <a href="https://astro.build">Astro</a></span>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="footer-logo" href="/"><img src="/img/logo.svg" alt="" width="44" height="44" /><span>Jackson R. Strand</span></a>
+          <p>PhD student in Ecology &amp; Environmental Science at Montana State University, studying how insects can be used to manage invasive plants.</p>
+          <div class="footer-social">
+            {socials.map((s) => (
+              <a href={s.href} target={s.mail ? undefined : '_blank'} rel="noopener" aria-label={s.text} title={s.text} data-m={s.mail ? emailScrambled : undefined}>
+                <i class={`${s.solid ? 'fa-solid' : 'fa-brands'} ${s.icon}`}></i>
+              </a>
+            ))}
+          </div>
+        </div>
+        {footerLinks.map((g) => (
+          <nav class="footer-col" aria-label={g.title}>
+            <h2>{g.title}</h2>
+            {g.links.map((l) => <a href={l.href}>{l.text}</a>)}
+          </nav>
+        ))}
+      </div>
+      <div class="footer-base">
+        <span>&copy; {new Date().getFullYear()} Jackson R. Strand</span>
+        <span>Built with <a href="https://astro.build">Astro</a> &middot; Updated {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</span>
+      </div>
     </footer>
     <script>
       // Turns the scrambled address in data-m into a working mailto: link. Runs on every page load, including

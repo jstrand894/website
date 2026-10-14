@@ -98,7 +98,7 @@ export const presentations = [
     heading: 'Invited seminars',
     items: [
       '<u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Montana State University. Instructor: Will Wetzel. March 2025.',
-      '<u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principals of Biological Diversity. Montana State University. Instructors: Erin Teichroew and Chris Larson. August 2025.',
+      '<u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principles of Biological Diversity. Montana State University. Instructors: Erin Teichroew and Chris Larson. August 2025.',
       '<u>Strand JR</u>. Integrated Pest Management. ENSC 110: Land Resources and Environmental Sciences. Montana State University. Instructor: Frank Dougher. October 2025.',
     ],
   },
@@ -129,10 +129,10 @@ export const teaching = [
   {
     heading: 'Invited Guest Lecturer',
     courses: [
-      { title: 'Principals of Biological Diversity', code: 'BIOB 260', lines: ['Fall 2026, 5 credits', '"Introduction to Insect Identification and Sampling"', 'Course taught by Dr. Lisa Rew', 'Montana State University'] },
+      { title: 'Principles of Biological Diversity', code: 'BIOB 260', lines: ['Fall 2026, 5 credits', '"Introduction to Insect Identification and Sampling"', 'Course taught by Dr. Lisa Rew', 'Montana State University'] },
       { title: 'Role of Plants in the Environment', code: 'ENSC 210', lines: ['Spring 2026, 3 credits', '"Insects for Good: Biological Control"', 'Course taught by Dr. Will Wetzel', 'Montana State University'] },
       { title: 'Role of Plants in the Environment', code: 'ENSC 210', lines: ['Spring 2025, 3 credits', '"Can Bugs Help Us?"', 'Course taught by Dr. Will Wetzel', 'Montana State University'] },
-      { title: 'Principals of Biological Diversity', code: 'BIOB 260', lines: ['Fall 2025, 5 credits', '"Introduction to Insect Identification and Sampling"', 'Course taught by Erin Teichroew and Chris Larson', 'Montana State University'] },
+      { title: 'Principles of Biological Diversity', code: 'BIOB 260', lines: ['Fall 2025, 5 credits', '"Introduction to Insect Identification and Sampling"', 'Course taught by Erin Teichroew and Chris Larson', 'Montana State University'] },
       { title: 'Land Resources and Environmental Sciences', code: 'ENSC 110', lines: ['Fall 2025, 3 credits', '"Integrated Pest Management"', 'Course taught by Frank Dougher', 'Montana State University'] },
     ],
   },
@@ -142,8 +142,8 @@ export const service = [
   {
     heading: 'Peer Review Journal Activity',
     items: [
-      { title: 'Journal of Environmental Entomology', href: 'https://academic.oup.com/ee', years: '2024 - present' },
-      { title: 'Journal of Environmental Toxicology and Chemistry', href: 'https://academic.oup.com/etc', years: '2025 - present' },
+      { title: 'Environmental Entomology', href: 'https://academic.oup.com/ee', years: '2024 - present' },
+      { title: 'Environmental Toxicology and Chemistry', href: 'https://academic.oup.com/etc', years: '2025 - present' },
     ],
   },
   {

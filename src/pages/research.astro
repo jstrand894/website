@@ -135,6 +135,7 @@ const ticks = [2021, 2022, 2023, 2024, 2025, 2026];
           </p>
           <h2>{p.title}</h2>
           <p class="r-advisor">Advisor: <a href={p.advisor.href} target="_blank" rel="noopener">{p.advisor.name}</a>, Montana State University</p>
+          <p class="r-support">{p.support}</p>
           <div class="r-logos" aria-label="Partners and support">
             {p.logos.map((l) => (
               <span class="logo" tabindex="0" data-tip={l.alt}>

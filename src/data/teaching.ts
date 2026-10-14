@@ -8,7 +8,7 @@ export const heroTitle = 'Students learn best when they show up <em>as themselve
 // Hero paragraphs: the first sets out the approach, the second says why it is personal to me.
 export const intro = [
   'My approach to teaching is grounded in the belief that learning is a collaborative and inclusive process. A productive classroom is one in which all students feel welcome, respected, and empowered to contribute. I aim to create an environment that values curiosity, open dialogue, and intellectual risk taking, while maintaining clear expectations and academic rigor.',
-  'It is easy to believe that students have lost interest in real learning, that they are most comfortable living in their electronics and handing their assignments to AI. I do not think that is true. The key is giving students a reason to show up as themselves, and I have found that hands-on work and public communication are the best way to do it.',
+  'It is easy to believe that students have lost interest in real learning, that they are most comfortable living in their electronics and handing their assignments to AI. I do not think that is true. Students engage when an assignment gives them a reason to do it beyond checking a box. The key is giving them a reason to show up as themselves, and I have found that hands-on work and public communication are the best way to do it.',
 ];
 
 export const principles = [

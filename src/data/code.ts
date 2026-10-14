@@ -16,14 +16,14 @@ export const repos: Repo[] = [
   {
     repo: 'PVEC_app',
     title: 'Vectorial capacity uncertainty tool',
-    desc: 'Interactive tool that propagates uncertainty in mosquito mortality and transmission parameters through an age-specific vectorial capacity model, giving a distribution of Ct and a sensitivity ranking. Runs in your browser with R and Shinylive, so no data leaves your computer. Checked against Styer et al. (2007).',
+    desc: 'An interactive tool showing how uncertainty in mosquito mortality and transmission affects vectorial capacity, and which parameters matter most. Runs in your browser with R and Shinylive, so no data leaves your computer. Validated against Styer et al. (2007).',
     tags: ['R', 'Shinylive', 'Modeling'],
     icon: 'fa-solid fa-bug',
   },
   {
     repo: 'oxytropis-alternaria-volatiles_2026',
     title: 'Locoweed volatiles: data and analysis',
-    desc: 'Data and analysis code for a study of volatile organic compound profiles in white locoweed (Oxytropis sericea) with and without the endophytic fungus Alternaria oxytropis. Includes raw spreadsheets, processing notebooks, and R scripts that reproduce the PERMANOVA, PCA, SIMPER and mixed-model results in the manuscript.',
+    desc: 'Data and analysis code for a study of volatile compounds in white locoweed (Oxytropis sericea) with and without its fungal endophyte, Alternaria oxytropis. Includes raw data, notebooks, and the R scripts that reproduce the manuscript’s results.',
     tags: ['R', 'Reproducible research', 'Chemical ecology'],
     icon: 'fa-solid fa-flask',
   },

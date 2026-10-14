@@ -48,7 +48,7 @@ export const talks: Talk[] = [
   {
     year: 2026, date: 'Fall 2026', category: 'lecture', format: 'Guest lecture',
     title: 'Introduction to Insect Identification and Sampling',
-    event: 'BIOB 260: Principals of Biological Diversity', location: 'Montana State University',
+    event: 'BIOB 260: Principles of Biological Diversity', location: 'Montana State University',
     note: 'Instructor: Dr. Lisa Rew',
   },
   {
@@ -65,7 +65,7 @@ export const talks: Talk[] = [
   {
     year: 2025, date: 'Aug 2025', category: 'lecture', format: 'Guest lecture',
     title: 'Introduction to Insect Identification and Sampling',
-    event: 'BIOB 260: Principals of Biological Diversity', location: 'Montana State University',
+    event: 'BIOB 260: Principles of Biological Diversity', location: 'Montana State University',
     note: 'Instructors: Erin Teichroew and Chris Larson',
   },
   {
