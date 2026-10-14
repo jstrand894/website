@@ -1,5 +1,7 @@
 // Helpful resources. Add an item to `items` and it appears on the page (and in search) automatically.
 
+import { repos, github } from './code';
+
 export interface Category { id: string; title: string; icon: string; blurb: string }
 export interface Item {
   cat: string;
@@ -12,6 +14,7 @@ export interface Item {
 }
 
 export const categories: Category[] = [
+  { id: 'mycode', title: 'My code & data', icon: 'fa-brands fa-github', blurb: 'Analysis code, data and small tools from my own research.' },
   { id: 'code', title: 'R & statistics', icon: 'fa-solid fa-chart-line', blurb: 'Learning R, making graphs, and working with mixed models.' },
   { id: 'web', title: 'Building a website', icon: 'fa-solid fa-globe', blurb: 'Tutorials and tools for building and hosting your own site.' },
   { id: 'research', title: 'Research tools', icon: 'fa-solid fa-book-open', blurb: 'Version control and reference management.' },
@@ -20,6 +23,15 @@ export const categories: Category[] = [
 ];
 
 export const items: Item[] = [
+  // ---- My code & data (built from the repositories listed in code.ts)
+  ...repos.map((r): Item => ({
+    cat: 'mycode', title: r.title, by: r.tags.join(' · '), desc: r.desc, icon: r.icon, href: `${github}/${r.repo}`,
+  })),
+  {
+    cat: 'mycode', title: 'All repositories', by: 'GitHub', icon: 'fa-brands fa-github',
+    desc: 'Everything else I have shared, including code behind other projects.',
+    href: github,
+  },
   // ---- R & statistics
   {
     cat: 'code', title: 'Guide to Using R', by: 'Jared Adam',
@@ -63,6 +75,12 @@ export const items: Item[] = [
     cat: 'web', title: 'Quarto: Creating a Website', by: 'quarto.org',
     desc: 'Documentation for the basics, including website navigation, search, and tools.',
     href: 'https://quarto.org/docs/websites/',
+  },
+  {
+    cat: 'web', title: 'Astro: Build Your First Astro Blog', by: 'astro.build',
+    desc: 'The official step-by-step tutorial for building a fast, modern website with Astro, the framework this site is built with.',
+    href: 'https://docs.astro.build/en/tutorial/0-introduction/',
+    more: { label: 'Deploy to GitHub Pages', href: 'https://docs.astro.build/en/guides/deploy/github/' },
   },
   {
     cat: 'web', title: 'Adobe Portfolio', by: 'Adobe',

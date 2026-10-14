@@ -1,4 +1,4 @@
-// Repositories shown on the Code & Tutorials page. Add or remove an entry and the page updates.
+// Repositories shown in the "My code & data" section of the Resources page. Add or remove an entry and the page updates.
 // `repo` is the GitHub repository name under github.com/jstrand894/.
 
 export interface Repo {

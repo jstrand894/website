@@ -21,7 +21,7 @@ const toc = [
 <Base title="CV | Jackson Strand" wide>
   <div class="cv-layout">
     <aside class="cv-toc" aria-label="CV sections">
-      <a class="btn" href="/JRS_CV.pdf"><span><i class="fa-solid fa-file-pdf"></i> Download CV</span></a>
+      <a class="btn" href="/JRS_CV.pdf" target="_blank" rel="noopener"><span><i class="fa-solid fa-file-pdf"></i> Download CV</span></a>
       {toc.map(([id, label]) => <a href={`#${id}`} data-toc={id}>{label}</a>)}
       <p class="cv-updated">Updated {cv.lastUpdated}</p>
     </aside>

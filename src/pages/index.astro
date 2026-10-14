@@ -64,7 +64,9 @@ const full = await Promise.all(photos.map((ph) => getImage({ src: ph.img, width:
     </div>
   </section>
 
-  <div class="below">
+  <a class="scroll-cue" href="#explore" aria-label="Scroll down to explore"><span>Scroll to explore</span><i class="fa-solid fa-chevron-down"></i></a>
+
+  <div class="below" id="explore">
   <h2 class="section-title">Explore</h2>
   <div class="cards">
     {cards.map((c) => (
@@ -123,6 +125,10 @@ const full = await Promise.all(photos.map((ph) => getImage({ src: ph.img, width:
         below.style.marginBottom = -shift + 'px'; // keeps the page from ending in an empty gap
         update();
       };
+      const cue = document.querySelector<HTMLElement>('.scroll-cue');
+      const updateCue = () => cue?.classList.toggle('gone', window.scrollY > 60);
+      window.addEventListener('scroll', updateCue, { passive: true, signal });
+      updateCue();
       window.addEventListener('scroll', update, { passive: true, signal });
       window.addEventListener('resize', measure, { signal });
       window.addEventListener('load', measure, { signal });

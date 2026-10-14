@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import { categories, items } from '../data/helpful';
 
-const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+const isExternal = (url: string) => /^https?:/.test(url);
+const host = (url: string) => (isExternal(url) ? new URL(url).hostname.replace(/^www\./, '') : 'On this site');
 const byCat = categories.map((c) => ({ ...c, items: items.filter((i) => i.cat === c.id) }));
 ---
 <Base title="Helpful Resources | Jackson Strand" description="Tutorials, tools and links I have collected for students and collaborators." wide>
@@ -10,7 +11,7 @@ const byCat = categories.map((c) => ({ ...c, items: items.filter((i) => i.cat ==
     <header class="page-head">
       <p class="eyebrow">Helpful resources</p>
       <h1>Tools and guides I keep coming back to</h1>
-      <p>A collection I have built up for students and collaborators: R and statistics, website building, research tools, and a few outdoor and everyday finds.</p>
+      <p>A collection I have built up for students and collaborators: my own code and data, R and statistics, website building, research tools, and a few outdoor and everyday finds.</p>
     </header>
 
     <div class="hr-controls">
@@ -35,13 +36,14 @@ const byCat = categories.map((c) => ({ ...c, items: items.filter((i) => i.cat ==
         <div class="hr-grid">
           {c.items.map((it) => (
             <article class="hr-card" data-cat={c.id} data-text={`${it.title} ${it.by ?? ''} ${it.desc} ${c.title}`.toLowerCase()}>
-              <a class="hr-main" href={it.href} target="_blank" rel="noopener">
+              <a class="hr-main" href={it.href} target={isExternal(it.href) ? '_blank' : undefined} rel={isExternal(it.href) ? 'noopener' : undefined}>
                 <i class:list={['hr-card-icon', it.icon ?? c.icon]}></i>
                 <h3>{it.title}</h3>
                 {it.by && <p class="hr-by">{it.by}</p>}
                 <p class="hr-desc">{it.desc}</p>
-                <span class="hr-foot">{host(it.href)} <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <span class="hr-foot">{host(it.href)} <i class:list={['fa-solid', isExternal(it.href) ? 'fa-arrow-up-right-from-square' : 'fa-arrow-right']}></i></span>
               </a>
+              <button class="hr-toggle" type="button" aria-expanded="false">Read more</button>
               {it.more && <a class="hr-more" href={it.more.href} target="_blank" rel="noopener">{it.more.label} <i class="fa-solid fa-arrow-right"></i></a>}
             </article>
           ))}
@@ -82,6 +84,24 @@ const byCat = categories.map((c) => ({ ...c, items: items.filter((i) => i.cat ==
       }
       chips.forEach((c) => c.classList.toggle('active', c.dataset.jump === current));
     }
+    // Long descriptions are cut to a few lines; cards that need it get a "Read more" toggle.
+    function measure() {
+      document.querySelectorAll<HTMLElement>('.hr-card').forEach((c) => {
+        if (c.classList.contains('open') || c.hidden) return;
+        const d = c.querySelector<HTMLElement>('.hr-desc')!;
+        c.classList.toggle('can-expand', d.scrollHeight > d.clientHeight + 1);
+      });
+    }
+    document.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest<HTMLButtonElement>('.hr-toggle');
+      if (!b) return;
+      const card = b.closest<HTMLElement>('.hr-card')!;
+      const open = card.classList.toggle('open');
+      b.setAttribute('aria-expanded', String(open));
+      b.textContent = open ? 'Show less' : 'Read more';
+    });
+    window.addEventListener('resize', measure);
+    document.addEventListener('astro:page-load', measure);
     document.addEventListener('input', (e) => { if ((e.target as HTMLElement).id === 'hr-q') applySearch(); });
     window.addEventListener('scroll', spy, { passive: true });
     document.addEventListener('astro:page-load', spy);

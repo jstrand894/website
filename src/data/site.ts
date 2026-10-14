@@ -1,14 +1,8 @@
 export const nav = [
-  { text: 'About', href: '/about' },
   { text: 'CV', href: '/cv' },
+  { text: 'About', href: '/about' },
   // `also` lists pages reached from the Research overview cards, so the Research link stays highlighted on them.
   { text: 'Research', href: '/research', also: ['/field-sites', '/publications', '/talks'] },
-  {
-    text: 'Data & Code',
-    items: [
-      { text: 'Code & Tutorials', href: '/code' },
-    ],
-  },
   { text: 'Teaching', href: '/teaching-philosophy' },
   { text: 'Media', href: '/media' },
   { text: 'Resources', href: '/helpful-resources' },

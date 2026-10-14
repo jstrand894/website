@@ -3,6 +3,18 @@
 
 export const lastUpdated = 'June 12, 2026';
 
+// The header and summary box at the top of the downloadable PDF (the website does not show these).
+export const pdfHeader = {
+  name: 'Jackson R. Strand',
+  lines: [
+    'Montana State University, Bozeman, MT 59717 USA',
+    'jackson.strand@student.montana.edu',
+    'https://jackson-strand.com \u2022 www.linkedin.com/in/jacksonstrand',
+  ],
+  summary:
+    'Early career professional and PhD student in Ecology & Environmental Sciences at Montana State University, with a background in entomology and agroecology. My work integrates chemical ecology, host-herbivore interactions, and invasive species management, currently focusing on the biological control of yellow and Dalmatian Toadflax. Experienced in volatile analysis, life table studies, and community ecology, with a strong record of publications, presentations, and scientific leadership. More information is available at www.jackson-strand.com',
+};
+
 export const education = [
   {
     logo: 'msu',

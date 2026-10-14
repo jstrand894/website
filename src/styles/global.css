@@ -628,6 +628,14 @@ figcaption { margin-top: 0.5rem; font-size: 0.85rem; color: #6c757d; line-height
 .hr-card:hover h3 { color: var(--purple-1); }
 .hr-by { margin: 0 0 0.5rem; font-size: 0.8rem; color: #8a8f95; }
 .hr-desc { margin: 0 0 0.9rem; font-size: 0.9rem; line-height: 1.55; color: #4a5056; flex: 1; }
+.hr-desc { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
+.hr-card.open .hr-desc { display: block; -webkit-line-clamp: unset; line-clamp: unset; overflow: visible; }
+.hr-toggle {
+  display: none; margin: -0.4rem 1.3rem 0.8rem; padding: 0; border: 0; background: none; align-self: flex-start;
+  font: inherit; font-size: 0.82rem; font-weight: 600; color: var(--purple-1); cursor: pointer;
+}
+.hr-toggle:hover { text-decoration: underline; }
+.hr-card.can-expand .hr-toggle { display: block; }
 .hr-foot { font-size: 0.78rem; color: var(--purple-2); }
 .hr-foot i { font-size: 0.8em; margin-left: 0.25rem; opacity: 0.7; transition: transform 0.2s; }
 .hr-card:hover .hr-foot i { transform: translate(2px, -2px); opacity: 1; }
@@ -866,15 +874,12 @@ body { overflow-x: clip; }
 
 /* ---------- 404 page ---------- */
 .nf { max-width: 640px; margin: 0 auto; padding: 3.5rem 0 2rem; text-align: center; }
-.nf-logo { display: block; margin: 0 auto 1.4rem; width: 132px; height: auto; animation: nf-bob 4s ease-in-out infinite; }
-@keyframes nf-bob { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-8px) rotate(3deg); } }
 .nf h1 { font-size: clamp(2rem, 6vw, 3.2rem); color: var(--purple-1); letter-spacing: -0.02em; margin: 0.2rem 0 1rem; }
 .nf-text { color: #5a6066; line-height: 1.7; margin: 0 auto 1.8rem; max-width: 34em; }
 .nf-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; margin-bottom: 2rem; }
 .nf-links a { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.4rem 1rem; border-radius: 999px; background: var(--card-bg); border: 1px solid var(--card-border); color: var(--purple-1); font-size: 0.92rem; transition: transform 0.2s, background 0.2s, border-color 0.2s; }
 .nf-links a:hover { text-decoration: none; transform: translateY(-2px); background: #f7f4fa; border-color: var(--purple-2); }
 .nf-links i { color: var(--purple-2); font-size: 0.85em; }
-@media (prefers-reduced-motion: reduce) { .nf-logo { animation: none; } }
 
 /* ---------- about ---------- */
 .about { max-width: 1000px; margin: 0 auto; padding-top: 2rem; }
@@ -1080,3 +1085,44 @@ html.nav-away .research .r-more { top: 1.4rem; }
   border-radius: 50%; background: #fff; border: 2px solid var(--purple-2); box-sizing: border-box;
 }
 .rtl-seg { z-index: 1; }
+
+/* ============ 404: a lost weevil wandering back and forth ============ */
+.nf { max-width: 700px; }
+.nf-scene { position: relative; height: 150px; margin: 0 auto 1.6rem; border-radius: 18px; overflow: hidden; background: linear-gradient(#f6f1fa, #fff); border: 1px solid var(--card-border); }
+.nf-hills { position: absolute; left: 0; right: 0; bottom: 14px; width: 100%; height: 100px; }
+.nf-ground { position: absolute; left: 0; right: 0; bottom: 0; height: 22px; background: #cdb9d9; border-top: 3px dashed rgba(75, 42, 123, 0.35); }
+.nf-walker { position: absolute; bottom: 14px; left: 0; width: 96px; height: 54px; animation: nf-walk 16s ease-in-out infinite; }
+.nf-weevil { display: block; overflow: visible; animation: nf-turn 16s step-end infinite; transform-origin: 50% 80%; }
+.nf-weevil .body { fill: var(--purple-1); }
+.nf-weevil .snout { fill: none; stroke: var(--purple-1); stroke-width: 2.6; stroke-linecap: round; }
+.nf-weevil .seam { stroke: #fff; stroke-width: 1.2; stroke-linecap: round; opacity: 0.45; }
+.nf-weevil .eye { fill: #fff; }
+.nf-weevil .leg path { fill: none; stroke: var(--purple-1); stroke-width: 2.6; stroke-linecap: round; }
+.nf-weevil .leg { transform-box: fill-box; transform-origin: 50% 0; animation: nf-step 0.45s ease-in-out infinite alternate; }
+.nf-weevil .l2, .nf-weevil .l4 { animation-direction: alternate-reverse; }
+.nf-weevil .body { animation: nf-bob 0.45s ease-in-out infinite alternate; }
+.nf-q { position: absolute; top: -8px; left: 56px; font-family: var(--font-heading); font-weight: 600; font-size: 1.3rem; color: var(--purple-2); opacity: 0; animation: nf-ask 16s ease-in-out infinite; }
+.nf-q.q2 { left: 70px; top: -18px; font-size: 1rem; animation-delay: 0.25s; }
+.nf-q.q3 { left: 44px; top: -22px; font-size: 0.9rem; animation-delay: 0.5s; }
+/* walks right, pauses to look around, walks back */
+@keyframes nf-walk {
+  0% { left: 4%; } 42% { left: calc(96% - 96px); } 50% { left: calc(96% - 96px); } 92% { left: 4%; } 100% { left: 4%; }
+}
+@keyframes nf-turn { 0% { transform: scaleX(1); } 46% { transform: scaleX(-1); } 96% { transform: scaleX(1); } }
+@keyframes nf-step { from { transform: rotate(-22deg); } to { transform: rotate(22deg); } }
+@keyframes nf-bob { from { transform: translateY(0); } to { transform: translateY(-1.5px); } }
+@keyframes nf-ask { 0%, 38% { opacity: 0; transform: translateY(6px); } 43%, 49% { opacity: 1; transform: none; } 54%, 100% { opacity: 0; transform: translateY(-4px); } }
+@media (prefers-reduced-motion: reduce) { .nf-walker, .nf-weevil, .nf-weevil .leg, .nf-weevil .body, .nf-q { animation: none; } .nf-walker { left: 40%; } .nf-q.q1 { opacity: 1; } }
+
+/* "scroll down" cue at the bottom of the home page's first screen; it fades away once you scroll */
+.scroll-cue {
+  position: fixed; left: 50%; bottom: 1.3rem; z-index: 60; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 0.25rem; padding: 0.4rem 0.9rem;
+  font-family: var(--font-heading); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--purple-1);
+  transition: opacity 0.4s ease, transform 0.4s ease; text-decoration: none;
+}
+.scroll-cue:hover { text-decoration: none; color: var(--purple-2); }
+.scroll-cue i { font-size: 1rem; animation: cue-bob 1.6s ease-in-out infinite; }
+.scroll-cue.gone { opacity: 0; pointer-events: none; transform: translate(-50%, 10px); }
+@keyframes cue-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+@media (prefers-reduced-motion: reduce) { .scroll-cue i { animation: none; } }
