@@ -144,6 +144,7 @@ export const service = [
     items: [
       { title: 'Environmental Entomology', href: 'https://academic.oup.com/ee', years: '2024 - present' },
       { title: 'Environmental Toxicology and Chemistry', href: 'https://academic.oup.com/etc', years: '2025 - present' },
+      { title: 'Journal of Applied Entomology', href: 'https://onlinelibrary.wiley.com/journal/14390418', years: '2026 - present' },
     ],
   },
   {
