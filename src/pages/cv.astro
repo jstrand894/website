@@ -81,7 +81,7 @@ const toc = [
             <div class="indent" data-limit={group.courses.length > 4 ? 3 : undefined}>
               {group.courses.map((c) => (
                 <Entry years={c.lines[0].split(',')[0]} details={[c.lines[0].split(',').slice(1).join(',').trim(), ...c.lines.slice(1)].filter(Boolean)}>
-                  {c.title} <span class="entry-sub">({c.code})</span>
+                  {c.title}{' '}<span class="entry-sub">({c.code})</span>
                 </Entry>
               ))}
             </div>
