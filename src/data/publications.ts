@@ -27,7 +27,7 @@ export const publications: Publication[] = [
     authors: 'Strand JR, Burkle LA, Cook D, Gardner DR, Keith B, Wallander R, Weaver DK, Sterling TM',
     journal: 'Journal of Chemical Ecology',
     year: 2026,
-    status: 'Accepted',
+    doi: '10.1007/s10886-026-01773-9',
     summary: 'A locoweed plant hosts a fungus that makes it toxic to livestock, yet the plant’s scent does not change when it is infected, and the toxins stay concentrated in particular plant parts. The plant and fungus appear to coexist without the plant paying a cost.',
     image: bombus,
     cite: '<u>Strand JR</u>, Burkle LA, Cook D, Gardner DR, Keith B, Wallander R, Weaver DK, Sterling TM. 2026. Volatile insensitivity and localized alkaloids support commensalism in the <i>Oxytropis sericea–Alternaria oxytropis</i> association. Journal of Chemical Ecology.',
