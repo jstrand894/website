@@ -28,6 +28,13 @@ export const repos: Repo[] = [
     icon: 'fa-solid fa-flask',
   },
   {
+    repo: 'hobo_app',
+    title: 'HOBO logger reader (HOBOware replacement)',
+    desc: 'A macOS app and command-line tool for reading data from HOBO U23-001A temperature and humidity loggers through the Onset USB base station, without needing HOBOware. Saves readouts as CSV (°C) or raw .hobo files, relaunches loggers with a new name and interval, plots data, and warns about low battery or nearly full memory.',
+    tags: ['macOS app', 'CLI', 'Data loggers'],
+    icon: 'fa-solid fa-temperature-half',
+  },
+  {
     repo: 'Field_app',
     title: 'Field data entry app',
     desc: 'A web app for entering data while in the field.',
