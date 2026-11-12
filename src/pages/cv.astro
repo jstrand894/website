@@ -36,6 +36,7 @@ const toc = [
       </Section>
 
       <Section id="publications" title="Publications" link={{ href: '/publications', label: 'Check out my Publications page' }}>
+        <div data-limit="4">
         {cv.publications.map((pub, i) => (
           <div class="pub">
             <span class="pub-num" aria-label={`Publication ${cv.publications.length - i}`}>{String(cv.publications.length - i).padStart(2, '0')}</span>
@@ -47,6 +48,7 @@ const toc = [
             </div>
           </div>
         ))}
+        </div>
       </Section>
 
       <Section id="awards" title="Honors & Awards">
