@@ -5,6 +5,7 @@ import Entry from '../components/Entry.astro';
 import msu from '../assets/logos/msu2-tight.png';
 import umn from '../assets/logos/umn-tight.png';
 import * as cv from '../data/cv';
+import { socials, emailScrambled } from '../data/site';
 
 const logos = { msu: { img: msu, alt: 'Montana State University Logo' }, umn: { img: umn, alt: 'University of Minnesota Logo' } };
 const toc = [
@@ -23,6 +24,13 @@ const toc = [
     <aside class="cv-toc" aria-label="CV sections">
       <a class="btn" href="/JRS_CV.pdf" target="_blank" rel="noopener"><span><i class="fa-solid fa-file-pdf"></i> Download CV</span></a>
       {toc.map(([id, label]) => <a href={`#${id}`} data-toc={id}>{label}</a>)}
+      <div class="cv-contact" aria-label="Contact links">
+        {socials.map((x) => (
+          <a href={x.href} target={x.mail ? undefined : '_blank'} rel="noopener" aria-label={x.text} title={x.text} data-m={x.mail ? emailScrambled : undefined}>
+            <i class={`${x.solid ? 'fa-solid' : 'fa-brands'} ${x.icon}`}></i>
+          </a>
+        ))}
+      </div>
       <p class="cv-updated">Updated {cv.lastUpdated}</p>
     </aside>
 
@@ -104,7 +112,7 @@ const toc = [
 
       <Section id="events" title="Co-Hosted Events">
         <p class="subhead">{cv.events.heading}</p>
-        <div>
+        <div data-limit="3">
           {cv.events.items.map((ev) => (
             <Entry years={ev.date} details={[`Role: ${ev.role}`, `Location: ${ev.location}`, ...(ev.link ? [`Event website: <a href="${ev.link.href}" target="_blank" rel="noopener">${ev.link.text}</a>`] : [])]}>
               {ev.title}
@@ -114,6 +122,7 @@ const toc = [
       </Section>
 
       <Section id="employment" title="Employment History">
+        <div data-limit="2">
         {cv.employment.map((j) => (
           <Entry years={j.years} sub={j.place || undefined} href={j.href}>
             {j.org} <span class="entry-sub">— {j.role}</span>
@@ -122,6 +131,7 @@ const toc = [
             </Fragment>
           </Entry>
         ))}
+        </div>
       </Section>
     </div>
   </div>

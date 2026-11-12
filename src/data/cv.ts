@@ -1,7 +1,8 @@
 // All CV content lives here. Edit this file to update the CV page.
 // Text fields accept inline HTML (<i>, <u>, <a>, <strong>).
 
-export const lastUpdated = 'June 12, 2026';
+// Filled in automatically each time the site is built.
+export const lastUpdated = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
 // The header and summary box at the top of the downloadable PDF (the website does not show these).
 export const pdfHeader = {
@@ -60,10 +61,9 @@ export const awards: Entry[] = [
   { title: 'Lloyd A. Anstutz Agricultural Studies Scholarship', href: 'https://montana.academicworks.com/opportunities/29722', extra: '($950)', years: '2026', details: ['Montana State University'] },
   { title: 'Extreme Biofilms NRT Program SEED Grant', extra: '($1,500)', years: '2025', details: ['<a href="https://tbi.montana.edu/nrt-extreme-biofilms/index.html" target="_blank">Extreme Biofilms NRT</a>, Montana State University'] },
   { title: 'Angus and Anne McMillan Family Agriculture Scholarship', extra: '($1,200)', years: '2025', details: ['Montana State University'] },
-  { title: 'Open Access Author Fund', href: 'https://www.lib.montana.edu/services/publication/author-fund/', extra: '($1,736)', years: '2025', details: ['Montana State University Library', 'Funded the publication of <a href="https://doi.org/10.1093/jisesa/ieaf016" target="_blank"><em>Strand et al. 2025</em></a>'] },
+  { title: 'Open Access Author Fund', href: 'https://www.lib.montana.edu/services/publication/author-fund/', extra: '($5,032 total)', years: '2023, 2025', details: ['Montana State University Library', '$1,736 (2025): funded the publication of <a href="https://doi.org/10.1093/jisesa/ieaf016" target="_blank"><em>Strand et al. 2025</em></a>', '$3,296 (2023): funded the publication of <a href="https://doi.org/10.1093/jee/toae246" target="_blank"><em>Strand et al. 2024</em></a>'] },
   { title: 'NAISMA 2025 Student Scholarship', href: 'https://naisma.org/event/national-forum-on-biological-control-conference/', years: '2025', details: ['National Forum on Biological Control, Annapolis, MD'] },
   { featured: true, title: 'Graduate Land Grant Excellence Award', href: 'https://www.montana.edu/gradschool/excellence_awards.html', years: '2024', details: ['The Graduate School, Montana State University'] },
-  { title: 'Open Access Author Fund', href: 'https://www.lib.montana.edu/services/publication/author-fund/', extra: '($3,296)', years: '2023', details: ['Montana State University Library', 'Funded the publication of <a href="https://doi.org/10.1093/jee/toae246" target="_blank"><em>Strand et al. 2024</em></a>'] },
   { featured: true, title: "President's Prize - 2nd Place Speaker", href: 'https://www.entsoc.org/events/annual-meeting/student-competition/winners/2023', years: '2023', details: ['Entomology 2023, National Harbor, MD', 'Entomological Society of America'] },
   { title: 'Student Scholar Travel Award', href: 'https://landresources.montana.edu/grad/gradawards.html', extra: '($500)', years: '2023', details: ['College of Agriculture, Montana State University'] },
   { featured: true, title: '1st Place Speaker', years: '2023', details: ['2023 LRES GSO Student Research Colloquium', 'LRES Graduate Student Organization, Montana State University'] },
@@ -96,17 +96,9 @@ export const presentations = [
     ],
   },
   {
-    heading: 'Invited seminars',
-    items: [
-      '<u>Strand JR</u>. Can Bugs Help Us? ENSC 210: Role of Plants in the Environment. Montana State University. Instructor: Will Wetzel. March 2025.',
-      '<u>Strand JR</u>. Introduction to Insect Identification and Sampling. BIOB 260: Principles of Biological Diversity. Montana State University. Instructors: Erin Teichroew and Chris Larson. August 2025.',
-      '<u>Strand JR</u>. Integrated Pest Management. ENSC 110: Land Resources and Environmental Sciences. Montana State University. Instructor: Frank Dougher. October 2025.',
-    ],
-  },
-  {
     heading: 'Workshops',
     items: [
-      'Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop, "MSU Extension IPM Workshop: Diagnosing Plant Health Problems" Montana State University, Bozeman, MT.',
+      'Understanding Wheat Stem Sawfly. 2022 Integrated Pest Management Workshop, "MSU Extension IPM Workshop: Diagnosing Plant Health Problems" Montana State University, Bozeman, MT. 2022.',
     ],
   },
 ];
@@ -115,7 +107,7 @@ export interface Course { title: string; code: string; lines: string[] }
 
 export const teaching = [
   {
-    heading: 'Instructor of Note',
+    heading: 'Instructor of Record',
     courses: [
       { title: 'Integrated Pest Management', code: 'AGSC 401', lines: ['Fall 2026, 3 credits', '25 undergraduates, 10 graduate students', 'Montana State University'] },
     ],
@@ -149,11 +141,16 @@ export const service = [
     ],
   },
   {
-    heading: 'Society Memberships',
+    heading: 'Leadership',
     items: [
       { title: 'LRES Graduate Student Organization (Treasurer)', href: 'https://landresources.montana.edu/gso/', years: '2025 - present' },
       { title: 'LRES Graduate Student Organization (Co-chair)', href: 'https://landresources.montana.edu/gso/', years: '2022 - present' },
       { title: 'LRES Graduate Student Organization (Treasurer)', href: 'https://landresources.montana.edu/gso/', years: '2021 - 2022' },
+    ],
+  },
+  {
+    heading: 'Society Memberships',
+    items: [
       { title: 'American Association for the Advancement of Science', href: 'https://www.aaas.org', years: '2026 - present' },
       { title: 'Entomological Society of America', href: 'https://entsoc.org', years: '2021 - present' },
       { title: 'Montana Grain Growers Association', href: 'https://mgga.org', years: '2022 - present' },
