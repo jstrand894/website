@@ -359,6 +359,14 @@ h2 { border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin: 2.2re
 .cv-section .btn { font-size: 0.9rem; margin-bottom: 0; }
 .cv-section-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem 1rem; margin-bottom: 1.4rem; }
 .cv-section-head h2 { margin: 0; }
+.cv-section-head .btn {
+  background: transparent; color: var(--purple-1); border: 1px solid var(--purple-1); border-radius: 999px;
+  padding: 4px 14px; font-size: 0.85rem; overflow: visible; gap: 0.45rem; transition: background 0.2s, color 0.2s;
+}
+.cv-section-head .btn::after { position: static; margin: 0; opacity: 1; transform: none; font-size: 0.75em; transition: transform 0.25s ease; }
+.cv-section-head .btn > span, .cv-section-head .btn:hover > span { transform: none; }
+.cv-section-head .btn:hover { background: var(--purple-1); color: #fff; text-decoration: none; }
+.cv-section-head .btn:hover::after { transform: translateX(3px); }
 .subhead { color: #8a8f95; font-family: var(--font-body); font-weight: 400; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; margin: 2rem 0 1rem; }
 .subhead:first-child { margin-top: 0; }
 .entry-years { color: #8a8f95; font-weight: 400; font-family: var(--font-body); }

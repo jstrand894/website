@@ -35,7 +35,7 @@ const toc = [
         ))}
       </Section>
 
-      <Section id="publications" title="Publications" link={{ href: '/publications', label: 'Check out my Publications page' }}>
+      <Section id="publications" title="Publications" link={{ href: '/publications', label: 'All publications' }}>
         <div data-limit="4">
         {cv.publications.map((pub, i) => (
           <div class="pub">
@@ -60,7 +60,7 @@ const toc = [
         </div>
       </Section>
 
-      <Section id="presentations" title="Seminars & Presentations" link={{ href: '/talks', label: 'Check out my Talks & Presentations page' }}>
+      <Section id="presentations" title="Seminars & Presentations" link={{ href: '/talks', label: 'All talks' }}>
         {cv.presentations.map((group) => (
           <>
             <p class="subhead">{group.heading}</p>
