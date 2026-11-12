@@ -23,6 +23,22 @@ export interface Publication {
 // Newest first.
 export const publications: Publication[] = [
   {
+    title: 'Who will validate the machines? Why AI still needs entomologists',
+    authors: 'Strand JR, Beck E, Navarro-Valencia E, Wasserman O, Weppler N, Tobin KN',
+    journal: 'Approaches in Entomology: Methods, Philosophies, and Ethics',
+    year: 2026,
+    status: 'In review',
+    cite: '<u>Strand JR</u>, Beck E, Navarro-Valencia E, Wasserman O, Weppler N, Tobin KN. 2026. Who will validate the machines? Why AI still needs entomologists. Approaches in Entomology: Methods, Philosophies, and Ethics. In review.',
+  },
+  {
+    title: 'Arthropod diversity at two hydrothermal springs in Yellowstone National Park (United States)',
+    authors: 'Bowley JL, Strand JR, Brechbuhler MA, Rohwer MM, Higley LG, Peterson RKD',
+    journal: 'Pan-Pacific Entomologist',
+    year: 2026,
+    status: 'In review',
+    cite: 'Bowley JL, <u>Strand JR</u>, Brechbuhler MA, Rohwer MM, Higley LG, Peterson RKD. 2026. Arthropod diversity at two hydrothermal springs in Yellowstone National Park (United States). Pan-Pacific Entomologist. In review.',
+  },
+  {
     title: 'Volatile insensitivity and localized alkaloids support commensalism in the <i>Oxytropis sericea–Alternaria oxytropis</i> association',
     authors: 'Strand JR, Burkle LA, Cook D, Gardner DR, Keith B, Wallander R, Weaver DK, Sterling TM',
     journal: 'Journal of Chemical Ecology',
