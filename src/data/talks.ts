@@ -46,6 +46,11 @@ export const defenseVideo = {
 
 export const talks: Talk[] = [
   {
+    year: 2026, date: 'Nov 9, 2026', category: 'conference', format: 'Contributed talk',
+    title: 'Two weevils, one weed: Functional complementarity in toadflax biological control',
+    event: 'Entomology 2026 · Entomological Society of America', location: 'Columbus, OH',
+  },
+  {
     year: 2026, date: 'Fall 2026', category: 'lecture', format: 'Guest lecture',
     title: 'Introduction to Insect Identification and Sampling',
     event: 'BIOB 260: Principles of Biological Diversity', location: 'Montana State University',

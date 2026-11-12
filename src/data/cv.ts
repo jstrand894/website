@@ -81,6 +81,7 @@ export const presentations = [
   {
     heading: 'Contributed presentations at scientific meetings',
     items: [
+      '<u>Strand JR</u>, Peterson RKD, Weaver DK, Sing SE, Wetzel W. 2026. Two weevils, one weed: Functional complementarity in toadflax biological control. Session: Grad Competition, Plant-Insect Ecosystems: Biocontrol – General 2. Annual Meeting of the Entomological Society of America, Columbus, OH.',
       'SE Sing, <u>Strand JR</u>, Peterson RKD, Weaver DK. 2025. Understanding Host Preference in <i>Mecinus janthinus</i> and <i>M. janthiniformis</i>: Implications of Hybridization for Effective Biological Control. National Forum on Biological Control Conference. Annapolis, MD.',
       'Strand JR, <u>Sterling TM</u>, Peterson RKD, Weaver DK. 2025. Agroecological Importance of Smooth Brome in Hosting Braconid Parasitoids Associated with the Insect Pest Wheat Stem Sawfly. Annual Meeting of the Western Society of Weed Science. Seattle, WA. (poster)',
       '<u>Strand JR</u>, Peterson RKD, Sterling TM, Weaver DK. 2024. Agroecological importance of smooth brome in managing wheat stem sawfly (Hymenoptera: Cephidae) via its associated braconid parasitoids. Session: Grad Competition, Plant-Insect Ecosystems: IPM – General and Field Crops. Annual Meeting of the Entomological Society of America, Phoenix, AZ.',
