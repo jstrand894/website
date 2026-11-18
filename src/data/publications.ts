@@ -35,8 +35,8 @@ export const publications: Publication[] = [
     authors: 'Bowley JL, Strand JR, Brechbuhler MA, Rohwer MM, Higley LG, Peterson RKD',
     journal: 'Pan-Pacific Entomologist',
     year: 2026,
-    status: 'In review',
-    cite: 'Bowley JL, <u>Strand JR</u>, Brechbuhler MA, Rohwer MM, Higley LG, Peterson RKD. 2026. Arthropod diversity at two hydrothermal springs in Yellowstone National Park (United States). Pan-Pacific Entomologist. In review.',
+    status: 'In press',
+    cite: 'Bowley JL, <u>Strand JR</u>, Brechbuhler MA, Rohwer MM, Higley LG, Peterson RKD. 2026. Arthropod diversity at two hydrothermal springs in Yellowstone National Park (United States). Pan-Pacific Entomologist. In press.',
   },
   {
     title: 'Volatile insensitivity and localized alkaloids support commensalism in the <i>Oxytropis sericea–Alternaria oxytropis</i> association',
