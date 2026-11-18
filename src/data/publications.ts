@@ -27,8 +27,8 @@ export const publications: Publication[] = [
     authors: 'Strand JR, Beck E, Navarro-Valencia E, Wasserman O, Weppler N, Tobin KN',
     journal: 'Approaches in Entomology: Methods, Philosophies, and Ethics',
     year: 2026,
-    status: 'In review',
-    cite: '<u>Strand JR</u>, Beck E, Navarro-Valencia E, Wasserman O, Weppler N, Tobin KN. 2026. Who will validate the machines? Why AI still needs entomologists. Approaches in Entomology: Methods, Philosophies, and Ethics. In review.',
+    status: 'In press',
+    cite: '<u>Strand JR</u>, Beck E, Navarro-Valencia E, Wasserman O, Weppler N, Tobin KN. 2026. Who will validate the machines? Why AI still needs entomologists. Approaches in Entomology: Methods, Philosophies, and Ethics. In press.',
   },
   {
     title: 'Arthropod diversity at two hydrothermal springs in Yellowstone National Park (United States)',
